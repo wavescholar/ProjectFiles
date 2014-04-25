@@ -1,0 +1,752 @@
+\section{Learning Theory and Functional Analysis}
+Supervised learning in its most abstract setting requires finding a function $f(x)$ given instances ${ (x_i ,f(x_i))}$. Typical assumptions are that ${x_i}$ is an iid sample from some unknown distribution. A loss function is a random variable \[ L : Ran(f) \times Ran(f) \rightarrow \dblr^+\] defining the cost of misclassification.  The risk associated with a candidate function $f'$ is defined to be the expectation of the loss over the sample space $\Omega$, \begin{equation} R(f')=\int L( f(\omega), f'(\omega)) d\omega\end{equation}.  Statistical learning theory is concerned with assessing the approximations to $f$ given by minimizing the empirical loss associated with a sample ${ (x_i ,f(x_i))}$.
+
+The notion of a loss function goes back to the roots of modern probability theory and economics. The St. Petersburg paradox is an example of a random variable $S : \dbln \rightarrow \dblr^=$ with infinite expectation limited utility. Let $W(k)$ be the winnings after k plays of from a game with outcome $S$ that pays $2^{i-1}$ with probability $p_i=1/2^i$. $\lim_{k\To\infty} W(k)/k =E(S)=\sum\limits_{i=1}^{\infty} p_i 2^{i-1}= \infty$ The implication for a decision theory based only expected value is that a rational player would pay an infinite amount of money to play this game. Bernoulli introduced the notion of expected utility which takes into account the fact that a payout of $2^i$ may not have twice the utility of a payout of $2^{i+1}$ when $i$ gets large.  The utility $U$ is a random variable on the sample space representing preferences of an agent.  Loss represents the aversion of an agent to the outcomes of the sample space, \[L(\omega)+U(\omega) = \alpha \fall \omega \in \Omega\] where $\alpha$ is constant.  Expected loss $R(f')$ is the risk associated with choosing the approximation $f'$. Restricting the class of functions to consider when minimizing the risk for a candidate approximation to $f$ is a key aspect of classifier design.
+
+Gaussian processes provide a class of models and learning algorithms for real world problems that have a long history and are well characterized. Learning algorithms are cast as minimization problems $min_\mathcal(H) R() $ in a Hilbert space $ \mathcal{H}$ with a dot product that encapsulates a model and sample data.  Bayesian methods are often employed for estimation and inference with Gaussian processes. They allow an intuitive approach to incorporating prior knowledge in classification problems and the ability to obtain confidence intervals for predictions.  Many common regression and classification algorithms can be cast as minimization problems in a Reproducing Kernel Hilbert Space (RKHS).
+
+
+\section{Learning With Kernels}
+
+
+\cite{KLBurges98atutorial}, \cite{KLKeerthi99improvementsto}, \cite{KLProgramminglearningthe},
+\cite{KLScholkopf00newsupport}, \cite{KLScholkopf00statisticallearning}, \cite{KLShevade99improvementsto},
+\cite{KLTsang03distancemetric}, \cite{KLWeston00featureselection}, \cite{KLSchultz03learninga}
+
+Kernel learning is a paradigm for classification and regression where prior belief is expressed in the construction of a similarity matrix of distanced between points in a feature space $\Omega$ by embedding via a non linear map $\phi$ in a higher [often infinite] dimensional Hilbert space using the kernel as an inner product.
+\begin{center}\begin{eqnarray*}
+% \nonumber to remove numbering (before each equation)
+  K(x,x')= <\phi(x),\phi(x')> \\
+  K \succeq 0 \\
+  SPD \Rightarrow \sum\limits_{x \in \Omega}^{}  \sum\limits_{x' \in \Omega}^{} f(x) K(x,x') f(x') \geq 0 \forall f\ \in \ell^2(\Omega)
+\end{eqnarray*}\end{center}
+Recall that infinitely divisible probability distributions aries as the sum of $iid$ random variables.  Infinitely divisible kernels have the representation
+\begin{center}\begin{eqnarray*}
+K=K^{\frac{1}{n}} \ldots K^{\frac{1}{n}} \\
+K= e^{\beta H} \\
+e^{\beta H} = \lim\limits_{n\rightarrow \infty} (1+ \frac{\beta H}{n} )^n
+\end{eqnarray*}\end{center}
+We construct a mutli-resolution representation of the data with exponentiated kernels.  The sequence of kernels $K(\beta)$ represents a one parameter group associated with a diffusion on the graph of the data.  A $\beta \rightarrow  0 \infty$ the kernel moves from the identity to one that represents the clusters in the off diagonal components.  The local structure of $\Omega$ is preserved in $H$ while the global geometry of the data set is progressively revealed in $K(\beta)$ as we push the diffusion forward with the one parameter group.  We can construct exponentiated kernels over direct products of sets $\Omega_1 \bigotimes \Omega_2$ that will allow for the class conditional representation [bbcrevisit term use multiclass].  Simply set $H = H_1 \bigotimes I_{\Omega_1} +  H_2 \bigotimes I_{\Omega_2}$.
+\begin{center}\begin{eqnarray*}
+K(\beta) = e^{\beta H} =  e^{(\beta H_1 \bigotimes I_{\Omega_1} +  H_2 \bigotimes I_{\Omega_2})} \Rightarrow \\
+\frac{d}{d \beta} K(\beta) =  H (K_1(\beta) \bigotimes K_2(\beta))
+\end{eqnarray*}\end{center}
+
+The kernels thus  constructed can be used to drive a diffusion on a graph by letting $H$ be the familiar graph Laplacian.  Furthermore, the continuum limit of infinite data can be analyzed in within the framework of a discreet stochastic process much the way the convergence of finite element solutions of PDE's takes place.
+
+
+\section{Kernel Density Estimation}
+To define the empirical distribution function of a sample of size $N$ - place mass $1/N$ at each member of the sample.  This forms a nonparametric estimate of the marginal density $P(X)$.  This is a singular form of kernel smoothing for density estimation.  If $\psi$ belongs to some nice class of function, and $\int\limits_{\infty}^{-\infty}\psi(x) dx = 1$, we can form a parametric estimator for the pdf of a process from a sample
+population of size $N$ by calculating
+\begin{equation} p(x;\theta)=\frac{1}{N \theta}
+\sum\limits_{i-1}^{N} \phi( \frac{x-X_n}{\theta})
+\end{equation}  If $\phi$ happens to be a density then $p(x,
+\theta)$ is also a density.  Letting $\theta \rightarrow 0$ for
+the right kernel, we get the empirical density of the sample
+%bbcrevisit - provide kernel that makes the limit ok
+population.  The mean squared error of the estimator expressed
+as a bias term and a variance term is \begin{equation} Err
+p(x;\theta)= E[p(x;\theta)-p(x)]^2 =  E[ p(x;\theta)-p(x)]^2 =
+(E[p(x;\theta)]-p(x))^2 + Var[ p(x;\theta)]
+\end{equation}
+
+
+\section{Distance Functions \& The Affinity Matrix}
+
+There are two key ingredients to forming the affinity matrix; a distance function, and a convention for which pairs to consider.  If all or too many pairs are compared, sparse methods will not be possible.  We can include $n$ nearest points, all points within $\epsilon$ of $x$, or some other criteria. For instance when working with spatial data, the diffusion can be done on a graph formed by a tessellation of the locations.  This is exactly how numerical solutions of heat diffusions are done.
+
+BBCREVISIT - Gram Matrix \& Mercers Theorem - Make sure we connect to SVM section.
+
+If the feature vector is a histogram, the $L^2$ distance is not meaningful, in this case use the $\chi^2$
+
+\section{The Graph Cut}
+Spectral clustering is a relaxation to an NP-hard problem of finding an optimal way to cut a graph. Here we describe some various cut criteria.  Let
+\begin{eqnarray*}
+X_1, \hdots , X_n \; \in \dblr^n  \\
+W_ij = s(X_i,X_j)
+d_i = \underset{\sum}{j} W_{i j}
+|A| = card (A)
+vol(A) = \underset{\sum}{i \in A} d_i
+\end{eqnarray*}
+
+BBCREISIT - Find ref, fill in defs, and possibly demo on small graphs.
+\begin{defn}[Min Cut]
+\begin{equation*} min cut(A,B) =\underset{\sum}{i \in A \; j \in B}  W_ij \end{equation*}
+\end{defn}
+
+\begin{defn}[Balanced Cut / Ratio Cut ]
+\begin{equation*} min cut (A,B) \frac{1}{|A|} \frac{1}{|B|} \end{equation*}
+\end{defn}
+
+\begin{defn}[n Cut ]
+\begin{equation*} min cut (A,B) \frac{1}{vol(A)} \frac{1}{vol(B)} \end{equation*}
+\end{defn}
+
+
+
+\section{Graph Spectra}
+Graph spectral methods are some of the most successful heuristic approaches to partitioning algorithms in solving sparse linear systems, clustering and, ranking problems.  Eigenvalues of the graph Laplacian are used to transform a combinatorial optimization problem to a continuous one, typically a SDP problem.  Recent advances in SDP optimization techniques have opened new avenues of research in combinatorial optimization.  For instance, isoperimetric properties of a graph are used to find efficient communication networks, and fast convergence of Markov Chains.
+
+
+
+\section{Matrix Factorization}
+Many forms of matrix factorization can be cast as an optimization problem that involves minimization of generalized Bregman divergences\cite{BDAUnifiedViewMatrixFactorizationModels}.  Factorization algorithms such as  NNMF, Weighted SVD, Exponential Family PCA, , pLSI, Bregman co-clustering \cite{CCBanerjee04ageneralized} can be cast in this framework.  The approach uses an alternating projection algorithm for solving the optimization problem which allows for generalizations that include row, column, or relaxed cluster  constraints.  A brief description of the algorithm is given below.  The description of a generalized Bregman divergence can be found in \cite{BDGordon99approximatesolutions}.
+
+
+
+\section{PCA and its generalization to the Exponential Family}
+PCA finds linear combinations of the variables that correspond to directions of maximal variance in the data. Typically this is performed via a singular value decomposition (SVD) of the data matrix $A \in R^{n,m}$, or via an eigenvalue decomposition if A is a covariance matrix in which case $A \in R^{n,n}$. Representing the data in the directions of maximum variance allows for a dimension reduction that preserves information. Principal component directions are uncorrelated which can be useful.  PCA has the disadvantage that components are usually linear combinations of all variables. Weights in the linear combination data elements are non-zero. Sparse PCA is an attempt to find a low dimension representation of the data that explainers most of the variance.
+
+Here we describe a generalization  of Principal component analysis (PCA) to the Exponential Family of probability distributions.  PCA is a popular dimensionality reduction technique that seeks to find a low-dimensional subspace passing close to a given set of points \begin{equation*}\{x_i\} \subset \mathbb{R}^n\end{equation*}.  The procedure is to solve the optimization problem that minimizes the sum of squared differences of the data points to the projections on a subspace spanned by the empirical variance after centering the data to have mean $0$;
+\begin{equation*}
+\sum\limits_{i=i}^{n} \norm{x_i - \theta_i}^2_{\ell^2}
+\end{equation*}.  The choice of $\ell^2$ norm here codifies the assumption of Gaussian data.  An alternate interpretation of the algorithm is finding the  parameters ${\theta_i}$ that maximizes the log likelihood of the data which corresponds to \begin{equation*}
+\sum\limits_{i=i}^{n} \norm{x_i - \theta_i}^2_{\ell^2}
+\end{equation*}.  The goal of PCA is to find the the true low dimensional distribution   of the data given the assumption that data is corrupted by Gaussian noise.
+Bregman divergences
+  \begin{equation*}
+  D_\phi(A,B)=\phi(A)-\phi(B) - \nabla \phi(B) (A-B)
+\end{equation*}
+offer a framework to extend PCA [and other spectral dimension reduction techniques] to the entire Exponential Family.  Here $\phi$ is a striclty convex function.  The roles of
+
+Let  $\theta_i$ be the natural parameter for dimension $i$, with Exponential distribution $P_\theta$.  Then the conditional expectation is given by
+\begin{equation*}
+log P_\theta (x| \theta) = log P_0(x) + x \theta - G(\theta)  \sp : G \ni \int{ P_\theta dx} =1
+\end{equation*}
+We can model multivariate data where the conditional distribution can vary along the feature space.  The common feature of this PCA model and GLZ regression is the derivative of $G$ which is familiar link function and the loss function which is appropriate for $P_\theta (x | \theta)$.  The non linear relationship in the GLZ regression model data is captured by the link function $h = \frac{d}{d \theta}G(\theta)'$.  This feature is also passed on to the generalized PCA.  Instead of projecting on to a linear subspace, a Bregman divergence is used as the distortion measure.  This gives a convex optimization problem to solve which can be shown to converge.  In \cite{BDAzoury99relativeloss} a dual function  to  $\phi$ is defined by the relationship $\phi(g(\theta))+G(\theta)=h(\theta) \theta$ which is used to write the log likelihood as a Bregman divergence
+\begin{equation*}
+    \log P( x | \theta ) = -log P_0(x) - \phi(x) + D_\phi (x,h(\theta))
+\end{equation*}.  Typically $x$ is a vector but extending to matrices is straightforward.
+
+
+\section{Manifold Learning}
+There are numerous machine learning techniques which accomplish some form of dimensionality reduction.
+Manifold learning uses principal curves and manifolds to encode a natural geometric framework for nonlinear dimensionality reduction.  These methods construct low-dimensional data representation using a cost function that retains local properties.
+Contrasting methods such as MDS employ proximity data via a similarity or distance matrices.  The important ISOMAP \cite{MDS_ISOMAP}algorithm extends MDS by capturing geodesic measurements of non-local pairs on the data manifold $M$ via an multi-scale approximation.  Non-local distances are approximated via a shortest path on a K nearest neighbor clustering of the data.  Effectively a ball in data space is used to represent a cluster, and a graph is then constructed to encode the non-local information.  The connectivity of the data points in the neighborhood graph are the nearest k Euclidean neighbors in the feature space.  Dijkstra's algorithm for computing shortest paths with weights is used to construct the proximity matrix from the neighborhood graph.  The top n eigenvectors encode the coordinates in the low dimensional Euclidean space.  Choosing the correct number of neighbors is an essential component to an accurate representation.
+Other shortest path algorithms that may be employed to calculate the geodesic distances are listed below:
+\begin{itemize}
+  \item Dijkstra's algorithm finds the single-pair, single-source, and single-destination shortest path.
+  \item Johnson's algorithm finds all pairs shortest paths
+  \item Bellman-Ford algorithm single source problem and allows negative edge weights.
+  \item Floyd-Warshall algorithm solves all pairs shortest paths.
+  \item A* search algorithm solves the single pair shortest path problem.
+\end{itemize}
+In \cite{MDSBernstein00graphapproximations} a sampling condition is given which bounds the quality of the manifold embedding based on the quality of the neighborhood graph.
+
+
+\section{Graph Laplacian}
+\cite{GLPBoydconvexoptimization}, \cite{GLPChung93laplaciansof}, \cite{GLPCrescenzi96toweight},
+\cite{GLPGuatterygraphembeddings}, \cite{GLPBoydconvexoptimization},
+\cite{GLPChung93laplaciansof},
+\cite{GLPSpectralAnalysisComplexLaplacianMatrices}, \cite{GLPKellersignedgraph}
+
+Let $G$ be a connected simple graph with vertex set $V = {1, 2, ... , n}$ , edge set $E$ and let each edge be associated with a positive number, called the weight of the edge. The above graph is called a weighted graph. An unweighted graph is just a weighted graph with each of the edges bearing weight 1.  The weight $w(i)$ of a vertex $V_i$ is the sum of the weights of the edges incident with it. There are a number of ways in which the  Laplacian matrix $L$ is defined; the combinatorial Laplacian, the normalized Laplacian and the unsigned Laplacian.  Spectra from graph matrix representations may be obtained from the adjacency matrix $A$ and the various Laplacian discretizations.  Spectra can also be derived from the heat kernel matrix and path length distribution matrix.
+
+The matrix representation of the graph Laplacian has a significant effect on the spectrum.  Attributes may be accounted for by by a complex number that encodes the edge attributes.  The node attributes may be encoded in the diagonal elements.   The complex graph Laplacian matrix is Hermitian, and hence it has real eigenvalues and complex eigenvectors.  Graph feature vectors can be embedded in a pattern space by PCA, MDS, and LDA( linear discriminant analysis).  Attribute graphs may be characterized by the application of symmetric polynomials to the real and complex components of the eigenvectors. \cite{GLPAnaFred} This gives rise to permutation invariants that can be used for pattern vectors.  Partitioning a graph into three pieces, with two of them large and connected, and the third a small separator set can be accomplished using the second eigenvector [the Feidler Vector] of the graph Laplacian.  In the case or sparse graphs, the first few eigenvectors can be efficiently computed using the Lanczos algorithm [see section below on ARPAC].  This graph partitioning algorithm can be extended to give a hierarchical subdivision of the graph.
+
+
+\section{Distance Metrics}
+A measure of similarity between data points is a vital component to clustering algorithms.  The suitability of any given measure is dependent on the generative process providing the data.
+
+
+\section{Markov Chains}
+Let $X \in \mathcal{M}$, $P(x,y)$ the transition probability for an irreducible Markov chain. If $P$ is reversible relative to $\pi$ then we have that $Q(x,y) = \Pi(x) P(x,y) =\Pi(y) P(y,x) \forall x,y, \in X$.  This implies that $\pi$ is the stationary distribution.  Bounding the rate of convergence to the stationary distribution is related to $L_G$ and isoperimetric problems.
+
+Detailed balance is a property of a Markov chain where $\pi(x) P(x,y) =\pi(y) P(y,x) \Rightarrow$ reversibility.  This is stronger than the requirement of a stationary distribution.  It is the property that implies for every closed cycle of states there is no flow of probability.
+
+There are four aspects of Markov chain stability.
+\begin{enumerate}
+\item $\pi$-irreducible
+\item small set
+\item Harris recurrence
+\item Geometric Ergodicity
+\end{enumerate}
+
+For reversible Markov chains, the rate of convergence to $\Pi$ for a finite state chain is determined by the second eigenvalue of $P$.
+
+There are two types of bounds for the rates of convergence
+\begin{enumerate}
+\item graph theoretic Cheeger type - see Diaconis and Stook
+\item Spectral
+\end{enumerate}
+The rate of convergence to $\pi$ for finite state Markov chains is determined by the second eigenvalue $\lambda_2$ of $P$.
+
+BBCREVISIT CLEAN UP LOTS
+\begin{thm}[Perron Frobenius - $P \in \dblp^{n \times n}$ ]
+There is a simple largest eigenvalue, and it's eigenvector is positive.
+
+\end{thm}
+The growth of $P^k$ is determined by the Perron eigenvalue.  Frobenious extended the theorem to include a class of non negative matrices.  This is achieved through the concept of reducibility.  $P$ is irreducible if
+\begin{equation*}
+\neg \exists \; \Lambda \st\Lambda^\dag L \Lambda =
+ \left( \begin{array}{cc}
+P_{11} & P_{12}  \\
+0 & P_{22} \end{array} \right)
+\end{equation*}
+where $\Lambda$ is a projection $\Lambda^2 = \Lambda$
+The irreducible matrices $L$ have a simple largest eigenvalue $\lambda_n$, now called the Perron-Frobenius eigenvalue whose right eigenvector components are all positive.  We can put this in Markov chain terminology; irreducibility is equivalent to the existence of a unique stationary distribution.
+
+BBC Make the Markov Chain section nice.
+
+Hammerlsy Clifford
+
+The Hammersley–Clifford theorem gives necessary and sufficient conditions for when a positive probability distribution can be represented as a Markov Random Field. It states that a probability distribution that has a positive mass or density satisfies one of the Markov properties with respect to an undirected graph $G$ if and only if it is a Gibbs random field.  The density of the Gibbs random field can be factorized over the cliques (complete subgraphs) of $G$.
+
+
+\section{Spectral Graph Theory}
+Modern spectral graph theory increasingly takes insights from geometry.  Discrete analogues of isoperimetry results and heat flow on manifolds are just a few examples being put to use in modern applications.  The normalized graph Laplacian is used to aid in consistency between spectral geometry and stochastic processes.  We consider connected graphs $G = (E,V)$ in this work, in which case we can define the normalized graph Laplacian as $\mathcal{L} = T^{\frac{1}{2}} L T^{\frac{-1}{2}} = I - T^{\frac{1}{2}} A T^{-\frac{1}{2}}$, where $A$ is the adjacency matrix, L is defined by
+
+\begin{equation}
+L(u,v)  = \Biggl\{
+\begin{array}{cc}
+ d_v & :\; u=v \\
+ -1  & : u\sim v  \\
+ 0   & : u \nsim v  \end{array}
+\end{equation} and
+$T = diag\{d_1, \cdots , d_n\}$ where $d_v$ is the degree of vertex $v$.
+
+$\mathcal{L}$ is a difference operator :
+
+\begin{equation}
+ \mathcal{L}  = \frac{1}{\sqrt{d_u}} \sum\limits_{}^{v : u \sim v} ( \frac{g(u)}{\sqrt{d_u}} -  \frac{g(v)}{\sqrt{d_v} } )
+\end{equation}
+
+\begin{eqnarray}
+Vol (G) = \sum\limits_{v \in V}^{d_v} = Tr(T) \\
+\sigma(\mathcal{L}) \in \dblr^+ \\
+ker ( \mathcal{L} ) = span\{ T^{\frac{1}{2}} \mathbb{1} \}
+\end{eqnarray}
+
+
+
+
+
+\section{Diffusion Maps}
+\cite{DMBremerabstractdiffusion}, \cite{DMCarnegieinformationdiffusion}, \cite{DMCoifmandiffusionmaps},
+\cite{DMKubota00reactiondiffusionsystems}, \cite{DMLafferty05diffusionkernels},
+\cite{DMNadler06diffusionmaps}.
+
+Spectral clustering involves constructing a Markov chain over a graph is constructed over the graph of the data and using the sign of the first non-constant eigenvector for graph cuts and cluster localization.  This approach can be generalized to higher-order eigenvectors yielding a multi-resolution view of the data. Using multiple eigenvectors allows one to embed and parameterize the data in a lower dimensional space.  Examples of this procedure include LLE, Laplacian \& Hessian Eigenmaps.  The common theme among these approaches is that eigenvectors of a Markov process can encode coordinates of the data set on a low dimensional manifold in a Euclidian space.  The advantage over conventional methods is that the representation is non-linear and they preserve local structure. Kernel eigenmap embeddings can be generalized into a diffusion  framework where a discrete Laplacian acts on a low dimensional representation space.  This allows for a true multi-scale parametrization.  Iterating a Markov process involves computing power of the transition matrix to run a random walk of the graph forward in time.   By construction a one parameter map defining the diffusion and specifying boundary conditions the full power of diffusions on a smooth manifold may be brought to bear on parameterizing the geometry of the data.  Different boundary conditions and diffusion operators give rise to a discrete approximations of familiar stochastic PDE's.
+
+Let $(X,\mathcal{A},\mu)$ be a measure space and $\quad k: X \times Y \longrightarrow \dblr $ a kernel function.
+ \begin{eqnarray}
+ d(x) &=& \int\limits_{X} k(x,y) d \mu(y)  \\
+ P(x,y) &=& \frac{ k(x,y) }{ d(x) }    \\
+ (D_t (x,y))^2 &=& \norm{P_t(x, \cdot) - P_t(y,\cdot )}_{ L^2(X,\frac{d\mu}{\pi}) }  \\
+ \pi(\mu) &=&  \frac{d(y)}{z \in Z^{d(z)} } \\
+ \pi(x) p(x,y) &=& \pi(y) p(y,x)
+ \end{eqnarray}
+
+
+$D_t (x,y)$ is the functionally weighted $L^2$ distance between the 2 posteriors $\mu \rightarrow P_t(x,u) $ and $\mu \rightarrow P_t(y,u) $.  This is related to isoperimetry. Think about what happens as the cardinality of paths connecting $x$ and $y$ is increased.  $D_t$ can be computed using the eigenvalues of $P$.
+
+\begin{equation}
+D_t (x,y) = \sqrt{ \sum\limits_{\lambda \geq 1 }{} \lambda_{l} ( \phi_l (x) - \phi_l (y) )^2   }
+\end{equation}
+
+We can define an embedding in Euclidian space via
+
+\begin{equation}
+\Psi_t (x) = \{ \lambda_{1}^{t} \phi_1(x) , ...  \lambda_{s(\delta,t)}^{t} \phi_{s(\delta,t)} (x) \}
+\end{equation}
+
+
+
+
+\section{Spectral Geometry}
+Spectral Geometry concerns itself with the relationships between a geometric structure and the spectra of a differential operator, typically the Laplacian.   Inferring the geometry from the spectra is a type of inverse problem since two non isometric manifolds may share the same spectra.  Going the other way, we encounter isoperimetric inequalities and spectral gap theorems.  "Can One Hear the Shape of a Drum?" was the of an article by Mark Kac in the American Mathematical Monthly 1966.   The frequencies at which a drum vibrate depends on its shape. The elliptic PDE  $ \nabla^2 A + k A = 0$ tells us the frequencies if we know the shape. These frequencies are the eigenvalues of the Laplacian in the region.  Can the spectrum of the Laplacian  tell us the shape if we know the frequencies?  Hermann Weyl showed the eigenvalues of the Laplacian in the compact domain $\Omega$ are distributed according to $ N(\lambda) \sim (2 \pi)^{-d) \omega_d \lambda^{\frac{d}{2}} vol(\Omega}$
+
+The Laplace Beltrami operator is the generalization of $\nabla \circ \nabla = \Delta$ to $\mathcal{M}$
+\begin{equation*}
+\Delta f = tr(H(f))
+\end{equation*}
+In the exterior calculus we have $ \Delta f = d^*d \; f$.
+
+//BBCREVISIT - Fill this out and check
+The Laplacian of a Gaussian has well known applications in image processing.  Given $f(x,y)$, we get a scale space representation when we convolve by
+\begin{equation*}
+  g(x,y,t) = \frac{e^{x^2+y^2}}{2 \pi t}
+\end{equation*}
+
+\begin{equation*}
+  L(x,y,t) =g(x,y,t) \ast f(x,y)
+\end{equation*}
+Applying $\Delta$ to $L(x,y,t)$ gives response to blobs of extent $\sqrt{t}$
+
+There is a well known connection between diffusion processes and Schrodinger operators;
+\begin{eqnarray*}
+H = \nabla^2 + V(x) \Phi \in L^2(\dblr^n) \\
+H \Phi = E \Phi \\
+E = \sigma(H)
+\end{eqnarray*}
+
+
+
+\section{Concentration of Measure}
+ \cite{MCArora04expanderflows}, \cite{MCBartlett03convexity}, \cite{MCBoucheron04concentrationinequalities},
+ \cite{MCFRIEDMAN96computingbetti}, \cite{MCLedoux04spectralgap}, \cite{MCMuyan_ablessing},
+ \cite{MCSinclair92improvedbounds}, \cite{MCTalagrand95concentrationof}.
+
+Familiar tools used when when dealing with additive functions of independent random variables are the CLT, LLN, and the inequalities of Markov, Chebychev, and Chernoff.  When the differences are not independent we rely on the theory of martingales and use inequalities like Azuma's to provide concentration bounds.
+
+Let $(X,\Sigma,\mu)$ be a measure space and let $f$ be an  real-valued measurable function defined on $X$. Then for any number $t > 0 \in \mathbb({R}$ we have
+\begin{equation*}
+\mu(x \in X | f(x) \geq t) < \frac{1}{t} \int_X |f(x)| d \mu
+\end{equation*} If we let $\mu$ be a probability measure - $\mu(X)=1$, then the above is equivalent to $P(|X| \geq a) \leq \frac{E(|X|)}{a}$ commonly known as Markov's inequality.
+
+Another familiar concentration inequality is the Chebychev inequality has it's origins as a measure theoretic inequality;
+\begin{equation*}
+\mu({x \in X : \abs{f(x)} \geq t}) \geq \frac{1}{t^2}
+int_X \abs{f}^2 d\mu
+\end{equation*} When $X$ has finite first moment $\mu$ and non-zero second moment $\sigma$, we have the more familiar
+\begin{equation*}
+P( \abs{X - \mu} \geq k \sigma ) \leq \frac{1}{k^2} \; \forall k > 0
+\end{equation*}
+
+
+%These notes generally follow Wiki on Isoperimetry
+The isoperimetric inequality concerns the relationship between the length $l$ of a closed curve and the area $a$ of the planar region that it encloses.  Specifically, $4 \pi a \leq l^2$.  Equality holds in the case that the curve is a circle. The isoperimetric problem is to determine a plane figure of the largest area whose boundary has a given length. F
+
+Federer \cite{federer1996geometric} is a good reference for a measure theoretic generalization to higher dimensions. We make a few remarks here that will be expanded on later.
+\begin{prop}[Isoperimetric Inequality In $\mathbb{R}^n$]
+Let $\mu$ be Lebesgue measure in $\mathbb{R}$ and $X \ in \mathbb{R} \st \mu(cl(X) < \infty$, then
+\begin{equation*}
+  n \omega^{\frac{1}{n}}_{n} \mu(cl(X))^{\frac{n-1}{n}} \leq M^{n-1}(\partial X)
+\end{equation*}
+\end{prop}
+$M$ is the Minkowski content, which is  the Hausdorff measure of $\partial X$ for rectifiable $\partial X$.
+The proof relies on the Brunn–Minkowski theorem which states that $\mu(A+B)^{\frac{1}{n}} \geq \mu(A)^{\frac{1}{n}} + \mu(A)^{\frac{1}{n}}$ where set addition in $\mathbb{R}$ is in the sense of Minkowski.  This addition behaves well with respect to the convex hull; $\forall A,B \in \mathbb{R} \; co(A + A) = co(A) + co(A)$
+
+For smooth domains general Isoperimetry inequality is equivalent to a Sobolev inequality on $\mathbb{R}$.
+
+\begin{prop}[Sobolev inequality]
+Let $u$ be a continuously differentiable real-valued function on $\mathbb{R}$ with compact support. Then for $1 ≤ p < n$ there is a constant $C$ depending only on $n$ and $p$ such that
+\begin{equation*}
+  ||u||_{L^{\frac{pn}{n-p}}} \leq C || Du||_{L^p}
+\end{equation*}
+\end{prop}
+
+The Sobolev embedding theorem relies on the
+\begin{thm}[Hardy Littlewood Sobolev fractional integration theorem]
+Let $0 < \alpha <n$ and $1 < p  < q < \infty$ and let $I\alpha = (−\Delta)−\alpha/2$ be the Riesz potential
+\begin{equation*}
+  I_\alpha f(x) = \frac{1}{C_\alpha}\int_{\mathbb{R}^n} \frac{f(y)}{|x-y|^{n-\alpha}} dy
+\end{equation*}
+Then, for $q=\frac{pn}{n-\alpha p}$
+there exists a constant $C$ depending only on $p$ such that $||I_\alpha f||_q \leq C ||f||_p$
+\end{thm}
+The Hardy–Littlewood–Sobolev lemma implies the Sobolev embedding by the relationship between the Riesz transforms and the Riesz potentials.  The Riesz potential defines an inverse for a power of the Laplace operator on Euclidean space.
+
+
+The Chernoff and Hoeffding bounds tell us that the average of $n$ iid  random variables $X_1,X_2, \hdots ,Xn$ is tightly concentrated around its mean if ${X_i}$ are bounded and $n$ is sufficiently large. hat about $G(X_1,X_2, \hdots ,X_n)$?
+The feature of the average which gives rise to tight concentration is that is is Lipschitz. The following concentration bound applies to any Lipschitz function of iid normal random variables. See Ledoux (2001, page 41, 2.35).
+
+High dimensional space is mostly empty.  This is more commonly called the \textit{"curse of dimensionality"}.  One way to get around the curse of dimensionality is to find interesting projections.  Many common algorithms such as principal components, multidimensional scaling, and factor analysis fall into this category.  Huber \cite{HuberProjectionPursuit} placed many of these in to a common framework called projection pursuit.
+
+Logarithmic Sobolev inequalities have a close relationship with the concentration of measure phenomena.  There are two major types of concentration; Gaussian and Exponential. [see Ledoux]
+
+Let $(e^{-At})_{t\geq 0}= (T_t)_{t\geq 0}$ be a symmetric Markov
+semigroup on $ L^2(X,d{\mu})$ with generator $A$ defined on   a ${\sigma}$-finite
+measure space $(X,d{\mu})$. $(T_t)_{t\geq 0}$ is ultracontractive if
+for any $t>0$, there exists a finite positive number $a(t)$ such
+that, for all $f\in L^1$ :
+\begin{equation}\label{ult1}
+\|T_tf\|_{\infty}  \leq a(t) \|f\|_1.
+\end{equation}
+
+An equivalent formulation (by interpolation) of ultracontractivity is
+that for any $t>0$, there exists a finite positive number  $c(t)$ such
+that,  $\forall f\in L^2$,
+\begin{equation}\label{ult2}
+\|T_tf\|_{\infty} \leq c(t) \|f\|_2
+\end{equation}
+ Also by duality, the inequality (\ref{ult2}) is equivalent to
+\begin{equation}\label{ult3}
+\|T_tf\|_{2} \leq c(t) \|f\|_1
+\end{equation}
+It is known that, under the assumptions on the semigroup
+$(T_t)_{t\geq 0}$, (\ref{ult2}) implies (\ref{ult1})
+with $a(t)\leq c^2(t/2)$
+and
+(\ref{ult1}) implies (\ref{ult2})  with $c(t) \leq \sqrt{a(t)}$.
+\\
+
+We say that the generator $A$ satisfies  LSIWP  (logarithmic Sobolev inequality
+with parameter) if  there exist a monotonically decreasing continuous function
+${\beta}: (0,+\infty)\rightarrow (0,+\infty)$ such that
+\begin{equation}\label{lsiwp}
+\int f^2\log f\, d{\mu} \leq
+\epsilon Q(f) +{\beta}(\epsilon) \|f\|^2_2 + \|f\|^2_2\log \|f\|_2
+\end{equation}
+for all $\epsilon >0$ and $0\leq f\in \mbox{Quad}(A)\cap L^1\cap
+L^{\infty}$ where
+$\mbox{Quad}(A)$ is the domain of $\sqrt{A}$ in $L^2$ and
+$Q(f)=(\sqrt{A}f,\sqrt{A}f)$.
+\\
+
+This inequality is modeled on the Gross inequality \cite{}.
+\\
+
+In \cite{ds},\cite{d}, the authors show that LSIWP implies
+ultracontractivity property  under an integrability condition on $\beta$. This condition can be enlarged and be stated as follows:
+
+\begin{thm}
+Let ${\beta}(\epsilon)$ be a monotonically decreasing continuous
+function of $\epsilon$
+such that
+\begin{equation}\label{vareps}
+\int f^2\log f \, d{\mu}\leq
+\epsilon Q(f) +{\beta}(\epsilon)\, \|f\|^2_2 + \|f\|^2_2\log \|f\|_2
+\end{equation}
+for all $\epsilon >0$ and $0\leq f\in \mbox{Quad}(A)\cap L^1\cap
+L^{\infty}$. Suppose that
+for one ${\eta}>-1$,
+\begin{equation}\label{integral}
+M_{\eta}(t)=({\eta}+1)t^{-({\eta}+1)})\int_0^t
+{s}^{\eta}{\beta}\left(\frac{s}{\eta+1}\right)
+\,ds
+ \end{equation}
+is finite for  all $t>0$. Then $e^{-At}$ is ultracontractive
+and
+\begin{equation}\label{majo}
+\| e^{-At} \|_{\infty,2}\leq e^{M_{\eta}(t)}
+\end{equation}
+for all $0<t<\infty$.
+\end{thm}
+
+
+\section{The Condition Number of a Markov Chain}
+\section{Generalized Chebyshev Bounds on Quadratic Sets via Semidefinite Programming}
+Boyd et al  \citet{SDPVandenberghe_generalizedchebyshev} provide a simplified development of an algorithm to compute the lower bound on the probability of a set which is defined by quadratic inequalities. That algorithm is discussed here.
+
+\begin{equation}
+\min (1-  \sum\limits_{i=1}^{m} \lambda_i)  \ni Tr( A_i z_i) + 2 b_{i}^{T} z_i + c_i \lambda_i \geqslant 0 \;\;\; \forall i=1, ... , m
+\end{equation}
+
+\begin{equation}  \sum\limits_{i=1}^{m}  [
+\begin{array}{cc}
+z_i & z_i \\
+z_i & \lambda_i \\
+\end{array} ] \succeq 0 \end{equation}
+
+\begin{equation}  C = \{ x \in \dblr :  x^T A_i x + 2 b_{i}^{T} +c_i <0 : i=1, ...,m \} \end{equation}
+
+\begin{equation}
+\min E[f_0(X)] \ni E[f_i(X)] = a_i : i=1, ...,m
+\end{equation}
+ moment constraints
+
+Let
+\begin{equation}
+ \bar{x} \in \dblr^n S \subset S^n \ni S \succeq \bar{x} \bar{x}^T
+\end{equation}
+  and define
+ \begin{equation}
+ P(C,\bar{x},S) = inf_{\mathcal{P}(\dblr^n)} \{P(X \in C) \mid E[X] = \bar{x} E[X X^T] = S \}
+ \end{equation}
+
+The optimization problem is to find $ P \in \mathcal{P}(\dblr^n) $ - a probability density function which maximizes the probability of the convex set C and satisfies the moment constraints.
+
+
+
+\section{Bregman Divergences}
+NNMA is the approximation of a non-negative matrix $A$ by a low rank matrix $BC$ where $B\succ 0$ and $C\succ 0$.  Bregman divergences are a robust distortion measure for this matrix factorization.  Formally $D_\phi(A,BC)=\phi(A)-\phi(BC) - \nabla\phi(BC) (A-BC)$ measures the quality of the factorization relative relative to a convex penalty function.
+
+Modeling of relational data can be abstracted out to the factorization in a low dimensional representation of a data matrix $(X_ij)$ where links [or relations] are represented as an $n x m$ matrix $X$ where $X_{i,j}$ indicates whether a relation exists between entities of type $i, j$.  Let $f$ be a link function and $X^{~}$ be a factorization of $X$ into a low rank approximation $X \approx U V^T : U \in R^{m x k}, v \in R^{m x k}$.  The link function $f$ can be interpreted as in $GLM$ which gives extends exponential models to matrices.  A simple example is choosing the identity link which and minimizing in the $\ell^2$ norm gives rise to the SDV and the Gaussian model for the data ${X_ij}$.  Similarly we can  extend to Bernoulli, Poisson, Gamma, error distributions.
+
+Many forms of matrix factorization can be cast as an optimization problem that involves minimization of generalized Bregman divergences \cite{BDAUnifiedViewMatrixFactorizationModels}.  Factorization algorithms such as  NNMF, Weighted SVD, E xponential Family PCA, , pLSI, Bregman co-clustering \cite{CCBanerjee04ageneralized} can be cast in this framework. The approach uses an alternating projection algorithm for solving the optimization problem which allows for generalizations that include row, column, or relaxed cluster  constraints.  A brief description of the algorithm is given below.  The description of a generalized Bregman divergence can be found in \cite{BDGordon99approximatesolutions}.
+
+Let $\phi S \in \dblr^n \to \dblr$, $D_\phi (x,y) = \phi(x) - \phi(y) - < x-y, \nabla \phi(y) >$ be the Bregman divergence. Let $\chi = {X_i} \in S \in dblr^d$ be a random variable and take the encoding $X_i \to S$ so the rate is zero and the code book is 1. The rate distortion is $E_\nu [D_\phi (\chi,s)] = min \s in S \sum\limits_{i=1}^{n} \nu_i D_\phi (x_i,x)$ which we call the Bregman information for the random variable $X$.
+\begin{thm}
+$\mu = E_\nu [X]$ is the unique minimizer
+\end{thm}
+
+
+\section{Sparse Representation}
+A Gaussian distribution is often an accurate density model for low dimensional data, but very rarely for high-dimensional data. High dimensional data is less likely to be Gaussian, because of the high degree of independence this demands.  Recall the a Gaussian is a rotation of a distribution with completely independent coordinates. In a typical high dimensional application, one may be able to find a few features that are approximately independent, but generally as more features are added the dependencies between them will grow.
+
+Diaconis and Freedman showed that for \textit{most} high dimensional point clouds, \textit{most} low dimensional orthogonal projections are a mixture of normal spherically symmetric distributions.
+
+\begin{lem}[Poincare Lemma]
+If $\sigma_n$ is uniform on $\sqrt{n}S_{n-1} \in \dblr^n$,  $d<n$ and
+\begin{equation*}
+\Pi_{d,n} ( x_1, \hdots , x_n) \rightarrow ( x_1, \hdots , x_n)
+\end{equation*}
+is the canonical projection, then for fixed $d$, as $ n \rightarrow \infty $, we have that
+$\Pi_{d,n}$ converges weakly towards a centered reduced Gaussian distribution on $\dblr^d$
+\end{lem}
+
+Proof [See pp55 Some Aspects of Brownian Motion : Some Recent Martingale Problems].
+Uee LLN.  If $(X_1,X_2, \hdots ,X_n)$ iid $N(0,1)$, then
+\begin{equation*}
+\frac{1}{n} \rho_{n}^{2} =: \frac{1}{n} \sum_{i=0}^{n} x_{i}^{2} \rightarrow 1  \rightarrow \infty
+\end{equation*}
+If we define $\tilde{X}_{(n)} = (X_1,X_2, \hdots ,X_n) = \frac{1}{\sqrt{n}} \rho_n \theta_n$ where $\theta_n \sim \sigma_n$ a uniform distribution on $\sqrt{n}S_{n-1}$.  Then the lemma follows from the equation $\tilde{X}_{(n)} = \frac{1}{\sqrt{n}} \rho_n  \Pi_{d,n} (\theta_n)$.
+
+\subsection{Sparse PCA}
+[CS Notes from http://ugcs.caltech.edu/~srbecker/
+
+Classic PCA is sensitive to outliers.  Convex methods can be use to address this by attempting to factor the data $X$ as a sum of a low rank component $L$ and a sparse component $S$ by solving
+\begin{equation*}
+\underset{min}{S,L} \norm{L}_* + \lambda \norm{S}_{\ell_1}  : X=L+S
+\end{equation*}
+See http://cvxr.com/tfocs/demos/rpca/ for a demo of this in action with the popular cvx software package.
+
+
+
+\section{Compressed Sensing}
+In \cite{meyer1980condition} bounds are established on the relative error for the limiting probabilities for a perturbation of a finite Markov chain.  This improves on the traditional eigenvector perturbation approach by exploiting the constraints of the problem.  We collect some of these results in this section and see if they can be applied to analyse the stability of spectral clustering algorithms.
+
+Let $T$ be the transition matrix of a finite Markov chain $\mathcal{C}$. $A=I-T$, and $\mathcal{C}$ be a perturbation to $\mathcal{C}$ where $\tilde{T} =T-E$ is the transition matrix of  $\mathcal{C}$. Let $\omega$ be the limiting probability, $\omega = \lim_{n \to \infty} T^n x$. Define $A=I-T$ and $A^\sharp$ the generalized inverse of $A$. Then $W=\lim_{n  \infty} \frac{I+T+T^2 + \ldots + T^{n-1}}{n} = I-A A^\sharp$ is the limiting matrix of $\mathcal{C}$.  Every row of $W$ is $\omega$
+
+We state a few relations without proof from Meyers paper
+\begin{equation}
+(A+E^\sharp)=A - A^\sharp E A^\sharp (I+ E A^\sharp)^{-1} - W(I+E A^\sharp)^{-1} A^\sharp (I+E A^\sharp)^{-1}
+\end{equation}
+
+This combined with the expression for $\tilde{W}$ yields
+\begin{equation}
+\tilde{W} = W(I+E A^\sharp)^{-1} = W - W E A^\sharp (I + E A^\sharp)^{-1}
+\end{equation}
+
+The above gives a condition for the limiting matrix to be invariant under a perturbation;  $W=\tilde{W} \iff range(E) \in range(A)$.  It also allows us to write $\omega - \tilde{\omega} = \omega E A^\sharp (I+ E A^\sharp)^{-1}$, so
+
+\begin{equation}
+\norm{\omega - \tilde{\omega}} \leq \norm{E A^\sharp} \norm{ (I+E A^\sharp)^{-1}}
+\end{equation}
+
+and when $\norm{E A^\sharp} \leq 1$ we can use the familiar Taylor expansion
+\begin{equation}
+\norm{(I+E A^\sharp)^{-1}} \leq \frac{1}{ 1 - \norm{E A^\sharp } }
+\end{equation}
+
+to obtain an expression for the relative error in $\omega$ for a given relative error in $A$
+
+\begin{equation}
+\frac{\norm{\omega - \tilde{\omega}}}{\norm{\omega}} = \frac{ \frac{\norm{E}}{\norm{A}} \kappa(\mathcal{C}) } {1 - \frac{\norm{E}}{\norm{A}} \kappa(\mathcal{C}) }
+\end{equation}
+
+
+
+\section{Ultracontractivity}
+
+
+\section{Generalized Uncertainty Principles}
+The sparse recovery problem can be stated as follows.  Given an unknown signal $f \ in \dblc^n$, when can we recover $f$ from a set of $k$ linear measurements $\Phi f \ in \dblc^k \; k<n$? This problem is underdetermined and we are interested in the sparsest solution.
+\begin{equation*}
+min \norm{f*}_0 : \Phi f* = \Phi f
+\end{equation*}
+This problem is not convex, and in fact is generally NP-Hard \cite{Donoho04formost} and \cite{natarajan1995sparse}.  Note that the norm here is not the usual $\ell_0$ norm, here we abuse notation $\norm{g}_0$ to mean $card{g_i ! = 0}$, the size of the support. This problem can be relaxed to a convex problem by using the $\ell_1$ norm.
+\begin{equation*}
+min \norm{f*}_1 : \Phi f* = \Phi f
+\end{equation*}
+This problem is not differentiable at points where $f*_i=0$ and will require a general convex solver.  Usually the problem is solved in practice by recasting the minimization as a linear program
+\begin{equation*}
+min <f*,f> : \Phi f* = f \;  f* \succeq 0
+\end{equation*}
+bbcrevisit
+
+Much work has been done to determine when these two problems have the same solution, i.e. when is exact recovery possible. One  sufficient condition for exact recovery is the RIP condition of Candes and Tao (see below).
+
+\begin{defn}[RIP (Candes \& Tao) ]
+Let $A \in M_{m \times n}(\dblr)$ and $p \in [1,n]$, then we say that $A$ has the restricted isometry property if
+\begin{eqnarray*}
+  \exists \delta_p \st \forall m,p A_s \in A \\
+  (1 - \delta_p) \norm{y}_{\ell^2}^2 \leq   \norm{A_s y}_{\ell^2}^2 \leq (1 + \delta_p) \norm{y}_{\ell^2}^2 \leq
+\end{eqnarray*}
+\end{defn}
+RIP is a property which classifies a matrix as being close to orthogonal.  $\delta_p$ is referred to as the RIC, and is NP-Hard to compute.  Compressed sensing decoders are guaranteed to recover the sparsest solution to $Y = A x$ when $A$ is close to an isometry. Bounds on the RIC are available for some classes of random matrix ensembles.
+
+
+\section{Random Matrix Theory \& OP}
+
+RMT concerns itself with the eigenvalue statistics of large matrices with random entries. We define the eigenvalue counting measure of a matrix $H$n as;
+\begin{equation*}
+\mu_H (A) = \frac{| \lambda_i \in A |}{n} = N_{1_A, H}
+\end{equation*}
+
+More generally a eigenvalue statistic $N_{f,H}  = \frac{tr f(H)}{n}$
+For many types of random matrices we have a CLT;
+\begin{equation*}
+\frac{N_{f,H}-\int f(\lambda) dN(\lambda)}{\sigma_{f,n}} \rightarrow_d N(0,1)
+\end{equation*}
+
+$GUE(n)$ Start with Gaussian measure
+\begin{equation*}
+\gamma^n(A) - \frac{1}{(\sqrt{2 \pi} )^n} \int_A e^ \frac{-1}{2} \norm{X}^2 d \lambda^n
+\end{equation*}
+
+Weiener space is the Hilbert space $L^{2,0}[0,1]$ of upon which a Gaussian measure can be defined. The inner product on Weiner space is
+\begin{equation*}
+<\sigma_i,\sigma_j> = \int\limits_{0}^{1} <\overset{\cdot}{\sigma_i},\overset{\cdot}{\sigma_j}> dt
+\end{equation*}
+where $\overset{\cdot}{\sigma_i} = \frac{d \sigma)i}{dt}$
+The Wiener measure is a Gaussian measure.
+
+Let $H$ be Hermitian, $Z_{GUE(n)} = 2^{\frac{n}{2}} \pi^{\frac{n^2}{2}}$ We can write
+\begin{equation*}
+   \gamma^n(A) - \frac{1}{Z_{GUE(n)} } \int_A e^ \frac{-1}{2} tr(H^2) d \mu
+\end{equation*}
+
+
+There are two domains of eigenvalue statistics, local and bulk. Locally we are concerned with level spacing ,$\Delta \lambda = \lambda_i - \lambda_{i-1}$, and edge statistics $P_{TW}(\lambda_1), \underset{n \rightarrow \infty}{lim} P_{TW}(\lambda_n)$.  The Tracy Widom law $P_{TW}$ gives edge statistics.
+
+The empirical spectral measure of $H$ is
+\begin{equation*} \mu_H = \frac{|eigs H \in A |}{n} \end{equation*}
+
+The CDF of $H(n)$ is $N_n (\lambda)$ and as $n \rightarrow \infty$ is $N_n (\lambda) \rightarrow W(\lambda)$ where $W$ is the Winger Semi-Circle Law.
+
+Bulk statistics look at the determinantal point process $E(\lambda_0) = \sum_j \delta ( n \rho(\lambda_0 (\lambda_j - \lambda_0)$.  The kernel of the process is the sine kernel $K(x,y) = \frac{sin (\pi (x-y) )}{\pi (x-y)}$.  $E(\lambda)$ captures the statistics of the eigenvalues in the vicinity of $\lambda_0$. Recall the joint densities of a determinantal point process with kernel $K$ are given by $\rho_n(x_1, ...,x_n) = det(K(x_i,x_j)_{1 \leq i, j \leq j})$
+
+
+\section{The Hamburger Moment Problem - HMP}
+
+Given a sequence  ${m_i}$ the HMP seeks to find a measure that generates the moments.
+\begin{equation*}
+  \exists \mu : m_n = \int\limits^{+ \infty}_{- \infty} x^n d\mu
+\end{equation*}
+
+The answer is affirmative when the Hankel kernel $A \succ0 $, which
+is equivalent to $\sigma(A) \in \mathbb{R}^{+}$
+\begin{equation*}
+A =\left(
+  \begin{array}{cccc}
+    m_0 & m_1 & \ldots &   \\
+    m_1 & m_2 & m_3 &   \\
+    m_2 & m_3 & m_4 &   \\
+    \vdots &   &  & \ddots \\
+  \end{array}
+\right)
+\end{equation*}
+
+Recall that A Hankel matrix is a square matrix with constant skew-diagonals; $A_{i,j} = A{i-1,j+1}$
+A Hankel matrix is an upside-down Toeplitz matrix.
+
+The Hilbert matrix $ H{i,j} = \frac{1}{i+j-1}$ is a special case of a Hankel matrix. The Hilbert matrices are canonical examples of ill-conditioned matrices.
+They arise in the expression for the Grammian matrix of powers of $x$; $H_{ij} = \int\limits{0}{1} x^{i+j-2} dx$
+which shows up in the least squares approximation by polynomials.
+
+The solutions to the HMP are either unique or infinite in number and form a convex set in $\mathcal{H}$
+
+Let
+\begin{equation*}
+\Delta_n =\left(
+  \begin{array}{cccc}
+    m_0 & m_1 & \ldots & m_n  \\
+    m_1 & m_2 & \ldots & m_{n-1}  \\
+     &  & \ddots &   \\
+    m_n & m_{n+1}  &  & m_{2n}\\
+  \end{array}
+\right)
+\end{equation*}, then $A \succ0 \Rightarrow det(\Delta_n) \geq 0 \forall n$
+If $det(\Delta_n)=0$ then $(\mathcal(H), <,>)$ is finite dimensional and $T$ is self adjoint.
+
+$A$ gives us a sesquilinear form on $\mathcal(H) = \mathcal(l)^2$ via
+$<x,y> = \hbar{x}^T A y$.
+
+Let $T$ be a shift operator. The HMP is closely related to OP in $\mathbb{R}$.
+Gram Schmidt gives basis ${\phi_i}$ in which $T$ has tridiagonal Jacobi.
+
+The Caley transform $Q(T) = (I-T)(I+T)^{-1}$ shows the connection to the Nevanlina class
+of functions (sub-harmonic).
+
+
+
+\section{Random Matrix Ensembles}
+\cite{RMTAchlioptas04randommatrices}, \cite{RMTAlon00bipartitesubgraphs}, \cite{RMTAlon00onthe} ,
+\cite{RMTCooper00onthe}, \cite{RMTSoshnikov02anote}, \cite{RMTTracy98correlationfunctions}
+
+The classical ensembles of random matrix theory are GOE, GUE, GSE, Wishart, and MANOVA. These correspond to the weight functions of the equilibrium measure of the orthogonal polynomials Hermite, Laguerre,and Jacobi.  The Jacobians of the well known matrix factorizations are used to compute the joint eigenvalue densities of these ensembles. The distribution of eigenvalues of the GOE ensemble follow the well know Winger Semi-circle distribution.
+The joint densities up to a constant factor are listed below:
+\begin{itemize}
+  \item Hermite  \item Laguerre   \item Jacobi
+\end{itemize}
+We generated histograms in Matlab for samples from the GOE, GUE, GSE, Wishart, and MANOVA ensembles.
+The joint PDF of a generic Gaussian ramdom matrix is given by,
+\begin{equation*}
+P(M)=G_\beta(n,m)=\frac{1}{2 \pi^{\frac{\beta n m}{2} }} \exp^{\frac{-1}{2}\norm{M}_F }
+\end{equation*} where $\beta$ encodes the dimension of the field.  Note this leaves open the possibility to
+generalize to non integer $\beta$.
+
+The table below describes how to generate from the common ensembles starting from a sample $A \in G_\beta(n,n)$
+\begin{eqnarray*}
+    GOE  \{ M | M = \frac{A+A^T}{2}, A \in G_1(n,n)\}\\ %[bbcrevisit is necessaria and sufficient?]\\
+    GUE  \{ M | M = \frac{A+A^\dagger}{2}, A \in G_2(n,n)\}\\ %[bbcrevisit is necessaria and sufficient?]\\
+    GSE  \{ M | M = \frac{A+A^\ddagger}{2}, A \in G_4(n,n)\} %[bbcrevisit is necessaria and sufficient?]
+\end{eqnarray*}
+
+
+The $CS$ decomposition is a matrix factorization equivalent to four $SVD$'s which correspond to rotation problems
+$\left(\begin{array}{cc}
+        X \rightarrow  Y & X^\perp \rightarrow  Y \\
+        X \rightarrow  Y^\perp & X^\perp \rightarrow  Y^\perp \\
+\end{array}\right)$
+Which can be compactly written
+$[X | X^\perp]^T [Y | Y^\perp ]=\left(
+      \begin{array}{cc}
+        Q_{11} & Q_{12} \\
+        Q_{21} & Q_{22} \\
+      \end{array}
+\right)$
+ $\left(
+      \begin{array}{cc}
+        Q_{11} & Q_{12} \\
+        Q_{21} & Q_{22} \\
+      \end{array}
+\right)    = \left(
+      \begin{array}{cc}
+        U_1 & 0 \\
+        0 & U_2
+      \end{array}
+\right) * \left(
+      \begin{array}{cc}
+        C & S \\
+        -S & C
+      \end{array}
+\right) * \left(
+      \begin{array}{cc}
+        V_1 & 0 \\
+        0 & V_2
+      \end{array}
+\right)
+$
+Where U, S are unary.
+
+The Tracy-Widom law of order one is the limiting distribution of the largest eigenvalue of a Wishart matrix with identity covariance when properly scaled.  This has some application to weighted directional graphs.  The largest eigenvalue of the adjacency matrix of a random d-regular directed graph follows the Tracy-Widom law.  The kernels of integrable operators describe the asymptotic eigenvalue distribution of self-adjoint random matrices from the unitary ensembles. Consider the discreet operator $K(n,m):  \l^2(N) \rightarrow \l^2(M)$ where $K(n,m) = \frac{(<J a(m),a(n)>}{m-n}$ the discrete Bessel kernel and kernels arising from the almost Mathieu equation.  The celebrated paper of Tracy and Widom \cite{RMTTracy98correlationfunctions} investigated integral kernels of the form
+\begin{equation*}
+K(x,y)=\frac{f(x)g(y)-f(y)g(x)}{x-y} : x \neq y  f(x), g(x) \in L^2(0,\infty)
+\end{equation*}
+ are solutions to the system of $ODE$'s
+
+\begin{equation*}
+\frac{d}{dx}\left( \begin{array}{c}
+        f(x) \\
+        g(x)
+      \end{array}
+\right) = \left(
+      \begin{array}{cc}
+        \alpha(x) & \beta(x) \\
+        -\gamma(x) & -\alpha(x)
+      \end{array}
+\right) * \left( \begin{array}{c}
+        f(x) \\
+        g(x)
+      \end{array} \right)
+\end{equation*}
+
+Let $\phi_i(x)$ be an orthogonal basis in a Hilbert Space $\mathcal{H}$ where
+\begin{equation*}
+\Gamma_{\phi}
+= \{\phi_(j+k-1)\}_{j,k=1}^{\infty}
+\end{equation*}
+is the induced Hankel Matrix.
+
+
+Let $\mathcal(L) : \mathcal{H} \rightarrow \mathcal{H}$ be compact.  Then $\mathcal(L): f \mapsto \sum\limits_{n=1}^{N} \omega_n <\phi_n, f> \psi_n$ where $\{\phi_i\}_{i=1}^{N}$
+
+
+\section{The Tracy Widom Law}
+
+The Tracy-Widom distribution is related to to determinantal stochastic processes.  A process following this law is distributed as the largest point of a point process on the real line where the kernel K is the so-called Airy kernel.  In addition to describing the edge spectrum of random matrices, it arises in several place in combinatorial for instance the longest increasing subsequences of random permutations is described by the Tracy Widom law.  In addition to the eigenvalues of random matrices, this type of point process is used in models such as  fluctuations in first and last passage percolation, and the asymmetric exclusion process.
+
+The path configuration of random viscous walkers is related to the Young tableaux.  Statistical problems related to the Young tableaux include random growth, point processes, random permutation, and the random word problem. the asymptotic distribution of scaled variables from these models are  described by the Tracy Widom distribution which is the limit distribution for the largest eigenvalue of $X \in GUE$.

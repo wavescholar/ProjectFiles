@@ -1,0 +1,41 @@
+digraph G {size="8,10"; ratio=auto; node[fontsize=32]; orientation=landscape; labelloc=b; 
+label=OIH ; fontsize=32; compound=false
+/////////////The Main Node////////////////////////////
+OIH [fontsize=32, label=OIH, shape=doublecircle,  color=".7 .3 1.0", style=filled];  
+BHI [fontsize=32, label=BHI shape=egg color="0.756941 0.756941 0.756941", style=filled];
+BJS [fontsize=32, label=BJS shape=egg color="0.799491 0.799491 0.799491", style=filled];
+CAM [fontsize=32, label=CAM shape=egg color="0.797102 0.797102 0.797102", style=filled];
+DO [fontsize=32, label=DO shape=egg color="0.825149 0.825149 0.825149", style=filled];
+ESV [fontsize=32, label=ESV shape=egg color="0.789379 0.789379 0.789379", style=filled];
+GRP [fontsize=32, label=GRP shape=egg color="0.785189 0.785189 0.785189", style=filled];
+GSF [fontsize=32, label=GSF shape=egg color="0.701802 0.701802 0.701802", style=filled];
+HAL [fontsize=32, label=HAL shape=egg color="0.762251 0.762251 0.762251", style=filled];
+HC [fontsize=32, label=HC shape=egg color="0.46568 0.46568 0.46568", style=filled];
+NBR [fontsize=32, label=NBR shape=egg color="0.779308 0.779308 0.779308", style=filled];
+NE [fontsize=32, label=NE shape=egg color="0.745432 0.745432 0.745432", style=filled];
+NOV [fontsize=32, label=NOV shape=egg color="0.776873 0.776873 0.776873", style=filled];
+RDC [fontsize=32, label=RDC shape=egg color="0.7903 0.7903 0.7903", style=filled];
+RIG [fontsize=32, label=RIG shape=egg color="0.750206 0.750206 0.750206", style=filled];
+SII [fontsize=32, label=SII shape=egg color="0.778702 0.778702 0.778702", style=filled];
+SLB [fontsize=32, label=SLB shape=egg color="0.846789 0.846789 0.846789", style=filled];
+TDW [fontsize=32, label=TDW shape=egg color="0.747326 0.747326 0.747326", style=filled];
+WFT [fontsize=32, label=WFT shape=egg color="0.745716 0.745716 0.745716", style=filled];
+OIH->BHI
+OIH->BJS
+OIH->CAM
+OIH->DO
+OIH->ESV
+OIH->GRP
+OIH->GSF
+OIH->HAL
+OIH->HC
+OIH->NBR
+OIH->NE
+OIH->NOV
+OIH->RDC
+OIH->RIG
+OIH->SII
+OIH->SLB
+OIH->TDW
+OIH->WFT
+};

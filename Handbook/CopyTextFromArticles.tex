@@ -1,0 +1,81 @@
+﻿\chapter{Copy Text From Literature}
+
+\section{Big Data }
+We live in an era of "Big Data": science, engineering and technology are producing increasingly large data streams, with petabyte and exabyte scales becoming increasingly common. In scientific fields such data arise in part because tests of standard theories increasingly focus on extreme physical conditions (cf., particle physics) and in part because science has become increasingly exploratory (cf., astronomy and genomics). In commerce, massive data arise because so much of human activity is now online, and because business models aim to provide services that are increasingly personalized.
+
+The Big Data phenomenon presents opportunities and perils. On the optimistic side of the coin, massive data may amplify the inferential power of algorithms that have been shown to be successful on modest-sized data sets. The challenge is to develop the theoretical principles needed to scale inference and learning algorithms to massive, even arbitrary, scale. On the pessimistic side of the coin, massive data may amplify the error rates that are part and parcel of any inferential algorithm. The challenge is to control such errors even in the face of the heterogeneity and uncontrolled sampling processes underlying many massive data sets. Another major issue is that Big Data problems often come with time constraints, where a high-quality answer that is obtained slowly can be less useful than a medium-quality answer that is obtained quickly. Overall we have a problem in which the classical resources of the theory of computation—e.g., time, space and energy—trade off in complex ways with the data resource.
+
+Various aspects of this general problem are being faced in the theory of computation, statistics and related disciplines—where topics such as dimension reduction, distributed optimization, Monte Carlo sampling, compressed sampling, low-rank matrix factorization, streaming and hardness of approximation are of clear relevance—but the general problem remains untackled. This program will bring together experts from these areas with the aim of laying the theoretical foundations of the emerging field of Big Data.
+
+\subsection{Parallel Optimization}
+Parallel and Distributed Algorithms for Inference and Optimization
+
+Michael Mahoney (Stanford University; chair), Guy Blelloch (Carnegie Mellon University), John Gilbert (UC Santa Barbara), Chris Ré (Stanford University), Martin Wainwright (UC Berkeley).
+
+Recent years have seen dramatic changes in the architectures underlying both large-scale and small-scale data analysis environments. For example, distributed data centers consisting of clusters of a large number of commodity machines, so-called cloud-computing platforms, and parallel multi-core architectures are all increasingly common. This, coupled with the computations that are often of interest in large-scale analytics applications, presents fundamental challenges to the way we think about efficient and meaningful computation in the era of large-scale data. For example, when data are stored in a distributed manner, computation is often relatively-inexpensive, and communication, i.e., actually moving the data, is often the most precious computational resource. Alternatively, suboptimal solutions to optimization problems often lead to better behavior in downstream applications than optimal solutions. This workshop will address the state-of-the-art as well as novel future directions in parallel and distributed algorithms for large-scale data analysis applications. In addition to focusing on algorithmic questions, e.g., whether and how particular computations can be parallelized, the workshop will take a coordinated approach to exploring the many ties between large-scale learning and distributed optimization.
+
+
+\subsubsection{Differential Privacy}
+Kunal Talwar (Microsoft Research; chair), Avrim Blum (Carnegie Mellon University), Kamalika Chaudhuri (UC San Diego), Cynthia Dwork (Microsoft Research), Michael Jordan (UC Berkeley).
+
+Analysis of large datasets of potentially sensitive private information about individuals raises natural privacy concerns. Differential Privacy is a recent area of research that brings mathematical rigor to the problem of privacy-preserving analysis of data. Informally the definition stipulates that any individual has a very small influence on the (distribution of the) outcome of the computation. Thus an attacker cannot learn anything about an individual's report to the database, even in the presence of any auxiliary information she may have. A large and increasing number of statistical analyses can be done in a differentially private manner while adding little noise. This has been made possible in part by deep connections to learning theory, convex geometry, communication complexity, cryptography, and robust statistics. ...connections between the two fields of statistics and differential priacy: from enabling practical, accurate and differentially private data analyses on large datasets, to the connections between statistical concepts (such as robustness, sparse regression, and multiple hypothesis testing) and Differential Privacy.
+
+
+
+\section{Nystr\"{o}m Method}
+Matrix Coherence and the Nystrom Method Ameet Talwalkar
+    The Nystrom method is an effcient technique
+    used to speed up large-scale learning applications by generating low-rank approximations.
+    Crucial to the performance of this technique
+    is the assumption that a matrix can be well
+    approximated by working exclusively with a
+    subset of its columns. In this work we relate this assumption to the concept of matrix
+    coherence, connecting coherence to the performance of the Nystrom method. Making
+    use of related work in the compressed sensing and the matrix completion literature, we
+    derive novel coherence-based bounds for the
+    Nystrom method in the low-rank setting. We
+    then present empirical results that corroborate these theoretical bounds. Finally, we
+    present more general empirical results for the
+    full-rank setting that convincingly demonstrate the ability of matrix coherence to measure the degree to which information can be
+    extracted from a subset of columns.
+
+        Modern problems in computer vision, natural language processing, computational biology and other areas often involve datasets containing millions of training instances. However, several standard methods in
+        machine learning, such as spectral clustering (Ng et
+        al., 2001), manifold learning techniques (de Silva and
+        Tenenbaum, 2003; Sch¨olkopf et al., 1998), kernel ridge
+        regression (Saunders et al., 1998) or other kernel-based
+        algorithms do not scale to such orders of magnitude. In
+        fact, even storage of the matrices associated with these
+        datasets can be problematic since they are often not
+        sparse and hence the number of entries is extremely
+        large. As shown by Williams and Seeger (2000), the
+        Nystr¨om method provides an attractive solution when
+        working with large-scale datasets by operating on only
+        a small part of the original matrix to generate a lowrank approximation. The Nystr¨om method has been
+        shown to work well in practice for various applications
+        ranging from manifold learning to image segmentation (Fowlkes et al., 2004; Platt, 2004; Talwalkar et
+        al., 2008; Zhang et al., 2008).
+        The eﬀectiveness of the Nystr¨om method hinges on
+        two key assumptions on the input matrix, G. First,
+        we assume that a low-rank approximation to G can be
+        eﬀective for the task at hand. This assumption is often
+        true empirically as evidenced by the widespread use
+        of singular value decomposition (SVD) and principal
+        component analysis (PCA) in practical applications.
+        As expected, the Nystr¨om method is not appropriate
+        in cases where this assumption does not hold, which
+        explains its poor performance in the experimental results of Fergus et al. (2009). Previous work analyzing
+        the performance of the Nystr¨om method incorporates
+        this low-rank assumption into theoretical guarantees
+        by comparing the Nystr¨om approximation to the ‘best’
+        low-rank approximation, i.e., the approximation constructed from the top singular values and singular vectors of G (see Section 2 for further discussion) (Drineas
+        and Mahoney, 2005; Kumar et al., 2009a).
+        The second crucial assumption of the Nystr¨om method
+        involves the sampling-based nature of the algorithm,
+        namely that an accurate low-rank approximation can
+        be generated exclusively from information extracted
+        from a small subset of l ≪ n columns of G. This
+        assumption is not generally true for all matrices. 
+        
+Michael Mahoney - videolectures.net Statistical Leverage
+        Given an m x n matrix A and a rank parameter k, define the leverage of the i-th row of A to be the i-th diagonal element of the projection matrix onto the span of the top k left singular vectors of A. In this case, "high leverage" rows have a disproportionately large amount of the "mass" in the top singular vectors. Historically, this statistical concept (and generalizations of it) has found extensive applications in diagnostic regression analysis. Recently, this concept has also been central in the development of improved randomized algorithms for several fundamental matrix problems that have broad applications in machine learning and data analysis. Two examples of the use of statistical leverage for improved worst-case analysis of matrix algorithms will be described. The first problem is the least squares approximation problem, in which there are n constraints and d variables. Classical algorithms, dating back to Gauss and Legendre, use O(nd2) time. We describe a randomized algorithm that uses only O(n d log d) time to compute a relative-error, i.e., 1+/-epsilon, approximation. The second problem is the problem of selecting a "good" set of exactly k columns from an m x n matrix, and the algorithm of Gu and Eisenstat provides the best previously existing result. We describe a two-stage algorithm that improves on their result. Recent applications of statistical leverage ideas in modern large-scale machine learning and data analysis will also be briefly described. This concept has proven to be particularly fruitful in large data applications where modeling decisions regarding what computations to perform are made for computational reasons, as opposed to having any realistic hope that the statistical assumptions implicit in those computations are satisfied by the data. 

@@ -1,0 +1,5246 @@
+%!PS-Adobe-2.0
+%%Creator: dot version 2.6 (Sun Aug 28 13:14:52 UTC 2005)
+%%For: Bill Gates
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: 0 0 82 587
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 5 5 77 582
+%%PageOrientation: Landscape
+gsave
+0 0 82 587 boxprim clip newpath
+5 5 translate
+gsave 72 0 translate 90 rotate
+0 0 1 beginpage
+grestore
+0.2738 set_scale
+260 0 translate 90 rotate
+0.000 0.000 0.000 graphcolor
+32.00 /Times-Roman set_font
+gsave 10 dict begin
+1023 12 moveto
+(OIH)
+[23.04 10.56 23.04]
+xshow
+end grestore
+% OIH
+gsave 10 dict begin
+filled
+0.700 0.300 1.000 nodecolor
+0.700 0.300 1.000 nodecolor
+1045 204 51 51 ellipse_path
+fill
+0.700 0.300 1.000 nodecolor
+1045 204 55 55 ellipse_path
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1016 193 moveto
+(OIH)
+[23.04 10.56 23.04]
+xshow
+end grestore
+end grestore
+% BHI
+gsave 10 dict begin
+filled
+0.757 0.757 0.757 nodecolor
+0.757 0.757 0.757 nodecolor
+newpath 52 47 moveto
+55 47 lineto
+58 47 lineto
+61 48 lineto
+64 48 lineto
+66 49 lineto
+69 49 lineto
+72 50 lineto
+74 51 lineto
+76 52 lineto
+79 53 lineto
+81 54 lineto
+83 55 lineto
+85 56 lineto
+86 57 lineto
+88 58 lineto
+89 60 lineto
+91 61 lineto
+92 62 lineto
+93 64 lineto
+94 65 lineto
+94 67 lineto
+95 69 lineto
+95 70 lineto
+95 72 lineto
+96 74 lineto
+95 75 lineto
+95 77 lineto
+95 79 lineto
+94 79 lineto
+94 81 lineto
+93 83 lineto
+92 84 lineto
+91 86 lineto
+90 88 lineto
+89 89 lineto
+88 91 lineto
+86 93 lineto
+85 94 lineto
+83 96 lineto
+82 97 lineto
+80 98 lineto
+79 100 lineto
+77 101 lineto
+75 102 lineto
+73 103 lineto
+72 104 lineto
+70 105 lineto
+68 106 lineto
+66 107 lineto
+64 108 lineto
+62 109 lineto
+60 109 lineto
+58 110 lineto
+56 110 lineto
+54 111 lineto
+52 111 lineto
+50 111 lineto
+49 111 lineto
+47 111 lineto
+46 111 lineto
+44 111 lineto
+42 111 lineto
+40 110 lineto
+38 110 lineto
+36 109 lineto
+34 109 lineto
+32 108 lineto
+30 107 lineto
+28 106 lineto
+26 105 lineto
+24 104 lineto
+23 103 lineto
+21 102 lineto
+19 101 lineto
+17 100 lineto
+16 98 lineto
+14 97 lineto
+13 96 lineto
+11 94 lineto
+10 93 lineto
+8 91 lineto
+7 89 lineto
+6 88 lineto
+5 86 lineto
+4 84 lineto
+3 83 lineto
+2 81 lineto
+2 79 lineto
+1 79 lineto
+1 77 lineto
+1 75 lineto
+0 74 lineto
+1 72 lineto
+1 70 lineto
+1 69 lineto
+2 67 lineto
+2 65 lineto
+3 64 lineto
+4 62 lineto
+5 61 lineto
+7 60 lineto
+8 58 lineto
+10 57 lineto
+11 56 lineto
+13 55 lineto
+15 54 lineto
+17 53 lineto
+20 52 lineto
+22 51 lineto
+24 50 lineto
+27 49 lineto
+30 49 lineto
+32 48 lineto
+35 48 lineto
+38 47 lineto
+41 47 lineto
+44 47 lineto
+47 47 lineto
+49 47 lineto
+closepath
+fill
+0.757 0.757 0.757 nodecolor
+newpath 52 47 moveto
+55 47 lineto
+58 47 lineto
+61 48 lineto
+64 48 lineto
+66 49 lineto
+69 49 lineto
+72 50 lineto
+74 51 lineto
+76 52 lineto
+79 53 lineto
+81 54 lineto
+83 55 lineto
+85 56 lineto
+86 57 lineto
+88 58 lineto
+89 60 lineto
+91 61 lineto
+92 62 lineto
+93 64 lineto
+94 65 lineto
+94 67 lineto
+95 69 lineto
+95 70 lineto
+95 72 lineto
+96 74 lineto
+95 75 lineto
+95 77 lineto
+95 79 lineto
+94 79 lineto
+94 81 lineto
+93 83 lineto
+92 84 lineto
+91 86 lineto
+90 88 lineto
+89 89 lineto
+88 91 lineto
+86 93 lineto
+85 94 lineto
+83 96 lineto
+82 97 lineto
+80 98 lineto
+79 100 lineto
+77 101 lineto
+75 102 lineto
+73 103 lineto
+72 104 lineto
+70 105 lineto
+68 106 lineto
+66 107 lineto
+64 108 lineto
+62 109 lineto
+60 109 lineto
+58 110 lineto
+56 110 lineto
+54 111 lineto
+52 111 lineto
+50 111 lineto
+49 111 lineto
+47 111 lineto
+46 111 lineto
+44 111 lineto
+42 111 lineto
+40 110 lineto
+38 110 lineto
+36 109 lineto
+34 109 lineto
+32 108 lineto
+30 107 lineto
+28 106 lineto
+26 105 lineto
+24 104 lineto
+23 103 lineto
+21 102 lineto
+19 101 lineto
+17 100 lineto
+16 98 lineto
+14 97 lineto
+13 96 lineto
+11 94 lineto
+10 93 lineto
+8 91 lineto
+7 89 lineto
+6 88 lineto
+5 86 lineto
+4 84 lineto
+3 83 lineto
+2 81 lineto
+2 79 lineto
+1 79 lineto
+1 77 lineto
+1 75 lineto
+0 74 lineto
+1 72 lineto
+1 70 lineto
+1 69 lineto
+2 67 lineto
+2 65 lineto
+3 64 lineto
+4 62 lineto
+5 61 lineto
+7 60 lineto
+8 58 lineto
+10 57 lineto
+11 56 lineto
+13 55 lineto
+15 54 lineto
+17 53 lineto
+20 52 lineto
+22 51 lineto
+24 50 lineto
+27 49 lineto
+30 49 lineto
+32 48 lineto
+35 48 lineto
+38 47 lineto
+41 47 lineto
+44 47 lineto
+47 47 lineto
+49 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+20 68 moveto
+(BHI)
+[21.36 23.04 10.56]
+xshow
+end grestore
+end grestore
+% OIH->BHI
+newpath 990 202 moveto
+815 194 272 165 105 112 curveto
+99 110 93 108 88 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 89 102 moveto
+79 100 lineto
+86 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 89 102 moveto
+79 100 lineto
+86 108 lineto
+closepath
+stroke
+end grestore
+% BJS
+gsave 10 dict begin
+filled
+0.799 0.799 0.799 nodecolor
+0.799 0.799 0.799 nodecolor
+newpath 164 47 moveto
+167 47 lineto
+169 47 lineto
+172 48 lineto
+175 48 lineto
+177 49 lineto
+180 49 lineto
+182 50 lineto
+185 51 lineto
+187 52 lineto
+189 53 lineto
+191 54 lineto
+193 55 lineto
+195 56 lineto
+197 57 lineto
+198 58 lineto
+200 60 lineto
+201 61 lineto
+202 62 lineto
+203 64 lineto
+204 65 lineto
+204 67 lineto
+205 69 lineto
+205 70 lineto
+205 72 lineto
+205 74 lineto
+205 75 lineto
+205 77 lineto
+205 79 lineto
+204 79 lineto
+204 81 lineto
+203 83 lineto
+202 84 lineto
+201 86 lineto
+200 88 lineto
+199 89 lineto
+198 91 lineto
+197 93 lineto
+195 94 lineto
+194 96 lineto
+192 97 lineto
+191 98 lineto
+189 100 lineto
+188 101 lineto
+186 102 lineto
+184 103 lineto
+182 104 lineto
+181 105 lineto
+179 106 lineto
+177 107 lineto
+175 108 lineto
+174 109 lineto
+172 109 lineto
+170 110 lineto
+168 110 lineto
+166 111 lineto
+164 111 lineto
+162 111 lineto
+160 111 lineto
+160 111 lineto
+158 111 lineto
+156 111 lineto
+154 111 lineto
+152 110 lineto
+150 110 lineto
+148 109 lineto
+146 109 lineto
+145 108 lineto
+143 107 lineto
+141 106 lineto
+139 105 lineto
+138 104 lineto
+136 103 lineto
+134 102 lineto
+132 101 lineto
+131 100 lineto
+129 98 lineto
+128 97 lineto
+126 96 lineto
+125 94 lineto
+123 93 lineto
+122 91 lineto
+121 89 lineto
+120 88 lineto
+119 86 lineto
+118 84 lineto
+117 83 lineto
+116 81 lineto
+116 79 lineto
+115 79 lineto
+115 77 lineto
+115 75 lineto
+115 74 lineto
+115 72 lineto
+115 70 lineto
+115 69 lineto
+116 67 lineto
+116 65 lineto
+117 64 lineto
+118 62 lineto
+119 61 lineto
+120 60 lineto
+122 58 lineto
+123 57 lineto
+125 56 lineto
+127 55 lineto
+129 54 lineto
+131 53 lineto
+133 52 lineto
+135 51 lineto
+138 50 lineto
+140 49 lineto
+143 49 lineto
+145 48 lineto
+148 48 lineto
+151 47 lineto
+153 47 lineto
+156 47 lineto
+159 47 lineto
+161 47 lineto
+closepath
+fill
+0.799 0.799 0.799 nodecolor
+newpath 164 47 moveto
+167 47 lineto
+169 47 lineto
+172 48 lineto
+175 48 lineto
+177 49 lineto
+180 49 lineto
+182 50 lineto
+185 51 lineto
+187 52 lineto
+189 53 lineto
+191 54 lineto
+193 55 lineto
+195 56 lineto
+197 57 lineto
+198 58 lineto
+200 60 lineto
+201 61 lineto
+202 62 lineto
+203 64 lineto
+204 65 lineto
+204 67 lineto
+205 69 lineto
+205 70 lineto
+205 72 lineto
+205 74 lineto
+205 75 lineto
+205 77 lineto
+205 79 lineto
+204 79 lineto
+204 81 lineto
+203 83 lineto
+202 84 lineto
+201 86 lineto
+200 88 lineto
+199 89 lineto
+198 91 lineto
+197 93 lineto
+195 94 lineto
+194 96 lineto
+192 97 lineto
+191 98 lineto
+189 100 lineto
+188 101 lineto
+186 102 lineto
+184 103 lineto
+182 104 lineto
+181 105 lineto
+179 106 lineto
+177 107 lineto
+175 108 lineto
+174 109 lineto
+172 109 lineto
+170 110 lineto
+168 110 lineto
+166 111 lineto
+164 111 lineto
+162 111 lineto
+160 111 lineto
+160 111 lineto
+158 111 lineto
+156 111 lineto
+154 111 lineto
+152 110 lineto
+150 110 lineto
+148 109 lineto
+146 109 lineto
+145 108 lineto
+143 107 lineto
+141 106 lineto
+139 105 lineto
+138 104 lineto
+136 103 lineto
+134 102 lineto
+132 101 lineto
+131 100 lineto
+129 98 lineto
+128 97 lineto
+126 96 lineto
+125 94 lineto
+123 93 lineto
+122 91 lineto
+121 89 lineto
+120 88 lineto
+119 86 lineto
+118 84 lineto
+117 83 lineto
+116 81 lineto
+116 79 lineto
+115 79 lineto
+115 77 lineto
+115 75 lineto
+115 74 lineto
+115 72 lineto
+115 70 lineto
+115 69 lineto
+116 67 lineto
+116 65 lineto
+117 64 lineto
+118 62 lineto
+119 61 lineto
+120 60 lineto
+122 58 lineto
+123 57 lineto
+125 56 lineto
+127 55 lineto
+129 54 lineto
+131 53 lineto
+133 52 lineto
+135 51 lineto
+138 50 lineto
+140 49 lineto
+143 49 lineto
+145 48 lineto
+148 48 lineto
+151 47 lineto
+153 47 lineto
+156 47 lineto
+159 47 lineto
+161 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+134 68 moveto
+(BJS)
+[21.36 12.48 17.76]
+xshow
+end grestore
+end grestore
+% OIH->BJS
+newpath 990 201 moveto
+829 192 360 161 215 112 curveto
+210 110 204 107 199 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 200 102 moveto
+190 100 lineto
+197 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 200 102 moveto
+190 100 lineto
+197 108 lineto
+closepath
+stroke
+end grestore
+% CAM
+gsave 10 dict begin
+filled
+0.797 0.797 0.797 nodecolor
+0.797 0.797 0.797 nodecolor
+newpath 286 47 moveto
+289 47 lineto
+293 47 lineto
+296 48 lineto
+300 48 lineto
+303 49 lineto
+306 49 lineto
+309 50 lineto
+312 51 lineto
+315 52 lineto
+318 53 lineto
+320 54 lineto
+322 55 lineto
+325 56 lineto
+327 57 lineto
+329 58 lineto
+330 60 lineto
+332 61 lineto
+333 62 lineto
+334 64 lineto
+335 65 lineto
+336 67 lineto
+337 69 lineto
+337 70 lineto
+338 72 lineto
+338 74 lineto
+337 75 lineto
+337 77 lineto
+337 79 lineto
+336 79 lineto
+335 81 lineto
+335 83 lineto
+333 84 lineto
+332 86 lineto
+331 88 lineto
+330 89 lineto
+328 91 lineto
+327 93 lineto
+325 94 lineto
+323 96 lineto
+321 97 lineto
+319 98 lineto
+317 100 lineto
+315 101 lineto
+313 102 lineto
+311 103 lineto
+309 104 lineto
+307 105 lineto
+305 106 lineto
+302 107 lineto
+300 108 lineto
+298 109 lineto
+296 109 lineto
+293 110 lineto
+291 110 lineto
+289 111 lineto
+286 111 lineto
+284 111 lineto
+282 111 lineto
+280 111 lineto
+278 111 lineto
+276 111 lineto
+273 111 lineto
+271 110 lineto
+269 110 lineto
+266 109 lineto
+264 109 lineto
+262 108 lineto
+260 107 lineto
+257 106 lineto
+255 105 lineto
+253 104 lineto
+251 103 lineto
+249 102 lineto
+247 101 lineto
+245 100 lineto
+243 98 lineto
+241 97 lineto
+239 96 lineto
+237 94 lineto
+235 93 lineto
+234 91 lineto
+232 89 lineto
+231 88 lineto
+230 86 lineto
+229 84 lineto
+227 83 lineto
+227 81 lineto
+226 79 lineto
+225 79 lineto
+225 77 lineto
+225 75 lineto
+224 74 lineto
+224 72 lineto
+225 70 lineto
+225 69 lineto
+226 67 lineto
+227 65 lineto
+228 64 lineto
+229 62 lineto
+230 61 lineto
+232 60 lineto
+233 58 lineto
+235 57 lineto
+237 56 lineto
+240 55 lineto
+242 54 lineto
+244 53 lineto
+247 52 lineto
+250 51 lineto
+253 50 lineto
+256 49 lineto
+259 49 lineto
+262 48 lineto
+266 48 lineto
+269 47 lineto
+273 47 lineto
+276 47 lineto
+280 47 lineto
+282 47 lineto
+closepath
+fill
+0.797 0.797 0.797 nodecolor
+newpath 286 47 moveto
+289 47 lineto
+293 47 lineto
+296 48 lineto
+300 48 lineto
+303 49 lineto
+306 49 lineto
+309 50 lineto
+312 51 lineto
+315 52 lineto
+318 53 lineto
+320 54 lineto
+322 55 lineto
+325 56 lineto
+327 57 lineto
+329 58 lineto
+330 60 lineto
+332 61 lineto
+333 62 lineto
+334 64 lineto
+335 65 lineto
+336 67 lineto
+337 69 lineto
+337 70 lineto
+338 72 lineto
+338 74 lineto
+337 75 lineto
+337 77 lineto
+337 79 lineto
+336 79 lineto
+335 81 lineto
+335 83 lineto
+333 84 lineto
+332 86 lineto
+331 88 lineto
+330 89 lineto
+328 91 lineto
+327 93 lineto
+325 94 lineto
+323 96 lineto
+321 97 lineto
+319 98 lineto
+317 100 lineto
+315 101 lineto
+313 102 lineto
+311 103 lineto
+309 104 lineto
+307 105 lineto
+305 106 lineto
+302 107 lineto
+300 108 lineto
+298 109 lineto
+296 109 lineto
+293 110 lineto
+291 110 lineto
+289 111 lineto
+286 111 lineto
+284 111 lineto
+282 111 lineto
+280 111 lineto
+278 111 lineto
+276 111 lineto
+273 111 lineto
+271 110 lineto
+269 110 lineto
+266 109 lineto
+264 109 lineto
+262 108 lineto
+260 107 lineto
+257 106 lineto
+255 105 lineto
+253 104 lineto
+251 103 lineto
+249 102 lineto
+247 101 lineto
+245 100 lineto
+243 98 lineto
+241 97 lineto
+239 96 lineto
+237 94 lineto
+235 93 lineto
+234 91 lineto
+232 89 lineto
+231 88 lineto
+230 86 lineto
+229 84 lineto
+227 83 lineto
+227 81 lineto
+226 79 lineto
+225 79 lineto
+225 77 lineto
+225 75 lineto
+224 74 lineto
+224 72 lineto
+225 70 lineto
+225 69 lineto
+226 67 lineto
+227 65 lineto
+228 64 lineto
+229 62 lineto
+230 61 lineto
+232 60 lineto
+233 58 lineto
+235 57 lineto
+237 56 lineto
+240 55 lineto
+242 54 lineto
+244 53 lineto
+247 52 lineto
+250 51 lineto
+253 50 lineto
+256 49 lineto
+259 49 lineto
+262 48 lineto
+266 48 lineto
+269 47 lineto
+273 47 lineto
+276 47 lineto
+280 47 lineto
+282 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+244 68 moveto
+(CAM)
+[21.36 23.04 28.32]
+xshow
+end grestore
+end grestore
+% OIH->CAM
+newpath 990 203 moveto
+870 199 579 182 347 112 curveto
+340 110 334 108 327 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 328 102 moveto
+318 100 lineto
+325 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 328 102 moveto
+318 100 lineto
+325 108 lineto
+closepath
+stroke
+end grestore
+% DO
+gsave 10 dict begin
+filled
+0.825 0.825 0.825 nodecolor
+0.825 0.825 0.825 nodecolor
+newpath 403 47 moveto
+405 47 lineto
+408 47 lineto
+410 48 lineto
+413 48 lineto
+415 49 lineto
+418 49 lineto
+420 50 lineto
+422 51 lineto
+424 52 lineto
+427 53 lineto
+428 54 lineto
+430 55 lineto
+432 56 lineto
+434 57 lineto
+435 58 lineto
+436 60 lineto
+437 61 lineto
+438 62 lineto
+439 64 lineto
+440 65 lineto
+441 67 lineto
+441 69 lineto
+441 70 lineto
+442 72 lineto
+442 74 lineto
+442 75 lineto
+441 77 lineto
+441 79 lineto
+441 79 lineto
+440 81 lineto
+439 83 lineto
+439 84 lineto
+438 86 lineto
+437 88 lineto
+436 89 lineto
+435 91 lineto
+433 93 lineto
+432 94 lineto
+431 96 lineto
+429 97 lineto
+428 98 lineto
+426 100 lineto
+425 101 lineto
+423 102 lineto
+422 103 lineto
+420 104 lineto
+419 105 lineto
+417 106 lineto
+415 107 lineto
+413 108 lineto
+412 109 lineto
+410 109 lineto
+408 110 lineto
+406 110 lineto
+405 111 lineto
+403 111 lineto
+401 111 lineto
+399 111 lineto
+399 111 lineto
+397 111 lineto
+395 111 lineto
+393 111 lineto
+392 110 lineto
+390 110 lineto
+388 109 lineto
+386 109 lineto
+385 108 lineto
+383 107 lineto
+381 106 lineto
+379 105 lineto
+378 104 lineto
+376 103 lineto
+375 102 lineto
+373 101 lineto
+372 100 lineto
+370 98 lineto
+369 97 lineto
+367 96 lineto
+366 94 lineto
+365 93 lineto
+363 91 lineto
+362 89 lineto
+361 88 lineto
+360 86 lineto
+359 84 lineto
+359 83 lineto
+358 81 lineto
+357 79 lineto
+357 79 lineto
+357 77 lineto
+356 75 lineto
+356 74 lineto
+356 72 lineto
+357 70 lineto
+357 69 lineto
+357 67 lineto
+358 65 lineto
+359 64 lineto
+360 62 lineto
+361 61 lineto
+362 60 lineto
+363 58 lineto
+364 57 lineto
+366 56 lineto
+368 55 lineto
+370 54 lineto
+371 53 lineto
+374 52 lineto
+376 51 lineto
+378 50 lineto
+380 49 lineto
+383 49 lineto
+385 48 lineto
+388 48 lineto
+390 47 lineto
+393 47 lineto
+395 47 lineto
+398 47 lineto
+400 47 lineto
+closepath
+fill
+0.825 0.825 0.825 nodecolor
+newpath 403 47 moveto
+405 47 lineto
+408 47 lineto
+410 48 lineto
+413 48 lineto
+415 49 lineto
+418 49 lineto
+420 50 lineto
+422 51 lineto
+424 52 lineto
+427 53 lineto
+428 54 lineto
+430 55 lineto
+432 56 lineto
+434 57 lineto
+435 58 lineto
+436 60 lineto
+437 61 lineto
+438 62 lineto
+439 64 lineto
+440 65 lineto
+441 67 lineto
+441 69 lineto
+441 70 lineto
+442 72 lineto
+442 74 lineto
+442 75 lineto
+441 77 lineto
+441 79 lineto
+441 79 lineto
+440 81 lineto
+439 83 lineto
+439 84 lineto
+438 86 lineto
+437 88 lineto
+436 89 lineto
+435 91 lineto
+433 93 lineto
+432 94 lineto
+431 96 lineto
+429 97 lineto
+428 98 lineto
+426 100 lineto
+425 101 lineto
+423 102 lineto
+422 103 lineto
+420 104 lineto
+419 105 lineto
+417 106 lineto
+415 107 lineto
+413 108 lineto
+412 109 lineto
+410 109 lineto
+408 110 lineto
+406 110 lineto
+405 111 lineto
+403 111 lineto
+401 111 lineto
+399 111 lineto
+399 111 lineto
+397 111 lineto
+395 111 lineto
+393 111 lineto
+392 110 lineto
+390 110 lineto
+388 109 lineto
+386 109 lineto
+385 108 lineto
+383 107 lineto
+381 106 lineto
+379 105 lineto
+378 104 lineto
+376 103 lineto
+375 102 lineto
+373 101 lineto
+372 100 lineto
+370 98 lineto
+369 97 lineto
+367 96 lineto
+366 94 lineto
+365 93 lineto
+363 91 lineto
+362 89 lineto
+361 88 lineto
+360 86 lineto
+359 84 lineto
+359 83 lineto
+358 81 lineto
+357 79 lineto
+357 79 lineto
+357 77 lineto
+356 75 lineto
+356 74 lineto
+356 72 lineto
+357 70 lineto
+357 69 lineto
+357 67 lineto
+358 65 lineto
+359 64 lineto
+360 62 lineto
+361 61 lineto
+362 60 lineto
+363 58 lineto
+364 57 lineto
+366 56 lineto
+368 55 lineto
+370 54 lineto
+371 53 lineto
+374 52 lineto
+376 51 lineto
+378 50 lineto
+380 49 lineto
+383 49 lineto
+385 48 lineto
+388 48 lineto
+390 47 lineto
+393 47 lineto
+395 47 lineto
+398 47 lineto
+400 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+375 68 moveto
+(DO)
+[23.04 23.04]
+xshow
+end grestore
+end grestore
+% OIH->DO
+newpath 990 198 moveto
+863 185 550 149 451 112 curveto
+446 110 441 108 437 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 438 102 moveto
+428 100 lineto
+435 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 438 102 moveto
+428 100 lineto
+435 108 lineto
+closepath
+stroke
+end grestore
+% ESV
+gsave 10 dict begin
+filled
+0.789 0.789 0.789 nodecolor
+0.789 0.789 0.789 nodecolor
+newpath 515 47 moveto
+518 47 lineto
+521 47 lineto
+525 48 lineto
+528 48 lineto
+530 49 lineto
+533 49 lineto
+536 50 lineto
+539 51 lineto
+541 52 lineto
+544 53 lineto
+546 54 lineto
+548 55 lineto
+550 56 lineto
+552 57 lineto
+554 58 lineto
+555 60 lineto
+557 61 lineto
+558 62 lineto
+559 64 lineto
+560 65 lineto
+560 67 lineto
+561 69 lineto
+561 70 lineto
+562 72 lineto
+562 74 lineto
+562 75 lineto
+561 77 lineto
+561 79 lineto
+560 79 lineto
+560 81 lineto
+559 83 lineto
+558 84 lineto
+557 86 lineto
+556 88 lineto
+555 89 lineto
+553 91 lineto
+552 93 lineto
+550 94 lineto
+549 96 lineto
+547 97 lineto
+545 98 lineto
+544 100 lineto
+542 101 lineto
+540 102 lineto
+538 103 lineto
+536 104 lineto
+534 105 lineto
+532 106 lineto
+530 107 lineto
+528 108 lineto
+526 109 lineto
+524 109 lineto
+522 110 lineto
+520 110 lineto
+518 111 lineto
+516 111 lineto
+514 111 lineto
+512 111 lineto
+510 111 lineto
+508 111 lineto
+506 111 lineto
+504 111 lineto
+502 110 lineto
+500 110 lineto
+498 109 lineto
+496 109 lineto
+494 108 lineto
+492 107 lineto
+490 106 lineto
+488 105 lineto
+486 104 lineto
+484 103 lineto
+482 102 lineto
+480 101 lineto
+478 100 lineto
+477 98 lineto
+475 97 lineto
+473 96 lineto
+472 94 lineto
+470 93 lineto
+469 91 lineto
+467 89 lineto
+466 88 lineto
+465 86 lineto
+464 84 lineto
+463 83 lineto
+462 81 lineto
+462 79 lineto
+461 79 lineto
+461 77 lineto
+460 75 lineto
+460 74 lineto
+460 72 lineto
+461 70 lineto
+461 69 lineto
+462 67 lineto
+462 65 lineto
+463 64 lineto
+464 62 lineto
+465 61 lineto
+467 60 lineto
+468 58 lineto
+470 57 lineto
+472 56 lineto
+474 55 lineto
+476 54 lineto
+478 53 lineto
+481 52 lineto
+483 51 lineto
+486 50 lineto
+489 49 lineto
+492 49 lineto
+494 48 lineto
+497 48 lineto
+501 47 lineto
+504 47 lineto
+507 47 lineto
+510 47 lineto
+512 47 lineto
+closepath
+fill
+0.789 0.789 0.789 nodecolor
+newpath 515 47 moveto
+518 47 lineto
+521 47 lineto
+525 48 lineto
+528 48 lineto
+530 49 lineto
+533 49 lineto
+536 50 lineto
+539 51 lineto
+541 52 lineto
+544 53 lineto
+546 54 lineto
+548 55 lineto
+550 56 lineto
+552 57 lineto
+554 58 lineto
+555 60 lineto
+557 61 lineto
+558 62 lineto
+559 64 lineto
+560 65 lineto
+560 67 lineto
+561 69 lineto
+561 70 lineto
+562 72 lineto
+562 74 lineto
+562 75 lineto
+561 77 lineto
+561 79 lineto
+560 79 lineto
+560 81 lineto
+559 83 lineto
+558 84 lineto
+557 86 lineto
+556 88 lineto
+555 89 lineto
+553 91 lineto
+552 93 lineto
+550 94 lineto
+549 96 lineto
+547 97 lineto
+545 98 lineto
+544 100 lineto
+542 101 lineto
+540 102 lineto
+538 103 lineto
+536 104 lineto
+534 105 lineto
+532 106 lineto
+530 107 lineto
+528 108 lineto
+526 109 lineto
+524 109 lineto
+522 110 lineto
+520 110 lineto
+518 111 lineto
+516 111 lineto
+514 111 lineto
+512 111 lineto
+510 111 lineto
+508 111 lineto
+506 111 lineto
+504 111 lineto
+502 110 lineto
+500 110 lineto
+498 109 lineto
+496 109 lineto
+494 108 lineto
+492 107 lineto
+490 106 lineto
+488 105 lineto
+486 104 lineto
+484 103 lineto
+482 102 lineto
+480 101 lineto
+478 100 lineto
+477 98 lineto
+475 97 lineto
+473 96 lineto
+472 94 lineto
+470 93 lineto
+469 91 lineto
+467 89 lineto
+466 88 lineto
+465 86 lineto
+464 84 lineto
+463 83 lineto
+462 81 lineto
+462 79 lineto
+461 79 lineto
+461 77 lineto
+460 75 lineto
+460 74 lineto
+460 72 lineto
+461 70 lineto
+461 69 lineto
+462 67 lineto
+462 65 lineto
+463 64 lineto
+464 62 lineto
+465 61 lineto
+467 60 lineto
+468 58 lineto
+470 57 lineto
+472 56 lineto
+474 55 lineto
+476 54 lineto
+478 53 lineto
+481 52 lineto
+483 51 lineto
+486 50 lineto
+489 49 lineto
+492 49 lineto
+494 48 lineto
+497 48 lineto
+501 47 lineto
+504 47 lineto
+507 47 lineto
+510 47 lineto
+512 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+480 68 moveto
+(ESV)
+[19.44 17.76 23.04]
+xshow
+end grestore
+end grestore
+% OIH->ESV
+newpath 990 199 moveto
+900 189 717 165 571 112 curveto
+565 110 559 107 554 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 555 102 moveto
+545 100 lineto
+552 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 555 102 moveto
+545 100 lineto
+552 108 lineto
+closepath
+stroke
+end grestore
+% GRP
+gsave 10 dict begin
+filled
+0.785 0.785 0.785 nodecolor
+0.785 0.785 0.785 nodecolor
+newpath 636 47 moveto
+640 47 lineto
+643 47 lineto
+646 48 lineto
+649 48 lineto
+652 49 lineto
+655 49 lineto
+658 50 lineto
+660 51 lineto
+663 52 lineto
+665 53 lineto
+668 54 lineto
+670 55 lineto
+672 56 lineto
+674 57 lineto
+676 58 lineto
+677 60 lineto
+679 61 lineto
+680 62 lineto
+681 64 lineto
+682 65 lineto
+683 67 lineto
+683 69 lineto
+683 70 lineto
+684 72 lineto
+684 74 lineto
+684 75 lineto
+683 77 lineto
+683 79 lineto
+682 79 lineto
+682 81 lineto
+681 83 lineto
+680 84 lineto
+679 86 lineto
+678 88 lineto
+677 89 lineto
+675 91 lineto
+674 93 lineto
+672 94 lineto
+671 96 lineto
+669 97 lineto
+667 98 lineto
+665 100 lineto
+663 101 lineto
+662 102 lineto
+660 103 lineto
+658 104 lineto
+656 105 lineto
+654 106 lineto
+652 107 lineto
+650 108 lineto
+647 109 lineto
+645 109 lineto
+643 110 lineto
+641 110 lineto
+639 111 lineto
+637 111 lineto
+635 111 lineto
+633 111 lineto
+631 111 lineto
+629 111 lineto
+627 111 lineto
+625 111 lineto
+623 110 lineto
+621 110 lineto
+619 109 lineto
+617 109 lineto
+614 108 lineto
+612 107 lineto
+610 106 lineto
+608 105 lineto
+606 104 lineto
+604 103 lineto
+602 102 lineto
+601 101 lineto
+599 100 lineto
+597 98 lineto
+595 97 lineto
+593 96 lineto
+592 94 lineto
+590 93 lineto
+589 91 lineto
+587 89 lineto
+586 88 lineto
+585 86 lineto
+584 84 lineto
+583 83 lineto
+582 81 lineto
+582 79 lineto
+581 79 lineto
+581 77 lineto
+580 75 lineto
+580 74 lineto
+580 72 lineto
+581 70 lineto
+581 69 lineto
+581 67 lineto
+582 65 lineto
+583 64 lineto
+584 62 lineto
+585 61 lineto
+587 60 lineto
+588 58 lineto
+590 57 lineto
+592 56 lineto
+594 55 lineto
+596 54 lineto
+599 53 lineto
+601 52 lineto
+604 51 lineto
+606 50 lineto
+609 49 lineto
+612 49 lineto
+615 48 lineto
+618 48 lineto
+621 47 lineto
+624 47 lineto
+628 47 lineto
+631 47 lineto
+633 47 lineto
+closepath
+fill
+0.785 0.785 0.785 nodecolor
+newpath 636 47 moveto
+640 47 lineto
+643 47 lineto
+646 48 lineto
+649 48 lineto
+652 49 lineto
+655 49 lineto
+658 50 lineto
+660 51 lineto
+663 52 lineto
+665 53 lineto
+668 54 lineto
+670 55 lineto
+672 56 lineto
+674 57 lineto
+676 58 lineto
+677 60 lineto
+679 61 lineto
+680 62 lineto
+681 64 lineto
+682 65 lineto
+683 67 lineto
+683 69 lineto
+683 70 lineto
+684 72 lineto
+684 74 lineto
+684 75 lineto
+683 77 lineto
+683 79 lineto
+682 79 lineto
+682 81 lineto
+681 83 lineto
+680 84 lineto
+679 86 lineto
+678 88 lineto
+677 89 lineto
+675 91 lineto
+674 93 lineto
+672 94 lineto
+671 96 lineto
+669 97 lineto
+667 98 lineto
+665 100 lineto
+663 101 lineto
+662 102 lineto
+660 103 lineto
+658 104 lineto
+656 105 lineto
+654 106 lineto
+652 107 lineto
+650 108 lineto
+647 109 lineto
+645 109 lineto
+643 110 lineto
+641 110 lineto
+639 111 lineto
+637 111 lineto
+635 111 lineto
+633 111 lineto
+631 111 lineto
+629 111 lineto
+627 111 lineto
+625 111 lineto
+623 110 lineto
+621 110 lineto
+619 109 lineto
+617 109 lineto
+614 108 lineto
+612 107 lineto
+610 106 lineto
+608 105 lineto
+606 104 lineto
+604 103 lineto
+602 102 lineto
+601 101 lineto
+599 100 lineto
+597 98 lineto
+595 97 lineto
+593 96 lineto
+592 94 lineto
+590 93 lineto
+589 91 lineto
+587 89 lineto
+586 88 lineto
+585 86 lineto
+584 84 lineto
+583 83 lineto
+582 81 lineto
+582 79 lineto
+581 79 lineto
+581 77 lineto
+580 75 lineto
+580 74 lineto
+580 72 lineto
+581 70 lineto
+581 69 lineto
+581 67 lineto
+582 65 lineto
+583 64 lineto
+584 62 lineto
+585 61 lineto
+587 60 lineto
+588 58 lineto
+590 57 lineto
+592 56 lineto
+594 55 lineto
+596 54 lineto
+599 53 lineto
+601 52 lineto
+604 51 lineto
+606 50 lineto
+609 49 lineto
+612 49 lineto
+615 48 lineto
+618 48 lineto
+621 47 lineto
+624 47 lineto
+628 47 lineto
+631 47 lineto
+633 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+600 68 moveto
+(GRP)
+[23.04 21.36 17.76]
+xshow
+end grestore
+end grestore
+% OIH->GRP
+newpath 991 194 moveto
+921 180 795 152 693 112 curveto
+687 109 681 107 676 104 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 677 101 moveto
+667 99 lineto
+674 107 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 677 101 moveto
+667 99 lineto
+674 107 lineto
+closepath
+stroke
+end grestore
+% GSF
+gsave 10 dict begin
+filled
+0.702 0.702 0.702 nodecolor
+0.702 0.702 0.702 nodecolor
+newpath 756 47 moveto
+759 47 lineto
+762 47 lineto
+765 48 lineto
+768 48 lineto
+771 49 lineto
+774 49 lineto
+777 50 lineto
+779 51 lineto
+782 52 lineto
+784 53 lineto
+786 54 lineto
+788 55 lineto
+790 56 lineto
+792 57 lineto
+794 58 lineto
+795 60 lineto
+797 61 lineto
+798 62 lineto
+799 64 lineto
+800 65 lineto
+800 67 lineto
+801 69 lineto
+801 70 lineto
+802 72 lineto
+802 74 lineto
+802 75 lineto
+801 77 lineto
+801 79 lineto
+800 79 lineto
+800 81 lineto
+799 83 lineto
+798 84 lineto
+797 86 lineto
+796 88 lineto
+795 89 lineto
+793 91 lineto
+792 93 lineto
+791 94 lineto
+789 96 lineto
+787 97 lineto
+786 98 lineto
+784 100 lineto
+782 101 lineto
+780 102 lineto
+778 103 lineto
+777 104 lineto
+775 105 lineto
+773 106 lineto
+771 107 lineto
+769 108 lineto
+767 109 lineto
+765 109 lineto
+763 110 lineto
+761 110 lineto
+759 111 lineto
+757 111 lineto
+755 111 lineto
+753 111 lineto
+751 111 lineto
+749 111 lineto
+747 111 lineto
+745 111 lineto
+743 110 lineto
+741 110 lineto
+739 109 lineto
+737 109 lineto
+735 108 lineto
+733 107 lineto
+731 106 lineto
+729 105 lineto
+727 104 lineto
+726 103 lineto
+724 102 lineto
+722 101 lineto
+720 100 lineto
+718 98 lineto
+717 97 lineto
+715 96 lineto
+713 94 lineto
+712 93 lineto
+711 91 lineto
+709 89 lineto
+708 88 lineto
+707 86 lineto
+706 84 lineto
+705 83 lineto
+704 81 lineto
+704 79 lineto
+703 79 lineto
+703 77 lineto
+702 75 lineto
+702 74 lineto
+702 72 lineto
+703 70 lineto
+703 69 lineto
+704 67 lineto
+704 65 lineto
+705 64 lineto
+706 62 lineto
+707 61 lineto
+709 60 lineto
+710 58 lineto
+712 57 lineto
+714 56 lineto
+716 55 lineto
+718 54 lineto
+720 53 lineto
+722 52 lineto
+725 51 lineto
+727 50 lineto
+730 49 lineto
+733 49 lineto
+736 48 lineto
+739 48 lineto
+742 47 lineto
+745 47 lineto
+748 47 lineto
+751 47 lineto
+753 47 lineto
+closepath
+fill
+0.702 0.702 0.702 nodecolor
+newpath 756 47 moveto
+759 47 lineto
+762 47 lineto
+765 48 lineto
+768 48 lineto
+771 49 lineto
+774 49 lineto
+777 50 lineto
+779 51 lineto
+782 52 lineto
+784 53 lineto
+786 54 lineto
+788 55 lineto
+790 56 lineto
+792 57 lineto
+794 58 lineto
+795 60 lineto
+797 61 lineto
+798 62 lineto
+799 64 lineto
+800 65 lineto
+800 67 lineto
+801 69 lineto
+801 70 lineto
+802 72 lineto
+802 74 lineto
+802 75 lineto
+801 77 lineto
+801 79 lineto
+800 79 lineto
+800 81 lineto
+799 83 lineto
+798 84 lineto
+797 86 lineto
+796 88 lineto
+795 89 lineto
+793 91 lineto
+792 93 lineto
+791 94 lineto
+789 96 lineto
+787 97 lineto
+786 98 lineto
+784 100 lineto
+782 101 lineto
+780 102 lineto
+778 103 lineto
+777 104 lineto
+775 105 lineto
+773 106 lineto
+771 107 lineto
+769 108 lineto
+767 109 lineto
+765 109 lineto
+763 110 lineto
+761 110 lineto
+759 111 lineto
+757 111 lineto
+755 111 lineto
+753 111 lineto
+751 111 lineto
+749 111 lineto
+747 111 lineto
+745 111 lineto
+743 110 lineto
+741 110 lineto
+739 109 lineto
+737 109 lineto
+735 108 lineto
+733 107 lineto
+731 106 lineto
+729 105 lineto
+727 104 lineto
+726 103 lineto
+724 102 lineto
+722 101 lineto
+720 100 lineto
+718 98 lineto
+717 97 lineto
+715 96 lineto
+713 94 lineto
+712 93 lineto
+711 91 lineto
+709 89 lineto
+708 88 lineto
+707 86 lineto
+706 84 lineto
+705 83 lineto
+704 81 lineto
+704 79 lineto
+703 79 lineto
+703 77 lineto
+702 75 lineto
+702 74 lineto
+702 72 lineto
+703 70 lineto
+703 69 lineto
+704 67 lineto
+704 65 lineto
+705 64 lineto
+706 62 lineto
+707 61 lineto
+709 60 lineto
+710 58 lineto
+712 57 lineto
+714 56 lineto
+716 55 lineto
+718 54 lineto
+720 53 lineto
+722 52 lineto
+725 51 lineto
+727 50 lineto
+730 49 lineto
+733 49 lineto
+736 48 lineto
+739 48 lineto
+742 47 lineto
+745 47 lineto
+748 47 lineto
+751 47 lineto
+753 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+722 68 moveto
+(GSF)
+[23.04 17.76 17.76]
+xshow
+end grestore
+end grestore
+% OIH->GSF
+newpath 993 186 moveto
+945 168 872 140 811 112 curveto
+806 109 800 107 795 104 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 796 101 moveto
+786 99 lineto
+793 107 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 796 101 moveto
+786 99 lineto
+793 107 lineto
+closepath
+stroke
+end grestore
+% HAL
+gsave 10 dict begin
+filled
+0.762 0.762 0.762 nodecolor
+0.762 0.762 0.762 nodecolor
+newpath 879 47 moveto
+882 47 lineto
+885 47 lineto
+888 48 lineto
+891 48 lineto
+895 49 lineto
+898 49 lineto
+900 50 lineto
+903 51 lineto
+906 52 lineto
+908 53 lineto
+911 54 lineto
+913 55 lineto
+915 56 lineto
+917 57 lineto
+919 58 lineto
+921 60 lineto
+922 61 lineto
+923 62 lineto
+924 64 lineto
+925 65 lineto
+926 67 lineto
+927 69 lineto
+927 70 lineto
+927 72 lineto
+927 74 lineto
+927 75 lineto
+927 77 lineto
+927 79 lineto
+926 79 lineto
+925 81 lineto
+924 83 lineto
+923 84 lineto
+922 86 lineto
+921 88 lineto
+920 89 lineto
+918 91 lineto
+917 93 lineto
+915 94 lineto
+914 96 lineto
+912 97 lineto
+910 98 lineto
+908 100 lineto
+906 101 lineto
+905 102 lineto
+903 103 lineto
+900 104 lineto
+898 105 lineto
+896 106 lineto
+894 107 lineto
+892 108 lineto
+890 109 lineto
+888 109 lineto
+886 110 lineto
+883 110 lineto
+881 111 lineto
+879 111 lineto
+877 111 lineto
+875 111 lineto
+873 111 lineto
+871 111 lineto
+869 111 lineto
+867 111 lineto
+865 110 lineto
+862 110 lineto
+860 109 lineto
+858 109 lineto
+856 108 lineto
+854 107 lineto
+852 106 lineto
+850 105 lineto
+848 104 lineto
+845 103 lineto
+843 102 lineto
+842 101 lineto
+840 100 lineto
+838 98 lineto
+836 97 lineto
+834 96 lineto
+833 94 lineto
+831 93 lineto
+830 91 lineto
+828 89 lineto
+827 88 lineto
+826 86 lineto
+825 84 lineto
+824 83 lineto
+823 81 lineto
+822 79 lineto
+821 79 lineto
+821 77 lineto
+821 75 lineto
+821 74 lineto
+821 72 lineto
+821 70 lineto
+821 69 lineto
+822 67 lineto
+823 65 lineto
+824 64 lineto
+825 62 lineto
+826 61 lineto
+827 60 lineto
+829 58 lineto
+831 57 lineto
+833 56 lineto
+835 55 lineto
+837 54 lineto
+840 53 lineto
+842 52 lineto
+845 51 lineto
+848 50 lineto
+850 49 lineto
+853 49 lineto
+857 48 lineto
+860 48 lineto
+863 47 lineto
+866 47 lineto
+869 47 lineto
+873 47 lineto
+875 47 lineto
+closepath
+fill
+0.762 0.762 0.762 nodecolor
+newpath 879 47 moveto
+882 47 lineto
+885 47 lineto
+888 48 lineto
+891 48 lineto
+895 49 lineto
+898 49 lineto
+900 50 lineto
+903 51 lineto
+906 52 lineto
+908 53 lineto
+911 54 lineto
+913 55 lineto
+915 56 lineto
+917 57 lineto
+919 58 lineto
+921 60 lineto
+922 61 lineto
+923 62 lineto
+924 64 lineto
+925 65 lineto
+926 67 lineto
+927 69 lineto
+927 70 lineto
+927 72 lineto
+927 74 lineto
+927 75 lineto
+927 77 lineto
+927 79 lineto
+926 79 lineto
+925 81 lineto
+924 83 lineto
+923 84 lineto
+922 86 lineto
+921 88 lineto
+920 89 lineto
+918 91 lineto
+917 93 lineto
+915 94 lineto
+914 96 lineto
+912 97 lineto
+910 98 lineto
+908 100 lineto
+906 101 lineto
+905 102 lineto
+903 103 lineto
+900 104 lineto
+898 105 lineto
+896 106 lineto
+894 107 lineto
+892 108 lineto
+890 109 lineto
+888 109 lineto
+886 110 lineto
+883 110 lineto
+881 111 lineto
+879 111 lineto
+877 111 lineto
+875 111 lineto
+873 111 lineto
+871 111 lineto
+869 111 lineto
+867 111 lineto
+865 110 lineto
+862 110 lineto
+860 109 lineto
+858 109 lineto
+856 108 lineto
+854 107 lineto
+852 106 lineto
+850 105 lineto
+848 104 lineto
+845 103 lineto
+843 102 lineto
+842 101 lineto
+840 100 lineto
+838 98 lineto
+836 97 lineto
+834 96 lineto
+833 94 lineto
+831 93 lineto
+830 91 lineto
+828 89 lineto
+827 88 lineto
+826 86 lineto
+825 84 lineto
+824 83 lineto
+823 81 lineto
+822 79 lineto
+821 79 lineto
+821 77 lineto
+821 75 lineto
+821 74 lineto
+821 72 lineto
+821 70 lineto
+821 69 lineto
+822 67 lineto
+823 65 lineto
+824 64 lineto
+825 62 lineto
+826 61 lineto
+827 60 lineto
+829 58 lineto
+831 57 lineto
+833 56 lineto
+835 55 lineto
+837 54 lineto
+840 53 lineto
+842 52 lineto
+845 51 lineto
+848 50 lineto
+850 49 lineto
+853 49 lineto
+857 48 lineto
+860 48 lineto
+863 47 lineto
+866 47 lineto
+869 47 lineto
+873 47 lineto
+875 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+841 68 moveto
+(HAL)
+[23.04 23.04 19.44]
+xshow
+end grestore
+end grestore
+% OIH->HAL
+newpath 1000 171 moveto
+973 151 940 127 914 108 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 916 105 moveto
+906 102 lineto
+912 111 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 916 105 moveto
+906 102 lineto
+912 111 lineto
+closepath
+stroke
+end grestore
+% HC
+gsave 10 dict begin
+filled
+0.466 0.466 0.466 nodecolor
+0.466 0.466 0.466 nodecolor
+newpath 991 47 moveto
+994 47 lineto
+997 47 lineto
+999 48 lineto
+1002 48 lineto
+1004 49 lineto
+1006 49 lineto
+1009 50 lineto
+1011 51 lineto
+1013 52 lineto
+1015 53 lineto
+1017 54 lineto
+1019 55 lineto
+1020 56 lineto
+1022 57 lineto
+1023 58 lineto
+1024 60 lineto
+1025 61 lineto
+1026 62 lineto
+1027 64 lineto
+1028 65 lineto
+1029 67 lineto
+1029 69 lineto
+1029 70 lineto
+1030 72 lineto
+1030 74 lineto
+1030 75 lineto
+1029 77 lineto
+1029 79 lineto
+1029 79 lineto
+1028 81 lineto
+1027 83 lineto
+1027 84 lineto
+1026 86 lineto
+1025 88 lineto
+1024 89 lineto
+1023 91 lineto
+1022 93 lineto
+1020 94 lineto
+1019 96 lineto
+1018 97 lineto
+1016 98 lineto
+1015 100 lineto
+1013 101 lineto
+1012 102 lineto
+1010 103 lineto
+1009 104 lineto
+1007 105 lineto
+1005 106 lineto
+1004 107 lineto
+1002 108 lineto
+1000 109 lineto
+999 109 lineto
+997 110 lineto
+995 110 lineto
+994 111 lineto
+992 111 lineto
+990 111 lineto
+988 111 lineto
+988 111 lineto
+986 111 lineto
+984 111 lineto
+982 111 lineto
+981 110 lineto
+979 110 lineto
+977 109 lineto
+976 109 lineto
+974 108 lineto
+972 107 lineto
+971 106 lineto
+969 105 lineto
+967 104 lineto
+966 103 lineto
+964 102 lineto
+963 101 lineto
+961 100 lineto
+960 98 lineto
+958 97 lineto
+957 96 lineto
+956 94 lineto
+954 93 lineto
+953 91 lineto
+952 89 lineto
+951 88 lineto
+950 86 lineto
+949 84 lineto
+949 83 lineto
+948 81 lineto
+947 79 lineto
+947 79 lineto
+947 77 lineto
+946 75 lineto
+946 74 lineto
+946 72 lineto
+947 70 lineto
+947 69 lineto
+947 67 lineto
+948 65 lineto
+949 64 lineto
+950 62 lineto
+951 61 lineto
+952 60 lineto
+953 58 lineto
+954 57 lineto
+956 56 lineto
+957 55 lineto
+959 54 lineto
+961 53 lineto
+963 52 lineto
+965 51 lineto
+967 50 lineto
+970 49 lineto
+972 49 lineto
+974 48 lineto
+977 48 lineto
+979 47 lineto
+982 47 lineto
+985 47 lineto
+987 47 lineto
+989 47 lineto
+closepath
+fill
+0.466 0.466 0.466 nodecolor
+newpath 991 47 moveto
+994 47 lineto
+997 47 lineto
+999 48 lineto
+1002 48 lineto
+1004 49 lineto
+1006 49 lineto
+1009 50 lineto
+1011 51 lineto
+1013 52 lineto
+1015 53 lineto
+1017 54 lineto
+1019 55 lineto
+1020 56 lineto
+1022 57 lineto
+1023 58 lineto
+1024 60 lineto
+1025 61 lineto
+1026 62 lineto
+1027 64 lineto
+1028 65 lineto
+1029 67 lineto
+1029 69 lineto
+1029 70 lineto
+1030 72 lineto
+1030 74 lineto
+1030 75 lineto
+1029 77 lineto
+1029 79 lineto
+1029 79 lineto
+1028 81 lineto
+1027 83 lineto
+1027 84 lineto
+1026 86 lineto
+1025 88 lineto
+1024 89 lineto
+1023 91 lineto
+1022 93 lineto
+1020 94 lineto
+1019 96 lineto
+1018 97 lineto
+1016 98 lineto
+1015 100 lineto
+1013 101 lineto
+1012 102 lineto
+1010 103 lineto
+1009 104 lineto
+1007 105 lineto
+1005 106 lineto
+1004 107 lineto
+1002 108 lineto
+1000 109 lineto
+999 109 lineto
+997 110 lineto
+995 110 lineto
+994 111 lineto
+992 111 lineto
+990 111 lineto
+988 111 lineto
+988 111 lineto
+986 111 lineto
+984 111 lineto
+982 111 lineto
+981 110 lineto
+979 110 lineto
+977 109 lineto
+976 109 lineto
+974 108 lineto
+972 107 lineto
+971 106 lineto
+969 105 lineto
+967 104 lineto
+966 103 lineto
+964 102 lineto
+963 101 lineto
+961 100 lineto
+960 98 lineto
+958 97 lineto
+957 96 lineto
+956 94 lineto
+954 93 lineto
+953 91 lineto
+952 89 lineto
+951 88 lineto
+950 86 lineto
+949 84 lineto
+949 83 lineto
+948 81 lineto
+947 79 lineto
+947 79 lineto
+947 77 lineto
+946 75 lineto
+946 74 lineto
+946 72 lineto
+947 70 lineto
+947 69 lineto
+947 67 lineto
+948 65 lineto
+949 64 lineto
+950 62 lineto
+951 61 lineto
+952 60 lineto
+953 58 lineto
+954 57 lineto
+956 56 lineto
+957 55 lineto
+959 54 lineto
+961 53 lineto
+963 52 lineto
+965 51 lineto
+967 50 lineto
+970 49 lineto
+972 49 lineto
+974 48 lineto
+977 48 lineto
+979 47 lineto
+982 47 lineto
+985 47 lineto
+987 47 lineto
+989 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+965 68 moveto
+(HC)
+[23.04 21.36]
+xshow
+end grestore
+end grestore
+% OIH->HC
+newpath 1022 154 moveto
+1017 142 1011 130 1006 118 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1009 117 moveto
+1002 109 lineto
+1003 120 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1009 117 moveto
+1002 109 lineto
+1003 120 lineto
+closepath
+stroke
+end grestore
+% NBR
+gsave 10 dict begin
+filled
+0.779 0.779 0.779 nodecolor
+0.779 0.779 0.779 nodecolor
+newpath 1107 47 moveto
+1110 47 lineto
+1113 47 lineto
+1116 48 lineto
+1119 48 lineto
+1123 49 lineto
+1126 49 lineto
+1128 50 lineto
+1131 51 lineto
+1134 52 lineto
+1136 53 lineto
+1139 54 lineto
+1141 55 lineto
+1143 56 lineto
+1145 57 lineto
+1147 58 lineto
+1149 60 lineto
+1150 61 lineto
+1151 62 lineto
+1152 64 lineto
+1153 65 lineto
+1154 67 lineto
+1155 69 lineto
+1155 70 lineto
+1155 72 lineto
+1155 74 lineto
+1155 75 lineto
+1155 77 lineto
+1155 79 lineto
+1154 79 lineto
+1153 81 lineto
+1152 83 lineto
+1152 84 lineto
+1150 86 lineto
+1149 88 lineto
+1148 89 lineto
+1147 91 lineto
+1145 93 lineto
+1143 94 lineto
+1142 96 lineto
+1140 97 lineto
+1138 98 lineto
+1136 100 lineto
+1134 101 lineto
+1133 102 lineto
+1131 103 lineto
+1128 104 lineto
+1126 105 lineto
+1124 106 lineto
+1122 107 lineto
+1120 108 lineto
+1118 109 lineto
+1116 109 lineto
+1114 110 lineto
+1111 110 lineto
+1109 111 lineto
+1107 111 lineto
+1105 111 lineto
+1103 111 lineto
+1101 111 lineto
+1099 111 lineto
+1097 111 lineto
+1095 111 lineto
+1093 110 lineto
+1090 110 lineto
+1088 109 lineto
+1086 109 lineto
+1084 108 lineto
+1082 107 lineto
+1080 106 lineto
+1078 105 lineto
+1076 104 lineto
+1073 103 lineto
+1071 102 lineto
+1070 101 lineto
+1068 100 lineto
+1066 98 lineto
+1064 97 lineto
+1062 96 lineto
+1061 94 lineto
+1059 93 lineto
+1057 91 lineto
+1056 89 lineto
+1055 88 lineto
+1054 86 lineto
+1052 84 lineto
+1052 83 lineto
+1051 81 lineto
+1050 79 lineto
+1049 79 lineto
+1049 77 lineto
+1049 75 lineto
+1049 74 lineto
+1049 72 lineto
+1049 70 lineto
+1049 69 lineto
+1050 67 lineto
+1051 65 lineto
+1052 64 lineto
+1053 62 lineto
+1054 61 lineto
+1055 60 lineto
+1057 58 lineto
+1059 57 lineto
+1061 56 lineto
+1063 55 lineto
+1065 54 lineto
+1068 53 lineto
+1070 52 lineto
+1073 51 lineto
+1076 50 lineto
+1078 49 lineto
+1081 49 lineto
+1085 48 lineto
+1088 48 lineto
+1091 47 lineto
+1094 47 lineto
+1097 47 lineto
+1101 47 lineto
+1103 47 lineto
+closepath
+fill
+0.779 0.779 0.779 nodecolor
+newpath 1107 47 moveto
+1110 47 lineto
+1113 47 lineto
+1116 48 lineto
+1119 48 lineto
+1123 49 lineto
+1126 49 lineto
+1128 50 lineto
+1131 51 lineto
+1134 52 lineto
+1136 53 lineto
+1139 54 lineto
+1141 55 lineto
+1143 56 lineto
+1145 57 lineto
+1147 58 lineto
+1149 60 lineto
+1150 61 lineto
+1151 62 lineto
+1152 64 lineto
+1153 65 lineto
+1154 67 lineto
+1155 69 lineto
+1155 70 lineto
+1155 72 lineto
+1155 74 lineto
+1155 75 lineto
+1155 77 lineto
+1155 79 lineto
+1154 79 lineto
+1153 81 lineto
+1152 83 lineto
+1152 84 lineto
+1150 86 lineto
+1149 88 lineto
+1148 89 lineto
+1147 91 lineto
+1145 93 lineto
+1143 94 lineto
+1142 96 lineto
+1140 97 lineto
+1138 98 lineto
+1136 100 lineto
+1134 101 lineto
+1133 102 lineto
+1131 103 lineto
+1128 104 lineto
+1126 105 lineto
+1124 106 lineto
+1122 107 lineto
+1120 108 lineto
+1118 109 lineto
+1116 109 lineto
+1114 110 lineto
+1111 110 lineto
+1109 111 lineto
+1107 111 lineto
+1105 111 lineto
+1103 111 lineto
+1101 111 lineto
+1099 111 lineto
+1097 111 lineto
+1095 111 lineto
+1093 110 lineto
+1090 110 lineto
+1088 109 lineto
+1086 109 lineto
+1084 108 lineto
+1082 107 lineto
+1080 106 lineto
+1078 105 lineto
+1076 104 lineto
+1073 103 lineto
+1071 102 lineto
+1070 101 lineto
+1068 100 lineto
+1066 98 lineto
+1064 97 lineto
+1062 96 lineto
+1061 94 lineto
+1059 93 lineto
+1057 91 lineto
+1056 89 lineto
+1055 88 lineto
+1054 86 lineto
+1052 84 lineto
+1052 83 lineto
+1051 81 lineto
+1050 79 lineto
+1049 79 lineto
+1049 77 lineto
+1049 75 lineto
+1049 74 lineto
+1049 72 lineto
+1049 70 lineto
+1049 69 lineto
+1050 67 lineto
+1051 65 lineto
+1052 64 lineto
+1053 62 lineto
+1054 61 lineto
+1055 60 lineto
+1057 58 lineto
+1059 57 lineto
+1061 56 lineto
+1063 55 lineto
+1065 54 lineto
+1068 53 lineto
+1070 52 lineto
+1073 51 lineto
+1076 50 lineto
+1078 49 lineto
+1081 49 lineto
+1085 48 lineto
+1088 48 lineto
+1091 47 lineto
+1094 47 lineto
+1097 47 lineto
+1101 47 lineto
+1103 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1068 68 moveto
+(NBR)
+[23.04 21.36 21.36]
+xshow
+end grestore
+end grestore
+% OIH->NBR
+newpath 1068 154 moveto
+1073 142 1079 130 1084 119 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1087 121 moveto
+1088 110 lineto
+1081 118 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1087 121 moveto
+1088 110 lineto
+1081 118 lineto
+closepath
+stroke
+end grestore
+% NE
+gsave 10 dict begin
+filled
+0.745 0.745 0.745 nodecolor
+0.745 0.745 0.745 nodecolor
+newpath 1219 47 moveto
+1222 47 lineto
+1225 47 lineto
+1227 48 lineto
+1230 48 lineto
+1232 49 lineto
+1234 49 lineto
+1237 50 lineto
+1239 51 lineto
+1241 52 lineto
+1243 53 lineto
+1245 54 lineto
+1246 55 lineto
+1248 56 lineto
+1250 57 lineto
+1251 58 lineto
+1252 60 lineto
+1253 61 lineto
+1254 62 lineto
+1255 64 lineto
+1256 65 lineto
+1257 67 lineto
+1257 69 lineto
+1257 70 lineto
+1258 72 lineto
+1258 74 lineto
+1258 75 lineto
+1257 77 lineto
+1257 79 lineto
+1257 79 lineto
+1256 81 lineto
+1255 83 lineto
+1255 84 lineto
+1254 86 lineto
+1253 88 lineto
+1252 89 lineto
+1251 91 lineto
+1250 93 lineto
+1248 94 lineto
+1247 96 lineto
+1246 97 lineto
+1244 98 lineto
+1243 100 lineto
+1241 101 lineto
+1240 102 lineto
+1238 103 lineto
+1237 104 lineto
+1235 105 lineto
+1233 106 lineto
+1232 107 lineto
+1230 108 lineto
+1228 109 lineto
+1227 109 lineto
+1225 110 lineto
+1223 110 lineto
+1222 111 lineto
+1220 111 lineto
+1218 111 lineto
+1216 111 lineto
+1216 111 lineto
+1214 111 lineto
+1212 111 lineto
+1210 111 lineto
+1209 110 lineto
+1207 110 lineto
+1205 109 lineto
+1204 109 lineto
+1202 108 lineto
+1200 107 lineto
+1199 106 lineto
+1197 105 lineto
+1195 104 lineto
+1194 103 lineto
+1192 102 lineto
+1191 101 lineto
+1189 100 lineto
+1188 98 lineto
+1186 97 lineto
+1185 96 lineto
+1184 94 lineto
+1182 93 lineto
+1181 91 lineto
+1180 89 lineto
+1179 88 lineto
+1178 86 lineto
+1177 84 lineto
+1177 83 lineto
+1176 81 lineto
+1175 79 lineto
+1175 79 lineto
+1175 77 lineto
+1174 75 lineto
+1174 74 lineto
+1174 72 lineto
+1175 70 lineto
+1175 69 lineto
+1175 67 lineto
+1176 65 lineto
+1177 64 lineto
+1178 62 lineto
+1179 61 lineto
+1180 60 lineto
+1181 58 lineto
+1182 57 lineto
+1184 56 lineto
+1186 55 lineto
+1187 54 lineto
+1189 53 lineto
+1191 52 lineto
+1193 51 lineto
+1195 50 lineto
+1198 49 lineto
+1200 49 lineto
+1202 48 lineto
+1205 48 lineto
+1207 47 lineto
+1210 47 lineto
+1213 47 lineto
+1215 47 lineto
+1217 47 lineto
+closepath
+fill
+0.745 0.745 0.745 nodecolor
+newpath 1219 47 moveto
+1222 47 lineto
+1225 47 lineto
+1227 48 lineto
+1230 48 lineto
+1232 49 lineto
+1234 49 lineto
+1237 50 lineto
+1239 51 lineto
+1241 52 lineto
+1243 53 lineto
+1245 54 lineto
+1246 55 lineto
+1248 56 lineto
+1250 57 lineto
+1251 58 lineto
+1252 60 lineto
+1253 61 lineto
+1254 62 lineto
+1255 64 lineto
+1256 65 lineto
+1257 67 lineto
+1257 69 lineto
+1257 70 lineto
+1258 72 lineto
+1258 74 lineto
+1258 75 lineto
+1257 77 lineto
+1257 79 lineto
+1257 79 lineto
+1256 81 lineto
+1255 83 lineto
+1255 84 lineto
+1254 86 lineto
+1253 88 lineto
+1252 89 lineto
+1251 91 lineto
+1250 93 lineto
+1248 94 lineto
+1247 96 lineto
+1246 97 lineto
+1244 98 lineto
+1243 100 lineto
+1241 101 lineto
+1240 102 lineto
+1238 103 lineto
+1237 104 lineto
+1235 105 lineto
+1233 106 lineto
+1232 107 lineto
+1230 108 lineto
+1228 109 lineto
+1227 109 lineto
+1225 110 lineto
+1223 110 lineto
+1222 111 lineto
+1220 111 lineto
+1218 111 lineto
+1216 111 lineto
+1216 111 lineto
+1214 111 lineto
+1212 111 lineto
+1210 111 lineto
+1209 110 lineto
+1207 110 lineto
+1205 109 lineto
+1204 109 lineto
+1202 108 lineto
+1200 107 lineto
+1199 106 lineto
+1197 105 lineto
+1195 104 lineto
+1194 103 lineto
+1192 102 lineto
+1191 101 lineto
+1189 100 lineto
+1188 98 lineto
+1186 97 lineto
+1185 96 lineto
+1184 94 lineto
+1182 93 lineto
+1181 91 lineto
+1180 89 lineto
+1179 88 lineto
+1178 86 lineto
+1177 84 lineto
+1177 83 lineto
+1176 81 lineto
+1175 79 lineto
+1175 79 lineto
+1175 77 lineto
+1174 75 lineto
+1174 74 lineto
+1174 72 lineto
+1175 70 lineto
+1175 69 lineto
+1175 67 lineto
+1176 65 lineto
+1177 64 lineto
+1178 62 lineto
+1179 61 lineto
+1180 60 lineto
+1181 58 lineto
+1182 57 lineto
+1184 56 lineto
+1186 55 lineto
+1187 54 lineto
+1189 53 lineto
+1191 52 lineto
+1193 51 lineto
+1195 50 lineto
+1198 49 lineto
+1200 49 lineto
+1202 48 lineto
+1205 48 lineto
+1207 47 lineto
+1210 47 lineto
+1213 47 lineto
+1215 47 lineto
+1217 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1194 68 moveto
+(NE)
+[23.04 19.44]
+xshow
+end grestore
+end grestore
+% OIH->NE
+newpath 1090 171 moveto
+1118 150 1153 125 1180 106 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1182 109 moveto
+1188 100 lineto
+1178 103 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1182 109 moveto
+1188 100 lineto
+1178 103 lineto
+closepath
+stroke
+end grestore
+% NOV
+gsave 10 dict begin
+filled
+0.777 0.777 0.777 nodecolor
+0.777 0.777 0.777 nodecolor
+newpath 1337 47 moveto
+1340 47 lineto
+1344 47 lineto
+1347 48 lineto
+1350 48 lineto
+1353 49 lineto
+1356 49 lineto
+1359 50 lineto
+1362 51 lineto
+1365 52 lineto
+1368 53 lineto
+1370 54 lineto
+1373 55 lineto
+1375 56 lineto
+1377 57 lineto
+1379 58 lineto
+1380 60 lineto
+1382 61 lineto
+1383 62 lineto
+1384 64 lineto
+1385 65 lineto
+1386 67 lineto
+1387 69 lineto
+1387 70 lineto
+1387 72 lineto
+1388 74 lineto
+1387 75 lineto
+1387 77 lineto
+1387 79 lineto
+1386 79 lineto
+1385 81 lineto
+1385 83 lineto
+1384 84 lineto
+1382 86 lineto
+1381 88 lineto
+1380 89 lineto
+1378 91 lineto
+1377 93 lineto
+1375 94 lineto
+1373 96 lineto
+1372 97 lineto
+1370 98 lineto
+1368 100 lineto
+1366 101 lineto
+1364 102 lineto
+1362 103 lineto
+1360 104 lineto
+1357 105 lineto
+1355 106 lineto
+1353 107 lineto
+1351 108 lineto
+1349 109 lineto
+1346 109 lineto
+1344 110 lineto
+1342 110 lineto
+1340 111 lineto
+1337 111 lineto
+1335 111 lineto
+1333 111 lineto
+1331 111 lineto
+1329 111 lineto
+1327 111 lineto
+1324 111 lineto
+1322 110 lineto
+1320 110 lineto
+1318 109 lineto
+1315 109 lineto
+1313 108 lineto
+1311 107 lineto
+1309 106 lineto
+1307 105 lineto
+1304 104 lineto
+1302 103 lineto
+1300 102 lineto
+1298 101 lineto
+1296 100 lineto
+1294 98 lineto
+1292 97 lineto
+1291 96 lineto
+1289 94 lineto
+1287 93 lineto
+1286 91 lineto
+1284 89 lineto
+1283 88 lineto
+1282 86 lineto
+1280 84 lineto
+1279 83 lineto
+1279 81 lineto
+1278 79 lineto
+1277 79 lineto
+1277 77 lineto
+1277 75 lineto
+1276 74 lineto
+1277 72 lineto
+1277 70 lineto
+1277 69 lineto
+1278 67 lineto
+1279 65 lineto
+1280 64 lineto
+1281 62 lineto
+1282 61 lineto
+1284 60 lineto
+1285 58 lineto
+1287 57 lineto
+1289 56 lineto
+1291 55 lineto
+1294 54 lineto
+1296 53 lineto
+1299 52 lineto
+1302 51 lineto
+1305 50 lineto
+1308 49 lineto
+1311 49 lineto
+1314 48 lineto
+1317 48 lineto
+1320 47 lineto
+1324 47 lineto
+1327 47 lineto
+1331 47 lineto
+1333 47 lineto
+closepath
+fill
+0.777 0.777 0.777 nodecolor
+newpath 1337 47 moveto
+1340 47 lineto
+1344 47 lineto
+1347 48 lineto
+1350 48 lineto
+1353 49 lineto
+1356 49 lineto
+1359 50 lineto
+1362 51 lineto
+1365 52 lineto
+1368 53 lineto
+1370 54 lineto
+1373 55 lineto
+1375 56 lineto
+1377 57 lineto
+1379 58 lineto
+1380 60 lineto
+1382 61 lineto
+1383 62 lineto
+1384 64 lineto
+1385 65 lineto
+1386 67 lineto
+1387 69 lineto
+1387 70 lineto
+1387 72 lineto
+1388 74 lineto
+1387 75 lineto
+1387 77 lineto
+1387 79 lineto
+1386 79 lineto
+1385 81 lineto
+1385 83 lineto
+1384 84 lineto
+1382 86 lineto
+1381 88 lineto
+1380 89 lineto
+1378 91 lineto
+1377 93 lineto
+1375 94 lineto
+1373 96 lineto
+1372 97 lineto
+1370 98 lineto
+1368 100 lineto
+1366 101 lineto
+1364 102 lineto
+1362 103 lineto
+1360 104 lineto
+1357 105 lineto
+1355 106 lineto
+1353 107 lineto
+1351 108 lineto
+1349 109 lineto
+1346 109 lineto
+1344 110 lineto
+1342 110 lineto
+1340 111 lineto
+1337 111 lineto
+1335 111 lineto
+1333 111 lineto
+1331 111 lineto
+1329 111 lineto
+1327 111 lineto
+1324 111 lineto
+1322 110 lineto
+1320 110 lineto
+1318 109 lineto
+1315 109 lineto
+1313 108 lineto
+1311 107 lineto
+1309 106 lineto
+1307 105 lineto
+1304 104 lineto
+1302 103 lineto
+1300 102 lineto
+1298 101 lineto
+1296 100 lineto
+1294 98 lineto
+1292 97 lineto
+1291 96 lineto
+1289 94 lineto
+1287 93 lineto
+1286 91 lineto
+1284 89 lineto
+1283 88 lineto
+1282 86 lineto
+1280 84 lineto
+1279 83 lineto
+1279 81 lineto
+1278 79 lineto
+1277 79 lineto
+1277 77 lineto
+1277 75 lineto
+1276 74 lineto
+1277 72 lineto
+1277 70 lineto
+1277 69 lineto
+1278 67 lineto
+1279 65 lineto
+1280 64 lineto
+1281 62 lineto
+1282 61 lineto
+1284 60 lineto
+1285 58 lineto
+1287 57 lineto
+1289 56 lineto
+1291 55 lineto
+1294 54 lineto
+1296 53 lineto
+1299 52 lineto
+1302 51 lineto
+1305 50 lineto
+1308 49 lineto
+1311 49 lineto
+1314 48 lineto
+1317 48 lineto
+1320 47 lineto
+1324 47 lineto
+1327 47 lineto
+1331 47 lineto
+1333 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1296 68 moveto
+(NOV)
+[23.04 23.04 23.04]
+xshow
+end grestore
+end grestore
+% OIH->NOV
+newpath 1096 184 moveto
+1141 166 1209 138 1267 112 curveto
+1273 109 1279 106 1285 103 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1286 106 moveto
+1294 99 lineto
+1283 100 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1286 106 moveto
+1294 99 lineto
+1283 100 lineto
+closepath
+stroke
+end grestore
+% RDC
+gsave 10 dict begin
+filled
+0.790 0.790 0.790 nodecolor
+0.790 0.790 0.790 nodecolor
+newpath 1465 47 moveto
+1468 47 lineto
+1471 47 lineto
+1474 48 lineto
+1477 48 lineto
+1481 49 lineto
+1484 49 lineto
+1486 50 lineto
+1489 51 lineto
+1492 52 lineto
+1494 53 lineto
+1497 54 lineto
+1499 55 lineto
+1501 56 lineto
+1503 57 lineto
+1505 58 lineto
+1507 60 lineto
+1508 61 lineto
+1509 62 lineto
+1510 64 lineto
+1511 65 lineto
+1512 67 lineto
+1513 69 lineto
+1513 70 lineto
+1513 72 lineto
+1513 74 lineto
+1513 75 lineto
+1513 77 lineto
+1513 79 lineto
+1512 79 lineto
+1511 81 lineto
+1510 83 lineto
+1509 84 lineto
+1508 86 lineto
+1507 88 lineto
+1506 89 lineto
+1504 91 lineto
+1503 93 lineto
+1501 94 lineto
+1500 96 lineto
+1498 97 lineto
+1496 98 lineto
+1494 100 lineto
+1492 101 lineto
+1491 102 lineto
+1489 103 lineto
+1486 104 lineto
+1484 105 lineto
+1482 106 lineto
+1480 107 lineto
+1478 108 lineto
+1476 109 lineto
+1474 109 lineto
+1472 110 lineto
+1469 110 lineto
+1467 111 lineto
+1465 111 lineto
+1463 111 lineto
+1461 111 lineto
+1459 111 lineto
+1457 111 lineto
+1455 111 lineto
+1453 111 lineto
+1451 110 lineto
+1448 110 lineto
+1446 109 lineto
+1444 109 lineto
+1442 108 lineto
+1440 107 lineto
+1438 106 lineto
+1436 105 lineto
+1434 104 lineto
+1431 103 lineto
+1429 102 lineto
+1428 101 lineto
+1426 100 lineto
+1424 98 lineto
+1422 97 lineto
+1420 96 lineto
+1419 94 lineto
+1417 93 lineto
+1416 91 lineto
+1414 89 lineto
+1413 88 lineto
+1412 86 lineto
+1411 84 lineto
+1410 83 lineto
+1409 81 lineto
+1408 79 lineto
+1407 79 lineto
+1407 77 lineto
+1407 75 lineto
+1407 74 lineto
+1407 72 lineto
+1407 70 lineto
+1407 69 lineto
+1408 67 lineto
+1409 65 lineto
+1410 64 lineto
+1411 62 lineto
+1412 61 lineto
+1413 60 lineto
+1415 58 lineto
+1417 57 lineto
+1419 56 lineto
+1421 55 lineto
+1423 54 lineto
+1426 53 lineto
+1428 52 lineto
+1431 51 lineto
+1434 50 lineto
+1436 49 lineto
+1439 49 lineto
+1443 48 lineto
+1446 48 lineto
+1449 47 lineto
+1452 47 lineto
+1455 47 lineto
+1459 47 lineto
+1461 47 lineto
+closepath
+fill
+0.790 0.790 0.790 nodecolor
+newpath 1465 47 moveto
+1468 47 lineto
+1471 47 lineto
+1474 48 lineto
+1477 48 lineto
+1481 49 lineto
+1484 49 lineto
+1486 50 lineto
+1489 51 lineto
+1492 52 lineto
+1494 53 lineto
+1497 54 lineto
+1499 55 lineto
+1501 56 lineto
+1503 57 lineto
+1505 58 lineto
+1507 60 lineto
+1508 61 lineto
+1509 62 lineto
+1510 64 lineto
+1511 65 lineto
+1512 67 lineto
+1513 69 lineto
+1513 70 lineto
+1513 72 lineto
+1513 74 lineto
+1513 75 lineto
+1513 77 lineto
+1513 79 lineto
+1512 79 lineto
+1511 81 lineto
+1510 83 lineto
+1509 84 lineto
+1508 86 lineto
+1507 88 lineto
+1506 89 lineto
+1504 91 lineto
+1503 93 lineto
+1501 94 lineto
+1500 96 lineto
+1498 97 lineto
+1496 98 lineto
+1494 100 lineto
+1492 101 lineto
+1491 102 lineto
+1489 103 lineto
+1486 104 lineto
+1484 105 lineto
+1482 106 lineto
+1480 107 lineto
+1478 108 lineto
+1476 109 lineto
+1474 109 lineto
+1472 110 lineto
+1469 110 lineto
+1467 111 lineto
+1465 111 lineto
+1463 111 lineto
+1461 111 lineto
+1459 111 lineto
+1457 111 lineto
+1455 111 lineto
+1453 111 lineto
+1451 110 lineto
+1448 110 lineto
+1446 109 lineto
+1444 109 lineto
+1442 108 lineto
+1440 107 lineto
+1438 106 lineto
+1436 105 lineto
+1434 104 lineto
+1431 103 lineto
+1429 102 lineto
+1428 101 lineto
+1426 100 lineto
+1424 98 lineto
+1422 97 lineto
+1420 96 lineto
+1419 94 lineto
+1417 93 lineto
+1416 91 lineto
+1414 89 lineto
+1413 88 lineto
+1412 86 lineto
+1411 84 lineto
+1410 83 lineto
+1409 81 lineto
+1408 79 lineto
+1407 79 lineto
+1407 77 lineto
+1407 75 lineto
+1407 74 lineto
+1407 72 lineto
+1407 70 lineto
+1407 69 lineto
+1408 67 lineto
+1409 65 lineto
+1410 64 lineto
+1411 62 lineto
+1412 61 lineto
+1413 60 lineto
+1415 58 lineto
+1417 57 lineto
+1419 56 lineto
+1421 55 lineto
+1423 54 lineto
+1426 53 lineto
+1428 52 lineto
+1431 51 lineto
+1434 50 lineto
+1436 49 lineto
+1439 49 lineto
+1443 48 lineto
+1446 48 lineto
+1449 47 lineto
+1452 47 lineto
+1455 47 lineto
+1459 47 lineto
+1461 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1427 68 moveto
+(RDC)
+[21.36 23.04 21.36]
+xshow
+end grestore
+end grestore
+% OIH->RDC
+newpath 1099 194 moveto
+1169 180 1295 151 1397 112 curveto
+1403 109 1409 107 1415 104 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1417 107 moveto
+1424 99 lineto
+1414 101 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1417 107 moveto
+1424 99 lineto
+1414 101 lineto
+closepath
+stroke
+end grestore
+% RIG
+gsave 10 dict begin
+filled
+0.750 0.750 0.750 nodecolor
+0.750 0.750 0.750 nodecolor
+newpath 1584 47 moveto
+1587 47 lineto
+1590 47 lineto
+1593 48 lineto
+1596 48 lineto
+1598 49 lineto
+1601 49 lineto
+1604 50 lineto
+1606 51 lineto
+1608 52 lineto
+1611 53 lineto
+1613 54 lineto
+1615 55 lineto
+1617 56 lineto
+1618 57 lineto
+1620 58 lineto
+1621 60 lineto
+1623 61 lineto
+1624 62 lineto
+1625 64 lineto
+1626 65 lineto
+1626 67 lineto
+1627 69 lineto
+1627 70 lineto
+1627 72 lineto
+1628 74 lineto
+1627 75 lineto
+1627 77 lineto
+1627 79 lineto
+1626 79 lineto
+1626 81 lineto
+1625 83 lineto
+1624 84 lineto
+1623 86 lineto
+1622 88 lineto
+1621 89 lineto
+1620 91 lineto
+1618 93 lineto
+1617 94 lineto
+1615 96 lineto
+1614 97 lineto
+1612 98 lineto
+1611 100 lineto
+1609 101 lineto
+1607 102 lineto
+1605 103 lineto
+1604 104 lineto
+1602 105 lineto
+1600 106 lineto
+1598 107 lineto
+1596 108 lineto
+1594 109 lineto
+1592 109 lineto
+1590 110 lineto
+1588 110 lineto
+1586 111 lineto
+1584 111 lineto
+1582 111 lineto
+1581 111 lineto
+1579 111 lineto
+1578 111 lineto
+1576 111 lineto
+1574 111 lineto
+1572 110 lineto
+1570 110 lineto
+1568 109 lineto
+1566 109 lineto
+1564 108 lineto
+1562 107 lineto
+1560 106 lineto
+1558 105 lineto
+1556 104 lineto
+1555 103 lineto
+1553 102 lineto
+1551 101 lineto
+1549 100 lineto
+1548 98 lineto
+1546 97 lineto
+1545 96 lineto
+1543 94 lineto
+1542 93 lineto
+1540 91 lineto
+1539 89 lineto
+1538 88 lineto
+1537 86 lineto
+1536 84 lineto
+1535 83 lineto
+1534 81 lineto
+1534 79 lineto
+1533 79 lineto
+1533 77 lineto
+1533 75 lineto
+1532 74 lineto
+1533 72 lineto
+1533 70 lineto
+1533 69 lineto
+1534 67 lineto
+1534 65 lineto
+1535 64 lineto
+1536 62 lineto
+1537 61 lineto
+1539 60 lineto
+1540 58 lineto
+1542 57 lineto
+1543 56 lineto
+1545 55 lineto
+1547 54 lineto
+1549 53 lineto
+1552 52 lineto
+1554 51 lineto
+1556 50 lineto
+1559 49 lineto
+1562 49 lineto
+1564 48 lineto
+1567 48 lineto
+1570 47 lineto
+1573 47 lineto
+1576 47 lineto
+1579 47 lineto
+1581 47 lineto
+closepath
+fill
+0.750 0.750 0.750 nodecolor
+newpath 1584 47 moveto
+1587 47 lineto
+1590 47 lineto
+1593 48 lineto
+1596 48 lineto
+1598 49 lineto
+1601 49 lineto
+1604 50 lineto
+1606 51 lineto
+1608 52 lineto
+1611 53 lineto
+1613 54 lineto
+1615 55 lineto
+1617 56 lineto
+1618 57 lineto
+1620 58 lineto
+1621 60 lineto
+1623 61 lineto
+1624 62 lineto
+1625 64 lineto
+1626 65 lineto
+1626 67 lineto
+1627 69 lineto
+1627 70 lineto
+1627 72 lineto
+1628 74 lineto
+1627 75 lineto
+1627 77 lineto
+1627 79 lineto
+1626 79 lineto
+1626 81 lineto
+1625 83 lineto
+1624 84 lineto
+1623 86 lineto
+1622 88 lineto
+1621 89 lineto
+1620 91 lineto
+1618 93 lineto
+1617 94 lineto
+1615 96 lineto
+1614 97 lineto
+1612 98 lineto
+1611 100 lineto
+1609 101 lineto
+1607 102 lineto
+1605 103 lineto
+1604 104 lineto
+1602 105 lineto
+1600 106 lineto
+1598 107 lineto
+1596 108 lineto
+1594 109 lineto
+1592 109 lineto
+1590 110 lineto
+1588 110 lineto
+1586 111 lineto
+1584 111 lineto
+1582 111 lineto
+1581 111 lineto
+1579 111 lineto
+1578 111 lineto
+1576 111 lineto
+1574 111 lineto
+1572 110 lineto
+1570 110 lineto
+1568 109 lineto
+1566 109 lineto
+1564 108 lineto
+1562 107 lineto
+1560 106 lineto
+1558 105 lineto
+1556 104 lineto
+1555 103 lineto
+1553 102 lineto
+1551 101 lineto
+1549 100 lineto
+1548 98 lineto
+1546 97 lineto
+1545 96 lineto
+1543 94 lineto
+1542 93 lineto
+1540 91 lineto
+1539 89 lineto
+1538 88 lineto
+1537 86 lineto
+1536 84 lineto
+1535 83 lineto
+1534 81 lineto
+1534 79 lineto
+1533 79 lineto
+1533 77 lineto
+1533 75 lineto
+1532 74 lineto
+1533 72 lineto
+1533 70 lineto
+1533 69 lineto
+1534 67 lineto
+1534 65 lineto
+1535 64 lineto
+1536 62 lineto
+1537 61 lineto
+1539 60 lineto
+1540 58 lineto
+1542 57 lineto
+1543 56 lineto
+1545 55 lineto
+1547 54 lineto
+1549 53 lineto
+1552 52 lineto
+1554 51 lineto
+1556 50 lineto
+1559 49 lineto
+1562 49 lineto
+1564 48 lineto
+1567 48 lineto
+1570 47 lineto
+1573 47 lineto
+1576 47 lineto
+1579 47 lineto
+1581 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1552 68 moveto
+(RIG)
+[21.36 10.56 23.04]
+xshow
+end grestore
+end grestore
+% OIH->RIG
+newpath 1100 199 moveto
+1191 190 1376 166 1523 112 curveto
+1528 110 1534 107 1539 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1541 108 moveto
+1548 100 lineto
+1538 102 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1541 108 moveto
+1548 100 lineto
+1538 102 lineto
+closepath
+stroke
+end grestore
+% SII
+gsave 10 dict begin
+filled
+0.779 0.779 0.779 nodecolor
+0.779 0.779 0.779 nodecolor
+newpath 1689 47 moveto
+1692 47 lineto
+1694 47 lineto
+1696 48 lineto
+1699 48 lineto
+1701 49 lineto
+1703 49 lineto
+1705 50 lineto
+1708 51 lineto
+1710 52 lineto
+1711 53 lineto
+1713 54 lineto
+1715 55 lineto
+1716 56 lineto
+1718 57 lineto
+1719 58 lineto
+1720 60 lineto
+1722 61 lineto
+1722 62 lineto
+1723 64 lineto
+1724 65 lineto
+1725 67 lineto
+1725 69 lineto
+1725 70 lineto
+1725 72 lineto
+1725 74 lineto
+1725 75 lineto
+1725 77 lineto
+1725 79 lineto
+1725 79 lineto
+1724 81 lineto
+1723 83 lineto
+1723 84 lineto
+1722 86 lineto
+1721 88 lineto
+1720 89 lineto
+1719 91 lineto
+1718 93 lineto
+1717 94 lineto
+1715 96 lineto
+1714 97 lineto
+1713 98 lineto
+1711 100 lineto
+1710 101 lineto
+1709 102 lineto
+1707 103 lineto
+1706 104 lineto
+1704 105 lineto
+1702 106 lineto
+1701 107 lineto
+1699 108 lineto
+1698 109 lineto
+1696 109 lineto
+1694 110 lineto
+1693 110 lineto
+1691 111 lineto
+1690 111 lineto
+1688 111 lineto
+1686 111 lineto
+1686 111 lineto
+1684 111 lineto
+1682 111 lineto
+1681 111 lineto
+1679 110 lineto
+1678 110 lineto
+1676 109 lineto
+1674 109 lineto
+1673 108 lineto
+1671 107 lineto
+1670 106 lineto
+1668 105 lineto
+1666 104 lineto
+1665 103 lineto
+1663 102 lineto
+1662 101 lineto
+1661 100 lineto
+1659 98 lineto
+1658 97 lineto
+1657 96 lineto
+1655 94 lineto
+1654 93 lineto
+1653 91 lineto
+1652 89 lineto
+1651 88 lineto
+1650 86 lineto
+1649 84 lineto
+1649 83 lineto
+1648 81 lineto
+1647 79 lineto
+1647 79 lineto
+1647 77 lineto
+1647 75 lineto
+1647 74 lineto
+1647 72 lineto
+1647 70 lineto
+1647 69 lineto
+1647 67 lineto
+1648 65 lineto
+1649 64 lineto
+1650 62 lineto
+1650 61 lineto
+1652 60 lineto
+1653 58 lineto
+1654 57 lineto
+1656 56 lineto
+1657 55 lineto
+1659 54 lineto
+1661 53 lineto
+1662 52 lineto
+1664 51 lineto
+1667 50 lineto
+1669 49 lineto
+1671 49 lineto
+1673 48 lineto
+1676 48 lineto
+1678 47 lineto
+1680 47 lineto
+1683 47 lineto
+1685 47 lineto
+1687 47 lineto
+closepath
+fill
+0.779 0.779 0.779 nodecolor
+newpath 1689 47 moveto
+1692 47 lineto
+1694 47 lineto
+1696 48 lineto
+1699 48 lineto
+1701 49 lineto
+1703 49 lineto
+1705 50 lineto
+1708 51 lineto
+1710 52 lineto
+1711 53 lineto
+1713 54 lineto
+1715 55 lineto
+1716 56 lineto
+1718 57 lineto
+1719 58 lineto
+1720 60 lineto
+1722 61 lineto
+1722 62 lineto
+1723 64 lineto
+1724 65 lineto
+1725 67 lineto
+1725 69 lineto
+1725 70 lineto
+1725 72 lineto
+1725 74 lineto
+1725 75 lineto
+1725 77 lineto
+1725 79 lineto
+1725 79 lineto
+1724 81 lineto
+1723 83 lineto
+1723 84 lineto
+1722 86 lineto
+1721 88 lineto
+1720 89 lineto
+1719 91 lineto
+1718 93 lineto
+1717 94 lineto
+1715 96 lineto
+1714 97 lineto
+1713 98 lineto
+1711 100 lineto
+1710 101 lineto
+1709 102 lineto
+1707 103 lineto
+1706 104 lineto
+1704 105 lineto
+1702 106 lineto
+1701 107 lineto
+1699 108 lineto
+1698 109 lineto
+1696 109 lineto
+1694 110 lineto
+1693 110 lineto
+1691 111 lineto
+1690 111 lineto
+1688 111 lineto
+1686 111 lineto
+1686 111 lineto
+1684 111 lineto
+1682 111 lineto
+1681 111 lineto
+1679 110 lineto
+1678 110 lineto
+1676 109 lineto
+1674 109 lineto
+1673 108 lineto
+1671 107 lineto
+1670 106 lineto
+1668 105 lineto
+1666 104 lineto
+1665 103 lineto
+1663 102 lineto
+1662 101 lineto
+1661 100 lineto
+1659 98 lineto
+1658 97 lineto
+1657 96 lineto
+1655 94 lineto
+1654 93 lineto
+1653 91 lineto
+1652 89 lineto
+1651 88 lineto
+1650 86 lineto
+1649 84 lineto
+1649 83 lineto
+1648 81 lineto
+1647 79 lineto
+1647 79 lineto
+1647 77 lineto
+1647 75 lineto
+1647 74 lineto
+1647 72 lineto
+1647 70 lineto
+1647 69 lineto
+1647 67 lineto
+1648 65 lineto
+1649 64 lineto
+1650 62 lineto
+1650 61 lineto
+1652 60 lineto
+1653 58 lineto
+1654 57 lineto
+1656 56 lineto
+1657 55 lineto
+1659 54 lineto
+1661 53 lineto
+1662 52 lineto
+1664 51 lineto
+1667 50 lineto
+1669 49 lineto
+1671 49 lineto
+1673 48 lineto
+1676 48 lineto
+1678 47 lineto
+1680 47 lineto
+1683 47 lineto
+1685 47 lineto
+1687 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1666 68 moveto
+(SII)
+[17.76 10.56 10.56]
+xshow
+end grestore
+end grestore
+% OIH->SII
+newpath 1100 199 moveto
+1227 185 1539 150 1637 112 curveto
+1642 110 1646 108 1651 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1653 108 moveto
+1660 100 lineto
+1650 102 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1653 108 moveto
+1660 100 lineto
+1650 102 lineto
+closepath
+stroke
+end grestore
+% SLB
+gsave 10 dict begin
+filled
+0.847 0.847 0.847 nodecolor
+0.847 0.847 0.847 nodecolor
+newpath 1798 47 moveto
+1801 47 lineto
+1804 47 lineto
+1807 48 lineto
+1810 48 lineto
+1813 49 lineto
+1816 49 lineto
+1819 50 lineto
+1821 51 lineto
+1824 52 lineto
+1826 53 lineto
+1828 54 lineto
+1830 55 lineto
+1832 56 lineto
+1834 57 lineto
+1836 58 lineto
+1837 60 lineto
+1839 61 lineto
+1840 62 lineto
+1841 64 lineto
+1842 65 lineto
+1842 67 lineto
+1843 69 lineto
+1843 70 lineto
+1844 72 lineto
+1844 74 lineto
+1844 75 lineto
+1843 77 lineto
+1843 79 lineto
+1842 79 lineto
+1842 81 lineto
+1841 83 lineto
+1840 84 lineto
+1839 86 lineto
+1838 88 lineto
+1837 89 lineto
+1835 91 lineto
+1834 93 lineto
+1833 94 lineto
+1831 96 lineto
+1829 97 lineto
+1828 98 lineto
+1826 100 lineto
+1824 101 lineto
+1822 102 lineto
+1820 103 lineto
+1819 104 lineto
+1817 105 lineto
+1815 106 lineto
+1813 107 lineto
+1811 108 lineto
+1809 109 lineto
+1807 109 lineto
+1805 110 lineto
+1803 110 lineto
+1801 111 lineto
+1799 111 lineto
+1797 111 lineto
+1795 111 lineto
+1793 111 lineto
+1791 111 lineto
+1789 111 lineto
+1787 111 lineto
+1785 110 lineto
+1783 110 lineto
+1781 109 lineto
+1779 109 lineto
+1777 108 lineto
+1775 107 lineto
+1773 106 lineto
+1771 105 lineto
+1769 104 lineto
+1768 103 lineto
+1766 102 lineto
+1764 101 lineto
+1762 100 lineto
+1760 98 lineto
+1759 97 lineto
+1757 96 lineto
+1755 94 lineto
+1754 93 lineto
+1753 91 lineto
+1751 89 lineto
+1750 88 lineto
+1749 86 lineto
+1748 84 lineto
+1747 83 lineto
+1746 81 lineto
+1746 79 lineto
+1745 79 lineto
+1745 77 lineto
+1744 75 lineto
+1744 74 lineto
+1744 72 lineto
+1745 70 lineto
+1745 69 lineto
+1746 67 lineto
+1746 65 lineto
+1747 64 lineto
+1748 62 lineto
+1749 61 lineto
+1751 60 lineto
+1752 58 lineto
+1754 57 lineto
+1756 56 lineto
+1758 55 lineto
+1760 54 lineto
+1762 53 lineto
+1764 52 lineto
+1767 51 lineto
+1769 50 lineto
+1772 49 lineto
+1775 49 lineto
+1778 48 lineto
+1781 48 lineto
+1784 47 lineto
+1787 47 lineto
+1790 47 lineto
+1793 47 lineto
+1795 47 lineto
+closepath
+fill
+0.847 0.847 0.847 nodecolor
+newpath 1798 47 moveto
+1801 47 lineto
+1804 47 lineto
+1807 48 lineto
+1810 48 lineto
+1813 49 lineto
+1816 49 lineto
+1819 50 lineto
+1821 51 lineto
+1824 52 lineto
+1826 53 lineto
+1828 54 lineto
+1830 55 lineto
+1832 56 lineto
+1834 57 lineto
+1836 58 lineto
+1837 60 lineto
+1839 61 lineto
+1840 62 lineto
+1841 64 lineto
+1842 65 lineto
+1842 67 lineto
+1843 69 lineto
+1843 70 lineto
+1844 72 lineto
+1844 74 lineto
+1844 75 lineto
+1843 77 lineto
+1843 79 lineto
+1842 79 lineto
+1842 81 lineto
+1841 83 lineto
+1840 84 lineto
+1839 86 lineto
+1838 88 lineto
+1837 89 lineto
+1835 91 lineto
+1834 93 lineto
+1833 94 lineto
+1831 96 lineto
+1829 97 lineto
+1828 98 lineto
+1826 100 lineto
+1824 101 lineto
+1822 102 lineto
+1820 103 lineto
+1819 104 lineto
+1817 105 lineto
+1815 106 lineto
+1813 107 lineto
+1811 108 lineto
+1809 109 lineto
+1807 109 lineto
+1805 110 lineto
+1803 110 lineto
+1801 111 lineto
+1799 111 lineto
+1797 111 lineto
+1795 111 lineto
+1793 111 lineto
+1791 111 lineto
+1789 111 lineto
+1787 111 lineto
+1785 110 lineto
+1783 110 lineto
+1781 109 lineto
+1779 109 lineto
+1777 108 lineto
+1775 107 lineto
+1773 106 lineto
+1771 105 lineto
+1769 104 lineto
+1768 103 lineto
+1766 102 lineto
+1764 101 lineto
+1762 100 lineto
+1760 98 lineto
+1759 97 lineto
+1757 96 lineto
+1755 94 lineto
+1754 93 lineto
+1753 91 lineto
+1751 89 lineto
+1750 88 lineto
+1749 86 lineto
+1748 84 lineto
+1747 83 lineto
+1746 81 lineto
+1746 79 lineto
+1745 79 lineto
+1745 77 lineto
+1744 75 lineto
+1744 74 lineto
+1744 72 lineto
+1745 70 lineto
+1745 69 lineto
+1746 67 lineto
+1746 65 lineto
+1747 64 lineto
+1748 62 lineto
+1749 61 lineto
+1751 60 lineto
+1752 58 lineto
+1754 57 lineto
+1756 56 lineto
+1758 55 lineto
+1760 54 lineto
+1762 53 lineto
+1764 52 lineto
+1767 51 lineto
+1769 50 lineto
+1772 49 lineto
+1775 49 lineto
+1778 48 lineto
+1781 48 lineto
+1784 47 lineto
+1787 47 lineto
+1790 47 lineto
+1793 47 lineto
+1795 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1764 68 moveto
+(SLB)
+[17.76 19.44 21.36]
+xshow
+end grestore
+end grestore
+% OIH->SLB
+newpath 1100 199 moveto
+1242 187 1617 151 1735 112 curveto
+1741 110 1747 107 1752 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1754 108 moveto
+1761 100 lineto
+1751 102 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1754 108 moveto
+1761 100 lineto
+1751 102 lineto
+closepath
+stroke
+end grestore
+% TDW
+gsave 10 dict begin
+filled
+0.747 0.747 0.747 nodecolor
+0.747 0.747 0.747 nodecolor
+newpath 1924 47 moveto
+1927 47 lineto
+1931 47 lineto
+1934 48 lineto
+1938 48 lineto
+1941 49 lineto
+1944 49 lineto
+1947 50 lineto
+1950 51 lineto
+1953 52 lineto
+1956 53 lineto
+1958 54 lineto
+1960 55 lineto
+1963 56 lineto
+1965 57 lineto
+1967 58 lineto
+1968 60 lineto
+1970 61 lineto
+1971 62 lineto
+1972 64 lineto
+1973 65 lineto
+1974 67 lineto
+1975 69 lineto
+1975 70 lineto
+1976 72 lineto
+1976 74 lineto
+1975 75 lineto
+1975 77 lineto
+1975 79 lineto
+1974 79 lineto
+1973 81 lineto
+1973 83 lineto
+1971 84 lineto
+1970 86 lineto
+1969 88 lineto
+1968 89 lineto
+1966 91 lineto
+1965 93 lineto
+1963 94 lineto
+1961 96 lineto
+1959 97 lineto
+1957 98 lineto
+1955 100 lineto
+1953 101 lineto
+1951 102 lineto
+1949 103 lineto
+1947 104 lineto
+1945 105 lineto
+1943 106 lineto
+1940 107 lineto
+1938 108 lineto
+1936 109 lineto
+1934 109 lineto
+1931 110 lineto
+1929 110 lineto
+1927 111 lineto
+1924 111 lineto
+1922 111 lineto
+1920 111 lineto
+1918 111 lineto
+1916 111 lineto
+1914 111 lineto
+1911 111 lineto
+1909 110 lineto
+1907 110 lineto
+1904 109 lineto
+1902 109 lineto
+1900 108 lineto
+1898 107 lineto
+1895 106 lineto
+1893 105 lineto
+1891 104 lineto
+1889 103 lineto
+1887 102 lineto
+1885 101 lineto
+1883 100 lineto
+1881 98 lineto
+1879 97 lineto
+1877 96 lineto
+1875 94 lineto
+1873 93 lineto
+1872 91 lineto
+1870 89 lineto
+1869 88 lineto
+1868 86 lineto
+1867 84 lineto
+1865 83 lineto
+1865 81 lineto
+1864 79 lineto
+1863 79 lineto
+1863 77 lineto
+1863 75 lineto
+1862 74 lineto
+1862 72 lineto
+1863 70 lineto
+1863 69 lineto
+1864 67 lineto
+1865 65 lineto
+1866 64 lineto
+1867 62 lineto
+1868 61 lineto
+1870 60 lineto
+1871 58 lineto
+1873 57 lineto
+1875 56 lineto
+1878 55 lineto
+1880 54 lineto
+1882 53 lineto
+1885 52 lineto
+1888 51 lineto
+1891 50 lineto
+1894 49 lineto
+1897 49 lineto
+1900 48 lineto
+1904 48 lineto
+1907 47 lineto
+1911 47 lineto
+1914 47 lineto
+1918 47 lineto
+1920 47 lineto
+closepath
+fill
+0.747 0.747 0.747 nodecolor
+newpath 1924 47 moveto
+1927 47 lineto
+1931 47 lineto
+1934 48 lineto
+1938 48 lineto
+1941 49 lineto
+1944 49 lineto
+1947 50 lineto
+1950 51 lineto
+1953 52 lineto
+1956 53 lineto
+1958 54 lineto
+1960 55 lineto
+1963 56 lineto
+1965 57 lineto
+1967 58 lineto
+1968 60 lineto
+1970 61 lineto
+1971 62 lineto
+1972 64 lineto
+1973 65 lineto
+1974 67 lineto
+1975 69 lineto
+1975 70 lineto
+1976 72 lineto
+1976 74 lineto
+1975 75 lineto
+1975 77 lineto
+1975 79 lineto
+1974 79 lineto
+1973 81 lineto
+1973 83 lineto
+1971 84 lineto
+1970 86 lineto
+1969 88 lineto
+1968 89 lineto
+1966 91 lineto
+1965 93 lineto
+1963 94 lineto
+1961 96 lineto
+1959 97 lineto
+1957 98 lineto
+1955 100 lineto
+1953 101 lineto
+1951 102 lineto
+1949 103 lineto
+1947 104 lineto
+1945 105 lineto
+1943 106 lineto
+1940 107 lineto
+1938 108 lineto
+1936 109 lineto
+1934 109 lineto
+1931 110 lineto
+1929 110 lineto
+1927 111 lineto
+1924 111 lineto
+1922 111 lineto
+1920 111 lineto
+1918 111 lineto
+1916 111 lineto
+1914 111 lineto
+1911 111 lineto
+1909 110 lineto
+1907 110 lineto
+1904 109 lineto
+1902 109 lineto
+1900 108 lineto
+1898 107 lineto
+1895 106 lineto
+1893 105 lineto
+1891 104 lineto
+1889 103 lineto
+1887 102 lineto
+1885 101 lineto
+1883 100 lineto
+1881 98 lineto
+1879 97 lineto
+1877 96 lineto
+1875 94 lineto
+1873 93 lineto
+1872 91 lineto
+1870 89 lineto
+1869 88 lineto
+1868 86 lineto
+1867 84 lineto
+1865 83 lineto
+1865 81 lineto
+1864 79 lineto
+1863 79 lineto
+1863 77 lineto
+1863 75 lineto
+1862 74 lineto
+1862 72 lineto
+1863 70 lineto
+1863 69 lineto
+1864 67 lineto
+1865 65 lineto
+1866 64 lineto
+1867 62 lineto
+1868 61 lineto
+1870 60 lineto
+1871 58 lineto
+1873 57 lineto
+1875 56 lineto
+1878 55 lineto
+1880 54 lineto
+1882 53 lineto
+1885 52 lineto
+1888 51 lineto
+1891 50 lineto
+1894 49 lineto
+1897 49 lineto
+1900 48 lineto
+1904 48 lineto
+1907 47 lineto
+1911 47 lineto
+1914 47 lineto
+1918 47 lineto
+1920 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1882 68 moveto
+(TDW)
+[19.2 23.04 30]
+xshow
+end grestore
+end grestore
+% OIH->TDW
+newpath 1100 200 moveto
+1258 189 1710 154 1853 112 curveto
+1860 110 1866 108 1873 105 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 1875 108 moveto
+1882 100 lineto
+1872 102 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 1875 108 moveto
+1882 100 lineto
+1872 102 lineto
+closepath
+stroke
+end grestore
+% WFT
+gsave 10 dict begin
+filled
+0.746 0.746 0.746 nodecolor
+0.746 0.746 0.746 nodecolor
+newpath 2054 47 moveto
+2057 47 lineto
+2060 47 lineto
+2064 48 lineto
+2067 48 lineto
+2070 49 lineto
+2073 49 lineto
+2076 50 lineto
+2079 51 lineto
+2082 52 lineto
+2084 53 lineto
+2087 54 lineto
+2089 55 lineto
+2091 56 lineto
+2093 57 lineto
+2095 58 lineto
+2097 60 lineto
+2098 61 lineto
+2099 62 lineto
+2100 64 lineto
+2101 65 lineto
+2102 67 lineto
+2103 69 lineto
+2103 70 lineto
+2103 72 lineto
+2103 74 lineto
+2103 75 lineto
+2103 77 lineto
+2103 79 lineto
+2102 79 lineto
+2101 81 lineto
+2100 83 lineto
+2099 84 lineto
+2098 86 lineto
+2097 88 lineto
+2096 89 lineto
+2094 91 lineto
+2093 93 lineto
+2091 94 lineto
+2090 96 lineto
+2088 97 lineto
+2086 98 lineto
+2084 100 lineto
+2082 101 lineto
+2080 102 lineto
+2078 103 lineto
+2076 104 lineto
+2074 105 lineto
+2072 106 lineto
+2070 107 lineto
+2067 108 lineto
+2065 109 lineto
+2063 109 lineto
+2061 110 lineto
+2059 110 lineto
+2056 111 lineto
+2054 111 lineto
+2052 111 lineto
+2050 111 lineto
+2048 111 lineto
+2046 111 lineto
+2044 111 lineto
+2042 111 lineto
+2039 110 lineto
+2037 110 lineto
+2035 109 lineto
+2033 109 lineto
+2031 108 lineto
+2028 107 lineto
+2026 106 lineto
+2024 105 lineto
+2022 104 lineto
+2020 103 lineto
+2018 102 lineto
+2016 101 lineto
+2014 100 lineto
+2012 98 lineto
+2010 97 lineto
+2008 96 lineto
+2007 94 lineto
+2005 93 lineto
+2004 91 lineto
+2002 89 lineto
+2001 88 lineto
+2000 86 lineto
+1999 84 lineto
+1998 83 lineto
+1997 81 lineto
+1996 79 lineto
+1995 79 lineto
+1995 77 lineto
+1995 75 lineto
+1995 74 lineto
+1995 72 lineto
+1995 70 lineto
+1995 69 lineto
+1996 67 lineto
+1997 65 lineto
+1998 64 lineto
+1999 62 lineto
+2000 61 lineto
+2001 60 lineto
+2003 58 lineto
+2005 57 lineto
+2007 56 lineto
+2009 55 lineto
+2011 54 lineto
+2014 53 lineto
+2016 52 lineto
+2019 51 lineto
+2022 50 lineto
+2025 49 lineto
+2028 49 lineto
+2031 48 lineto
+2034 48 lineto
+2038 47 lineto
+2041 47 lineto
+2044 47 lineto
+2048 47 lineto
+2050 47 lineto
+closepath
+fill
+0.746 0.746 0.746 nodecolor
+newpath 2054 47 moveto
+2057 47 lineto
+2060 47 lineto
+2064 48 lineto
+2067 48 lineto
+2070 49 lineto
+2073 49 lineto
+2076 50 lineto
+2079 51 lineto
+2082 52 lineto
+2084 53 lineto
+2087 54 lineto
+2089 55 lineto
+2091 56 lineto
+2093 57 lineto
+2095 58 lineto
+2097 60 lineto
+2098 61 lineto
+2099 62 lineto
+2100 64 lineto
+2101 65 lineto
+2102 67 lineto
+2103 69 lineto
+2103 70 lineto
+2103 72 lineto
+2103 74 lineto
+2103 75 lineto
+2103 77 lineto
+2103 79 lineto
+2102 79 lineto
+2101 81 lineto
+2100 83 lineto
+2099 84 lineto
+2098 86 lineto
+2097 88 lineto
+2096 89 lineto
+2094 91 lineto
+2093 93 lineto
+2091 94 lineto
+2090 96 lineto
+2088 97 lineto
+2086 98 lineto
+2084 100 lineto
+2082 101 lineto
+2080 102 lineto
+2078 103 lineto
+2076 104 lineto
+2074 105 lineto
+2072 106 lineto
+2070 107 lineto
+2067 108 lineto
+2065 109 lineto
+2063 109 lineto
+2061 110 lineto
+2059 110 lineto
+2056 111 lineto
+2054 111 lineto
+2052 111 lineto
+2050 111 lineto
+2048 111 lineto
+2046 111 lineto
+2044 111 lineto
+2042 111 lineto
+2039 110 lineto
+2037 110 lineto
+2035 109 lineto
+2033 109 lineto
+2031 108 lineto
+2028 107 lineto
+2026 106 lineto
+2024 105 lineto
+2022 104 lineto
+2020 103 lineto
+2018 102 lineto
+2016 101 lineto
+2014 100 lineto
+2012 98 lineto
+2010 97 lineto
+2008 96 lineto
+2007 94 lineto
+2005 93 lineto
+2004 91 lineto
+2002 89 lineto
+2001 88 lineto
+2000 86 lineto
+1999 84 lineto
+1998 83 lineto
+1997 81 lineto
+1996 79 lineto
+1995 79 lineto
+1995 77 lineto
+1995 75 lineto
+1995 74 lineto
+1995 72 lineto
+1995 70 lineto
+1995 69 lineto
+1996 67 lineto
+1997 65 lineto
+1998 64 lineto
+1999 62 lineto
+2000 61 lineto
+2001 60 lineto
+2003 58 lineto
+2005 57 lineto
+2007 56 lineto
+2009 55 lineto
+2011 54 lineto
+2014 53 lineto
+2016 52 lineto
+2019 51 lineto
+2022 50 lineto
+2025 49 lineto
+2028 49 lineto
+2031 48 lineto
+2034 48 lineto
+2038 47 lineto
+2041 47 lineto
+2044 47 lineto
+2048 47 lineto
+2050 47 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2015 68 moveto
+(WFT)
+[30 17.76 19.2]
+xshow
+end grestore
+end grestore
+% OIH->WFT
+newpath 1100 201 moveto
+1275 192 1817 161 1985 112 curveto
+1991 110 1998 107 2004 104 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.000 0.000 0.000 edgecolor
+newpath 2005 107 moveto
+2013 100 lineto
+2002 101 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+newpath 2005 107 moveto
+2013 100 lineto
+2002 101 lineto
+closepath
+stroke
+end grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

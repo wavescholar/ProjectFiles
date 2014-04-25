@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: klBook.aux
+A level-1 auxiliary file: ABS.aux
+A level-1 auxiliary file: ACK.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: klBookContent.aux
+A level-1 auxiliary file: Appendix_Numerical.aux
+A level-1 auxiliary file: klSoftware.aux
+A level-1 auxiliary file: Appendix_Statistics.aux
+White space in argument---line 9 of file Appendix_Statistics.aux
+ : \citation{Scholkopf
+ :                     B. (2002)}
+I'm skipping whatever remains of this command
+White space in argument---line 11 of file Appendix_Statistics.aux
+ : \citation{Liang,K-Y
+ :                     and Zeger,S. L.(1986)}
+I'm skipping whatever remains of this command
+White space in argument---line 12 of file Appendix_Statistics.aux
+ : \citation{Prentice
+ :                    and Gloeckler (1978)}
+I'm skipping whatever remains of this command
+White space in argument---line 13 of file Appendix_Statistics.aux
+ : \citation{Meyer,B.D.
+ :                      (1990)}
+I'm skipping whatever remains of this command
+White space in argument---line 14 of file Appendix_Statistics.aux
+ : \citation{Holmen,M
+ :                    (2005)}
+I'm skipping whatever remains of this command
+White space in argument---line 15 of file Appendix_Statistics.aux
+ : \citation{Prentice,R.
+ :                       and L. Gloeckler (1978)}
+I'm skipping whatever remains of this command
+White space in argument---line 17 of file Appendix_Statistics.aux
+ : \citation{Lindley,D.
+ :                      V. (1950)}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: Appendix_Probability.aux
+White space in argument---line 15 of file Appendix_Probability.aux
+ : \citation{Fisher
+ :                  Tippet (1928)}
+I'm skipping whatever remains of this command
+White space in argument---line 16 of file Appendix_Probability.aux
+ : \citation{Gnedenko
+ :                    (1943)}
+I'm skipping whatever remains of this command
+The style file: plainnat.bst
+Database file #1: thebibliography.bib
+You're missing a field name---line 373 of file thebibliography.bib
+ : @techreport{EFWainwright03graphicalmodels,
+ :                                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "ds"
+Warning--I didn't find a database entry for "d"
+Warning--I didn't find a database entry for "Liang"
+Warning--I didn't find a database entry for "Meyer"
+Warning--I didn't find a database entry for "Holmen"
+Warning--I didn't find a database entry for "Prentice"
+Warning--I didn't find a database entry for "Lindley"
+Warning--I didn't find a database entry for "Devorye"
+Warning--there's a number but no volume in RMTAlon00bipartitesubgraphs
+Warning--empty institution in MDSBernstein00graphapproximations
+Warning--empty year in GLPBoydconvexoptimization
+Warning--empty year in GLPBoydconvexoptimization
+Warning--empty year in DMBremerabstractdiffusion
+Warning--there's a number but no volume in KLBurges98atutorial
+Warning--empty year in DMCarnegieinformationdiffusion
+Warning--empty year in DMCoifmandiffusionmaps
+Warning--there's a number but no volume in RMTCooper00onthe
+Warning--empty institution in BDGordon99approximatesolutions
+Warning--there's a number but no volume in GLPGuatterygraphembeddings
+Warning--empty year in GLPGuatterygraphembeddings
+Warning--empty year in GLPGuatterygraphembeddings
+Warning--there's a number but no volume in MDS_ISOMAP
+Warning--there's a number but no volume in KLKeerthi99improvementsto
+Warning--empty year in GLPKellersignedgraph
+Warning--there's a number but no volume in DMLafferty05diffusionkernels
+Warning--empty year in MCMuyan_ablessing
+Warning--empty year in KLProgramminglearningthe
+Warning--empty institution in KLScholkopf00statisticallearning
+Warning--there's a number but no volume in KLScholkopf00newsupport
+Warning--there's a number but no volume in MCSinclair92improvedbounds
+Warning--there's a number but no volume in RMTSoshnikov02anote
+Warning--there's a number but no volume in MCTalagrand95concentrationof
+Warning--there's a number but no volume in RMTTracy98correlationfunctions
+Warning--empty year in SDPVandenberghe_generalizedchebyshev
+Warning--empty year in SDPVandenberghe_generalizedchebyshev
+(There were 10 error messages)

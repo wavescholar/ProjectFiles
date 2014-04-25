@@ -1,0 +1,300 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achlioptas(2004)]{RMTAchlioptas04randommatrices}
+D~Achlioptas.
+\newblock Random matrices in data analysis.
+\newblock In \emph{Proceedings of the 15 th European Conference on Machine
+  Learning}, pages 1--8, 2004.
+
+\bibitem[Alon and Sudakov(2000)]{RMTAlon00bipartitesubgraphs}
+N~Alon and B~Sudakov.
+\newblock Bipartite subgraphs and the smallest eigenvalue.
+\newblock \emph{Combinatorics, Probability And Computing}, \penalty0
+  (9):\penalty0 1--12, 2000.
+
+\bibitem[Alon et~al.(2000)Alon, Krivelevich, and Vu]{RMTAlon00onthe}
+N~Alon, M~Krivelevich, and V~H Vu.
+\newblock On the concentration of eigenvalues of random symmetric matrices.
+\newblock Technical report, Israel J. Math, 2000.
+
+\bibitem[Arora et~al.(2004)Arora, Rao, and Vazirani]{MCArora04expanderflows}
+S~Arora, S~Rao, and U~Vazirani.
+\newblock Expander flows, geometric embeddings and graph partitioning.
+\newblock In \emph{In Proceedings of the 36th Annual ACM Symposium on Theory of
+  Computing}, pages 222--231, 2004.
+
+\bibitem[Azoury and Warmuth(1999)]{BDAzoury99relativeloss}
+K~Azoury and M~Warmuth.
+\newblock Relative loss bounds for on-line density estimation with the
+  exponential family of distributions.
+\newblock In \emph{In In Proc. 15th Conf. on Uncertainty in Artificial
+  Intelligence}, 1999.
+
+\bibitem[Banerjee et~al.(2004)Banerjee, Dhillon, Ghosh, Merugu, and
+  Modha]{CCBanerjee04ageneralized}
+A~Banerjee, I~Dhillon, J~Ghosh, S~Merugu, and D~Modha.
+\newblock A generalized maximum entropy approach to bregman co-clustering and
+  matrix approximation.
+\newblock In \emph{In KDD}, pages 509--514, 2004.
+
+\bibitem[Bartlett et~al.(2003)Bartlett, Jordan, and
+  McAuliffe]{MCBartlett03convexity}
+P~L Bartlett, M~I Jordan, and J~D McAuliffe.
+\newblock Convexity, classification, and risk bounds.
+\newblock Technical report, Journal of the American Statistical Association,
+  2003.
+
+\bibitem[Bernstein et~al.(2000)Bernstein, de~Silva, Langford, and
+  Tenenbaum]{MDSBernstein00graphapproximations}
+M~Bernstein, V~de~Silva, J~C Langford, and J~B Tenenbaum.
+\newblock Graph approximations to geodesics on embedded manifolds.
+\newblock Technical report, 2000.
+
+\bibitem[Boucheron et~al.(2004)Boucheron, Bousquet, and
+  Lugosi]{MCBoucheron04concentrationinequalities}
+S~Boucheron, O~Bousquet, and G~Lugosi.
+\newblock Concentration inequalities.
+\newblock In \emph{Advanced Lectures in Machine Learning}, pages 208--240.
+  Springer, 2004.
+
+\bibitem[Boyd()]{GLPBoydconvexoptimization}
+S~Boyd.
+\newblock Convex optimization of graph laplacian eigenvalues.
+\newblock In \emph{in International Congress of Mathematicians}, pages
+  1311--1319.
+
+\bibitem[Bremer et~al.()Bremer, Coifman, Maggioni, and
+  Szlam]{DMBremerabstractdiffusion}
+James~C Bremer, Ronald~R Coifman, Mauro Maggioni, and Arthur~D Szlam.
+\newblock Abstract diffusion wavelet packets.
+
+\bibitem[Burges(1998)]{KLBurges98atutorial}
+C~J~C Burges.
+\newblock A tutorial on support vector machines for pattern recognition.
+\newblock \emph{Data Mining and Knowledge Discovery}, \penalty0 (2):\penalty0
+  121--167, 1998.
+
+\bibitem[Carnegie et~al.()Carnegie, Lafferty, and
+  Lebanon]{DMCarnegieinformationdiffusion}
+John~Lafferty Carnegie, John Lafferty, and Guy Lebanon.
+\newblock Information diffusion kernels.
+
+\bibitem[Chung(1993)]{GLPChung93laplaciansof}
+F~R~K Chung.
+\newblock Laplacians of graphs and cheeger's inequalities.
+\newblock In \emph{Proc. Int. Conf. Combinatorics, Paul Erdos is Eighty}, pages
+  1--16, 1993.
+
+\bibitem[Coifman et~al.()Coifman, Kevrekidis, Lafon, Maggioni, and
+  Nadler]{DMCoifmandiffusionmaps}
+R.~R. Coifman, I.~G. Kevrekidis, S.~Lafon, M.~Maggioni, and B.~Nadler.
+\newblock Diffusion maps, reduction coordinates and low dimensional
+  representation of stochastic systems.
+
+\bibitem[Cooper(2000)]{RMTCooper00onthe}
+C~Cooper.
+\newblock On the rank of random matrices.
+\newblock \emph{Random Struct. Algorithms}, \penalty0 (16):\penalty0 2000,
+  2000.
+
+\bibitem[Crescenzi et~al.(1996)Crescenzi, Silvestri, and
+  Trevisan]{GLPCrescenzi96toweight}
+P~Crescenzi, R~Silvestri, and L~Trevisan.
+\newblock To weight or not to weight: Where is the question.
+\newblock In \emph{In Proc. of 4th Israel Symp. on Theory of Computing and
+  Systems}, pages 68--77, 1996.
+
+\bibitem[Donoho(2004)]{Donoho04formost}
+David~L. Donoho.
+\newblock For most large underdetermined systems of linear equations the
+  minimal ℓ1-norm solution is also the sparsest solution.
+\newblock \emph{Comm. Pure Appl. Math}, 59:\penalty0 797--829, 2004.
+
+\bibitem[Federer(1996)]{federer1996geometric}
+Herbert Federer.
+\newblock \emph{Geometric Measure Theory.-Reprint of the 1969 Edition}.
+\newblock Springer, 1996.
+
+\bibitem[FRIEDMAN(1996)]{MCFRIEDMAN96computingbetti}
+J~FRIEDMAN.
+\newblock Computing betti numbers via combinatorial laplacians.
+\newblock In \emph{In Proc. 28th Ann. ACM Sympos. Theory Comput}, pages
+  386--391, 1996.
+
+\bibitem[Gordon(1999)]{BDGordon99approximatesolutions}
+G~Gordon.
+\newblock Approximate solutions to markov decision processes.
+\newblock Technical report, 1999.
+
+\bibitem[Guattery and Miller()]{GLPGuatterygraphembeddings}
+S~Guattery and G~L Miller.
+\newblock Graph embeddings and laplacian eigenvalues.
+\newblock \emph{SIAM Journal on Matrix Analysis and Applications}, \penalty0
+  (21).
+
+\bibitem[Huber(1985)]{HuberProjectionPursuit}
+Peter~J. Huber.
+\newblock Projectionpursuit.
+\newblock \emph{Source: Ann. Statist.}, 13, 1985.
+
+\bibitem[Joshua B.~Tenenbaum(2000)]{MDS_ISOMAP}
+et~al. Joshua B.~Tenenbaum.
+\newblock A global geometric framework for nonlinear dimensionality reduction.
+\newblock \emph{Science 290, 2319}, \penalty0 (290), 2000.
+
+\bibitem[Keerthi et~al.(1999)Keerthi, Shevade, Bhattacharyya, and
+  Murthy]{KLKeerthi99improvementsto}
+S~S Keerthi, S~K Shevade, C~Bhattacharyya, and K~R~K Murthy.
+\newblock Improvements to platt's smo algorithm for svm classifier design.
+\newblock \emph{Neural Computation}, \penalty0 (13):\penalty0 637--649, 1999.
+
+\bibitem[Keller()]{GLPKellersignedgraph}
+Mitchel~T. Keller.
+\newblock Signed graph laplacians.
+
+\bibitem[Kubota and Espinal(2000)]{DMKubota00reactiondiffusionsystems}
+T~Kubota and F~Espinal.
+\newblock Reaction-diffusion systems for hypothesis propagation.
+\newblock In \emph{In Int. Conf. Pattern Recognition}, page 3547, 2000.
+
+\bibitem[Lafferty and Lebanon(2005)]{DMLafferty05diffusionkernels}
+J~Lafferty and G~Lebanon.
+\newblock Diffusion kernels on statistical manifolds.
+\newblock \emph{Journal of Machine Learning Research}, \penalty0 (6):\penalty0
+  2005, 2005.
+
+\bibitem[Ledoux(2004{\natexlab{a}})]{GLPSpectralAnalysisComplexLaplacianMatrices}
+M~Ledoux.
+\newblock Structural, syntactic, and statistical pattern recognition, joint
+  iapr international workshops, sspr 2004 and spr 2004, lisbon, portugal,
+  august 18-20, 2004 proceedings.
+\newblock In \emph{SSPR/SPR}. Springer, 2004{\natexlab{a}}.
+
+\bibitem[Ledoux(2004{\natexlab{b}})]{MCLedoux04spectralgap}
+M~Ledoux.
+\newblock Spectral gap, logarithmic sobolev constant, and geometric bounds.
+\newblock In \emph{Surveys in Diff. Geom., Vol. IX, 219–240, Int}, page
+  2195409. Press, 2004{\natexlab{b}}.
+
+\bibitem[Meyer(1980)]{meyer1980condition}
+Carl~D Meyer, Jr.
+\newblock The condition of a finite markov chain and perturbation bounds for
+  the limiting probabilities.
+\newblock \emph{SIAM Journal on Algebraic Discrete Methods}, 1\penalty0
+  (3):\penalty0 273--283, 1980.
+
+\bibitem[Moler and Loan(1978)]{Moler78nineteendubious}
+Cleve Moler and Charles~Van Loan.
+\newblock Nineteen dubious ways to compute the exponential of a matrix.
+\newblock \emph{SIAM Review}, 20:\penalty0 801--836, 1978.
+
+\bibitem[Muyan and Freitas()]{MCMuyan_ablessing}
+Pinar Muyan and Nando~De Freitas.
+\newblock A blessing of dimensionality: Measure concentration and probabilistic
+  inference.
+
+\bibitem[Nadler et~al.(2006)Nadler, Lafon, Coifman, and
+  Kevrekidis]{DMNadler06diffusionmaps}
+B~Nadler, S~Lafon, R~R Coifman, and I~G Kevrekidis.
+\newblock Diffusion maps, spectral clustering and the reaction coordinates of
+  dynamical systems.
+\newblock In \emph{Applied and Computational Harmonic Analysis: Special issue
+  on Diffusion Maps and Wavelets}, 2006.
+
+\bibitem[Natarajan(1995)]{natarajan1995sparse}
+Balas~Kausik Natarajan.
+\newblock Sparse approximate solutions to linear systems.
+\newblock \emph{SIAM journal on computing}, 24\penalty0 (2):\penalty0 227--234,
+  1995.
+
+\bibitem[Programming et~al.()Programming, Lanckriet, Cristianini, and
+  Ghaoui]{KLProgramminglearningthe}
+With Semi-Definite Programming, Gert Lanckriet, Nello Cristianini, and
+  Laurent~El Ghaoui.
+\newblock Learning the kernel matrix.
+
+\bibitem[Richard C~WILSON(2004)]{GLPAnaFred}
+Edwin R~HANCOCK Richard C~WILSON.
+\newblock Spectral analysis of complex laplacian matrices.
+\newblock In \emph{Structural, syntactic, and statistical pattern recognition:
+  Joint IAPR international workshops, SSPR 2004 and SPR 2004, Lisbon, Portugal,
+  August 18-20, 2004}, 2004.
+
+\bibitem[Scholkopf(2000)]{KLScholkopf00statisticallearning}
+B~Scholkopf.
+\newblock Statistical learning and kernel methods.
+\newblock Technical report, 2000.
+
+\bibitem[Scholkopf et~al.(2000)Scholkopf, Smola, Williamson, and
+  Bartlett]{KLScholkopf00newsupport}
+B~Scholkopf, A~Smola, R~C Williamson, and P~L Bartlett.
+\newblock New support vector algorithms.
+\newblock \emph{Neural Computation}, \penalty0 (12):\penalty0 112--1, 2000.
+
+\bibitem[Schultz and Joachims(2003)]{KLSchultz03learninga}
+M~Schultz and T~Joachims.
+\newblock Learning a distance metric from relative comparisons.
+\newblock In \emph{In NIPS}. MIT Press, 2003.
+
+\bibitem[Shevade et~al.(1999)Shevade, Keerthi, Bhattacharyya, and
+  Murthy]{KLShevade99improvementsto}
+S~K Shevade, S~S Keerthi, C~Bhattacharyya, and K~R~K Murthy.
+\newblock Improvements to smo algorithm for svm regression.
+\newblock Technical report, IEEE Transactions on Neural Networks, 1999.
+
+\bibitem[Sinclair(1992)]{MCSinclair92improvedbounds}
+A~Sinclair.
+\newblock Improved bounds for mixing rates of markov chains and multicommodity
+  flow.
+\newblock \emph{Combinatorics, Prob., Comput}, \penalty0 (1), 1992.
+
+\bibitem[Singh and Gordon(2008)]{BDAUnifiedViewMatrixFactorizationModels}
+A.~P. Singh and G.~J. Gordon.
+\newblock A unified view of matrix factorization models.
+\newblock In \emph{Machine Learning and Knowledge Discovery in Databases (Proc.
+  ECML PKDD), volume 5212/2008 of Lecture Notes in Computer Science, pages
+  358-373. Springer Berlin / Heidelberg, 2008}, 2008.
+
+\bibitem[Soshnikov(2002)]{RMTSoshnikov02anote}
+A~Soshnikov.
+\newblock A note on universality of the distribution of the largest eigenvalues
+  in certain sample covariance matrices.
+\newblock \emph{J. Statist. Phys}, \penalty0 (108):\penalty0 1033--1056, 2002.
+
+\bibitem[Talagrand(1995)]{MCTalagrand95concentrationof}
+M~Talagrand.
+\newblock Concentration of measure and isoperimetric inequalities in product
+  spaces.
+\newblock \emph{Publ. Math. IHES}, \penalty0 (81):\penalty0 73--205, 1995.
+
+\bibitem[Tracy and Widom(1998)]{RMTTracy98correlationfunctions}
+C~A Tracy and H~Widom.
+\newblock Correlation functions, cluster functionsand spacing distribution for
+  random matrices.
+\newblock \emph{J. Statist. Phys}, \penalty0 (92), 1998.
+
+\bibitem[Tsang and Kwok(2003)]{KLTsang03distancemetric}
+I~W Tsang and J~T Kwok.
+\newblock Distance metric learning with kernels.
+\newblock In \emph{Proceedings of the International Conference on Artificial
+  Neural Networks}, pages 126--129, 2003.
+
+\bibitem[Vandenberghe et~al.()Vandenberghe, Boyd, and
+  Comanor]{SDPVandenberghe_generalizedchebyshev}
+Lieven Vandenberghe, Stephen Boyd, and Katherine Comanor.
+\newblock Generalized chebyshev bounds via semidefinite programming.
+\newblock \emph{SIAM Review}, 49.
+
+\bibitem[Weston et~al.(2000)Weston, Mukherjee, Chapelle, Pontil, Poggio, and
+  Vapnik]{KLWeston00featureselection}
+J~Weston, S~Mukherjee, O~Chapelle, M~Pontil, T~Poggio, and V~Vapnik.
+\newblock Feature selection for svms.
+\newblock In \emph{Advances in Neural Information Processing Systems 13}, pages
+  668--674. MIT Press, 2000.
+
+\end{thebibliography}

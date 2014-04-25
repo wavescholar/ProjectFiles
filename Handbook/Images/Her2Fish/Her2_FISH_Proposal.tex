@@ -1,0 +1,298 @@
+% ----------------------------------------------------------------
+% AMS-LaTeX Paper ************************************************
+% **** -----------------------------------------------------------
+\documentclass[10pt]{amsart}
+%\documentclass{report}
+\usepackage{graphicx}
+% ----------------------------------------------------------------
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+% THEOREMS -------------------------------------------------------
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\theoremstyle{remark}
+\newtheorem{rem}[thm]{Remark}
+\numberwithin{equation}{section}
+% MATH -----------------------------------------------------------
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\BX}{\mathbf{B}(X)}
+\newcommand{\A}{\mathcal{A}}
+
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]%
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}%
+                           {2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+%Example of usage
+
+% ----------------------------------------------------------------
+\begin{document}
+\setlength{\baselineskip}{1.6 \defbaselineskip}
+\title{Proposal to Develop Semi Automated Her2 FISH Machine Vision Software}%
+\author{Bruce B. Campbell}%
+{Wavescholar Consulting, LLC.}
+\email{bruce@wavescholar.com}%
+
+% ----------------------------------------------------------------
+\begin{abstract}
+Her2 assessment in breast cancer provides important predictive and
+patient management information.  Biologic mechanisms underlying
+Her2 involvement in breast cancer is currently evaluated in the
+clinical setting via fluorescence in situ hybridization (FISH) for
+gene amplification and immunohistochemistry (IHC) for protein
+over-expression on the cell membrane.  IHC is a relatively
+inexpensive test and can be done in most clinical pathology labs,
+but grading is qualitative and subject to inter-observer variation
+that may have clinical implications. FISH analysis shows good
+concordance with high grade IHC results and can resolve
+inconclusive IHC results, but is expensive to implement and more
+laborious for the pathologist to score.  This document seeks to
+make a case that machine vision software can be developed to
+reduce the labor burden in grading FISH.  It is speculated that
+the labor barrier may a bigger issue in adaptation rather than the
+hardware required to implement the Her2 FISH assay.  A machine
+vision system may alleviate that cost concern and provide valuable
+clinical benefit.
+
+\end{abstract}
+
+\maketitle
+
+\tableofcontents
+
+\section{The importance and challenges of accurate assessment of Her2
+over-expression / amplification in metastatic breast cancer} In
+20-30\% of breast cancer cases the human epidermal growth factor
+receptor type 2 (HER-2) gene is over-expressed.  The
+over-expression of Her-2 is generally a result of gene
+amplification where multiple copies of the gene are present. HER2
+status is predictive of disease free status post chemotherapy, and
+is use to identify patients most likely to benefit from Herceptin
+therapy. Current best practice in assessing HER2 status in
+metastatic breast cancer is to test for amplification using IHC
+and to confirm ambiguous (2+) cases with FISH.  IHC scores of 0,1
+are assumed to be FISH negative and IHC scores of 3 are assumed to
+be FISH positive.  There is good statistical concordance between
+the 0,1,3 IHC and FISH scores, but it is not 100\%.  The
+subjective nature of IHC grading allows for the possibility that
+some IHC grade 1 cases would be HER2 positive by FISH. For
+background information see \cite{2,3}.
+
+\section{Automated / Semi Automated Pathology Background}
+The job of the clinical pathologist can be labor intensive.
+Attempts have been made to alleviate some of the visual burden
+through digital capture and display, semi-automated, and fully
+automated systems. Semi-automated pathology would include digital
+capture and display and functionality to improve the ability to
+grade via simple color segmentation or counting algorithms.  Fully
+automated pathology would produce whole slide grades based.
+
+There is keen interest interest and due skepticism regarding fully
+automated pathology systems. The track record of vision software
+that accurately reproduces path scores is not good frankly.
+Challenges in developing such systems include;
+\begin{itemize}
+    \item The visual complexity and high degree of variation in biological images
+    poses a challenge to developing accurate tissue segmentation
+    software.
+    \item The difficulty and expense in obtaining sufficient
+    training and test data for developing grading software.
+    \item Accommodating in software the color and morphometric variation due to
+    operator/equipment induced variation in staining, tissue preparation, and image capture.
+    \item The propensity for pathologists to disagree.
+\end{itemize}
+
+It has been demonstrated that whole slide digital scanning and
+display does not affect the ability to make reliable clinical
+decisions \cite{1}.  There is an element of luck in being able to
+migrate a clinical test from digital pathology to automated
+pathology. The stain,tissue morphology and psychophysics involved
+in scoring must be amenable to the capture hardware, imaging
+software and statistical tools at hand.  Obtaining sufficient
+training data for tissue object and whole slide models is also a
+risk point in developing automated applications.
+
+\section{Machine Vision in Pathology}
+Automated pathology workflow
+\begin{itemize}
+    \item scan, annotate, store
+    \item color / morphological object segmentation
+    \begin{itemize}
+\item pixel classification \item object classification \item image
+tile classification
+\end{itemize}
+    \item whole slide classification
+\end{itemize}
+The last step is typically the hardest.  An ordinal scoring model
+based on expert data maps the object data onto a path score.
+Applications involving simple visual measurements such as
+vacuolation or thickening of a membrane are easier for machine
+vision scoring models.  Tasks like low grade necrosis or
+inflammation that require subtle discrimination of color or
+texture are harder. Tasks like detecting mitosis that require
+finding one bad object among many good are very hard for machine
+vision applications.
+
+\section{Automated scoring of HER2 FISH digital images}
+PathVysion (Vysis Inc.) and Inform (Ventana Medical Systems) two
+commercially available tests to the evaluation of HER2 status.
+Inform is a single probe system counterstained with DAPI or PI.
+The PathVysion test is a two probe HER-2/CEP17 test counterstained
+with DAPI.  Soring of the PathVysion test is done by locating 60
+tumor cells and determining the HER-2/CEP17 signal ratio.  A ratio
+$\succeq 2.0$ is the cutoff for amplification. For some window
+around the cutoff $( \pm -.2 )$, an additional 60 nuclei are
+counted. The range and distribution of 2,502 HER-2/CEP17 ratios in
+\cite{3} shows that the there are a lot of spots to count for an
+accurate assessment of an amplified sample.
+
+Scoring of HER2 FISH samples is an ideal candidate for
+semi-automated pathology.  The HER-2/CEP17 ratio is a quantitative
+score, so some of the difficulties outlined above are alleviated.
+Once tumor cells are located, scoring becomes a moderate machine
+vision task. If an H\&E reference slide is available it can be
+digitally registered with the FISH image, and  a pathologist
+selected region of interest (ROI) on an H\&E area containing tumor
+cells is easily mapped onto the FISH image.
+
+Variance in sample preparation via staining and tissue thickness
+will often produce variances in luminance that can make machine
+vision applications more challenging.  By removing the luminance
+information and separating colors in a perceptual color space, a
+more robust segmentation can be achieved.  FISH images are good
+candidates for segmenting in chromaticity space, because the
+colors are determined by the markers and optical filters - which
+tend to be stable colorimetrically.
+
+Cell segmentation is accomplished with moderate ease on FISH image
+using common imaging tools. Once cells are segmented, they must be
+classified as tumor cell or not. Classification can be
+accomplished two ways
+\begin{itemize} \item morphologically with characteristics
+provided by the test manufacturer \item via labelled cells
+obtained from the pathologist
+\end{itemize}
+Which method to choose depends on the nature of the FISH test.
+Generally is will be a size condition, but for some applications
+the criteria will be more subjective - ie 'a thready appearance to
+DAPI stain'.  For the latter case, a hand made wavelet filter
+would be more appropriate.  This is part is again where the matter
+of luck comes in - with labelled data an classifier may be able to
+easily discriminate tumor from non tumor based on simple
+morphological measures.  Filtering is more of an art compared
+classification using morphological characteristics.
+
+The results of a segmentation in the Lab perceptual colorspace is
+below.  A transform can be applied in the direction of the cell
+stain color to obtain a quantitative measure of the stain that the
+pathologist sees for the Inexpensive and open source imaging
+toolkits are available from Intel to implement this in C++ for
+high volume applications.  The masks presented would be used to
+collect data from the original image for classification as
+cancerous or not.
+
+\newpage
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1677A108.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1677A108_abConvexHull.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1677A108_RGB_LabelImg.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1677A108_SampleChromas.jpg}
+\newpage
+A positive expression of HER2 amplification.\newline
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//her-2positive.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//her-2positive_abConvexHull.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//her-2positive_RGB_LabelImg.jpg}
+\includegraphics[width=8.0cm,height=8.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//her-2positive_SampleChromas.jpg}
+\newpage
+
+With a mask of cancer cells a model for generating the HER-2/CEP17
+ratio can be made.  This again can be done with labelled
+pathologist data, or by modelling based on specifications from the
+FISH application.  Spot counting is easy up to a point, in the
+high end of the range of the distribution of ratio the spots start
+to coalesce. Looking at the positive expression on the previous
+page at 600\% zoom, one can see the some of signals starting to
+merge. Dealing with this will require a robust statistical
+approach to handle the transition from an expression where simple
+spot counting can be done, to one that must measure the signal
+strength of the amplification to estimate the ratio. Compounding
+this is that some FISH signals can be ghosts of real ones and must
+be eliminated from the count. What makes ghosts tractable for
+moderate amplification is that they will be an affine transform
+away from the real signal and frequency based filtering methods
+can be used to detect them.  High amplification will present a
+problem to ghost detection, so the model from moderate to high
+amplification needs to handled carefully.
+
+
+
+
+
+%
+%
+%\begin{center}
+%\begin{tabular}{cc}
+%
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1072A1.jpg}
+%&
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//FISH_convexhull_Chroma_kmenasSegment__B31-1072A1.jpg}
+%\\
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1072A45.jpg}
+%&
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//FISH_convexhull_Chroma_kmenasSegment__B31-1072A45.jpg}
+%\\
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//B31-1443A201.jpg}
+%&
+%\includegraphics[width=6.0cm,height=6.0cm]{c://bruce//HER2Fish//FISH_WORK//FISH_IMAGES//HER2//NSABP//FISH_convexhull_Chroma_kmenasSegment__B31-1443A201.jpg}
+%\end{tabular}
+%\end{center}
+%
+
+
+
+
+\begin{thebibliography}{12}
+\bibliographystyle{amsplain}
+
+\bibitem{1} Primary histologic diagnosis using automated whole slide
+imaging: a validation study. John R Gilbertson, Jonhan Ho, Leslie
+Anthony, Drazen M Jukic, Yukako Yagi and Anil V Parwani
+ BMC Clinical Pathology 2006, 6:4
+
+\bibitem{2} Comparison of HER2 Status by Fluorescence in Situ
+Hybridization and Immunohistochemistry to Predict Benefit From
+Dose Escalation of Adjuvant Doxorubicin- Based Therapy in
+Node-Positive Breast Cancer Patients.  Lynn G. Dressler, Donald A.
+Berry, Gloria Broadwater, David Cowan, Kelly Cox, Stephanie
+Griffin, Ashley Miller, Jessica Tse, Debra Novotny, Diane L.
+Persons, Maurice Barcos, I. Craig Henderson, Edison T. Liu, Ann
+Thor, Dan Budman, Hy Muss, Larry Norton, and Daniel F. Hayes. J
+Clin Oncol 23:4287-4297.
+
+\bibitem{3} Diagnostic Evaluation of HER-2 as aMolecularTarget: An
+Assessment of Accuracy and Reproducibility of Laboratory Testing
+in Large, Prospective, Randomized Clinical Trials. Michael F.
+Press, Guido Sauter, Leslie Bernstein Ivonne E.Villalobos, Martina
+Mirlacher, Jian-Yuan Zhou, RoobaWardeh, Yong-Tian Li, Roberta
+Guzman, Yanling Ma, Jane Sullivan-Halley, Angela Santiago, Jinha
+M. Park, Alessandro Riva, and Dennis J.Slamon.  Clin Cancer Res
+2005;11(18) September 15, 2005
+
+\end{thebibliography}
+
+
+
+
+% ----------------------------------------------------------------
+\end{document}
+% ----------------------------------------------------------------

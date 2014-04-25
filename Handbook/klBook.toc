@@ -1,0 +1,185 @@
+\contentsline {section}{\numberline {0.1}Learning Theory and Functional Analysis}{6}
+\contentsline {section}{\numberline {0.2}Learning With Kernels}{6}
+\contentsline {section}{\numberline {0.3}Kernel Density Estimation}{7}
+\contentsline {section}{\numberline {0.4}Distance Functions \& The Affinity Matrix}{8}
+\contentsline {section}{\numberline {0.5}The Graph Cut}{8}
+\contentsline {section}{\numberline {0.6}Graph Spectra}{9}
+\contentsline {section}{\numberline {0.7}Matrix Factorization}{9}
+\contentsline {section}{\numberline {0.8}PCA and its generalization to the Exponential Family}{9}
+\contentsline {section}{\numberline {0.9}Manifold Learning}{11}
+\contentsline {section}{\numberline {0.10}Graph Laplacian}{12}
+\contentsline {section}{\numberline {0.11}Distance Metrics}{12}
+\contentsline {section}{\numberline {0.12}Markov Chains}{12}
+\contentsline {section}{\numberline {0.13}Spectral Graph Theory}{14}
+\contentsline {section}{\numberline {0.14}Diffusion Maps}{14}
+\contentsline {section}{\numberline {0.15}Spectral Geometry}{15}
+\contentsline {section}{\numberline {0.16}Concentration of Measure}{16}
+\contentsline {section}{\numberline {0.17}The Condition Number of a Markov Chain}{19}
+\contentsline {section}{\numberline {0.18}Generalized Chebyshev Bounds on Quadratic Sets via Semidefinite Programming}{19}
+\contentsline {section}{\numberline {0.19}Bregman Divergences}{19}
+\contentsline {section}{\numberline {0.20}Sparse Representation}{20}
+\contentsline {section}{\numberline {0.21}Compressed Sensing}{21}
+\contentsline {section}{\numberline {0.22}Ultracontractivity}{22}
+\contentsline {section}{\numberline {0.23}Generalized Uncertainty Principles}{22}
+\contentsline {section}{\numberline {0.24}Random Matrix Theory \& OP}{23}
+\contentsline {section}{\numberline {0.25}The Hamburger Moment Problem - HMP}{24}
+\contentsline {section}{\numberline {0.26}Random Matrix Ensembles}{24}
+\contentsline {section}{\numberline {0.27}The Tracy Widom Law}{26}
+\contentsline {chapter}{\numberline {1}Figures \& Images}{27}
+\contentsline {section}{\numberline {1.1}Modeling first \& last steps: Plot the data, plot the results.}{28}
+\contentsline {subsection}{\numberline {1.1.1}Figures and Numerical Results from Experiments in Networks, Small World Models, and Spectral Graph Theory}{28}
+\contentsline {subsection}{\numberline {1.1.2}Cell Segmentation \& Automated Pathology}{33}
+\contentsline {chapter}{\numberline {2}Natural Language Processing}{48}
+\contentsline {section}{\numberline {2.1}Introduction}{48}
+\contentsline {subsection}{\numberline {2.1.1}Semantics}{49}
+\contentsline {subsection}{\numberline {2.1.2}Lexicography}{50}
+\contentsline {subsection}{\numberline {2.1.3}Corpus linguistics}{50}
+\contentsline {section}{\numberline {2.2}A Quantification the Semantic Information in WordNet}{50}
+\contentsline {section}{\numberline {2.3}N-gram Models}{50}
+\contentsline {section}{\numberline {2.4}Appendix : Syntax}{52}
+\contentsline {subsection}{\numberline {2.4.1}Grammatical Syntactic Definitions}{53}
+\contentsline {subsubsection}{adjective}{53}
+\contentsline {subsubsection}{adjunct}{54}
+\contentsline {subsubsection}{adverb}{54}
+\contentsline {subsubsection}{appositive}{55}
+\contentsline {subsubsection}{article}{55}
+\contentsline {subsubsection}{aspect}{55}
+\contentsline {subsubsection}{auxiliary verb}{56}
+\contentsline {subsubsection}{case}{56}
+\contentsline {subsubsection}{clause}{56}
+\contentsline {subsubsection}{closed class word}{56}
+\contentsline {subsubsection}{comparative}{57}
+\contentsline {subsubsection}{complement}{57}
+\contentsline {subsubsection}{compound noun and adjective}{57}
+\contentsline {subsubsection}{conjugation}{57}
+\contentsline {subsubsection}{conjunction}{58}
+\contentsline {subsubsection}{dangling modifier}{58}
+\contentsline {subsubsection}{declension}{59}
+\contentsline {subsubsection}{determiner}{59}
+\contentsline {subsubsection}{dual }{59}
+\contentsline {subsubsection}{expletive}{59}
+\contentsline {subsubsection}{Function word}{59}
+\contentsline {subsubsection}{gender}{60}
+\contentsline {subsubsection}{infinitive}{60}
+\contentsline {subsubsection}{modal particle}{60}
+\contentsline {subsubsection}{modifier}{61}
+\contentsline {subsubsection}{mood}{61}
+\contentsline {subsubsection}{noun}{61}
+\contentsline {subsection}{\numberline {2.4.2}Grammar}{63}
+\contentsline {subsection}{\numberline {2.4.3}Parsing}{63}
+\contentsline {subsection}{\numberline {2.4.4}Generative Grammar}{64}
+\contentsline {subsection}{\numberline {2.4.5}Collocation}{64}
+\contentsline {subsection}{\numberline {2.4.6}Semantic prosody}{64}
+\contentsline {subsection}{\numberline {2.4.7}Root}{65}
+\contentsline {subsection}{\numberline {2.4.8}Stem}{66}
+\contentsline {subsection}{\numberline {2.4.9}Morpheme}{66}
+\contentsline {subsection}{\numberline {2.4.10}Lexeme}{66}
+\contentsline {subsection}{\numberline {2.4.11}Word Structure : affix,prefix, suffix}{67}
+\contentsline {subsection}{\numberline {2.4.12}Lemma}{68}
+\contentsline {subsection}{\numberline {2.4.13}Differences Between a Stem and a Lemma}{68}
+\contentsline {subsection}{\numberline {2.4.14}Lexicon}{69}
+\contentsline {subsection}{\numberline {2.4.15}Morphology}{69}
+\contentsline {subsection}{\numberline {2.4.16}Inflection}{70}
+\contentsline {subsection}{\numberline {2.4.17}Derivation}{71}
+\contentsline {subsection}{\numberline {2.4.18}Inflection Versus Derivation}{71}
+\contentsline {subsection}{\numberline {2.4.19}Inflectional Morphology}{71}
+\contentsline {subsection}{\numberline {2.4.20}Fossilization}{72}
+\contentsline {subsection}{\numberline {2.4.21}Stemming}{72}
+\contentsline {subsubsection}{Brute Force Stemming}{73}
+\contentsline {subsubsection}{Production Stemming}{73}
+\contentsline {subsubsection}{Suffix Stripping}{73}
+\contentsline {subsubsection}{Stochastic Stemming and Lemmatization Algorithms}{74}
+\contentsline {subsubsection}{Stochastic N-Gram Stemming}{74}
+\contentsline {section}{\numberline {2.5}Appendix : Semantics}{75}
+\contentsline {subsection}{\numberline {2.5.1}Word Relationships in the WordNet database }{76}
+\contentsline {subsubsection}{Antonym}{77}
+\contentsline {subsubsection}{Hyponym}{77}
+\contentsline {subsubsection}{Meronym}{78}
+\contentsline {subsubsection}{Entailment}{78}
+\contentsline {subsubsection}{Other WordNet Relation Types}{78}
+\contentsline {chapter}{\numberline {3}Image Processing}{81}
+\contentsline {section}{\numberline {3.1}Definitions and Concepts}{81}
+\contentsline {subsection}{\numberline {3.1.1}Reflective and Transmissive Models of Color Perception}{83}
+\contentsline {subsection}{\numberline {3.1.2}Additive and Subtractive Color Models}{85}
+\contentsline {subsection}{\numberline {3.1.3}Gamut Mapping}{85}
+\contentsline {subsection}{\numberline {3.1.4}Rendering Intents}{86}
+\contentsline {subsection}{\numberline {3.1.5}Affine Transforms of RAW RGB values}{87}
+\contentsline {subsection}{\numberline {3.1.6}Non-Linear Transforms of RAW RGB values}{87}
+\contentsline {section}{\numberline {3.2}Digital Color Management Q and A}{88}
+\contentsline {chapter}{\numberline {4}GIS}{98}
+\contentsline {chapter}{\numberline {5}Financial Engineering}{116}
+\contentsline {section}{\numberline {5.1}Modeling High Dimensional Financial Instruments in Real Time. How to build a TV for RUT \& SPX}{116}
+\contentsline {section}{\numberline {5.2}Time Series Analysis}{118}
+\contentsline {section}{\numberline {5.3}Long Range Dependence, Rescaled Range, and the Hurst Exponent}{119}
+\contentsline {section}{\numberline {5.4}Copula's }{119}
+\contentsline {section}{\numberline {5.5} Risk}{119}
+\contentsline {subsection}{\numberline {5.5.1}Iterated Exponential Filtering of high frequency TS data}{121}
+\contentsline {chapter}{\numberline {6}Copy Text From Literature}{123}
+\contentsline {section}{\numberline {6.1}Big Data }{123}
+\contentsline {subsection}{\numberline {6.1.1}Parallel Optimization}{123}
+\contentsline {subsubsection}{Differential Privacy}{124}
+\contentsline {section}{\numberline {6.2}Nystr\"{o}m Method}{124}
+\contentsline {chapter}{\numberline {7}Appendix Numerical Linear Algebra}{126}
+\contentsline {section}{\numberline {7.1}The min max characterization of eigenvalues}{126}
+\contentsline {section}{\numberline {7.2}The Discrete Fourier Transform on $\ell ^2(\dblz _{N_1})$}{126}
+\contentsline {section}{\numberline {7.3}Multiresolution analysis}{127}
+\contentsline {section}{\numberline {7.4}Voroni Tesselations}{128}
+\contentsline {section}{\numberline {7.5}The Matrix Exponential}{128}
+\contentsline {chapter}{\numberline {8}Software}{130}
+\contentsline {section}{\numberline {8.1}BLAS }{130}
+\contentsline {section}{\numberline {8.2}Atlas}{130}
+\contentsline {section}{\numberline {8.3}MKL}{130}
+\contentsline {section}{\numberline {8.4}fftw}{130}
+\contentsline {section}{\numberline {8.5}Graphviz - Graph Visualization Software}{130}
+\contentsline {section}{\numberline {8.6}ARPACK}{130}
+\contentsline {section}{\numberline {8.7}ATLAS}{131}
+\contentsline {section}{\numberline {8.8}METIS}{131}
+\contentsline {section}{\numberline {8.9}SDPA}{131}
+\contentsline {section}{\numberline {8.10}SPOOLS}{131}
+\contentsline {section}{\numberline {8.11}SuperLU}{131}
+\contentsline {section}{\numberline {8.12}SuiteSparse}{131}
+\contentsline {subsection}{\numberline {8.12.1}AMD}{132}
+\contentsline {subsection}{\numberline {8.12.2}UMFPACK}{132}
+\contentsline {chapter}{\numberline {9}Appendix Statistics}{133}
+\contentsline {section}{\numberline {9.1}Testing for normality and other distributions }{133}
+\contentsline {section}{\numberline {9.2}Regression Methods}{133}
+\contentsline {section}{\numberline {9.3}Generalized Linear Models}{134}
+\contentsline {section}{\numberline {9.4}Fitting the GLM}{136}
+\contentsline {section}{\numberline {9.5}Feature Subset Selection (FSS)}{137}
+\contentsline {section}{\numberline {9.6}Longitudinal Data Analysis}{137}
+\contentsline {section}{\numberline {9.7}Discretization \& Sheppard's Correction}{138}
+\contentsline {section}{\numberline {9.8}Multidimensional Scaling}{139}
+\contentsline {section}{\numberline {9.9}Principal Components}{139}
+\contentsline {section}{\numberline {9.10}Evaluating classifier performance}{139}
+\contentsline {section}{\numberline {9.11}Covariance Matrix Estimation }{139}
+\contentsline {chapter}{\numberline {10}Appendix Probability}{140}
+\contentsline {section}{\numberline {10.1}Univariate Probability Distributions}{141}
+\contentsline {subsection}{\numberline {10.1.1}Uniform, $U(\alpha ,\beta )$}{141}
+\contentsline {subsection}{\numberline {10.1.2}Exponential Class of Distributions}{141}
+\contentsline {subsubsection}{Normal/Gaussian, $N(\mu ,\sigma )$}{142}
+\contentsline {subsubsection}{Binomial}{142}
+\contentsline {subsubsection}{Negative Binomial}{142}
+\contentsline {subsubsection}{Poisson}{142}
+\contentsline {subsubsection}{Pareto}{142}
+\contentsline {subsubsection}{Gamma}{142}
+\contentsline {subsubsection}{Weibull}{143}
+\contentsline {subsubsection}{Inverse Gaussian/ Wald Distribution}{143}
+\contentsline {subsection}{\numberline {10.1.3}Generalized Extreme Value Distribution $GEV(\theta ,\phi ,\xi )$}{143}
+\contentsline {subsection}{\numberline {10.1.4}Multinomial}{143}
+\contentsline {subsection}{\numberline {10.1.5}$\chi ^2(n)$}{143}
+\contentsline {subsection}{\numberline {10.1.6}Student-t $t(\nu )$}{144}
+\contentsline {subsection}{\numberline {10.1.7}Generalized Inverse Gaussian $GIG(\lambda ,\alpha ,\beta )$}{144}
+\contentsline {subsection}{\numberline {10.1.8} Normalized Inverse Gaussian $NIG(\mu ,\alpha ,\beta ,\delta )$}{144}
+\contentsline {subsection}{\numberline {10.1.9}Generalized Hyperbolic $GH(\lambda ,\alpha ,\beta ,\delta ,\mu )$}{144}
+\contentsline {section}{\numberline {10.2}Limit Theorems}{144}
+\contentsline {section}{\numberline {10.3}Multivariate Probability Distributions}{145}
+\contentsline {subsection}{\numberline {10.3.1}Multivariate Normal $N(\mathbf {\mu },\mathbf {\Sigma })$ }{145}
+\contentsline {subsection}{\numberline {10.3.2}Wishart Distribution}{145}
+\contentsline {subsection}{\numberline {10.3.3}Elliptic $E(\mathbf {\mu },\mathbf {\Sigma })$}{146}
+\contentsline {section}{\numberline {10.4}Statistical Dependence}{146}
+\contentsline {section}{\numberline {10.5}Distance measures for probability distribution functions.}{146}
+\contentsline {section}{\numberline {10.6}$S_\alpha (\sigma ,\beta ,\mu )$ Stable Random Variates}{147}
+\contentsline {subsection}{\numberline {10.6.1}4 definitions of stable}{147}
+\contentsline {subsection}{\numberline {10.6.2}Variance Gamma Process}{147}
+\contentsline {section}{\numberline {10.7}Maximum Entropy}{148}
+\contentsline {section}{\numberline {10.8}Simulation and modeling with the kl Software Framework}{149}

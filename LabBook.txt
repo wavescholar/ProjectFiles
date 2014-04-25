@@ -1,0 +1,15 @@
+----042314----
+Started to read "The C++ Programming Language", 4th Edition [Bjarne Stroustrup].  This is the third time I've read the book.  This version covers C++11, the first major revision since 98.
+
+----042414----
+Investigated the presence of ANN in SpectralAnalysis.  I have build the library but it is not integrated with the DiffusionMaps package. Mauro relayed to me that the CoverTree implementation had a bug and that is was fixed by one of his students. I am not sure if I have that version or not. 
+
+Built a OpenMP version of SuperLU and blogged about the changes. It is not clear whether this is the best sparse solver. Other choices for a sparse linear solver are UMFPACK and MKL PARDISO. 
+
+Read Chapter 2 "The C++ Programming Language", 4th Edition [Bjarne Stroustrup]. 
+
+Installed Visual Studio 2013 to test new C++11 language features.
+
+----042514----
+Reorganized all 
+
