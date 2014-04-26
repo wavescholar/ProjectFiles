@@ -21,5 +21,5 @@ Blogged on the distribution of binaries dependencies of GitHub repositories.
 
 Blogged on the subject of Intel Compiler crippling performance when running on AMD hardware.  Noted that there are CPUID manipulation routines out there.
 
-Thinking about writing pracices and word wrapping. GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will diplay wrapping if I change the extension of my test files to md.   
+I've been thinking about writing pracices and word wrapping. Do I want to introduce hard breaks in my writing? GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will diplay wrapping if I change the extension of my test files to md.  Update : GitHub wrapps.  There is a default line width of 120 characters. The source window or editor wrapped after 120 characters. The window can not be scaled below 120 characters without a scrollbar being introduces.   
 

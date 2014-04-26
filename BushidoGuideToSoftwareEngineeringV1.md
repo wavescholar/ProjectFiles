@@ -9,21 +9,21 @@ I like analogies when describing processes and forces of development to non engi
 Bushido originates from samurai moral code. The cannons of frugality, loyalty, martial arts mastery, and honor. Bushido was also influenced by Shinto and Zen Buddhism.  I have always been somewhat of an ascetic when it comes to my life and particularly to my pratice of science and engineering.  There are many parallels to Bushido I see in the way I navigate the business climate and .  I'm going to take a lot of licence with this code and put some of it in perspective of software engineering. This work is serious yet it is not. This work is creative and it is not.  Such is the nature of science and engineering.
 
 Do you know how some people put a suffix on their fortune cooke fortunes to make them more intersesting?  Think of this work as an attempt to do the same with Miyamoto Musashi's work.  Really this is his work. I am merley editing and adding commentary. 
-  
+                                                                                                                        
 ---------------------
+The code should do only and exactly what it is intended to do.
+The code should be fast.  This is the way. 
+The code should be readable by all. This is the way. 
+The code should be tested. The code shall be commented. 
+The code should follow a style guide. The code shall be kept safe in source control. This is Zen. 
+
 The end product does not matter.
 The customer don't matter.
 The success of the product does not matter.
 The code alone matters.
 Be true to the code for there is nothing else. 
 
-The code should do only and exactly what it is intended to do.
-The code should be fast.  This is the way. 
-The code should be readable by all. This is the way. 
-The code should be tested. The code shall be commented. 
-The code should follow a style guide. The code shall be kept safe in source control. This is the way. 
-
-Ponder this. 
+Reflect upon this. 
 
 -------------------------
 Miyamoto Musashi 
@@ -65,6 +65,16 @@ It is Zen to treat your enemy as an honoured guest. It is Zen to throw away fear
 Use a code printer.  Print and read thy code. Use line numbers when printing code. This is Zen. 
 ----------------------------
 
+<<<<<<< HEAD
+=======
+Move in and out of positions like a ghost. As if you were not there. That is what good help is supposed to be.  Leave behind good code. Your reputation will follow you if you adhere to this principle. Fear not the reference puzzle.  Let your code speak for you. That is the Way.  Ponder This.
+
+
+----------------------------Michael Lieberman Sais
+If a sunk pukes on your code dig a whole and but a bot in it.
+---------------------------------------------------------------------------------------
+
+>>>>>>> 6b6c2098c69bba96e16400ff49aeefa81f1d266d
 
 ----------------------------THIS Is the Full Text of TBOFR ------------------------------
 
@@ -91,7 +101,7 @@ or that other schools' strategy was inferior. After that I studied morning and e
 searching for the principle, and came to realise the Way of strategy when I was fifty.
 
 Since then I have lived without following any particular Way. Thus with the virtue of
-strategy I practise many arts and abilities— all things with no teacher.' To write this book I
+strategy I practise many arts and abilitiesï¿½ all things with no teacher.' To write this book I
 did not use the law of Buddha or the teachings of Confucius, neither old war chronicles
 nor books on martial tactics. I take up my brush to explain the true spirit' of this Ichi school
 
@@ -105,7 +115,7 @@ but the divine footprints of God pointing the Way.
 2 Strategy: "Heiho" is a word of Chinese derivation meaning military strategy. "Hei" means soldier and "Ho" means
 method or form.
 
-3 Homage to heaven: "Ten" or heaven means the Shinto religion, Shinto — a word compounding the two characters
+3 Homage to heaven: "Ten" or heaven means the Shinto religion, Shinto ï¿½ a word compounding the two characters
 "Kami" (God) and "Michi" (Way"-is the old religion of Japan. In Shinto there are many Holies, gods of steel and
 fermentation, place and industry, and so-on, and the first gods, ancestors to the Imperial line.
 
@@ -148,7 +158,7 @@ strategy.
 
 There are various Ways. There is the Way of Salvation by the law of Buddha, the
 Way of Confucius governing the Way of learning, the Way of healing as a doctor, as a
-poet teaching the Way of Waka,^ tea,'° archery," and many arts and skills. Each man
+poet teaching the Way of Waka,^ tea,'ï¿½ archery," and many arts and skills. Each man
 practices as he feels inclined.
 
 It is said the warrior's is the twofold Way of pen and sword,' ^ and he should have a
@@ -546,7 +556,7 @@ Men must polish their particular Way.
 29 The gun: The Japanese gun was matchlock, the form in which it was first introduced into the country by missionaries.
 The matchlocl< remained until the nineteenth century.
 
-3° Dancing: There are various kinds of dancing. There are festival dances, such as the harvest dance, which incorporate
+3ï¿½ Dancing: There are various kinds of dancing. There are festival dances, such as the harvest dance, which incorporate
 local characteristics and are very colorful, sometimes involving many people. There is Noh theatre, which is enacted by a
 few performers using stylized dance-movements. There are also dances of fan and dances of sword.
 
@@ -668,7 +678,7 @@ The second year of Shoho (1645), the fifth month, the twelfth day.
 
 Teruo Magonojo'' SHINMEN MUSASHI
 
-¦ Teruo Magonojo: The pupil, sometimes called Teruo Nobuyuki, to whom Musashi addressed Go Rin No Sho.
+ï¿½ Teruo Magonojo: The pupil, sometimes called Teruo Nobuyuki, to whom Musashi addressed Go Rin No Sho.
 
 The Water Book
 
@@ -727,7 +737,7 @@ the rear of the neck straight: instil vigour into your hairline, and in the same
 shoulders down through your entire body. Lower both shoulders and, without the buttocks
 jutting out, put strength into your legs from the knees to the tops of your toes. Brace your
 abdomen so that you do not bend at the hips. Wedge your companion sword in your belt
-against your abdomen, so that your belt is not slack — this is called "wedging in".
+against your abdomen, so that your belt is not slack ï¿½ this is called "wedging in".
 
 In all forms of strategy, it is necessary to maintain the combat stance in everyday
 life and to make your everyday stance your combat stance. You must research this well.
@@ -836,7 +846,7 @@ sword well. You must train constantly.
 
 The Five Approaches^ ''
 
-• The first approach is the Middle attitude. Confront the enemy with the point of your
+ï¿½ The first approach is the Middle attitude. Confront the enemy with the point of your
 sword against his face. When he attacks, dash his sword to the right and "ride" it.
 
 
@@ -862,7 +872,7 @@ long sword in order to learn them. When you master my Way of the long sword, you
 will be able to control any attack the enemy makes. I assure you, there are no
 attitudes other than the five attitudes of the long sword of NiTo.
 
-• In the second approach with the long sword, from the Upper attitude cut the enemy
+ï¿½ In the second approach with the long sword, from the Upper attitude cut the enemy
 just as he attacks. If the enemy evades the cut, keep your sword where it is and,
 scooping from below, cut him as he renews the attack. It is possible to repeat the
 cut from here.
@@ -871,7 +881,7 @@ In this method there are various changes in timing and spirit. You will be able
 to understand this by training in the Ichi school. You will always win with the five
 long sword methods. You must train repeatedly.
 
-• In the third approach, adopt the Lower attitude, anticipating scooping up. When the
+ï¿½ In the third approach, adopt the Lower attitude, anticipating scooping up. When the
 enemy attackes, hit his hands from below. As you do so, he may try to hit your
 sword down. If this is the case, cut his upper arm(s) horizontally with a feeling of
 "crossing". This means that from the Lower attitudes you hit the enemy at the instant
@@ -880,7 +890,7 @@ that he attacks.
 You will encounter this method often, both as a beginner and in later
 strategy. You must train holding a long sword.
 
-• In this fourth approach, adopt the Left Side attitude. As the enemy attacks, hit his
+ï¿½ In this fourth approach, adopt the Left Side attitude. As the enemy attacks, hit his
 hands from below. If as you hit his hands he attempts to dash down your sword,
 with the feeling of hitting his hands, parry the path of his long sword and cut across
 from above your shoulder.
@@ -888,7 +898,7 @@ from above your shoulder.
 This is the Way of the long sword. Through this method you win by parrying
 the line of the enemy's attack. You must study this.
 
-• In the fifth approach, the sword is in the Right Side attitude. In accordance with the
+ï¿½ In the fifth approach, the sword is in the Right Side attitude. In accordance with the
 enemy's attack, cross your sword from below at the side to the Upper attitude. Then
 cut straight from above.
 
@@ -921,7 +931,7 @@ the occasion demands. According to the situation, if you turn your sword from ei
 Left Side or Right Side attitude towards the centre, the Middle or the Lower attitude
 results.
 
-The principle of this is called "Existing Attitude — Non-existing Attitude".
+The principle of this is called "Existing Attitude ï¿½ Non-existing Attitude".
 
 The primary thing when you take a sword in your hands is your intention to cut the
 enemy, whatever the means. Whenever you parry, hit, spring, strike or touch the enemy's
@@ -995,7 +1005,7 @@ The Fire and Stones Cut
 
 The Fires and Stones Cut means that when the enemy's long sword and your long sword
 clash together you cut as strongly as possible without raising the sword even a little. This
-means cutting quickly with the hands, body and legs — all three cutting strongly. If you train
+means cutting quickly with the hands, body and legs ï¿½ all three cutting strongly. If you train
 well enough you will be able to strike strongly.
 
 
@@ -1229,7 +1239,7 @@ for when there are many enemies, but people practise a style of fencing with a s
 advantage in fencing. Musashi used the words "two swords" when meaning to use all one's resources in combat. He
 never used two swords when up against a skilled swordsman.
 
-'•^ Oral tradition: Other Kendo schools also have oral traditions as opposed to teachings passed on in formal technique.
+'ï¿½^ Oral tradition: Other Kendo schools also have oral traditions as opposed to teachings passed on in formal technique.
 '?'' One cut Whatever this means, it is wothwhile to note the "Hitotsu Gachi" (One Victory), the Kiri Otoshi technique of the
 Itto Ryu school, where one cut provides attack and defence, cutting down the enemy's sword and spirit, and the related
 "Itchi no Tachi" (Long Sword of One) of the Shinto style.
@@ -1462,7 +1472,7 @@ and, knowing your own strong points, "cross the ford" at the advantageous place,
 good captain crosses a sea route. If you succeed in crossing at the best place, you may
 take your ease. To cross at a ford means to attack the enemy's weak point, and to put
 yourself in an advantageous position. This is how to win in large-scale strategy. The spirit
-of crossing at a ford is necessary in both large — and small-scale strategy.
+of crossing at a ford is necessary in both large ï¿½ and small-scale strategy.
 
 You must research this well.
 
@@ -1548,11 +1558,11 @@ lose. You must consider this deeply.
 
 To Release Four Hands
 
-"To release four hands"^° is used when you and the enemy are contending with the same
+"To release four hands"^ï¿½ is used when you and the enemy are contending with the same
 spirit, and the issue cannot be decided. Abandon this spirit and win through an alternative
 resource.
 
-In large-scale strategy, when there is a "four hands" spirit, do not give up — it is
+In large-scale strategy, when there is a "four hands" spirit, do not give up ï¿½ it is
 man's existence. Immediately throw away this spirit and win with a technique the enemy
 does not expect.
 
@@ -1695,7 +1705,7 @@ the wake of our victory. These are the three shouts.
 
 In single combat, we make as if to cut and shout "Ei!" at the same time to disturb
 the enemy, then in the wake of our shout we cut with the long sword. We shout after we
-have cut down the enemy — this is to announce victory. This is called "sen go no koe"
+have cut down the enemy ï¿½ this is to announce victory. This is called "sen go no koe"
 (before and after voice). We do not shout simultaneously with flourishing the long sword.
 We shout during the fight to get into rhythm. Research this deeply.
 
@@ -1875,7 +1885,7 @@ techniques of strength using extra-long swords. Some schools study the Way of th
 sword, known as kodachi. Some schools teach dexterity in large numbers of sword
 techniques, teaching attitudes of the sword as the "surface" and the Way as the "interior".
 
-That none of these are the true Way I show clearly in the interior of this book — all
+That none of these are the true Way I show clearly in the interior of this book ï¿½ all
 the vices and virtues and rights and wrongs. My Ichi school is different. Other schools
 make accomplishments their means of livelihood, growing flowers and decoratively
 colouring articles in order to sell them. This is definately not the Way of strategy.
@@ -2001,8 +2011,8 @@ Even so, according to the place, your long sword may be obstructed above or to
 the sides, so you will need to hold your sword in such manner that it can be used. There
 are five methods in five directions.
 
-Methods apart from these five — hand twisting, body bending, jumping out, and so
-on, to cut the enemy — are not the true Way of strategy. In order to cut the enemy you
+Methods apart from these five ï¿½ hand twisting, body bending, jumping out, and so
+on, to cut the enemy ï¿½ are not the true Way of strategy. In order to cut the enemy you
 must not make twisting or bending cuts. This is completely useless. In my strategy, I bear
 my spirit and body straight, and cause the enemy to twist and bend. The necessary spirit
 is to win by attacking the enemy when his spirit is warped. You must study this well.
