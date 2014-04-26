@@ -1,6 +1,8 @@
 ----042314----
 Started to read "The C++ Programming Language", 4th Edition [Bjarne Stroustrup].  This is the third time I've read the book.  This version covers C++11, the first major revision since 98.
 
+Blogged on the subjcet of cleaning up Git repository after a failed commit due to large files size. 
+
 ----042414----
 Investigated the presence of ANN in SpectralAnalysis.  I have build the library but it is not integrated with the DiffusionMaps package. Mauro relayed to me that the CoverTree implementation had a bug and that is was fixed by one of his students. I am not sure if I have that version or not. 
 
@@ -10,6 +12,14 @@ Read Chapter 2 "The C++ Programming Language", 4th Edition [Bjarne Stroustrup].
 
 Installed Visual Studio 2013 to test new C++11 language features.
 
+Started to write The Beginners Guide To The Bushido Software Development Methodology. 
+
 ----042514----
-Reorganized all 
+Reorganized all the libraries in the KL source tree.  Cleaned up the organization of code to model best practices for code organization. 
+
+Blogged on the distribution of binaries dependencies of GitHub repositories.  
+
+Blogged on the subject of Intel Compiler crippling performance when running on AMD hardware.  Noted that there are CPUID manipulation routines out there.
+
+Thinking about writing pracices and word wrapping. GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will diplay wrapping if I change the extension of my test files to md.   
 

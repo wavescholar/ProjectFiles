@@ -61,6 +61,9 @@ Enlightenment in Zen does not mean a change in behaviour, but realisation of the
 of ordinary life.  The end point is the beginning. The great virtue of Zen is simplicity. 
 It is Zen to treat your enemy as an honoured guest. It is Zen to throw away fear.  The first technique is the last, the beginner and the master behave in the same way. Knowledge is a full circle. 
 
+----------------------------
+Use a code printer.  Print and read thy code. Use line numbers when printing code. This is Zen. 
+----------------------------
 ----------------------------THIS Is the Full Text of TBOFR ------------------------------
 
 I have been many years training in the Way^ of strategy/ called Ni Ten Ichi Ryu, and now
