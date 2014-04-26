@@ -64,6 +64,8 @@ It is Zen to treat your enemy as an honoured guest. It is Zen to throw away fear
 ----------------------------
 Use a code printer.  Print and read thy code. Use line numbers when printing code. This is Zen. 
 ----------------------------
+
+
 ----------------------------THIS Is the Full Text of TBOFR ------------------------------
 
 I have been many years training in the Way^ of strategy/ called Ni Ten Ichi Ryu, and now
