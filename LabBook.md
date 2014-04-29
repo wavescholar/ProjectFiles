@@ -1,7 +1,7 @@
 ----042314----
 Started to read "The C++ Programming Language", 4th Edition [Bjarne Stroustrup].  This is the third time I've read the book.  This version covers C++11, the first major revision since 98.
 
-Blogged on the subjcet of cleaning up Git repository after a failed commit due to large files size. 
+Blogged on the subject of cleaning up Git repository after a failed commit due to large files size. 
 
 ----042414----
 Investigated the presence of ANN in SpectralAnalysis.  I have build the library but it is not integrated with the DiffusionMaps package. Mauro relayed to me that the CoverTree implementation had a bug and that is was fixed by one of his students. I am not sure if I have that version or not. 
@@ -21,5 +21,16 @@ Blogged on the distribution of binaries dependencies of GitHub repositories.
 
 Blogged on the subject of Intel Compiler crippling performance when running on AMD hardware.  Noted that there are CPUID manipulation routines out there.
 
-I've been thinking about writing pracices and word wrapping. Do I want to introduce hard breaks in my writing? GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will diplay wrapping if I change the extension of my test files to md.  Update : GitHub wrapps.  There is a default line width of 120 characters. The source window or editor wrapped after 120 characters. The window can not be scaled below 120 characters without a scrollbar being introduces.   
+I've been thinking about writing pracices and word wrapping. Do I want to introduce hard breaks in my writing? GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will diplay wrapping if I change the extension of my test files to md.  Update : GitHub wrapps.  There is a default line width of 120 characters. The source window or editor wrapped after 120 characters. The window can not be scaled below 120 characters without a scrollbar being introduces.   \
 
+----042614---
+I worked this day but did not add to my lab book at the time.  CLP Main from 1:00 to 5:00.  It looks like I worked on the build environment.  I did a clean build from git for all projects.  This required some work on the project files. All went well.
+
+----042714----
+Rest day.
+
+----042814----
+Started to implement Intel VSL wrappers for klVector.  Unit test are being written along the way , but I'm neglecting assert / expect mechanism.  I will integrate these into the Boost unit test framework in May 2014.  Learned how to convert the MKL complect structure internally to the stl complex<double> via a typedef.  These ultimately need to be compatible with the Fortran complex struct.     
+
+----042414----
+Finsihed implementation of all complex<double> varieties of VSL functions and integrated all existing VSL functions into Boost Unite Test project. 

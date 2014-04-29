@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.14)  6 MAR 2014 09:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.9)  27 APR 2014 13:22
 entering extended mode
-**D:/work/GardenOfAnalytics/klBook.tex
-(D:/work/GardenOfAnalytics/klBook.tex
+**klBook.tex
+(D:\ProjectFiles\Handbook\klBook.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
@@ -171,19 +171,19 @@ LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
 (Font)                  U/msb/m/n --> U/msb/m/n on input line 57.
 LaTeX Font Info:    Redeclaring math symbol \dbln on input line 64.
 
-(D:\work\GardenOfAnalytics\klBook.aux (D:\work\GardenOfAnalytics\ABS.aux)
-(D:\work\GardenOfAnalytics\ACK.aux) (D:\work\GardenOfAnalytics\Introduction.aux
-) (D:\work\GardenOfAnalytics\klBookContent.aux)
-(D:\work\GardenOfAnalytics\MiscFiguresImages.aux)
-(D:\work\GardenOfAnalytics\NaturalLanguageProcessing.aux)
-(D:\work\GardenOfAnalytics\ImageProcessing.aux)
-(D:\work\GardenOfAnalytics\Computer.aux) (D:\work\GardenOfAnalytics\GIS.aux)
-(D:\work\GardenOfAnalytics\FinancialEngineering.aux)
-(D:\work\GardenOfAnalytics\CopyTextFromArticles.aux)
-(D:\work\GardenOfAnalytics\Appendix_Numerical.aux)
-(D:\work\GardenOfAnalytics\klSoftware.aux)
-(D:\work\GardenOfAnalytics\Appendix_Statistics.aux)
-(D:\work\GardenOfAnalytics\Appendix_Probability.aux)
+(D:\ProjectFiles\Handbook\klBook.aux (D:\ProjectFiles\Handbook\ABS.aux)
+(D:\ProjectFiles\Handbook\ACK.aux) (D:\ProjectFiles\Handbook\Introduction.aux)
+(D:\ProjectFiles\Handbook\klBookContent.aux)
+(D:\ProjectFiles\Handbook\MiscFiguresImages.aux)
+(D:\ProjectFiles\Handbook\NaturalLanguageProcessing.aux)
+(D:\ProjectFiles\Handbook\ImageProcessing.aux)
+(D:\ProjectFiles\Handbook\Computer.aux) (D:\ProjectFiles\Handbook\GIS.aux)
+(D:\ProjectFiles\Handbook\FinancialEngineering.aux)
+(D:\ProjectFiles\Handbook\CopyTextFromArticles.aux)
+(D:\ProjectFiles\Handbook\Appendix_Numerical.aux)
+(D:\ProjectFiles\Handbook\klSoftware.aux)
+(D:\ProjectFiles\Handbook\Appendix_Statistics.aux)
+(D:\ProjectFiles\Handbook\Appendix_Probability.aux)
 
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
@@ -226,15 +226,15 @@ LaTeX Font Info:    ... okay on input line 86.
 )
 A Field Guide for Machine Learning, Computer Vision and Numerical Linear Algebr
 a
-(D:\work\GardenOfAnalytics\ABS.tex) [1
+(D:\ProjectFiles\Handbook\ABS.tex) [1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Acknowledgements
-(D:\work\GardenOfAnalytics\ACK.tex) [2
+(D:\ProjectFiles\Handbook\ACK.tex) [2
 
 
-] (D:\work\GardenOfAnalytics\klBook.toc
+] (D:\ProjectFiles\Handbook\klBook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -256,10 +256,10 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \tf@toc=\write3
 
 Introduction
-[4] (D:\work\GardenOfAnalytics\Introduction.tex) [5
+[4] (D:\ProjectFiles\Handbook\Introduction.tex) [5
 
 ]
-(D:\work\GardenOfAnalytics\klBookContent.tex [6
+(D:\ProjectFiles\Handbook\klBookContent.tex [6
 
 
 ] [7]
@@ -295,11 +295,11 @@ and single-destination
 
 [11]
 Overfull \hbox (2.38477pt too wide) in paragraph at lines 163--164
-$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 P\OT1/cm
-r/m/n/10 (\OML/cmm/m/it/10 y; x\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 8\OML/cmm/m/it
-/10 x; y; \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 X$\OT1/cmr/m/n/10 . This im-plies
- that $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 is the sta-tion-ary dis-tri-bu-tion.
- Bound-
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 P\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 y; x\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 8\OML/cmm/m/it/
+10 x; y; \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 X$\OT1/cmr/m/n/10 . This im-plies 
+that $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 is the sta-tion-ary dis-tri-bu-tion. 
+Bound-
  []
 
 [12]
@@ -362,7 +362,7 @@ Overfull \hbox (14.88136pt too wide) in paragraph at lines 610--611
 []\OT1/cmr/m/n/10 Bulk statis-tics look at the de-ter-mi-nan-tal point pro-cess
  $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) = []
 [] \OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10  $
+cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10  
  []
 
 [23] [24]
@@ -372,7 +372,7 @@ LaTeX Warning: Command \l invalid in math mode on input line 726.
 
 LaTeX Warning: Command \l invalid in math mode on input line 726.
 
-[25]) [26] (D:\work\GardenOfAnalytics\MiscFiguresImages.tex
+[25]) [26] (D:\ProjectFiles\Handbook\MiscFiguresImages.tex
 Chapter 1.
 <images/3Inhomog_Cluster_PreScaleFree.jpg, id=107, 1284.8pt x 923.45pt>
 File: images/3Inhomog_Cluster_PreScaleFree.jpg Graphic file (type jpg)
@@ -484,17 +484,17 @@ Overfull \hbox (117.75688pt too wide) in paragraph at lines 9--23
 Overfull \vbox (301.13922pt too high) has occurred while \output is active []
 
 
-[28 <D:/work/GardenOfAnalytics/images/3Inhomog_Cluster_PreScaleFree.jpg> <D:/wo
-rk/GardenOfAnalytics/images/Clique_12_Members.jpg> <D:/work/GardenOfAnalytics/i
-mages/Clique_9_Members.jpg> <D:/work/GardenOfAnalytics/images/ClusterCoeff_Hist
-_ErdoReyani_Graph_SameVertexSet_mean0_421961099815438.jpg> <D:/work/GardenOfAna
-lytics/images/ClusterCoeff_Hist_PreScaleFree_mean_0_205047904366710.jpg> <D:/wo
-rk/GardenOfAnalytics/images/CVX_NNMF_A-YX_Where_Y_X_PSD.jpg> <D:/work/GardenOfA
-nalytics/images/CVX_NNMF_A.jpg> <D:/work/GardenOfAnalytics/images/CVX_NNMF_Resi
-duals.jpg> <D:/work/GardenOfAnalytics/images/Eigenvalues_of_Whshart_Follow_Trac
-yWidom.jpg> <D:/work/GardenOfAnalytics/images/ErdosReyni_G_LT_giant_thresh_.jpg
-> <D:/work/GardenOfAnalytics/images/gursoy_atun_layou_topology_heart.jpg> <D:/w
-ork/GardenOfAnalytics/images/hypercube_3_Dimension.jpg>]
+[28 <D:/ProjectFiles/Handbook/images/3Inhomog_Cluster_PreScaleFree.jpg> <D:/Pro
+jectFiles/Handbook/images/Clique_12_Members.jpg> <D:/ProjectFiles/Handbook/imag
+es/Clique_9_Members.jpg> <D:/ProjectFiles/Handbook/images/ClusterCoeff_Hist_Erd
+oReyani_Graph_SameVertexSet_mean0_421961099815438.jpg> <D:/ProjectFiles/Handboo
+k/images/ClusterCoeff_Hist_PreScaleFree_mean_0_205047904366710.jpg> <D:/Project
+Files/Handbook/images/CVX_NNMF_A-YX_Where_Y_X_PSD.jpg> <D:/ProjectFiles/Handboo
+k/images/CVX_NNMF_A.jpg> <D:/ProjectFiles/Handbook/images/CVX_NNMF_Residuals.jp
+g> <D:/ProjectFiles/Handbook/images/Eigenvalues_of_Whshart_Follow_TracyWidom.jp
+g> <D:/ProjectFiles/Handbook/images/ErdosReyni_G_LT_giant_thresh_.jpg> <D:/Proj
+ectFiles/Handbook/images/gursoy_atun_layou_topology_heart.jpg> <D:/ProjectFiles
+/Handbook/images/hypercube_3_Dimension.jpg>]
 <images/hypercube_4_Dimension.jpg, id=125, 1284.8pt x 923.45pt>
 File: images/hypercube_4_Dimension.jpg Graphic file (type jpg)
 
@@ -611,20 +611,19 @@ Overfull \hbox (132.74954pt too wide) in paragraph at lines 24--38
 Overfull \vbox (28.43872pt too high) has occurred while \output is active []
 
 
-[29 <D:/work/GardenOfAnalytics/images/hypercube_4_Dimension.jpg> <D:/work/Garde
-nOfAnalytics/images/hypercube_5_Dimension.jpg> <D:/work/GardenOfAnalytics/image
-s/hypercube_6_Dimension.jpg> <D:/work/GardenOfAnalytics/images/hypercube_7_Dime
-nsion.jpg> <D:/work/GardenOfAnalytics/images/hypercube_8_Dimension.jpg> <D:/wor
-k/GardenOfAnalytics/images/RandomGraphAdjacencyMatrix_WithCut_jpg.jpg> <D:/work
-/GardenOfAnalytics/images/RandomGraphOptimalEdgeInputGraph_256_Nodes_AdjacencyM
-atrix.jpg> <D:/work/GardenOfAnalytics/images/RandomGraphOptimalEdgeInputGraph_A
-djacencyMatrix.jpg> <D:/work/GardenOfAnalytics/images/RandomGraphOptimalEdgeInp
-utGraph_EdgeWeightHist_FMMC.jpg> <D:/work/GardenOfAnalytics/images/RandomGraphO
-ptimalEdgeInputGraph_IncidenceMatrix.jpg> <D:/work/GardenOfAnalytics/images/Ran
-domGraphOptimalEdgeWithedgeWeight_FastMixingMarkovChain.jpg> <D:/work/GardenOfA
-nalytics/images/RandomGraphOptimalEdgeWithedgeWeight_PositiveTransitionProbs_Fa
-stMixingMarkovChain.jpg>]
-<images/RandomGraph_With3Cuts_.jpg, id=141, 1284.8pt x 923.45pt>
+[29 <D:/ProjectFiles/Handbook/images/hypercube_4_Dimension.jpg> <D:/ProjectFile
+s/Handbook/images/hypercube_5_Dimension.jpg> <D:/ProjectFiles/Handbook/images/h
+ypercube_6_Dimension.jpg> <D:/ProjectFiles/Handbook/images/hypercube_7_Dimensio
+n.jpg> <D:/ProjectFiles/Handbook/images/hypercube_8_Dimension.jpg> <D:/ProjectF
+iles/Handbook/images/RandomGraphAdjacencyMatrix_WithCut_jpg.jpg> <D:/ProjectFil
+es/Handbook/images/RandomGraphOptimalEdgeInputGraph_256_Nodes_AdjacencyMatrix.j
+pg> <D:/ProjectFiles/Handbook/images/RandomGraphOptimalEdgeInputGraph_Adjacency
+Matrix.jpg> <D:/ProjectFiles/Handbook/images/RandomGraphOptimalEdgeInputGraph_E
+dgeWeightHist_FMMC.jpg> <D:/ProjectFiles/Handbook/images/RandomGraphOptimalEdge
+InputGraph_IncidenceMatrix.jpg> <D:/ProjectFiles/Handbook/images/RandomGraphOpt
+imalEdgeWithedgeWeight_FastMixingMarkovChain.jpg> <D:/ProjectFiles/Handbook/ima
+ges/RandomGraphOptimalEdgeWithedgeWeight_PositiveTransitionProbs_FastMixingMark
+ovChain.jpg>] <images/RandomGraph_With3Cuts_.jpg, id=141, 1284.8pt x 923.45pt>
 File: images/RandomGraph_With3Cuts_.jpg Graphic file (type jpg)
 
 <use images/RandomGraph_With3Cuts_.jpg>
@@ -738,19 +737,19 @@ Overfull \hbox (132.74954pt too wide) in paragraph at lines 39--53
 Overfull \vbox (28.43872pt too high) has occurred while \output is active []
 
 
-[30 <D:/work/GardenOfAnalytics/images/RandomGraph_With3Cuts_.jpg> <D:/work/Gard
-enOfAnalytics/images/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06.jpg> <D:/work
-/GardenOfAnalytics/images/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_Adjacenc
-y_Matrix.jpg> <D:/work/GardenOfAnalytics/images/RandomGraph_With3Cuts_90_nodes_
-pii_25_pij_06_Adjacency_Matrix_Minimized_PF.jpg> <D:/work/GardenOfAnalytics/ima
-ges/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_MinimizedAdjacency_PerronFrobe
-nius.jpg> <D:/work/GardenOfAnalytics/images/RandomGraph_WithCut_64Nodes.jpg> <D
-:/work/GardenOfAnalytics/images/RandomGraph_WithCut_adjacencyMatrix_64Nodes.jpg
-> <D:/work/GardenOfAnalytics/images/RandomGraph_WithCut_jpg.jpg> <D:/work/Garde
-nOfAnalytics/images/RandomWalk_30_Walkers_20000_steps.jpg> <D:/work/GardenOfAna
-lytics/images/RandomWalk_50_Walkers.jpg> <D:/work/GardenOfAnalytics/images/Raym
-ond_AdvectiveNavierStokesdiffusion.jpg> <D:/work/GardenOfAnalytics/images/Raymo
-nd_TensorField.jpg>] <images/RoadMap.jpg, id=156, 1284.8pt x 923.45pt>
+[30 <D:/ProjectFiles/Handbook/images/RandomGraph_With3Cuts_.jpg> <D:/ProjectFil
+es/Handbook/images/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06.jpg> <D:/Projec
+tFiles/Handbook/images/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_Adjacency_M
+atrix.jpg> <D:/ProjectFiles/Handbook/images/RandomGraph_With3Cuts_90_nodes_pii_
+25_pij_06_Adjacency_Matrix_Minimized_PF.jpg> <D:/ProjectFiles/Handbook/images/R
+andomGraph_With3Cuts_90_nodes_pii_25_pij_06_MinimizedAdjacency_PerronFrobenius.
+jpg> <D:/ProjectFiles/Handbook/images/RandomGraph_WithCut_64Nodes.jpg> <D:/Proj
+ectFiles/Handbook/images/RandomGraph_WithCut_adjacencyMatrix_64Nodes.jpg> <D:/P
+rojectFiles/Handbook/images/RandomGraph_WithCut_jpg.jpg> <D:/ProjectFiles/Handb
+ook/images/RandomWalk_30_Walkers_20000_steps.jpg> <D:/ProjectFiles/Handbook/ima
+ges/RandomWalk_50_Walkers.jpg> <D:/ProjectFiles/Handbook/images/Raymond_Advecti
+veNavierStokesdiffusion.jpg> <D:/ProjectFiles/Handbook/images/Raymond_TensorFie
+ld.jpg>] <images/RoadMap.jpg, id=156, 1284.8pt x 923.45pt>
 File: images/RoadMap.jpg Graphic file (type jpg)
 
 <use images/RoadMap.jpg>
@@ -831,12 +830,12 @@ File: images/spectra_minnesotaRoad_network.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/spectra_minnesotaRoad_network.jpg used on input
  line 68.
 (pdftex.def)             Requested size: 142.24985pt x 142.25964pt.
- [31 <D:/work/GardenOfAnalytics/images/RoadMap.jpg> <D:/work/GardenOfAnalytics/
-images/ScaleFreeClusterGraph.jpg> <D:/work/GardenOfAnalytics/images/WellConnect
-edWithRedBlackOrder_Bipatate.jpg> <D:/work/GardenOfAnalytics/images/WellConnect
-edWithThreeClusters.jpg> <D:/work/GardenOfAnalytics/images/WellConnectedWithThr
-eeClusters2.jpg> <D:/work/GardenOfAnalytics/images/WellConnectedWithThreeCluste
-rs3.jpg>]
+ [31 <D:/ProjectFiles/Handbook/images/RoadMap.jpg> <D:/ProjectFiles/Handbook/im
+ages/ScaleFreeClusterGraph.jpg> <D:/ProjectFiles/Handbook/images/WellConnectedW
+ithRedBlackOrder_Bipatate.jpg> <D:/ProjectFiles/Handbook/images/WellConnectedWi
+thThreeClusters.jpg> <D:/ProjectFiles/Handbook/images/WellConnectedWithThreeClu
+sters2.jpg> <D:/ProjectFiles/Handbook/images/WellConnectedWithThreeClusters3.jp
+g>]
 <images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_03.jpg, id=169
 , 794.97pt x 614.295pt>
 File: images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_03.jpg Gr
@@ -941,26 +940,26 @@ Overfull \hbox (117.7907pt too wide) in paragraph at lines 77--89
 [] 
  []
 
-[32 <D:/work/GardenOfAnalytics/images/60_50_grid_graph_spectra.jpg> <D:/work/Ga
-rdenOfAnalytics/images/RoadNetwork_Scalefree_100v_c2.jpg> <D:/work/GardenOfAnal
-ytics/images/GursoyAtunScaleFreeAB.jpg> <D:/work/GardenOfAnalytics/images/spect
-ra_minnesotaRoad_network.jpg>]
+[32 <D:/ProjectFiles/Handbook/images/60_50_grid_graph_spectra.jpg> <D:/ProjectF
+iles/Handbook/images/RoadNetwork_Scalefree_100v_c2.jpg> <D:/ProjectFiles/Handbo
+ok/images/GursoyAtunScaleFreeAB.jpg> <D:/ProjectFiles/Handbook/images/spectra_m
+innesotaRoad_network.jpg>]
 Overfull \vbox (48.23758pt too high) has occurred while \output is active []
 
 
-[33 <D:/work/GardenOfAnalytics/images/MachineVision/MachineVision_Pathology_Exa
-mpleSlides_Page_03.jpg> <D:/work/GardenOfAnalytics/images/MachineVision/Machine
-Vision_Pathology_ExampleSlides_Page_05.jpg> <D:/work/GardenOfAnalytics/images/M
-achineVision/MachineVision_Pathology_ExampleSlides_Page_06.jpg> <D:/work/Garden
-OfAnalytics/images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_07.
-jpg> <D:/work/GardenOfAnalytics/images/MachineVision/MachineVision_Pathology_Ex
-ampleSlides_Page_08.jpg> <D:/work/GardenOfAnalytics/images/MachineVision/Machin
-eVision_Pathology_ExampleSlides_Page_09.jpg> <D:/work/GardenOfAnalytics/images/
-MachineVision/MachineVision_Pathology_ExampleSlides_Page_11.jpg> <D:/work/Garde
-nOfAnalytics/images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_13
-.jpg> <D:/work/GardenOfAnalytics/images/MachineVision/MachineVision_Pathology_E
-xampleSlides_Page_15.jpg> <D:/work/GardenOfAnalytics/images/MachineVision/Machi
-neVision_Pathology_ExampleSlides_Page_16.jpg>]
+[33 <D:/ProjectFiles/Handbook/images/MachineVision/MachineVision_Pathology_Exam
+pleSlides_Page_03.jpg> <D:/ProjectFiles/Handbook/images/MachineVision/MachineVi
+sion_Pathology_ExampleSlides_Page_05.jpg> <D:/ProjectFiles/Handbook/images/Mach
+ineVision/MachineVision_Pathology_ExampleSlides_Page_06.jpg> <D:/ProjectFiles/H
+andbook/images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_07.jpg>
+ <D:/ProjectFiles/Handbook/images/MachineVision/MachineVision_Pathology_Example
+Slides_Page_08.jpg> <D:/ProjectFiles/Handbook/images/MachineVision/MachineVisio
+n_Pathology_ExampleSlides_Page_09.jpg> <D:/ProjectFiles/Handbook/images/Machine
+Vision/MachineVision_Pathology_ExampleSlides_Page_11.jpg> <D:/ProjectFiles/Hand
+book/images/MachineVision/MachineVision_Pathology_ExampleSlides_Page_13.jpg> <D
+:/ProjectFiles/Handbook/images/MachineVision/MachineVision_Pathology_ExampleSli
+des_Page_15.jpg> <D:/ProjectFiles/Handbook/images/MachineVision/MachineVision_P
+athology_ExampleSlides_Page_16.jpg>]
 <images/Her2Fish/1_abConvexHull.jpg, id=185, 2409.0pt x 1806.75pt>
 File: images/Her2Fish/1_abConvexHull.jpg Graphic file (type jpg)
 
@@ -1054,15 +1053,15 @@ Overfull \hbox (132.76479pt too wide) in paragraph at lines 91--104
 Overfull \vbox (28.44322pt too high) has occurred while \output is active []
 
 
-[34 <D:/work/GardenOfAnalytics/images/Her2Fish/1_abConvexHull.jpg> <D:/work/Gar
-denOfAnalytics/images/Her2Fish/1_Processedlabelimage.jpg> <D:/work/GardenOfAnal
-ytics/images/Her2Fish/1_RGBMASK.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish
-/1_RGB_LabelImg.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/1_SampleChromas
-.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/2_abConvexHull.jpg> <D:/work/G
-ardenOfAnalytics/images/Her2Fish/2_Processedlabelimage.jpg> <D:/work/GardenOfAn
-alytics/images/Her2Fish/2_RGBMASK.jpg> <D:/work/GardenOfAnalytics/images/Her2Fi
-sh/2_RGB_LabelImg.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/2_SampleChrom
-as.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/3.jpg>]
+[34 <D:/ProjectFiles/Handbook/images/Her2Fish/1_abConvexHull.jpg> <D:/ProjectFi
+les/Handbook/images/Her2Fish/1_Processedlabelimage.jpg> <D:/ProjectFiles/Handbo
+ok/images/Her2Fish/1_RGBMASK.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/1_R
+GB_LabelImg.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/1_SampleChromas.jpg>
+ <D:/ProjectFiles/Handbook/images/Her2Fish/2_abConvexHull.jpg> <D:/ProjectFiles
+/Handbook/images/Her2Fish/2_Processedlabelimage.jpg> <D:/ProjectFiles/Handbook/
+images/Her2Fish/2_RGBMASK.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/2_RGB_
+LabelImg.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/2_SampleChromas.jpg> <D
+:/ProjectFiles/Handbook/images/Her2Fish/3.jpg>]
 <images/Her2Fish/3_abConvexHull.jpg, id=199, 2409.0pt x 1806.75pt>
 File: images/Her2Fish/3_abConvexHull.jpg Graphic file (type jpg)
 
@@ -1150,15 +1149,15 @@ Overfull \hbox (132.77548pt too wide) in paragraph at lines 106--117
 Overfull \vbox (28.45218pt too high) has occurred while \output is active []
 
 
-[35 <D:/work/GardenOfAnalytics/images/Her2Fish/3_abConvexHull.jpg> <D:/work/Gar
-denOfAnalytics/images/Her2Fish/3_BlueMaskOpen.jpg> <D:/work/GardenOfAnalytics/i
-mages/Her2Fish/3_RGB_LabelImg.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/3
-_SampleChromas.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/4.jpg> <D:/work/
-GardenOfAnalytics/images/Her2Fish/4_RGB_LabelImg.jpg> <D:/work/GardenOfAnalytic
-s/images/Her2Fish/B31-1677A108_ProcessedlabelimageWithSpotsEnhanced.jpg> <D:/wo
-rk/GardenOfAnalytics/images/Her2Fish/B31-1677A108_ProcessedlabelimageWithSpotsE
-nhanced2.jpg> <D:/work/GardenOfAnalytics/images/Her2Fish/B31-1677A108_Processed
-labelimageWithSpotsEnhanced3.jpg>]
+[35 <D:/ProjectFiles/Handbook/images/Her2Fish/3_abConvexHull.jpg> <D:/ProjectFi
+les/Handbook/images/Her2Fish/3_BlueMaskOpen.jpg> <D:/ProjectFiles/Handbook/imag
+es/Her2Fish/3_RGB_LabelImg.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/3_Sam
+pleChromas.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/4.jpg> <D:/ProjectFil
+es/Handbook/images/Her2Fish/4_RGB_LabelImg.jpg> <D:/ProjectFiles/Handbook/image
+s/Her2Fish/B31-1677A108_ProcessedlabelimageWithSpotsEnhanced.jpg> <D:/ProjectFi
+les/Handbook/images/Her2Fish/B31-1677A108_ProcessedlabelimageWithSpotsEnhanced2
+.jpg> <D:/ProjectFiles/Handbook/images/Her2Fish/B31-1677A108_Processedlabelimag
+eWithSpotsEnhanced3.jpg>]
 File: images/GraphTheory/3Inhomog_Cluster_PreScaleFree.jpg Graphic file (type j
 pg)
 
@@ -1700,59 +1699,58 @@ Overfull \hbox (169.37051pt too wide) in paragraph at lines 122--111
 [] []
  []
 
-[36 <D:/work/GardenOfAnalytics/images/GraphTheory/3Inhomog_Cluster_PreScaleFree
-.jpg> <D:/work/GardenOfAnalytics/images/GraphTheory/Clique_12_Members.jpg> <D:/
-work/GardenOfAnalytics/images/GraphTheory/Clique_3_Members.jpg> <D:/work/Garden
-OfAnalytics/images/GraphTheory/Clique_4_Members.jpg>] [37 <D:/work/GardenOfAnal
-ytics/images/GraphTheory/Clique_5_Members.jpg> <D:/work/GardenOfAnalytics/image
-s/GraphTheory/Clique_6_Members.jpg> <D:/work/GardenOfAnalytics/images/GraphTheo
-ry/Clique_9_Members.jpg> <D:/work/GardenOfAnalytics/images/GraphTheory/ClusterC
-oeff_Hist_ErdoReyani_Graph_SameVertexSet_mean0_421961099815438.jpg>] [38 <D:/wo
-rk/GardenOfAnalytics/images/GraphTheory/ClusterCoeff_Hist_PreScaleFree_mean_0_2
-05047904366710.jpg> <D:/work/GardenOfAnalytics/images/GraphTheory/ClusterCoeff_
-Hist_ScaleFree_with20ExtraNode_5maxE_mean_0_190053489673149.jpg> <D:/work/Garde
-nOfAnalytics/images/GraphTheory/CVX_NNMF_A-YX_Where_Y_X_PSD.jpg> <D:/work/Garde
-nOfAnalytics/images/GraphTheory/CVX_NNMF_A.jpg>] [39 <D:/work/GardenOfAnalytics
-/images/GraphTheory/CVX_NNMF_Residuals.jpg> <D:/work/GardenOfAnalytics/images/G
-raphTheory/Eigenvalues_of_Whshart_Follow_TracyWidom.jpg> <D:/work/GardenOfAnaly
-tics/images/GraphTheory/ErdosReyni_G_LT_giant_thresh_.jpg> <D:/work/GardenOfAna
-lytics/images/GraphTheory/gursoy_atun_layou_topology_heart.jpg>] [40 <D:/work/G
-ardenOfAnalytics/images/GraphTheory/hypercube_3_Dimension.jpg> <D:/work/GardenO
-fAnalytics/images/GraphTheory/hypercube_4_Dimension.jpg> <D:/work/GardenOfAnaly
-tics/images/GraphTheory/hypercube_5_Dimension.jpg> <D:/work/GardenOfAnalytics/i
-mages/GraphTheory/hypercube_6_Dimension.jpg>] [41 <D:/work/GardenOfAnalytics/im
-ages/GraphTheory/hypercube_7_Dimension.jpg> <D:/work/GardenOfAnalytics/images/G
-raphTheory/hypercube_8_Dimension.jpg> <D:/work/GardenOfAnalytics/images/GraphTh
-eory/RandomGraphAdjacencyMatrix_WithCut_jpg.jpg> <D:/work/GardenOfAnalytics/ima
-ges/GraphTheory/RandomGraphOptimalEdgeInputGraph_AdjacencyMatrix.jpg>] [42 <D:/
-work/GardenOfAnalytics/images/GraphTheory/RandomGraphOptimalEdgeInputGraph_Edge
-WeightHist_FMMC.jpg> <D:/work/GardenOfAnalytics/images/GraphTheory/RandomGraphO
-ptimalEdgeInputGraph_IncidenceMatrix.jpg> <D:/work/GardenOfAnalytics/images/Gra
-phTheory/RandomGraphOptimalEdgeWithedgeWeight_FastMixingMarkovChain.jpg> <D:/wo
-rk/GardenOfAnalytics/images/GraphTheory/RandomGraphOptimalEdgeWithedgeWeight_Po
-sitiveTransitionProbs_FastMixingMarkovChain.jpg>] [43 <D:/work/GardenOfAnalytic
-s/images/GraphTheory/RandomGraph_With3Cuts_.jpg> <D:/work/GardenOfAnalytics/ima
-ges/GraphTheory/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06.jpg> <D:/work/Gard
-enOfAnalytics/images/GraphTheory/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_A
-djacency_Matrix.jpg> <D:/work/GardenOfAnalytics/images/GraphTheory/RandomGraph_
-With3Cuts_90_nodes_pii_25_pij_06_Adjacency_Matrix_Minimized_PF.jpg>] [44 <D:/wo
-rk/GardenOfAnalytics/images/GraphTheory/RandomGraph_With3Cuts_90_nodes_pii_25_p
-ij_06_MinimizedAdjacency_PerronFrobenius.jpg> <D:/work/GardenOfAnalytics/images
-/GraphTheory/RandomGraph_WithCut_64Nodes.jpg> <D:/work/GardenOfAnalytics/images
-/GraphTheory/RandomGraph_WithCut_adjacencyMatrix_64Nodes.jpg> <D:/work/GardenOf
-Analytics/images/GraphTheory/RandomGraph_WithCut_jpg.jpg>] [45 <D:/work/GardenO
-fAnalytics/images/GraphTheory/RandomWalk_30_Walkers_20000_steps.jpg> <D:/work/G
-ardenOfAnalytics/images/GraphTheory/RandomWalk_50_Walkers.jpg> <D:/work/GardenO
-fAnalytics/images/GraphTheory/Raymond_AdvectiveNavierStokesdiffusion.jpg> <D:/w
-ork/GardenOfAnalytics/images/GraphTheory/Raymond_TensorField.jpg>] [46 <D:/work
-/GardenOfAnalytics/images/GraphTheory/RoadMap.jpg> <D:/work/GardenOfAnalytics/i
-mages/GraphTheory/WellConnectedWithRedBlackOrder_Bipatate.jpg> <D:/work/GardenO
-fAnalytics/images/GraphTheory/WellConnectedWithThreeClusters.jpg> <D:/work/Gard
-enOfAnalytics/images/GraphTheory/WellConnectedWithThreeClusters2.jpg>] [47 <D:/
-work/GardenOfAnalytics/images/GraphTheory/WellConnectedWithThreeClusters3.jpg> 
-<D:/work/GardenOfAnalytics/images/GraphTheory/WishartMatrixforMikey.jpg> <D:/wo
-rk/GardenOfAnalytics/images/GraphTheory/_GtDout.jpg>]
-(D:\work\GardenOfAnalytics\NaturalLanguageProcessing.tex
+[36 <D:/ProjectFiles/Handbook/images/GraphTheory/3Inhomog_Cluster_PreScaleFree.
+jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/Clique_12_Members.jpg> <D:/Pr
+ojectFiles/Handbook/images/GraphTheory/Clique_3_Members.jpg> <D:/ProjectFiles/H
+andbook/images/GraphTheory/Clique_4_Members.jpg>] [37 <D:/ProjectFiles/Handbook
+/images/GraphTheory/Clique_5_Members.jpg> <D:/ProjectFiles/Handbook/images/Grap
+hTheory/Clique_6_Members.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/Cliq
+ue_9_Members.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/ClusterCoeff_His
+t_ErdoReyani_Graph_SameVertexSet_mean0_421961099815438.jpg>] [38 <D:/ProjectFil
+es/Handbook/images/GraphTheory/ClusterCoeff_Hist_PreScaleFree_mean_0_2050479043
+66710.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/ClusterCoeff_Hist_Scale
+Free_with20ExtraNode_5maxE_mean_0_190053489673149.jpg> <D:/ProjectFiles/Handboo
+k/images/GraphTheory/CVX_NNMF_A-YX_Where_Y_X_PSD.jpg> <D:/ProjectFiles/Handbook
+/images/GraphTheory/CVX_NNMF_A.jpg>] [39 <D:/ProjectFiles/Handbook/images/Graph
+Theory/CVX_NNMF_Residuals.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/Eig
+envalues_of_Whshart_Follow_TracyWidom.jpg> <D:/ProjectFiles/Handbook/images/Gra
+phTheory/ErdosReyni_G_LT_giant_thresh_.jpg> <D:/ProjectFiles/Handbook/images/Gr
+aphTheory/gursoy_atun_layou_topology_heart.jpg>] [40 <D:/ProjectFiles/Handbook/
+images/GraphTheory/hypercube_3_Dimension.jpg> <D:/ProjectFiles/Handbook/images/
+GraphTheory/hypercube_4_Dimension.jpg> <D:/ProjectFiles/Handbook/images/GraphTh
+eory/hypercube_5_Dimension.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/hy
+percube_6_Dimension.jpg>] [41 <D:/ProjectFiles/Handbook/images/GraphTheory/hype
+rcube_7_Dimension.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/hypercube_8
+_Dimension.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGraphAdjacen
+cyMatrix_WithCut_jpg.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGr
+aphOptimalEdgeInputGraph_AdjacencyMatrix.jpg>] [42 <D:/ProjectFiles/Handbook/im
+ages/GraphTheory/RandomGraphOptimalEdgeInputGraph_EdgeWeightHist_FMMC.jpg> <D:/
+ProjectFiles/Handbook/images/GraphTheory/RandomGraphOptimalEdgeInputGraph_Incid
+enceMatrix.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGraphOptimal
+EdgeWithedgeWeight_FastMixingMarkovChain.jpg> <D:/ProjectFiles/Handbook/images/
+GraphTheory/RandomGraphOptimalEdgeWithedgeWeight_PositiveTransitionProbs_FastMi
+xingMarkovChain.jpg>] [43 <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGr
+aph_With3Cuts_.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGraph_Wi
+th3Cuts_90_nodes_pii_25_pij_06.jpg> <D:/ProjectFiles/Handbook/images/GraphTheor
+y/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_Adjacency_Matrix.jpg> <D:/Projec
+tFiles/Handbook/images/GraphTheory/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06
+_Adjacency_Matrix_Minimized_PF.jpg>] [44 <D:/ProjectFiles/Handbook/images/Graph
+Theory/RandomGraph_With3Cuts_90_nodes_pii_25_pij_06_MinimizedAdjacency_PerronFr
+obenius.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGraph_WithCut_6
+4Nodes.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomGraph_WithCut_ad
+jacencyMatrix_64Nodes.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/RandomG
+raph_WithCut_jpg.jpg>] [45 <D:/ProjectFiles/Handbook/images/GraphTheory/RandomW
+alk_30_Walkers_20000_steps.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/Ra
+ndomWalk_50_Walkers.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/Raymond_A
+dvectiveNavierStokesdiffusion.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory
+/Raymond_TensorField.jpg>] [46 <D:/ProjectFiles/Handbook/images/GraphTheory/Roa
+dMap.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/WellConnectedWithRedBlac
+kOrder_Bipatate.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/WellConnected
+WithThreeClusters.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/WellConnect
+edWithThreeClusters2.jpg>] [47 <D:/ProjectFiles/Handbook/images/GraphTheory/Wel
+lConnectedWithThreeClusters3.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/
+WishartMatrixforMikey.jpg> <D:/ProjectFiles/Handbook/images/GraphTheory/_GtDout
+.jpg>] (D:\ProjectFiles\Handbook\NaturalLanguageProcessing.tex
 Chapter 2.
 <wordassociation.jpg, id=297, 2558.55875pt x 2075.755pt>
 File: wordassociation.jpg Graphic file (type jpg)
@@ -1764,7 +1762,7 @@ Package pdftex.def Info: wordassociation.jpg used on input line 3.
 
 
 
- <D:/work/GardenOfAnalytics/wordassociation.jpg>]
+ <D:/ProjectFiles/Handbook/wordassociation.jpg>]
 [49]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
@@ -1818,7 +1816,7 @@ ti-cists as meronymy/holonymy.
 
 [77] [78] [79]) [80
 
-] (D:\work\GardenOfAnalytics\ImageProcessing.tex
+] (D:\ProjectFiles\Handbook\ImageProcessing.tex
 Chapter 3.
 <ColorPaper/daylight_Flourcescent.jpg, id=409, 1927.2pt x 1076.02pt>
 File: ColorPaper/daylight_Flourcescent.jpg Graphic file (type jpg)
@@ -1838,8 +1836,8 @@ Package pdftex.def Info: ColorPaper/XYZ_CMF.jpg used on input line 24.
 
 
 
-] [82 <D:/work/GardenOfAnalytics/ColorPaper/daylight_Flourcescent.jpg> <D:/work
-/GardenOfAnalytics/ColorPaper/XYZ_CMF.jpg>]
+] [82 <D:/ProjectFiles/Handbook/ColorPaper/daylight_Flourcescent.jpg> <D:/Proje
+ctFiles/Handbook/ColorPaper/XYZ_CMF.jpg>]
 <ColorPaper/ch1.jpg, id=419, 562.1pt x 421.575pt>
 File: ColorPaper/ch1.jpg Graphic file (type jpg)
  <use ColorPaper/ch1.jpg>
@@ -1988,21 +1986,21 @@ Overfull \hbox (59.43097pt too wide) in paragraph at lines 41--95
 [][] 
  []
 
-[83] [84 <D:/work/GardenOfAnalytics/ColorPaper/ch1.jpg> <D:/work/GardenOfAnalyt
-ics/ColorPaper/ch2.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch3.jpg> <D:/work
-/GardenOfAnalytics/ColorPaper/ch4.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch
-5.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch6.jpg> <D:/work/GardenOfAnalytic
-s/ColorPaper/ch7.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch8.jpg> <D:/work/G
-ardenOfAnalytics/ColorPaper/ch9.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch10
-.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch11.jpg> <D:/work/GardenOfAnalytic
-s/ColorPaper/ch12.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch13.jpg> <D:/work
-/GardenOfAnalytics/ColorPaper/ch14.jpg> <D:/work/GardenOfAnalytics/ColorPaper/c
-h15.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch16.jpg> <D:/work/GardenOfAnaly
-tics/ColorPaper/ch17.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch18.jpg> <D:/w
-ork/GardenOfAnalytics/ColorPaper/ch19.jpg> <D:/work/GardenOfAnalytics/ColorPape
-r/ch20.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch21.jpg> <D:/work/GardenOfAn
-alytics/ColorPaper/ch22.jpg> <D:/work/GardenOfAnalytics/ColorPaper/ch23.jpg> <D
-:/work/GardenOfAnalytics/ColorPaper/ch24.jpg>]
+[83] [84 <D:/ProjectFiles/Handbook/ColorPaper/ch1.jpg> <D:/ProjectFiles/Handboo
+k/ColorPaper/ch2.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch3.jpg> <D:/Project
+Files/Handbook/ColorPaper/ch4.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch5.jpg
+> <D:/ProjectFiles/Handbook/ColorPaper/ch6.jpg> <D:/ProjectFiles/Handbook/Color
+Paper/ch7.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch8.jpg> <D:/ProjectFiles/H
+andbook/ColorPaper/ch9.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch10.jpg> <D:/
+ProjectFiles/Handbook/ColorPaper/ch11.jpg> <D:/ProjectFiles/Handbook/ColorPaper
+/ch12.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch13.jpg> <D:/ProjectFiles/Hand
+book/ColorPaper/ch14.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch15.jpg> <D:/Pr
+ojectFiles/Handbook/ColorPaper/ch16.jpg> <D:/ProjectFiles/Handbook/ColorPaper/c
+h17.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch18.jpg> <D:/ProjectFiles/Handbo
+ok/ColorPaper/ch19.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch20.jpg> <D:/Proj
+ectFiles/Handbook/ColorPaper/ch21.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch2
+2.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ch23.jpg> <D:/ProjectFiles/Handbook
+/ColorPaper/ch24.jpg>]
 Missing character: There is no ï in font cmr8!
 Missing character: There is no ¿ in font cmr8!
 Missing character: There is no ½ in font cmr8!
@@ -2024,8 +2022,8 @@ File: ColorPaper/aperio_sRGB_v2.jpg Graphic file (type jpg)
 Package pdftex.def Info: ColorPaper/aperio_sRGB_v2.jpg used on input line 137.
 (pdftex.def)             Requested size: 142.26378pt x 130.18881pt.
 
-<ColorPaper/aperio_sRGB_v3.jpg, id=452, 341.77687pt x 365.11406pt> [85 <D:/work
-/GardenOfAnalytics/ColorPaper/aperio_sRGB_v1.jpg>]
+<ColorPaper/aperio_sRGB_v3.jpg, id=452, 341.77687pt x 365.11406pt> [85 <D:/Proj
+ectFiles/Handbook/ColorPaper/aperio_sRGB_v1.jpg>]
 File: ColorPaper/aperio_sRGB_v3.jpg Graphic file (type jpg)
 
 <use ColorPaper/aperio_sRGB_v3.jpg>
@@ -2038,9 +2036,9 @@ File: ColorPaper/aperio_sRGB_v4.jpg Graphic file (type jpg)
 <use ColorPaper/aperio_sRGB_v4.jpg>
 Package pdftex.def Info: ColorPaper/aperio_sRGB_v4.jpg used on input line 141.
 (pdftex.def)             Requested size: 142.26378pt x 116.13983pt.
- [86 <D:/work/GardenOfAnalytics/ColorPaper/aperio_sRGB_v2.jpg> <D:/work/GardenO
-fAnalytics/ColorPaper/aperio_sRGB_v3.jpg> <D:/work/GardenOfAnalytics/ColorPaper
-/aperio_sRGB_v4.jpg>]
+ [86 <D:/ProjectFiles/Handbook/ColorPaper/aperio_sRGB_v2.jpg> <D:/ProjectFiles/
+Handbook/ColorPaper/aperio_sRGB_v3.jpg> <D:/ProjectFiles/Handbook/ColorPaper/ap
+erio_sRGB_v4.jpg>]
 <ColorPaper/RGB_TO_YCBCR.jpg, id=460, 792.71156pt x 752.0597pt>
 File: ColorPaper/RGB_TO_YCBCR.jpg Graphic file (type jpg)
 
@@ -2052,7 +2050,7 @@ Overfull \hbox (174.99303pt too wide) in paragraph at lines 166--174
 \OT1/cmr/m/n/8 versible ex-cept for float-ing point round-off er-rors. [] 
  []
 
-[87 <D:/work/GardenOfAnalytics/ColorPaper/RGB_TO_YCBCR.jpg>]
+[87 <D:/ProjectFiles/Handbook/ColorPaper/RGB_TO_YCBCR.jpg>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
  [88]
@@ -2506,7 +2504,7 @@ No file Computer.tex.
 
 
 
-] (D:\work\GardenOfAnalytics\GIS.tex
+] (D:\ProjectFiles\Handbook\GIS.tex
 Chapter 4.
 
 Overfull \hbox (50.14468pt too wide) in paragraph at lines 13--13
@@ -2582,9 +2580,9 @@ Overfull \hbox (31.34999pt too wide) in paragraph at lines 68--69
 [][] 
  []
 
-[99 <D:/work/GardenOfAnalytics/Images/GIS/PositivePovertyIndicatorHeatMap.pdf>]
-[100 <D:/work/GardenOfAnalytics/Images/GIS/NegativePovertyIndicatorHeatMap.pdf>
-] <Images/GIS/PovertyFeatureMapV0.pdf, id=521, 614.295pt x 794.97pt>
+[99 <D:/ProjectFiles/Handbook/Images/GIS/PositivePovertyIndicatorHeatMap.pdf>]
+[100 <D:/ProjectFiles/Handbook/Images/GIS/NegativePovertyIndicatorHeatMap.pdf>]
+<Images/GIS/PovertyFeatureMapV0.pdf, id=521, 614.295pt x 794.97pt>
 File: Images/GIS/PovertyFeatureMapV0.pdf Graphic file (type pdf)
 
 <use Images/GIS/PovertyFeatureMapV0.pdf>
@@ -2600,7 +2598,7 @@ Overfull \hbox (103.62pt too wide) in paragraph at lines 76--77
 Overfull \vbox (11.15749pt too high) has occurred while \output is active []
 
 
-[102 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV0.pdf>]
+[102 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV0.pdf>]
 <Images/GIS/PovertyFeatureMapV1Development.pdf, id=542, 614.295pt x 794.97pt>
 File: Images/GIS/PovertyFeatureMapV1Development.pdf Graphic file (type pdf)
 
@@ -2617,8 +2615,7 @@ Overfull \hbox (103.62pt too wide) in paragraph at lines 82--83
 Overfull \vbox (11.15749pt too high) has occurred while \output is active []
 
 
-[104 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV1Development.pdf>]
-
+[104 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV1Development.pdf>]
 <Images/GIS/PovertyFeatureMapV3_Poverty_Habitat.pdf, id=562, 614.295pt x 794.97
 pt>
 File: Images/GIS/PovertyFeatureMapV3_Poverty_Habitat.pdf Graphic file (type pdf
@@ -2636,8 +2633,8 @@ Overfull \hbox (103.62pt too wide) in paragraph at lines 87--88
 Overfull \vbox (11.15749pt too high) has occurred while \output is active []
 
 
-[106 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV3_Poverty_Habitat.
-pdf>]
+[106 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV3_Poverty_Habitat.p
+df>]
 <Images/GIS/PovertyFeatureMapV2DevelopmentPovertyFloodFill.pdf, id=580, 614.295
 pt x 794.97pt>
 File: Images/GIS/PovertyFeatureMapV2DevelopmentPovertyFloodFill.pdf Graphic fil
@@ -2656,8 +2653,8 @@ Overfull \hbox (103.62pt too wide) in paragraph at lines 93--94
 Overfull \vbox (11.15749pt too high) has occurred while \output is active []
 
 
-[108 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV2DevelopmentPovert
-yFloodFill.pdf>]
+[108 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV2DevelopmentPoverty
+FloodFill.pdf>]
 <Images/GIS/PovertyFeatureMapV4_PovertyDevelopment_StatePopulation.pdf, id=601,
  614.295pt x 794.97pt>
 File: Images/GIS/PovertyFeatureMapV4_PovertyDevelopment_StatePopulation.pdf Gra
@@ -2672,8 +2669,8 @@ Overfull \hbox (31.34999pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-[109 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV4_PovertyDevelopme
-nt_StatePopulation.pdf>]
+[109 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV4_PovertyDevelopmen
+t_StatePopulation.pdf>]
 <Images/GIS/PovertyFeatureMapV9_PovertyDev_StatePop.pdf, id=616, 614.295pt x 79
 4.97pt>
 File: Images/GIS/PovertyFeatureMapV9_PovertyDev_StatePop.pdf Graphic file (type
@@ -2687,8 +2684,8 @@ Overfull \hbox (31.34999pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
-[110 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV9_PovertyDev_State
-Pop.pdf>]
+[110 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV9_PovertyDev_StateP
+op.pdf>]
 <Images/GIS/PovertyFeatureMapV5_Poverty_Habitat_StatePopulation.pdf, id=631, 61
 4.295pt x 794.97pt>
 File: Images/GIS/PovertyFeatureMapV5_Poverty_Habitat_StatePopulation.pdf Graphi
@@ -2703,8 +2700,8 @@ Overfull \hbox (31.34999pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-[111 <D:/work/GardenOfAnalytics/Images/GIS/PovertyFeatureMapV5_Poverty_Habitat_
-StatePopulation.pdf>]
+[111 <D:/ProjectFiles/Handbook/Images/GIS/PovertyFeatureMapV5_Poverty_Habitat_S
+tatePopulation.pdf>]
 <Images/GIS/InfantMortality_X_Habitat_X_Exports_V9.pdf, id=644, 614.295pt x 794
 .97pt>
 File: Images/GIS/InfantMortality_X_Habitat_X_Exports_V9.pdf Graphic file (type 
@@ -2718,8 +2715,8 @@ Overfull \hbox (31.34999pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
-[112 <D:/work/GardenOfAnalytics/Images/GIS/InfantMortality_X_Habitat_X_Exports_
-V9.pdf>]
+[112 <D:/ProjectFiles/Handbook/Images/GIS/InfantMortality_X_Habitat_X_Exports_V
+9.pdf>]
 Overfull \hbox (50.14468pt too wide) in paragraph at lines 212--212
 [][] []| 
  []
@@ -2752,9 +2749,9 @@ Package pdftex.def Info: Images/GIS/MoranScatterPlotForPovertyAggregateRanks.pd
 f used on input line 240.
 (pdftex.def)             Requested size: 289.07999pt x 227.01358pt.
 
-[114 <D:/work/GardenOfAnalytics/Images/GIS/MoranMapForPovertyAggregateRanks.pdf
-> <D:/work/GardenOfAnalytics/Images/GIS/MoranScatterPlotForPovertyAggregateRank
-s.pdf>]
+[114 <D:/ProjectFiles/Handbook/Images/GIS/MoranMapForPovertyAggregateRanks.pdf>
+ <D:/ProjectFiles/Handbook/Images/GIS/MoranScatterPlotForPovertyAggregateRanks.
+pdf>]
 <Images/GIS/MoranMapForDevelopmentAggregateRanks.pdf, id=679, 470.75874pt x 404
 .51125pt>
 File: Images/GIS/MoranMapForDevelopmentAggregateRanks.pdf Graphic file (type pd
@@ -2773,9 +2770,9 @@ File: Images/GIS/MoranScatterPlotForDevelopmentAggregateRanks.pdf Graphic file
 Package pdftex.def Info: Images/GIS/MoranScatterPlotForDevelopmentAggregateRank
 s.pdf used on input line 250.
 (pdftex.def)             Requested size: 289.07999pt x 227.01358pt.
-) [115 <D:/work/GardenOfAnalytics/Images/GIS/MoranMapForDevelopmentAggregateRan
-ks.pdf> <D:/work/GardenOfAnalytics/Images/GIS/MoranScatterPlotForDevelopmentAgg
-regateRanks.pdf>] (D:\work\GardenOfAnalytics\FinancialEngineering.tex
+) [115 <D:/ProjectFiles/Handbook/Images/GIS/MoranMapForDevelopmentAggregateRank
+s.pdf> <D:/ProjectFiles/Handbook/Images/GIS/MoranScatterPlotForDevelopmentAggre
+gateRanks.pdf>] (D:\ProjectFiles\Handbook\FinancialEngineering.tex
 Chapter 5.
 
 <images/RealTimeFinancialTSMining/iwm_day_pca_eigen_var_desc.jpg, id=695, 1284.
@@ -2840,11 +2837,11 @@ r.jpg used on input line 41.
 (pdftex.def)             Requested size: 216.80554pt x 216.80023pt.
 
 <images/RealTimeFinancialTSMining/tics072007_time.jpg, id=703, 1204.5pt x 1508.
-63625pt> [117 <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/iwm_d
-ay_pca_eigen_var_desc.jpg> <D:/work/GardenOfAnalytics/images/RealTimeFinancialT
-SMining/iwm_day_price_corr.jpg> <D:/work/GardenOfAnalytics/images/RealTimeFinan
-cialTSMining/spy_day_price_corr.jpg> <D:/work/GardenOfAnalytics/images/RealTime
-FinancialTSMining/spy_wk_price_corr.jpg>]
+63625pt> [117 <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/iwm_da
+y_pca_eigen_var_desc.jpg> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSM
+ining/iwm_day_price_corr.jpg> <D:/ProjectFiles/Handbook/images/RealTimeFinancia
+lTSMining/spy_day_price_corr.jpg> <D:/ProjectFiles/Handbook/images/RealTimeFina
+ncialTSMining/spy_wk_price_corr.jpg>]
 File: images/RealTimeFinancialTSMining/tics072007_time.jpg Graphic file (type j
 pg)
 
@@ -2852,9 +2849,9 @@ pg)
 Package pdftex.def Info: images/RealTimeFinancialTSMining/tics072007_time.jpg u
 sed on input line 43.
 (pdftex.def)             Requested size: 216.80064pt x 216.80147pt.
- [118 <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/spy_industryc
-odes_corr.jpg> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/tics
-072007_time.jpg>]
+ [118 <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/spy_industryco
+des_corr.jpg> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/tics07
+2007_time.jpg>]
 [119]
 
 Package natbib Warning: Citation `Heston (1993)' on page 120 undefined on input
@@ -3072,37 +3069,37 @@ Overfull \hbox (158.23926pt too wide) in paragraph at lines 207--116
 Overfull \vbox (58.45044pt too high) has occurred while \output is active []
 
 
-[121 <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/O
-IHB.pdf, page is rotated 90 degrees> <D:/work/GardenOfAnalytics/images/RealTime
-FinancialTSMining/klTimeSeries/OIHBCorr.pdf> <D:/work/GardenOfAnalytics/images/
-RealTimeFinancialTSMining/klTimeSeries/BHIFilteredPriceSeries.pdf> <D:/work/Gar
-denOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/BJSFilteredPriceSe
-ries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSer
-ies/CAMFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinan
-cialTSMining/klTimeSeries/DOFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics
-/images/RealTimeFinancialTSMining/klTimeSeries/ESVFilteredPriceSeries.pdf> <D:/
-work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/GRPFiltere
-dPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/k
-lTimeSeries/GSFFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealT
-imeFinancialTSMining/klTimeSeries/HALFilteredPriceSeries.pdf> <D:/work/GardenOf
-Analytics/images/RealTimeFinancialTSMining/klTimeSeries/HCFilteredPriceSeries.p
-df> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/NB
-RFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTS
-Mining/klTimeSeries/NEFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics/image
-s/RealTimeFinancialTSMining/klTimeSeries/NOVFilteredPriceSeries.pdf> <D:/work/G
-ardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/OIHFilteredPrice
-Series.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeS
-eries/RDCFilteredPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFin
-ancialTSMining/klTimeSeries/RIGFilteredPriceSeries.pdf> <D:/work/GardenOfAnalyt
-ics/images/RealTimeFinancialTSMining/klTimeSeries/SIIFilteredPriceSeries.pdf> <
-D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMining/klTimeSeries/SLBFilt
-eredPriceSeries.pdf> <D:/work/GardenOfAnalytics/images/RealTimeFinancialTSMinin
-g/klTimeSeries/TDWFilteredPriceSeries.pdf>]
-(D:\work\GardenOfAnalytics\CopyTextFromArticles.tex
+[121 <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/OI
+HB.pdf, page is rotated 90 degrees> <D:/ProjectFiles/Handbook/images/RealTimeFi
+nancialTSMining/klTimeSeries/OIHBCorr.pdf> <D:/ProjectFiles/Handbook/images/Rea
+lTimeFinancialTSMining/klTimeSeries/BHIFilteredPriceSeries.pdf> <D:/ProjectFile
+s/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/BJSFilteredPriceSeries
+.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/C
+AMFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTS
+Mining/klTimeSeries/DOFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/images
+/RealTimeFinancialTSMining/klTimeSeries/ESVFilteredPriceSeries.pdf> <D:/Project
+Files/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/GRPFilteredPriceSe
+ries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeri
+es/GSFFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinanci
+alTSMining/klTimeSeries/HALFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/i
+mages/RealTimeFinancialTSMining/klTimeSeries/HCFilteredPriceSeries.pdf> <D:/Pro
+jectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/NBRFilteredPri
+ceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTime
+Series/NEFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFina
+ncialTSMining/klTimeSeries/NOVFilteredPriceSeries.pdf> <D:/ProjectFiles/Handboo
+k/images/RealTimeFinancialTSMining/klTimeSeries/OIHFilteredPriceSeries.pdf> <D:
+/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/RDCFiltere
+dPriceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/kl
+TimeSeries/RIGFilteredPriceSeries.pdf> <D:/ProjectFiles/Handbook/images/RealTim
+eFinancialTSMining/klTimeSeries/SIIFilteredPriceSeries.pdf> <D:/ProjectFiles/Ha
+ndbook/images/RealTimeFinancialTSMining/klTimeSeries/SLBFilteredPriceSeries.pdf
+> <D:/ProjectFiles/Handbook/images/RealTimeFinancialTSMining/klTimeSeries/TDWFi
+lteredPriceSeries.pdf>] (D:\ProjectFiles\Handbook\CopyTextFromArticles.tex
 Missing character: There is no ï in font cmr8!
 Missing character: There is no » in font cmr8!
 Missing character: There is no ¿ in font cmr8!
- [122
+
+[122
 
 
 ]
@@ -3155,7 +3152,7 @@ Missing character: There is no ¨ in font cmr8!
 Missing character: There is no â in font cmr8!
 Missing character: There is no ‰ in font cmr8!
 Missing character: There is no ª in font cmr8!
- [124]) [125] (D:\work\GardenOfAnalytics\Appendix_Numerical.tex
+ [124]) [125] (D:\ProjectFiles\Handbook\Appendix_Numerical.tex
 Chapter 7.
 [126
 
@@ -3172,9 +3169,8 @@ g Graphic file (type jpg)
 Package pdftex.def Info: Figures/ClusteringRW/rw_1000000_delauney_kmens_convex_
 hull_voroni_onKM.jpg used on input line 138.
 (pdftex.def)             Requested size: 227.60759pt x 227.62291pt.
-) [128 <D:/work/GardenOfAnalytics/Figures/ClusteringRW/rw_1000000_delauney_kmen
-s_convex_hull_voroni_onKM.jpg>] [129]
-(D:\work\GardenOfAnalytics\klSoftware.tex
+) [128 <D:/ProjectFiles/Handbook/Figures/ClusteringRW/rw_1000000_delauney_kmens
+_convex_hull_voroni_onKM.jpg>] [129] (D:\ProjectFiles\Handbook\klSoftware.tex
 Chapter 8.
 [130
 
@@ -3192,7 +3188,7 @@ Overfull \hbox (152.77707pt too wide) in paragraph at lines 44--46
 parse Ma-trix Col-lec-tion (http://www.cise.ufl.edu/research/sparse/matrices/)
  []
 
-[131]) [132] (D:\work\GardenOfAnalytics\Appendix_Statistics.tex
+[131]) [132] (D:\ProjectFiles\Handbook\Appendix_Statistics.tex
 Chapter 9.
 
 Overfull \hbox (2.53625pt too wide) in paragraph at lines 4--4
@@ -3273,7 +3269,7 @@ Package natbib Warning: Citation `Lindley' on page 138 undefined on input line
 Package natbib Warning: Citation `D. V. (1950)' on page 138 undefined on input 
 line 524.
 
-[138]) [139] (D:\work\GardenOfAnalytics\Appendix_Probability.tex
+[138]) [139] (D:\ProjectFiles\Handbook\Appendix_Probability.tex
 Chapter 10.
 
 Overfull \hbox (2.80373pt too wide) in paragraph at lines 16--16
@@ -3325,7 +3321,7 @@ Overfull \hbox (50.14468pt too wide) in paragraph at lines 530--530
 [][] []| 
  []
 
-[148]) [149] (D:\work\GardenOfAnalytics\klBook.bbl [150
+[148]) [149] (D:\ProjectFiles\Handbook\klBook.bbl [150
 
 
 ]
@@ -3339,63 +3335,63 @@ Missing character: There is no “ in font cmti8!
 
 Package natbib Warning: There were undefined citations.
 
-[153] (D:\work\GardenOfAnalytics\klBook.aux (D:\work\GardenOfAnalytics\ABS.aux)
-(D:\work\GardenOfAnalytics\ACK.aux) (D:\work\GardenOfAnalytics\Introduction.aux
-) (D:\work\GardenOfAnalytics\klBookContent.aux)
-(D:\work\GardenOfAnalytics\MiscFiguresImages.aux)
-(D:\work\GardenOfAnalytics\NaturalLanguageProcessing.aux)
-(D:\work\GardenOfAnalytics\ImageProcessing.aux)
-(D:\work\GardenOfAnalytics\Computer.aux) (D:\work\GardenOfAnalytics\GIS.aux)
-(D:\work\GardenOfAnalytics\FinancialEngineering.aux)
-(D:\work\GardenOfAnalytics\CopyTextFromArticles.aux)
-(D:\work\GardenOfAnalytics\Appendix_Numerical.aux)
-(D:\work\GardenOfAnalytics\klSoftware.aux)
-(D:\work\GardenOfAnalytics\Appendix_Statistics.aux)
-(D:\work\GardenOfAnalytics\Appendix_Probability.aux)) ) 
+[153] (D:\ProjectFiles\Handbook\klBook.aux (D:\ProjectFiles\Handbook\ABS.aux)
+(D:\ProjectFiles\Handbook\ACK.aux) (D:\ProjectFiles\Handbook\Introduction.aux)
+(D:\ProjectFiles\Handbook\klBookContent.aux)
+(D:\ProjectFiles\Handbook\MiscFiguresImages.aux)
+(D:\ProjectFiles\Handbook\NaturalLanguageProcessing.aux)
+(D:\ProjectFiles\Handbook\ImageProcessing.aux)
+(D:\ProjectFiles\Handbook\Computer.aux) (D:\ProjectFiles\Handbook\GIS.aux)
+(D:\ProjectFiles\Handbook\FinancialEngineering.aux)
+(D:\ProjectFiles\Handbook\CopyTextFromArticles.aux)
+(D:\ProjectFiles\Handbook\Appendix_Numerical.aux)
+(D:\ProjectFiles\Handbook\klSoftware.aux)
+(D:\ProjectFiles\Handbook\Appendix_Statistics.aux)
+(D:\ProjectFiles\Handbook\Appendix_Probability.aux)) ) 
 Here is how much of TeX's memory you used:
  3875 strings out of 493921
- 88012 string characters out of 3144860
+ 87913 string characters out of 3144862
  106431 words of memory out of 3000000
  6862 multiletter control sequences out of 15000+200000
  18813 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,32p,2350b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on klBook.pdf (155 pages, 47429437 bytes).
+ 27i,12n,32p,2324b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on klBook.pdf (155 pages, 47429403 bytes).
 PDF statistics:
  1019 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,34 @@
+
+In a famous 1971 paper, Milman gave a new proof of Dvoretzky's theorem, stating that every convex body in dimension N has a section of dimension d(N), with d(N) tending to infinity with N, that is isomorphic to an ellipsoid. Milman's proof gives the optimal bound d(N) = const log N. In this proof, Milman put forth the concentration of measure phenomenon which has since found numerous applications.
+Milman made important contributions to the study of Banach spaces of large (finite) dimension, which led to the development of asymptotic geometric analysis. His results in this field include Milman's reverse Brunn–Minkowski inequality and the quotient of subspace theorem.
+
+In mathematics, in the theory of Banach spaces, Dvoretzky's theorem is an important structural theorem proved by Aryeh Dvoretzky in the early 1960s. It answered a question of Alexander Grothendieck. A new proof found by Vitali Milman in the 1970s was one of the starting points for the development of asymptotic geometric analysis (also called asymptotic functional analysis or the local theory of Banach spaces).
+
+Original formulation; For every natural number $latex k ? N$ and every $latex e &gt; 0$ there exists $latex N(k, e) ? N $ such that if $latex(X, ?.?)$ is a Banach space of dimension $latex N(k, e)$,there exist a subspace E ? X of dimension k and a positive quadratic form Q on E such that the corresponding Euclidean norm
+
+$latex | \cdot | = \sqrt{Q(\cdot)$
+on $E$ satisfies:
+
+$latex x| \leq \|x\| \leq (1+\epsilon)|x| \quad \text{for every} \quad x \in E$.
+Further development
+In 1971, Vitali Milman gave a new proof of Dvoretzky's theorem, making use of the concentration of measure on the sphere to show that a random k-dimensional subspace satisfies the above inequality with probability very close to 1. The proof gives the sharp dependence on k:
+
+$latex N(k,\epsilon)\leq\exp(C(\epsilon)k)$.
+Equivalently, for every Banach space $latex (X, ?.?)$ of dimension $latex N$, there exists a subspace$latex  E ? X $of dimension$latex  k = c(e) log N$ and a Euclidean norm $latex |.|$ on $latex E$ such that the inequality above holds.
+
+More precisely, let $latex Sn - 1$ be the unit sphere with respect to some Euclidean structure Q, and let s be the invariant probability measure on $latex Sn - 1$. Then:
+
+There exists such a subspace E with
+$latex k = \dim E \geq c(\epsilon) \, \left(\frac{\int_{S^{n-1}} \| \xi \| d\sigma(\xi)}{\max_{\xi \in S^{n-1}} \| \xi \|}\right)^2 \, N$.
+For any X one may choose Q so that the term in the brackets will be at most
+$latex c_1 \sqrt{\frac{\log N}{N}}$.
+Here $latex c1 $is a universal constant. The best possible $latex  k is denoted k*(X) and called the Dvoretzky dimension of X.
+
+The dependence on e was studied by Yehoram Gordon, who showed that k*(X) = c2 e2 log N. Another proof of this result was given by Gideon Schechtman.
+
+Noga Alon and Vitali Milman showed that the logarithmic bound on the dimension of the subspace in Dvoretzky's theorem can be significantly improved, if one is willing to accept a subspace that is close either to a Euclidean space or to a Chebyshev space. Specifically, for some constant c, every n-dimensional space has a subspace of dimension k = exp(cv(log N)) that is close either to lk
+2 or to lk
+8.
+Important related results were proved by Tadeusz Figiel, Joram Lindenstrauss and Milman</em>
+
+Gowers, W. T. (2000). "The two cultures of mathematics". Mathematics: frontiers and perspectives. Providence, RI: Amer. Math. Soc.. pp. 65–78. ISBN 0-8218-2070-2. "The full significance of measure concentration was first realized by Vitali Milman in his revolutionaly proof [Mil1971] of the theorem of Dvoretzky Dvoretzky's theorem, especially as proved by Milman, is a milestone in the local (that is, finite-dimensional) theory of Banach spaces. While I feel sorry for a mathematician who cannot see its intrinsic appeal, this appeal on its own does not explain the enormous influence that the proof has had, well beyond Banach space theory, as a result of planting the idea of measure concentration in the minds of many mathematicians. Huge numbers of papers have now been published exploiting this idea or giving new techniques for showing that it holds.

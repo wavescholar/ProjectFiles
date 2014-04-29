@@ -3,30 +3,45 @@ A level-1 auxiliary file: ABS.aux
 A level-1 auxiliary file: ACK.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: klBookContent.aux
+A level-1 auxiliary file: MiscFiguresImages.aux
+A level-1 auxiliary file: NaturalLanguageProcessing.aux
+A level-1 auxiliary file: ImageProcessing.aux
+A level-1 auxiliary file: Computer.aux
+A level-1 auxiliary file: GIS.aux
+A level-1 auxiliary file: FinancialEngineering.aux
+White space in argument---line 11 of file FinancialEngineering.aux
+ : \citation{Heston
+ :                  (1993)}
+I'm skipping whatever remains of this command
+White space in argument---line 12 of file FinancialEngineering.aux
+ : \citation{Merton
+ :                  (1976}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: CopyTextFromArticles.aux
 A level-1 auxiliary file: Appendix_Numerical.aux
 A level-1 auxiliary file: klSoftware.aux
 A level-1 auxiliary file: Appendix_Statistics.aux
-White space in argument---line 9 of file Appendix_Statistics.aux
+White space in argument---line 8 of file Appendix_Statistics.aux
  : \citation{Scholkopf
  :                     B. (2002)}
 I'm skipping whatever remains of this command
-White space in argument---line 11 of file Appendix_Statistics.aux
+White space in argument---line 10 of file Appendix_Statistics.aux
  : \citation{Liang,K-Y
  :                     and Zeger,S. L.(1986)}
 I'm skipping whatever remains of this command
-White space in argument---line 12 of file Appendix_Statistics.aux
+White space in argument---line 11 of file Appendix_Statistics.aux
  : \citation{Prentice
  :                    and Gloeckler (1978)}
 I'm skipping whatever remains of this command
-White space in argument---line 13 of file Appendix_Statistics.aux
+White space in argument---line 12 of file Appendix_Statistics.aux
  : \citation{Meyer,B.D.
  :                      (1990)}
 I'm skipping whatever remains of this command
-White space in argument---line 14 of file Appendix_Statistics.aux
+White space in argument---line 15 of file Appendix_Statistics.aux
  : \citation{Holmen,M
  :                    (2005)}
 I'm skipping whatever remains of this command
-White space in argument---line 15 of file Appendix_Statistics.aux
+White space in argument---line 16 of file Appendix_Statistics.aux
  : \citation{Prentice,R.
  :                       and L. Gloeckler (1978)}
 I'm skipping whatever remains of this command
@@ -35,11 +50,11 @@ White space in argument---line 17 of file Appendix_Statistics.aux
  :                      V. (1950)}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Appendix_Probability.aux
-White space in argument---line 15 of file Appendix_Probability.aux
+White space in argument---line 14 of file Appendix_Probability.aux
  : \citation{Fisher
  :                  Tippet (1928)}
 I'm skipping whatever remains of this command
-White space in argument---line 16 of file Appendix_Probability.aux
+White space in argument---line 15 of file Appendix_Probability.aux
  : \citation{Gnedenko
  :                    (1943)}
 I'm skipping whatever remains of this command
@@ -52,6 +67,8 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "ds"
 Warning--I didn't find a database entry for "d"
+Warning--I didn't find a database entry for "WORDNET"
+Warning--I didn't find a database entry for "PENNTREEBANK"
 Warning--I didn't find a database entry for "Liang"
 Warning--I didn't find a database entry for "Meyer"
 Warning--I didn't find a database entry for "Holmen"
@@ -85,4 +102,4 @@ Warning--there's a number but no volume in MCTalagrand95concentrationof
 Warning--there's a number but no volume in RMTTracy98correlationfunctions
 Warning--empty year in SDPVandenberghe_generalizedchebyshev
 Warning--empty year in SDPVandenberghe_generalizedchebyshev
-(There were 10 error messages)
+(There were 12 error messages)
