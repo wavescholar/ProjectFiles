@@ -32,5 +32,14 @@ Rest day.
 ----042814----
 Started to implement Intel VSL wrappers for klVector.  Unit test are being written along the way , but I'm neglecting assert / expect mechanism.  I will integrate these into the Boost unit test framework in May 2014.  Learned how to convert the MKL complect structure internally to the stl complex<double> via a typedef.  These ultimately need to be compatible with the Fortran complex struct.     
 
-----042414----
-Finsihed implementation of all complex<double> varieties of VSL functions and integrated all existing VSL functions into Boost Unite Test project. 
+----042914----
+Finsihed implementation of all complex<double> varieties of VSL functions and integrated all existing VSL functions into Boost Unit Test project. Also wrote full st of double methods.  
+
+----043014----
+Investigating the design choices made in wrapping the VSL functions.  This should have been done in advance as now I will have to go back and adjust the methods.  The considerations are to avoid unnecessary copying of data and that the syntax is as elegant as possible. 
+
+----050114----
+Modified all of the klVSL methods to return void and take ouput parameter as a reference.  
+
+----050214----
+Set up the release conficuration of boost unit test for klVSL.
