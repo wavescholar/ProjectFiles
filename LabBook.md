@@ -48,4 +48,14 @@ Set up the release configuration of boost unit test for klVSL. Started to write 
 Wrote a klMemoryManager wrapping the MKL library buffer aligned memory allocation. Added a new base class to klVector that has and instance of this as a global static member. This allows one to optimally have all allocations for klVector on the MKL free store. Speed up for the entire integration test for this was calculated to be 69/61. Wrote a number of GitHub issues again klMatrixCore.
 
 ----050414----
-Added a benchmark test for the MKL memory manager. Added a benchmark method to the unit test harness that returns timing info.  Moved the text code from MatricCore library to the test projects.  
+Added a benchmark test for the MKL memory manager. Added a benchmark method to the unit test harness that returns timing info.  Moved the test code from MatricCore library to the test projects.  
+
+----050514----
+Revived FastGaussTransform.  Worked on getting the Matlab implementation working. 
+
+----050614----
+Wrote BLAS based min and max.  Got the Matlab FastGaussTransform working. Organized the source code for FGT.  Wrote point cloud generator for Gaussian Mixture, and uniform hypercube. Tried to get Javascript image gallery working for Octopress but was unsuccessful. 
+
+----050714----
+Worked on FGT. 
+

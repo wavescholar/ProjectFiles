@@ -21,7 +21,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "klMatrixCoreLib", "klMatrix
 		{869F29EE-FD85-431C-BB8B-63550B323BB9} = {869F29EE-FD85-431C-BB8B-63550B323BB9}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "klMatrixCoreTest", "klMatrixCore\klMatrixCore.vcxproj", "{CA6D277C-DEBC-4504-9822-612705B71E96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "klMatrixCoreIntegrationTest", "klMatrixCore\klMatrixCore.vcxproj", "{CA6D277C-DEBC-4504-9822-612705B71E96}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DDD44601-359E-441C-9650-4FAB056661C8} = {DDD44601-359E-441C-9650-4FAB056661C8}
 	EndProjectSection
@@ -37,6 +37,8 @@ EndProject
 Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "ARPACK2", "Packages\ARPACK2\ARPACK2.vfproj", "{869F29EE-FD85-431C-BB8B-63550B323BB9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UMFPACK", "Packages\UMFPACK\UMFPACK\UMFPACK.vcxproj", "{30B5D694-7637-42C3-AC55-4B960450A442}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "klMatrixCoreBoostUnitTest", "klMatrixCore\klMatrixCoreBoostUnitTest.vcxproj", "{0041F679-C086-40F2-A5EB-FBE9664C2ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -158,6 +160,16 @@ Global
 		{30B5D694-7637-42C3-AC55-4B960450A442}.Release|Mixed Platforms.Build.0 = Release|x64
 		{30B5D694-7637-42C3-AC55-4B960450A442}.Release|x64.ActiveCfg = Release|x64
 		{30B5D694-7637-42C3-AC55-4B960450A442}.Release|x64.Build.0 = Release|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Debug|x64.ActiveCfg = Debug|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Debug|x64.Build.0 = Debug|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Release|Any CPU.ActiveCfg = Release|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Release|Mixed Platforms.Build.0 = Release|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Release|x64.ActiveCfg = Release|x64
+		{0041F679-C086-40F2-A5EB-FBE9664C2ED8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
