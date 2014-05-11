@@ -21,7 +21,7 @@ Blogged on the distribution of binaries dependencies of GitHub repositories.
 
 Blogged on the subject of Intel Compiler crippling performance when running on AMD hardware.  Noted that there are CPUID manipulation routines out there.
 
-I've been thinking about writing practices and word wrapping. Do I want to introduce hard breaks in my writing? GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will display wrapping if I change the extension of my test files to md.  Update : GitHub wraps.  There is a default line width of 120 characters. The source window or editor wrapped after 120 characters. The window can not be scaled below 120 characters without a scrollbar being introduces.   \
+I've been thinking about writing practices and word wrapping. Do I want to introduce hard breaks in my writing? GitHub does not word wrap txt. Most modern editors do.  I'm wondering if GitHub will display wrapping if I change the extension of my test files to md.  Update : GitHub wraps.  There is a default line width of 120 characters. The source window or editor wrapped after 120 characters. The window can not be scaled below 120 characters without a scrollbar being introduces.   
 
 ----042614---
 I worked this day but did not add to my lab book at the time.  CLP Main from 1:00 to 5:00.  It looks like I worked on the build environment.  I did a clean build from git for all projects.  This required some work on the project files. All went well.
@@ -57,5 +57,20 @@ Revived FastGaussTransform.  Worked on getting the Matlab implementation working
 Wrote BLAS based min and max.  Got the Matlab FastGaussTransform working. Organized the source code for FGT.  Wrote point cloud generator for Gaussian Mixture, and uniform hypercube. Tried to get Javascript image gallery working for Octopress but was unsuccessful. 
 
 ----050714----
-Worked on FGT. 
+Worked on FGT.  
+
+----050814----
+Further work on FGT.  Had problems understanding in versus out parameters.  Started to rework the Latex plotting functions.
+
+----050914----
+Completed basic FGT port.  This needs testing and performance benchmarking. Finished reworking the plotting functions. 
+
+----050914----
+Wrote binary matrix and vecor IO functions.  Speedup over stream serializers is stunning for the readers. Read about generating random matrices from classical groups and wrote skeleton of blog posting with links.
+
+----051014----
+Finished basic binary IO component. 
+
+
+   
 
