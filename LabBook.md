@@ -69,8 +69,22 @@ Completed basic FGT port.  This needs testing and performance benchmarking. Fini
 Wrote binary matrix and vecor IO functions.  Speedup over stream serializers is stunning for the readers. Read about generating random matrices from classical groups and wrote skeleton of blog posting with links.
 
 ----051014----
-Finished basic binary IO component. 
+Finished basic binary IO component. Started norm and cond number test.
+
+----051114----
+Wrote move construtor.  Cleaning up use of copy ctor in test code. 
+
+----051214----
+Cleaning up use of copy ctor in test code. 
+
+----051314----
+----051414----
+----051514----
+----051614----
+----051714----
+No work completed
+
+.
 
 
-   
 
