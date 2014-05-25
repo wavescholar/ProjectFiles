@@ -66,25 +66,22 @@ Further work on FGT.  Had problems understanding in versus out parameters.  Star
 Completed basic FGT port.  This needs testing and performance benchmarking. Finished reworking the plotting functions. 
 
 ----050914----
-Wrote binary matrix and vecor IO functions.  Speedup over stream serializers is stunning for the readers. Read about generating random matrices from classical groups and wrote skeleton of blog posting with links.
+Wrote binary matrix and vector IO functions.  Speed-up over stream serializers is stunning for the readers. Read about generating random matrices from classical groups and wrote skeleton of blog posting with links.
 
 ----051014----
 Finished basic binary IO component. Started norm and cond number test.
 
 ----051114----
-Wrote move construtor.  Cleaning up use of copy ctor in test code. 
+Wrote move constructor.  Cleaning up use of copy ctor in test code. 
 
 ----051214----
 Cleaning up use of copy ctor in test code. 
 
-----051314----
-----051414----
-----051514----
-----051614----
-----051714----
+----051314----052414----
 No work completed
 
-.
+----052514----
+Started design of algorithm parameter class.  This is more complicated than it seems.  I'm going to avoid unnecessary copying of data.  We seek a design pattern that allows for extensible use, testing, and serialization. This is going to take a lot of study to do correctly, so we've mocked out a straw man design.
 
 
 
