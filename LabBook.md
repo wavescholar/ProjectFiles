@@ -83,5 +83,12 @@ No work completed
 ----052514----
 Started design of algorithm parameter class.  This is more complicated than it seems.  I'm going to avoid unnecessary copying of data.  We seek a design pattern that allows for extensible use, testing, and serialization. This is going to take a lot of study to do correctly, so we've mocked out a straw man design.
 
+----052614----052814----
+Implemented algorithm parameter component.
 
+
+----053014----060614----
+No work completed
+
+---
 
