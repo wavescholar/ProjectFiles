@@ -86,9 +86,16 @@ Started design of algorithm parameter class.  This is more complicated than it s
 ----052614----052814----
 Implemented algorithm parameter component.
 
-
 ----053014----060614----
 No work completed
 
----
+----060714----061014----
+The algorithm parameter framework was completed and a basic serializer for it was implemented. Considering xml and hdf5 for the future. Read IFGT paper, wonder how relevant the Multipole methods are.  Is there better technology for speeding up Kernel machines?  Also, the metrics for performance may be changing - possibly memory is the limiting variable for some large data sets. Investigate and write up notes for handbook and blog.  Some time was devoted to thinking about how to present content.  By content I mean software, handbook, and blog postings.  There are two lines of development; machine learning and image informatics.  
+
+
+
+  
+
+
+
 
