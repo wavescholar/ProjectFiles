@@ -117,7 +117,6 @@
 \contentsline {chapter}{\numberline {6}Copy Text From Literature}{123}
 \contentsline {section}{\numberline {6.1}Big Data }{123}
 \contentsline {subsection}{\numberline {6.1.1}Parallel Optimization}{123}
-\contentsline {subsubsection}{Differential Privacy}{124}
 \contentsline {section}{\numberline {6.2}Nystr\"{o}m Method}{124}
 \contentsline {chapter}{\numberline {7}Appendix Numerical Linear Algebra}{126}
 \contentsline {section}{\numberline {7.1}The min max characterization of eigenvalues}{126}

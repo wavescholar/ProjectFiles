@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.9)  27 APR 2014 13:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.9)  11 JUN 2014 11:01
 entering extended mode
 **klBook.tex
 (D:\ProjectFiles\Handbook\klBook.tex
@@ -3127,14 +3127,8 @@ Missing character: There is no Â in font cmr8!
 Missing character: There is no ¨ in font cmr8!
 Missing character: There is no Â in font cmr8!
 Missing character: There is no ¨ in font cmr8!
-Missing character: There is no ï in font cmr8!
-Missing character: There is no ¬ in font cmr8!
-Missing character: There is no € in font cmr8!
 Missing character: There is no Â in font cmr8!
 Missing character: There is no ¨ in font cmr8!
-Missing character: There is no ï in font cmr8!
-Missing character: There is no ¬ in font cmr8!
-Missing character: There is no € in font cmr8!
 Missing character: There is no Â in font cmr8!
 Missing character: There is no ¨ in font cmr8!
 Missing character: There is no Â in font cmr8!
@@ -3149,10 +3143,9 @@ Missing character: There is no € in font cmr8!
 Missing character: There is no ™ in font cmr8!
 Missing character: There is no Â in font cmr8!
 Missing character: There is no ¨ in font cmr8!
-Missing character: There is no â in font cmr8!
-Missing character: There is no ‰ in font cmr8!
-Missing character: There is no ª in font cmr8!
- [124]) [125] (D:\ProjectFiles\Handbook\Appendix_Numerical.tex
+Missing character: There is no Â in font cmr8!
+Missing character: There is no « in font cmr8!
+) [124] [125] (D:\ProjectFiles\Handbook\Appendix_Numerical.tex
 Chapter 7.
 [126
 
@@ -3355,7 +3348,7 @@ Here is how much of TeX's memory you used:
  6862 multiletter control sequences out of 15000+200000
  18813 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,32p,2324b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,32p,5172b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTe
@@ -3391,7 +3384,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on klBook.pdf (155 pages, 47429403 bytes).
+Output written on klBook.pdf (155 pages, 47427989 bytes).
 PDF statistics:
  1019 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
