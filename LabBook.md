@@ -95,6 +95,10 @@ The algorithm parameter framework was completed and a basic serializer for it wa
 ----061114----
 Worked on Aloidia website.  Reset the AWS Route 53 DNS settings. alodia.com was not being resolved. Used the top level name aloidia.com for the A record.  Worked on the integration test, the linear regression needs a meaningful test set.  Use the "sickness atan manifold from Matlab tests. Expanded the integration test interface to take the klTestType parameter.  This will allow for running the test for all the data sizes. Also modified the output to correspond to the test type and whether the Intel memory manager is being used. 
 
+----061314----
+Wrote a batch script to check-in multiple Github repositories.  This was a problem to get working until I changed the default git shell to powershell. 
+ 
+
 
 
   
