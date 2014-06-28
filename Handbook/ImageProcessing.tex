@@ -176,7 +176,7 @@ These types of transforms are reversible except for floating point roundoff erro
 Color transforms that combine a gamma correction with a rotation of color values are faster that a full gamut mapping transform. The goal of a gamma correction is to obtain an accurate tone scale reproduction.  The associated rotation is usually performed to move luminance data to one channel so that a the non-linear operation takes place in 1 dimension.
 
 
-\section{Digital Color Management Q and A}
+\section{Digital Color Management FAQ}
  \begin{enumerate}
  \item
  Light sources are characterized by their spectral power distributions.  The spectral power distribution $\rho(\lambda)$ is the fraction of the total power emitted from a source at wavelength $\lambda$.
@@ -267,10 +267,10 @@ Color transforms that combine a gamma correction with a rotation of color values
  \par Psychophysical signal processing is the component of image processing in the human brain which takes into account effects like chromatic adaptation, lateral brightness adaptation, and the relative nature of luminance detection.
  \item
 . Define each of the following: · general-brightness adaptation · lateral-brightness adaptation · chromatic adaptation
- \par Brightness adaptation is how the eye responds to varying levels of illumination.  Lateral brighness adaptation is how the eye has different sensitivities in different parts of the eye. Chromatic adaptation is how the eye responds to an average chromatic stimulus of a scene.
+ \par Brightness adaptation is how the eye responds to varying levels of illumination.  Lateral brightness adaptation is how the eye has different sensitivities in different parts of the eye. Chromatic adaptation is how the eye responds to an average chromatic stimulus of a scene.
  \item
  For each adaptation effect listed in question 6, give an example of how the effect might be encountered in a practical imaging situation.
- \par Brightness adaptation would be encountered when viweing conditions change from low to high light illumination.  Lateral brightness adaptation would be encountered when focusing on different objects - closer objects are captured with the fovea. Chromatic adaptation occurs in incandecent illumination induces an increase in short wavelenght sensitivity.
+ \par Brightness adaptation would be encountered when viewing conditions change from low to high light illumination.  Lateral brightness adaptation would be encountered when focusing on different objects - closer objects are captured with the fovea. Chromatic adaptation occurs in incandescent illumination induces an increase in short wavelength sensitivity.
  \item
  Describe the relationship of CIE colorimetry to human color vision. · What aspects of color vision are predicted well by standard CIE colorimetry? · What aspects are not predicted well? Why not?
  \par CIE colorimetry can be used to predict if two stimuli will visually match under identical viewing conditions.  CIE colorimetry can not be used to emulate signal processing of color formation functions.
@@ -290,10 +290,10 @@ Color transforms that combine a gamma correction with a rotation of color values
  Why should (or should not) logarithmic units be used in characterizing the grayscales of monitors?
  \par Taking the log of monitor luminance gives a better measure of differences at the low end of the luminance scale. The CIE L-a-b luminance is defined as  $L^{*}=116 (\frac{Y}{Y_n})^{\frac{1}{3}} -16 $.  Conveniently, the ...
  \item
- What grayscale characteristic must a video camera have for the entire system to have a grayscale that is one-to-one with that of the original scene?
+ What greyscale characteristic must a video camera have for the entire system to have a greyscale that is one-to-one with that of the original scene?e
  \par The greyscale characteristic of the camera needs to be the inverse of the greyscale characteristic of the monitor.
  \item
-  In addition to an appropriate grayscale characteristic, what further characteristic must a video camera have for the entire system to have colorimetric color reproduction that is one-to-one with that of the original scene? \newline
+  In addition to an appropriate greyscale characteristic, what further characteristic must a video camera have for the entire system to have colorimetric color reproduction that is one-to-one with that of the original scene? \newline
  \par The chromaticities of the non-neutral scene colors must match the output device chromaticities. \newline
  \item
  Describe the appearance of such colorimetric color reproduction. \newline
@@ -309,7 +309,7 @@ Color transforms that combine a gamma correction with a rotation of color values
  \par An ideal video system would have camera spectral sensitivities with all positive color matching functions so that all color could be realized by the monitor.  There should be a color matrix transformation that converts the camera color matching functions to ones that correspond to the monitors.  The gamut of a monitor will be limited because the transform from the CIE standard observe to monitor color matching functions will give colors with negative amounts of monitor RGB primaries.  The CIE standard observer color matching functions were all positive, and all colors could be reproduced because the primaries were imaginary.  The monitor primaries are not imaginary - this is the reason why the color matching functions of the monitor must have negative values. \newline
  \item
  Describe three possible methods for encoding video signals. \newline
- \par We could just do the colorimetric matching.  We could do the color matching and then let Ed tweak the signal processing so the results are pleasing.  Lastly we could reverse engineer any imaging system to produce pleasing results - get data on the output, and taylor the signal processing to produce the characteristics the viewers have reported as pleasing.  This last suggestion works for any given imaging system, but we would not be able to design the signal processing of an input or output device in isolation this way.
+ \par We could just do the colorimetric matching.  We could do the color matching and then let Ed tweak the signal processing so the results are pleasing.  Lastly we could reverse engineer any imaging system to produce pleasing results - get data on the output, and tailor the signal processing to produce the characteristics the viewers have reported as pleasing.  This last suggestion works for any given imaging system, but we would not be able to design the signal processing of an input or output device in isolation this way.
  \item
   What general characteristics are shared by virtually all reflection media? \newline
  \par  Most reflection-print media consist of three or more subtractive dyes used to form an image on some type of reflective support material. \newline
@@ -323,8 +323,8 @@ Color transforms that combine a gamma correction with a rotation of color values
   What is meant by “viewing illuminant sensitivity”? Why it is important in imaging applications? \newline
  \par Viewing illuminant sensitivity is a measure of how much image dye components must be modified to produce a metamer when reproducing neutrals to be viewed under different illuminants.   This is important in imaging systems because the same reproduction could be viewed under different illuminants, and the observer may perceive a difference under the two illuminants if the viewing illuminant sensitivity is high. \newline
  \item
- Why would the grayscale characteristic of a reflection-print system not be one-to-one with the original scene? \newline
- \par If the viewing conditions of the scene are different from the viewing conditions of the reproduction, the grayscale would need to be modified.  The contrast is boosted for the midrange and rolled off at the ends of the density range.  This is done to accommodate for viewing flare and differences in the absolute luminance of the scene and the viewing environment of the reproduction.
+ Why would the greyscale characteristic of a reflection-print system not be one-to-one with the original scene? \newline
+ \par If the viewing conditions of the scene are different from the viewing conditions of the reproduction, the greyscale would need to be modified.  The contrast is boosted for the midrange and rolled off at the ends of the density range.  This is done to accommodate for viewing flare and differences in the absolute luminance of the scene and the viewing environment of the reproduction.
  \item
   System A has a higher maximum density and a lower minimum density than System B. Which system will require a higher mid-scale gamma? \newline
  \par The dynamic range of system A is greater than system B.  The midscale gamma of system B will need to be higher to produce dark and light tones at acceptable density.
@@ -351,22 +351,22 @@ Color transforms that combine a gamma correction with a rotation of color values
  \par On a reflective media, the light passes through each dye layer at least twice before reaching the viewer.  This allows for more absorption of light.  The effective density of the magenta dye on the reflective support will be higher than the density on the transmissive media. On the reflective support, there will be more absorption of light at the boundary of the band the dye is sensitive to.  This leads to a change in the chromaticity of the reproduced colors since the magenta dye on the reflective support will absorb more blue and red light than the same dye on a transmissive media.  More color processing is required for the reflective media to correct for this shift. \newline
  \item
    Why is viewing-illuminant sensitivity of lesser importance for transmission media than it is for reflection media? \newline
- \par Transmissive media are designed for both scene and viewing illuminants.  Slide films and photographic transparancies are designed to be viewed under a known illumination - tungston for slide film and $D{55}$. Since the viewing illuminant is known ahead of time, the dyes can be tuned in ways that reflection media can't. More pure dyes which give a larger gamut of reproduced colors can be used.  Note this does make transmissive more illuminant sensitive than reflection media - we could expect more color shifts in viewing transparant media with the wrong light source. \newline
+ \par Transmissive media are designed for both scene and viewing illuminants.  Slide films and photographic transparencies are designed to be viewed under a known illumination - tungston for slide film and $D{55}$. Since the viewing illuminant is known ahead of time, the dyes can be tuned in ways that reflection media can't. More pure dyes which give a larger gamut of reproduced colors can be used.  Note this does make transmissive more illuminant sensitive than reflection media - we could expect more color shifts in viewing transparent media with the wrong light source. \newline
  \item
    Why are 35mm slide films balanced cyan-blue, according to instrument measurements? \newline
- \par To compensate for the incomplete chromatic adaptaion to the viewing illiminant that takes place when viewing slide images in a darkened room.  The viewer does not completely adapt to the tungsten light source, so a colroimetric neutral would appear to have extra red light.  To compensate for this extra cyan dye is added to absorb the unwanted red light. \newline
+ \par To compensate for the incomplete chromatic adaption to the viewing illiminant that takes place when viewing slide images in a darkened room.  The viewer does not completely adapt to the tungsten light source, so a colroimetric neutral would appear to have extra red light.  To compensate for this extra cyan dye is added to absorb the unwanted red light. \newline
  \item
-  Name two other ways in which the grayscale characteristic of a photographic transparency film differs from that of reflection-print system. Why do these differences exist? \newline
- \par The dynamic range ($D_{max}/D_{min}$) of transparency film is higher than reflection media and the gamma is higher.  The dynamic range is higher because of the more pure dyeset used in transmissive media.  The gamma is higher to account for lateral brighness adaptation in the viewing environment.  The dark surround of the slide image causes a perceived drop in contrast which is accounted for by increasing the gamma. \newline
+  Name two other ways in which the greyscale characteristic of a photographic transparency film differs from that of reflection-print system. Why do these differences exist? \newline
+ \par The dynamic range ($D_{max}/D_{min}$) of transparency film is higher than reflection media and the gamma is higher.  The dynamic range is higher because of the more pure dyeset used in transmissive media.  The gamma is higher to account for lateral brightness adaptation in the viewing environment.  The dark surround of the slide image causes a perceived drop in contrast which is accounted for by increasing the gamma. \newline
  \item
   Why are the spectral sensitivities of photographic transparency films significantly different from any set of color-matching functions? \newline
- \par Since the chemistry of the transparancy system is relatively fixed, the non-linear signal processing is built into the spectral sensitivities of the dyes used. \newline
+ \par Since the chemistry of the transparency system is relatively fixed, the non-linear signal processing is built into the spectral sensitivities of the dyes used. \newline
  \item
    Why are image overall density and color balance somewhat less critical for photographic transparency films compared to reflection-print systems? How does this affect the color encoding of these films? \newline
- \par Density and color balance are less important for transparancy film because the image is driving the viewers state of adaption. This allows the brain to do signal processing that has to be built into reflection media. \newline
+ \par Density and color balance are less important for transparency film because the image is driving the viewers state of adaption. This allows the brain to do signal processing that has to be built into reflection media. \newline
  \item
    Describe at least three other complications of color encoding of photographic transparency films. \newline
- \par The relationship between colorimetry and color perception is sensitive to viweing illmuninant.  When scanning transparancies, the illuminant of the scanner determines the colors reproduced.  If the scanner illuminant is different from that designed into the transparancy, the image will need to be color corrected.
+ \par The relationship between colorimetry and color perception is sensitive to viewing illmuninant.  When scanning transparencies, the illuminant of the scanner determines the colors reproduced.  If the scanner illuminant is different from that designed into the transparency, the image will need to be color corrected.
  \item
   What properties make photographic negatives well suited for use as input to color-imaging systems? \newline
  \par The large dynamic range and low gamma of photographic negatives give scanners the ability to capture images covering a wide range of exposures with lower sensitivity sensors. \newline
@@ -387,10 +387,10 @@ Color transforms that combine a gamma correction with a rotation of color values
  \par Apply a color matrix to the signal. \newline
  \item
   What is “printing density metamerism”? \newline
- \par Print density metamerism occurs when two negative signals have different spetral transmission responses but produce the same optical printing densities. \newline
+ \par Print density metamerism occurs when two negative signals have different spectral transmission responses but produce the same optical printing densities. \newline
  \item
   Why are the red, green, and blue printing-density gammas matched for photographic negative films? What would happen if the were not matched? \newline
- \par R,G,B print densities are parallel so netural tonescales are accurately reproduced when the negatives are printed. \newline
+ \par R,G,B print densities are parallel so neutral tonescales are accurately reproduced when the negatives are printed. \newline
  \item
   What is the optimum gamma for a photographic negative film? \newline
  \par It depends on the application, indoor portrate film has a lower gamma than consumer film. \newline
