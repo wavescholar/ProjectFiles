@@ -16,3 +16,8 @@ git add --all .
 git commit -m "%DATEANDTIME%"
 git push
 cd ../
+cd Packages 
+git add --all .
+git commit -m "%DATEANDTIME%"
+git push
+cd ../
