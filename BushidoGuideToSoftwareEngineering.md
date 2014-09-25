@@ -51,9 +51,7 @@ The Way of the code is the moral teaching of the software engineer. This is fost
 of ordinary life.  The end point is the beginning. The great virtue of Zen is simplicity. 
 It is Zen to treat your enemy as an honoured guest. It is Zen to throw away fear.  The first technique is the last, the beginner and the master behave in the same way. Knowledge is a full circle.  This is Zen. 
 
-----------------------------
 Use a code printer.  Print and read thy code. Use line numbers when printing code. This is Zen. Some would argue not to waste trees printing code on paper.  They would be right and they would be wrong. 
-----------------------------
 
 Move in and out of positions like a ghost. As if you were not there. That is what good help is supposed to be.  Leave behind good code. Your reputation will follow you if you adhere to this principle. Fear not the reference puzzle.  Let your code speak for you. That is the Way.  Ponder This.
 
