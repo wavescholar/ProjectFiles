@@ -1,0 +1,67 @@
+\contentsline {section}{\numberline {0.1}Introduction}{2}
+\contentsline {subsection}{\numberline {0.1.1}Semantics}{3}
+\contentsline {subsection}{\numberline {0.1.2}Lexicography}{3}
+\contentsline {subsection}{\numberline {0.1.3}Corpus linguistics}{4}
+\contentsline {section}{\numberline {0.2}A Quantification the Semantic Information in WordNet}{4}
+\contentsline {section}{\numberline {0.3}N-gram Models}{4}
+\contentsline {section}{\numberline {0.4}Appendix : Syntax}{6}
+\contentsline {subsection}{\numberline {0.4.1}Grammatical Syntactic Definitions}{7}
+\contentsline {subsubsection}{adjective}{7}
+\contentsline {subsubsection}{adjunct}{8}
+\contentsline {subsubsection}{adverb}{8}
+\contentsline {subsubsection}{appositive}{8}
+\contentsline {subsubsection}{article}{8}
+\contentsline {subsubsection}{aspect}{9}
+\contentsline {subsubsection}{auxiliary verb}{9}
+\contentsline {subsubsection}{case}{9}
+\contentsline {subsubsection}{clause}{10}
+\contentsline {subsubsection}{closed class word}{10}
+\contentsline {subsubsection}{comparative}{10}
+\contentsline {subsubsection}{complement}{10}
+\contentsline {subsubsection}{compound noun and adjective}{11}
+\contentsline {subsubsection}{conjugation}{11}
+\contentsline {subsubsection}{conjunction}{11}
+\contentsline {subsubsection}{dangling modifier}{12}
+\contentsline {subsubsection}{declension}{12}
+\contentsline {subsubsection}{determiner}{12}
+\contentsline {subsubsection}{dual }{13}
+\contentsline {subsubsection}{expletive}{13}
+\contentsline {subsubsection}{Function word}{13}
+\contentsline {subsubsection}{gender}{14}
+\contentsline {subsubsection}{infinitive}{14}
+\contentsline {subsubsection}{modal particle}{14}
+\contentsline {subsubsection}{modifier}{14}
+\contentsline {subsubsection}{mood}{15}
+\contentsline {subsubsection}{noun}{15}
+\contentsline {subsection}{\numberline {0.4.2}Grammar}{17}
+\contentsline {subsection}{\numberline {0.4.3}Parsing}{17}
+\contentsline {subsection}{\numberline {0.4.4}Generative Grammar}{17}
+\contentsline {subsection}{\numberline {0.4.5}Collocation}{18}
+\contentsline {subsection}{\numberline {0.4.6}Semantic prosody}{18}
+\contentsline {subsection}{\numberline {0.4.7}Root}{19}
+\contentsline {subsection}{\numberline {0.4.8}Stem}{19}
+\contentsline {subsection}{\numberline {0.4.9}Morpheme}{20}
+\contentsline {subsection}{\numberline {0.4.10}Lexeme}{20}
+\contentsline {subsection}{\numberline {0.4.11}Word Structure : affix,prefix, suffix}{21}
+\contentsline {subsection}{\numberline {0.4.12}Lemma}{22}
+\contentsline {subsection}{\numberline {0.4.13}Differences Between a Stem and a Lemma}{22}
+\contentsline {subsection}{\numberline {0.4.14}Lexicon}{22}
+\contentsline {subsection}{\numberline {0.4.15}Morphology}{23}
+\contentsline {subsection}{\numberline {0.4.16}Inflection}{24}
+\contentsline {subsection}{\numberline {0.4.17}Derivation}{25}
+\contentsline {subsection}{\numberline {0.4.18}Inflection Versus Derivation}{25}
+\contentsline {subsection}{\numberline {0.4.19}Inflectional Morphology}{25}
+\contentsline {subsection}{\numberline {0.4.20}Fossilization}{26}
+\contentsline {subsection}{\numberline {0.4.21}Stemming}{26}
+\contentsline {subsubsection}{Brute Force Stemming}{26}
+\contentsline {subsubsection}{Production Stemming}{27}
+\contentsline {subsubsection}{Suffix Stripping}{27}
+\contentsline {subsubsection}{Stochastic Stemming and Lemmatization Algorithms}{27}
+\contentsline {subsubsection}{Stochastic N-Gram Stemming}{28}
+\contentsline {section}{\numberline {0.5}Appendix : Semantics}{29}
+\contentsline {subsection}{\numberline {0.5.1}Word Relationships in the WordNet database }{29}
+\contentsline {subsubsection}{Antonym}{31}
+\contentsline {subsubsection}{Hyponym}{31}
+\contentsline {subsubsection}{Meronym}{31}
+\contentsline {subsubsection}{Entailment}{32}
+\contentsline {subsubsection}{Other WordNet Relation Types}{32}

@@ -1,0 +1,12 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: NLPNotes.aux
+A level-1 auxiliary file: NaturalLanguageProcessing.aux
+The style file: plainnat.bst
+I couldn't open database file NLPBiliography.bib
+---line 4 of file NLPNotes.aux
+ : \bibdata{NLPBiliography
+ :                        }
+I'm skipping whatever remains of this command
+I found no database files---while reading file NLPNotes.aux
+Warning--I didn't find a database entry for "WORDNET"
+Warning--I didn't find a database entry for "PENNTREEBANK"
+(There were 2 error messages)

@@ -10,7 +10,6 @@
 %\usepackage[numbers]{natbib}
 \usepackage[authoryear,square]{natbib}
 
-
 \hfuzz2pt
 \newlength{\defbaselineskip}
 \setlength{\defbaselineskip}{\baselineskip}
@@ -75,43 +74,22 @@
 \newcommand{\pfderiv}[2]{ \frac{\partial}{ \partial #1} \: #2}
 \newcommand{\psderiv}[2]{ \frac{\partial^2}{ \partial^2 #1} \: #2}
 \newcommand{\mat}[1]{\mathbf{#1}}
-
 \numberwithin{equation}{section}
 \renewcommand{\theequation}{\thesection.\arabic{equation}}
 
-\title{A Field Guide for Machine Learning, Computer Vision and Numerical Linear Algebra}
-
+\title{NLP Notes}
 \author{Bruce B. Campbell}
-
 \begin{document}
-
-{ \typeout{A Field Guide for Machine Learning, Computer Vision and Numerical Linear Algebra}
-\include{ABS}
-}
-
-{ \typeout{Acknowledgements}
-\include{ACK}
-}
 \def\baselinestretch{1}
 \setlinespacing{1.0}
-
 \setcounter{page}{1}
 \tableofcontents
-
-{ \typeout{Introduction}
-\include{Introduction}
-}
-
 \setlinespacing{1}
 \newcommand{\footn}[1]{\footnote{\hspace{0.1cm}\parbox[t]{13.25cm}{#1}}}
-\include{klBookContent}
-\include{Appendix_Numerical}
-\include{klSoftware}
-\include{Appendix_Statistics}
-\include{Appendix_Probability}
+\include{NaturalLanguageProcessing}
 \setlinespacing{1.0}
 %\bibliographystyle{amsplain}
 \bibliographystyle{plainnat}
-\bibliography{thebibliography}
+\bibliography{NLPBiliography}
 
 \end{document}

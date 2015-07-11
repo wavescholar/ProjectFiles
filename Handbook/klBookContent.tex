@@ -506,6 +506,9 @@ See http://cvxr.com/tfocs/demos/rpca/ for a demo of this in action with the popu
 
 
 \section{Compressed Sensing}
+
+
+\section{Bound on Limiting Probabilities for a Peturbation of a Markov Chian}
 In \cite{meyer1980condition} bounds are established on the relative error for the limiting probabilities for a perturbation of a finite Markov chain.  This improves on the traditional eigenvector perturbation approach by exploiting the constraints of the problem.  We collect some of these results in this section and see if they can be applied to analyse the stability of spectral clustering algorithms.
 
 Let $T$ be the transition matrix of a finite Markov chain $\mathcal{C}$. $A=I-T$, and $\mathcal{C}$ be a perturbation to $\mathcal{C}$ where $\tilde{T} =T-E$ is the transition matrix of  $\mathcal{C}$. Let $\omega$ be the limiting probability, $\omega = \lim_{n \to \infty} T^n x$. Define $A=I-T$ and $A^\sharp$ the generalized inverse of $A$. Then $W=\lim_{n  \infty} \frac{I+T+T^2 + \ldots + T^{n-1}}{n} = I-A A^\sharp$ is the limiting matrix of $\mathcal{C}$.  Every row of $W$ is $\omega$
@@ -757,7 +760,23 @@ Let $\mathcal(L) : \mathcal{H} \rightarrow \mathcal{H}$ be compact.  Then $\math
 
 
 \section{The Tracy Widom Law}
-
 The Tracy-Widom distribution is related to to determinantal stochastic processes.  A process following this law is distributed as the largest point of a point process on the real line where the kernel K is the so-called Airy kernel.  In addition to describing the edge spectrum of random matrices, it arises in several place in combinatorial for instance the longest increasing subsequences of random permutations is described by the Tracy Widom law.  In addition to the eigenvalues of random matrices, this type of point process is used in models such as  fluctuations in first and last passage percolation, and the asymmetric exclusion process.
 
 The path configuration of random viscous walkers is related to the Young tableaux.  Statistical problems related to the Young tableaux include random growth, point processes, random permutation, and the random word problem. the asymptotic distribution of scaled variables from these models are  described by the Tracy Widom distribution which is the limit distribution for the largest eigenvalue of $X \in GUE$.
+
+
+\section{Nystr\"{o}m Method}
+The Nystrom method is a technique to speed up large-scale learning applications by generating low-rank approximations to large matrices. The origins of the Nystrom method lie in the numerical solution of the integral eigenvalue problem
+\begin{equation*}
+  \int p(y) k(x,y) \phi(y) = \lambda \phi(y)
+\end{equation*}
+(BBCREVISIT talk about the functional analysis and physics origin of this method for solving integral problems)
+
+Problems in computer vision, natural language processing, computational biology and other areas can involve data sets containing more training examples than can be held in memory. Low rank approximations to the kernel matrices found in kernel based machine learning algorithms such as spectral clustering, manifold learning,support vector machines offer the opportunity to train on large data sets. The performance of this technique relies on the ability of a matrix to be approximated by a subset of its columns.  Coherence bounds from the field of compressed sensing and matrix completion can be used to bound the error of the Nystrom approximation. \cite{Talwalkar_matrixcoherence}
+
+The Nystrom method can be evaluated by comparing the approximation to a low rank approximation generated from the first $n$ singular vectors from the $SVD$.  If the process generating the data is $N(\mu,\Sigma)$ random sampling can be used and exact error bounds can be calculated based on the number of columns sampled.  (BBCREVISIT confirm and cite). 
+
+Choosing the columns based on the underlying probability density $p(y)$ has the potential to improve the quality of the approximation \cite{Zhang09density-weightednystrom}.
+ 
+\section{Statistical Leverage}
+Michael Mahoney - videolectures.net Statistical Leverage Given an m x n matrix A and a rank parameter k, define the leverage of the i-th row of A to be the i-th diagonal element of the projection matrix onto the span of the top k left singular vectors of A. In this case, "high leverage" rows have a disproportionately large amount of the "mass" in the top singular vectors. Historically, this statistical concept (and generalizations of it) has found extensive applications in diagnostic regression analysis. Recently, this concept has also been central in the development of improved randomized algorithms for several fundamental matrix problems that have broad applications in machine learning and data analysis. Two examples of the use of statistical leverage for improved worst-case analysis of matrix algorithms will be described. The first problem is the least squares approximation problem, in which there are n constraints and d variables. Classical algorithms, dating back to Gauss and Legendre, use O(nd2) time. We describe a randomized algorithm that uses only O(n d log d) time to compute a relative-error, i.e., 1+/-epsilon, approximation. The second problem is the problem of selecting a "good" set of exactly k columns from an m x n matrix, and the algorithm of Gu and Eisenstat provides the best previously existing result. We describe a two-stage algorithm that improves on their result. Recent applications of statistical leverage ideas in modern large-scale machine learning and data analysis will also be briefly described. This concept has proven to be particularly fruitful in large data applications where modeling decisions regarding what computations to perform are made for computational reasons, as opposed to having any realistic hope that the statistical assumptions implicit in those computations are satisfied by the data. 

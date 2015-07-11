@@ -1,7 +1,6 @@
-\chapter{Natural Language Processing}
+\includegraphics[width=6in,height=4in]{wordassociation.jpg}
+A word association graph using the based on the WordNet database.
 
-\includegraphics[width=5.0cm,height=5.0cm]{wordassociation.jpg} 
-A word association graph using the based on the WordNet database. 
 
 \section{Introduction}
 This document is primarily meant to server as a brief tutorial to Natural Language Processing (NLP) as it applies to the problems of classification and prediction of text.  The statistical part comes from the use of corpora and probabilistic models in prediction and classification.  Computational linguistics is an interdisciplinary field dealing with the statistical and/or rule-based modeling of natural language from a computational perspective.  Computational linguistics is primarily concerned with developing algorithms and software for intelligently processing language data and is typically views as a subset of AI.  For our purposes we refer to classification as the process of estimating a categorical variable and prediction as the process of estimating a continuous variable.  For example , assigning a probability for the next word in a string of words is classification, while assigning a vulgarity index to a string of words is regarded as prediction.  A canonical open problem in Computational Linguistics is the automatic translation of one language into another, a task which requires understanding the morphological and syntactical structure of both languages. Other problems in this field include :
@@ -76,9 +75,9 @@ The trigram \emph{for the first} appears 48 times.
 
 We'll come back to these numbers in a moment. Frequencies of the n-grams are presented along with the text in the sequel.
 
-First we need to discuss a subtlety in predicting text.  The two strings \emph{for the} and \emph{for the } are very different when it comes to predicting what comes next.  The bigrams that match the latter in our example text are
+First we need to discuss a subtlety in predicting text.  The two strings \emph{"for the"} and \emph{"for the " } are very different when it comes to predicting what comes next.  The bigrams that match the latter in our example text are
 \emph{{for the 433, for them 36, for their 21,for these 6,for themselves 6,for they 3, for theirs 1}}
-Where there is only one possible bigram matching the former string. Intra word  prediction requires unigram frequencies. The possible matches for continuing \emph{the} are {the 16576, they 998, there 965,them 841,their 689,then 410} We use these counts to define conditional probabilities of the form:
+Where there is only one possible bigram matching the former string. Intra word prediction requires unigram frequencies. The possible matches for continuing \emph{the} are {the 16576, they 998, there 965,them 841,their 689,then 410} We use these counts to define conditional probabilities of the form:
 \begin{eqnarray*}
 P("the" | "the ") =1 \\
 P("the" | "the") = 16579/(16579+998+841+689+401) \\
@@ -109,9 +108,7 @@ We can calculate the conditionals with our test corpus.  We use $*$ as a wild ca
 
 \[P(for, the, first, time) =  0.0005235149\]
 
-
 $P(for the first time)$ as calculated above is bigger than the ratio of \emph{for the first time} to all quad-grams $31/342132 = .0000906083$
-
 
 \section{Appendix : Syntax}
 Syntax is the rule set for constructing sentences in natural languages.  The word is the smallest unit of syntactical structure and a related to each other through rules of grammar.  Traditionally, grammar and syntax dictate that every sentence has a subject and predicate that form the nuclear part of a sentence  The parts of a sentence decorating subject and predicate are termed extranuclear.
@@ -705,7 +702,6 @@ In logic, entailment, or strict implication, is properly defined for proposition
 \item antisubsuming
 \item antiinstance
 \end{itemize}
-
 
 \footnotesize
 \begin{thebibliography}{99}
