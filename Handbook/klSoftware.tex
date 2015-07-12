@@ -1,16 +1,11 @@
 
 \chapter{Software}
+Computers are getting more powerful over time but size of the problems we're solving scales with the increased performance. Tools for acquiring and storing data are improving at an even faster pace than processors.  It turns out the communication is the real bottleneck to scaling many algorithms. The capacity of fast memory close to the computing resource (cache) grows very slowly in time.  Commodity hardware is now being used to deploy large distributed computing systems running Apache Hadoop and Spark. The possibility for computing on ever larger data sets is tantalizing for the machine learning community.
+These notes discuss the a number of numerical computing libraries the author has used in various machine learning and image processing projects.  There is a lot of effort underway to integrate and distribute some of the algorithms in these libraries to the Hadooop ecosystem. 
 
-Computers are getting more powerful over time but size of the problems we're solving scales with the increased performance. Tools for acquiring and storing data are improving at an even faster pace than processors.  It turns out the communication is the real bottleneck to scaling many algorithms. The capacity of fast memory close to the computing resource (cache) grows very slowly in time.
+Many of the libraries discussed here are available in Matlab. Intel MLK \& IPP, Arpack, UMFPACK, and SDPA have been integrated in the autor's klMatrix library see the section on the KL Libraries below for specifics. 
 
-
-\section{BLAS }
-
-\section{Atlas}
-
-\section{MKL}
-
-\section{fftw}
+\section{BLAS MLK \& Atlas}
 
 \section{Graphviz - Graph Visualization Software}
 Graphviz ( http://www.graphviz.org ) is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.
@@ -28,7 +23,6 @@ Automatically Tuned Linear Algebra software.
 \section{METIS}
 METIS is a software library for finite element analysis and graph partitions.  It also can be used to reduce the fill order of
 sparse matrices.
-
 
 \section{SDPA}
 SDPA is a software library for solving SDPs using on the Mehrotra-type predictor-corrector infeasible primal-dual interior-point method. It is implemented C++ language and utilizes the machine dependent BLAS such as Intel MKL, ATLAS. LAPACK routines are used for matrix computations.  Efficient methods to compute the search directions exploiting the sparsity of the data matrices are implemented. Sparse or dense Cholesky factorization for the Schur complemetn matrix is automatically selected. The calculation of the Schur complement
@@ -59,8 +53,22 @@ RBio: MATLAB toolbox for reading/writing sparse matrices
 UFconfig: common configuration for all but CSparse
 SuiteSparseQR: multifrontal sparse $QR$
 
-\subsection{AMD}
+\section{SuiteSparse AMD}
 AMD is a set of routines for pre-ordering a sparse matrix prior to numerical factorization. It uses an approximate minimum degree ordering algorithm to find a permutation matrix P so that the Cholesky factorization $PAP^\dag =LL^\dag$ has fewer (often much fewer) nonzero entries than the Cholesky factorization of A. The algorithm is typically much faster than other ordering methods and minimum degree ordering algorithms that compute an exact degree . Some methods, such as approximate deficiency [Rothberg and Eisenstat 1998] and graph-partitioning based methods [Hendrickson and Rothberg 1999; Karypis and Kumar 1998; Pellegrini et al. 2000; Schulze 2001] can produce better orderings, depending on the matrix. The algorithm starts with an undirected graph representation of a symmetric sparse matrix . Node $i$ in the graph corresponds to row and column i of the matrix, and there is an edge $(i,j)$ in the graph if $a_{ij}$ is nonzero. The degree of a node is initialized to the number of off diagonal non-zeros in row $i$, which is the size of the set of nodes adjacent to $i$ in the graph.
 
-\subsection{UMFPACK}
-UMFPACK is a set of routines for solving systems of linear equations, $Ax = b$, when $A$ is sparse and unsymmetric. It is based on the Unsymmetric-pattern MultiFrontal method. UMFPACK factorizes $PAQ$, $PRAQ$ and $PR^{-1}AQ$, into the product $LU$, where $L$ and $U$ are lower and upper triangular, respectively, $P$ and $Q$ are permutation matrices, and $R$ is a diagonal matrix of row scaling factors (or $R = I$ if row-scaling is not used). Both $P$ and $Q$ are chosen to reduce fill-in (new nonzeros in $L$ and $U$ that are not present in $A$). The permutation $P$ has the dual role of reducing fill-in and maintaining numerical accuracy (via relaxed partial pivoting and row interchanges). The sparse matrix $A$ can be square or rectangular, singular or non-singular, and real or complex (or any combination). Only square matrices $A$ can be used to solve $Ax = b$ or related systems. Rectangular matrices can only be factorize 
+\section{SuiteSparse UMFPACK}
+UMFPACK is a set of routines for solving systems of linear equations, $Ax = b$, when $A$ is sparse and unsymmetric. It is based on the Unsymmetric-pattern MultiFrontal method. UMFPACK factorizes $PAQ$, $PRAQ$ and $PR^{-1}AQ$, into the product $LU$, where $L$ and $U$ are lower and upper triangular, respectively, $P$ and $Q$ are permutation matrices, and $R$ is a diagonal matrix of row scaling factors (or $R = I$ if row-scaling is not used). Both $P$ and $Q$ are chosen to reduce fill-in (new nonzeros in $L$ and $U$ that are not present in $A$). The permutation $P$ has the dual role of reducing fill-in and maintaining numerical accuracy (via relaxed partial pivoting and row interchanges). The sparse matrix $A$ can be square or rectangular, singular or non-singular, and real or complex (or any combination). Only square matrices $A$ can be used to solve $Ax = b$ or related systems. Rectangular matrices can only be factorized.
+
+\section{fftw}
+fftw is a highly optimized library for calculating the discrete Fourier transform. \cite{G_ieeetrans_FFTW}.  Generally fftw performs better than Intel IPP.  fftw can be sped up by compiling with the Intel Compiler.
+ 
+\section{Simulation and modeling with the kl Software
+Framework}Class, interaction and collaboration diagrams are presented below for a modeling framework implemented by the author. The framework is implemented in C++.  The simulation of various univariate and multivariate random number generators along with the distribution tests from the CDHC library are included as well.
+Features of this framework include:
+\begin{itemize}
+\item utilizing optimized BLAS libraries
+\item the up to date methods for univariate random number generation
+\item wrappers for Intel performance primitives and GSL
+\item multiple memory management facilities
+\end{itemize}
+We will use the term $EPDF_X$ to mean the empirical probability density function. There are a variety of univariate tests to help determine which parametric distribution your data belongs to. These fall under the category of Goodness of Fit testing. For a parametric family the null hypothesis $H_o : X=_d p(x| \theta)$ is tested against the alternative that $X$ does not belong to the family $p(x|\theta)$ There are also family of test to determine whether two $EPDF$'s come from the same distribution. 

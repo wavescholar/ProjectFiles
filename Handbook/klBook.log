@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.30)  11 JUL 2015 12:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.30)  11 JUL 2015 20:46
 entering extended mode
 **klBook.tex
 (C:\KL\ProjectFiles\Handbook\klBook.tex
@@ -164,12 +164,12 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@thm=\count102
 \c@defn=\count103
 \c@rem=\count104
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 57.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/msb/m/n on input line 57.
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/msb/m/n on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \dbln on input line 64.
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \dbln on input line 63.
 
 (C:\KL\ProjectFiles\Handbook\klBook.aux (C:\KL\ProjectFiles\Handbook\ABS.aux)
 (C:\KL\ProjectFiles\Handbook\ACK.aux)
@@ -179,18 +179,18 @@ LaTeX Font Info:    Redeclaring math symbol \dbln on input line 64.
 (C:\KL\ProjectFiles\Handbook\klSoftware.aux)
 (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.aux)
 (C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -235,18 +235,18 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 
-] [2])
+] [2] [3])
 \tf@toc=\write3
 
 Introduction
-[3] (C:\KL\ProjectFiles\Handbook\Introduction.tex) [4
+[4] (C:\KL\ProjectFiles\Handbook\Introduction.tex) [5
 
 ]
-(C:\KL\ProjectFiles\Handbook\klBookContent.tex [5
+(C:\KL\ProjectFiles\Handbook\klBookContent.tex [6
 
 
-] [6]
-Overfull \hbox (24.38994pt too wide) detected at line 51
+] [7]
+Overfull \hbox (24.38994pt too wide) detected at line 49
 \OML/cmm/m/it/10 Errp\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ; \OML/
 cmm/m/it/10 \OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/
 it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 \
@@ -262,22 +262,23 @@ m/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ; \OML/cmm/m/it/1
 0 \OT1/cmr/m/n/10 )]
  []
 
-[7] [8] [9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+[8] [9] [10] [11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
 
-Overfull \hbox (13.084pt too wide) in paragraph at lines 138--139
+Overfull \hbox (13.084pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/10 Dijkstra's al-go-rithm finds the single-pair, single-source, 
 and single-destination
  []
 
-[10]
-Overfull \hbox (2.38477pt too wide) in paragraph at lines 163--164
+[13] [14]
+Overfull \hbox (2.38477pt too wide) in paragraph at lines 161--162
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 P\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 y; x\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 8\OML/cmm/m/it/
 10 x; y; \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 X$\OT1/cmr/m/n/10 . This im-plies 
@@ -285,16 +286,16 @@ that $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 is the sta-tion-ary dis-tri-bu-tion.
 Bound-
  []
 
-[11]
+[15]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [12] [13] [14] [15]
+ [16] [17] [18] [19]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-Overfull \hbox (3.25067pt too wide) in paragraph at lines 330--331
+ [20]
+Overfull \hbox (3.25067pt too wide) in paragraph at lines 328--329
 []\OT1/cmr/m/n/10 For smooth do-mains gen-eral Isoperime-try in-equal-ity is eq
 uiv-a-lent to a Sobolev
  []
@@ -314,70 +315,70 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 376--383
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 374--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--396
+Underfull \hbox (badness 10000) in paragraph at lines 388--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
 
  []
 
 
-Package natbib Warning: Citation `ds' on page 17 undefined on input line 400.
+Package natbib Warning: Citation `ds' on page 22 undefined on input line 398.
 
 
-Package natbib Warning: Citation `d' on page 17 undefined on input line 400.
+Package natbib Warning: Citation `d' on page 22 undefined on input line 398.
 
-[17]
-Overfull \hbox (15.16292pt too wide) in paragraph at lines 429--429
+[22]
+Overfull \hbox (15.16292pt too wide) in paragraph at lines 427--427
 []\OT1/cmr/bx/n/14.4 Generalized Cheby-shev Bounds on Quadratic
  []
 
-[18] [19]
-Overfull \hbox (8.05626pt too wide) in paragraph at lines 511--511
+[23] [24] [25]
+Overfull \hbox (8.05626pt too wide) in paragraph at lines 509--509
 []\OT1/cmr/bx/n/14.4 Bound on Lim-it-ing Prob-a-bil-i-ties for a Petur-
  []
 
-[20] [21]
-Overfull \hbox (14.88136pt too wide) in paragraph at lines 613--614
+[26] [27] [28]
+Overfull \hbox (14.88136pt too wide) in paragraph at lines 611--612
 []\OT1/cmr/m/n/10 Bulk statis-tics look at the de-ter-mi-nan-tal point pro-cess
  $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) = []
 [] \OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10  
  []
 
-[22] [23]
+[29] [30]
 
-LaTeX Warning: Command \l invalid in math mode on input line 729.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 729.
-
-[24] [25]
-
-Package natbib Warning: Citation `Talwalkar_matrixcoherence' on page 26 undefin
-ed on input line 775.
+LaTeX Warning: Command \l invalid in math mode on input line 727.
 
 
-Package natbib Warning: Citation `Zhang09density-weightednystrom' on page 26 un
-defined on input line 779.
+LaTeX Warning: Command \l invalid in math mode on input line 727.
 
-) [26] [27] (C:\KL\ProjectFiles\Handbook\Appendix_Numerical.tex
+[31] [32]
+
+Package natbib Warning: Citation `Talwalkar_matrixcoherence' on page 33 undefin
+ed on input line 773.
+
+
+Package natbib Warning: Citation `Zhang09density-weightednystrom' on page 33 un
+defined on input line 777.
+
+) [33] [34] (C:\KL\ProjectFiles\Handbook\Appendix_Numerical.tex
 Chapter 1.
-[28
+[35
 
 
 
-] [29]
+] [36] [37]
 <Figures/ClusteringRW/rw_1000000_delauney_kmens_convex_hull_voroni_onKM.jpg, id
-=120, 1284.8pt x 953.5625pt>
+=145, 1284.8pt x 953.5625pt>
 File: Figures/ClusteringRW/rw_1000000_delauney_kmens_convex_hull_voroni_onKM.jp
 g Graphic file (type jpg)
 
@@ -386,37 +387,44 @@ g Graphic file (type jpg)
 Package pdftex.def Info: Figures/ClusteringRW/rw_1000000_delauney_kmens_convex_
 hull_voroni_onKM.jpg used on input line 140.
 (pdftex.def)             Requested size: 227.60759pt x 227.62291pt.
- [30]) [31 <C:/KL/ProjectFiles/Handbook/Figures/ClusteringRW/rw_1000000_delaune
-y_kmens_convex_hull_voroni_onKM.jpg>] [32]
+ [38 <C:/KL/ProjectFiles/Handbook/Figures/ClusteringRW/rw_1000000_delauney_kmen
+s_convex_hull_voroni_onKM.jpg>]) [39]
 (C:\KL\ProjectFiles\Handbook\klSoftware.tex
 Chapter 2.
-[33
+[40
 
 
 
-]
-Overfull \hbox (4.94394pt too wide) in paragraph at lines 34--36
+] [41]
+Overfull \hbox (4.94394pt too wide) in paragraph at lines 28--30
 \OT1/cmr/m/n/10 SDPA is a soft-ware li-brary for solv-ing SDPs us-ing on the Me
 hrotra-type predictor-
  []
 
-[34] [35]) [36] (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.tex
+[42] [43]
+
+Package natbib Warning: Citation `G_ieeetrans_FFTW' on page 44 undefined on inp
+ut line 63.
+
+[44]) [45] (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.tex
 Chapter 3.
-
-Overfull \hbox (2.53625pt too wide) in paragraph at lines 4--4
-[]\OT1/cmr/bx/n/14.4 Testing for nor-mal-ity and other dis-tri-bu-tions 
- []
-
-[37
+[46
 
 
 
 ]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [38]
-Overfull \hbox (63.52673pt too wide) detected at line 248
+Overfull \hbox (2.53625pt too wide) in paragraph at lines 13--13
+[]\OT1/cmr/bx/n/14.4 Testing for nor-mal-ity and other dis-tri-bu-tions 
+ []
+
+[47]
+Overfull \hbox (37.61176pt too wide) in paragraph at lines 22--25
+[]\OT1/cmr/m/n/10 The mul-ti-ple re-gres-sion model in ma-trix no-ta-tion can b
+e ex-pressed as (BBCREVISIT) 
+ []
+
+[48] [49]
+Overfull \hbox (63.52673pt too wide) detected at line 53
 [] [] \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 )
 \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [][][] + \OML/cmm/m/it/10 [][]p\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n
@@ -428,8 +436,8 @@ n/10 )\OML/cmm/m/it/10 dx  \OT1/cmr/m/n/10 +  \OML/cmm/m/it/10 [] [] \OT1/cmr
 /cmm/m/it/10 x\OT1/cmr/m/n/10 )]
  []
 
-[39]
-Overfull \hbox (41.58887pt too wide) detected at line 270
+[50]
+Overfull \hbox (41.58887pt too wide) detected at line 53
 [][] \OMS/cmsy/m/n/10   [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 
 [\OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )]\OML/cm
 m/m/it/10 [][]\OT1/cmr/m/n/10 +\OML/cmm/m/it/10 Var\OT1/cmr/m/n/10 [\OML/cmm/m
@@ -443,7 +451,7 @@ m/m/it/10 [][]\OT1/cmr/m/n/10 +\OML/cmm/m/it/10 Var\OT1/cmr/m/n/10 [\OML/cmm/m
  []
 
 
-Overfull \hbox (7.1451pt too wide) detected at line 276
+Overfull \hbox (7.1451pt too wide) detected at line 53
 \OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [] \OM
 L/cmm/m/it/10 L\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; x\OT1/cmr/m/n/10 ) = []  []
   \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 ) = [
@@ -454,91 +462,87 @@ OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m
 /it/10 []
  []
 
-[40] [41]
+[51] [52]
 
-Package natbib Warning: Citation `Scholkopf B. (2002)' on page 42 undefined on 
-input line 395.
+Package natbib Warning: Citation `Scholkopf B. (2002)' on page 53 undefined on 
+input line 98.
 
-[42]
+[53] [54]
 
-Package natbib Warning: Citation `Liang' on page 43 undefined on input line 452
+Package natbib Warning: Citation `Liang' on page 55 undefined on input line 119
 .
 
 
-Package natbib Warning: Citation `K-Y and Zeger' on page 43 undefined on input 
-line 452.
+Package natbib Warning: Citation `K-Y and Zeger' on page 55 undefined on input 
+line 119.
 
 
-Package natbib Warning: Citation `S. L.(1986)' on page 43 undefined on input li
-ne 452.
+Package natbib Warning: Citation `S. L.(1986)' on page 55 undefined on input li
+ne 119.
 
 
-Package natbib Warning: Citation `Prentice and Gloeckler (1978)' on page 43 und
-efined on input line 460.
+Package natbib Warning: Citation `Prentice and Gloeckler (1978)' on page 55 und
+efined on input line 119.
 
 
-Package natbib Warning: Citation `Meyer' on page 43 undefined on input line 460
+Package natbib Warning: Citation `Meyer' on page 55 undefined on input line 119
 .
 
 
-Package natbib Warning: Citation `B.D. (1990)' on page 43 undefined on input li
-ne 460.
+Package natbib Warning: Citation `B.D. (1990)' on page 55 undefined on input li
+ne 119.
 
 
-Package natbib Warning: Citation `Holmen' on page 43 undefined on input line 46
-3.
+Package natbib Warning: Citation `Holmen' on page 55 undefined on input line 11
+9.
 
 
-Package natbib Warning: Citation `M (2005)' on page 43 undefined on input line 
-463.
+Package natbib Warning: Citation `M (2005)' on page 55 undefined on input line 
+119.
 
 
-Package natbib Warning: Citation `Prentice' on page 43 undefined on input line 
-464.
+Package natbib Warning: Citation `Prentice' on page 55 undefined on input line 
+119.
 
 
-Package natbib Warning: Citation `R. and L. Gloeckler (1978)' on page 43 undefi
-ned on input line 464.
+Package natbib Warning: Citation `R. and L. Gloeckler (1978)' on page 55 undefi
+ned on input line 119.
 
-[43]
+[55]
 
-Package natbib Warning: Citation `Lindley' on page 44 undefined on input line 5
-24.
-
-
-Package natbib Warning: Citation `D. V. (1950)' on page 44 undefined on input l
-ine 524.
-
-[44]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `Lindley' on page 56 undefined on input line 1
+22.
 
 
-Overfull \hbox (21.3065pt too wide) in paragraph at lines 582--590
+Package natbib Warning: Citation `D. V. (1950)' on page 56 undefined on input l
+ine 122.
+
+[56] [57]
+Overfull \hbox (21.3065pt too wide) in paragraph at lines 153--154
 \OT1/cmr/m/n/10 These met-ric can be ex-tended to more than two classes by defi
 n-ing $\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 tr\OT1/cmr/m/n/10 
 (\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =\OMS/cmsy/m/n/10 jj\OML/c
 mm/m/it/10 C\OMS/cmsy/m/n/10 jj[]$
  []
 
-[45]) [46] (C:\KL\ProjectFiles\Handbook\Appendix_Probability.tex
+[58] [59]) [60] (C:\KL\ProjectFiles\Handbook\Appendix_Probability.tex
 Chapter 4.
-[47
+[61
 
 
 
-] [48] [49] [50]
+] [62] [63] [64]
 
-Package natbib Warning: Citation `Fisher Tippet (1928)' on page 51 undefined on
- input line 202.
+Package natbib Warning: Citation `Fisher Tippet (1928)' on page 65 undefined on
+ input line 110.
 
 
-Package natbib Warning: Citation `Gnedenko (1943)' on page 51 undefined on inpu
-t line 203.
+Package natbib Warning: Citation `Gnedenko (1943)' on page 65 undefined on inpu
+t line 111.
 
-[51] [52]
-Overfull \hbox (5.70932pt too wide) in paragraph at lines 305--307
-\OT1/cmr/bx/n/10 Theorem 4.2.1 \OT1/cmr/m/n/10 (Cramer's The-o-rem)\OT1/cmr/bx/
+[65] [66] [67]
+Overfull \hbox (5.70932pt too wide) in paragraph at lines 213--215
+\OT1/cmr/bx/n/10 Theorem 4.3.1 \OT1/cmr/m/n/10 (Cramer's The-o-rem)\OT1/cmr/bx/
 n/10 . \OT1/cmr/m/it/10 Let $\OML/cmm/m/it/10 X[]; X[]; []$ \OT1/cmr/m/it/10 be
  iid $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[]\OT1/cmr/m/n/10 ) 
 = 0$\OT1/cmr/m/it/10 , $\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[]
@@ -551,23 +555,18 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-[53]
+[68]
 
-Package natbib Warning: Citation `Devorye' on page 54 undefined on input line 3
-53.
+Package natbib Warning: Citation `Devorye' on page 69 undefined on input line 2
+61.
 
-[54] [55]
+[69] [70]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [56]
-Overfull \hbox (50.14468pt too wide) in paragraph at lines 530--530
-[][] []| 
- []
-
-[57] [58]) [59] (C:\KL\ProjectFiles\Handbook\klBook.bbl [60
+ [71] [72]) [73] (C:\KL\ProjectFiles\Handbook\klBook.bbl [74
 
 
 ]
@@ -577,11 +576,12 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no “ in font cmti10!
- [61] [62])
+ [75]
+[76])
 
 Package natbib Warning: There were undefined citations.
 
-[63] (C:\KL\ProjectFiles\Handbook\klBook.aux
+[77] (C:\KL\ProjectFiles\Handbook\klBook.aux
 (C:\KL\ProjectFiles\Handbook\ABS.aux) (C:\KL\ProjectFiles\Handbook\ACK.aux)
 (C:\KL\ProjectFiles\Handbook\Introduction.aux)
 (C:\KL\ProjectFiles\Handbook\klBookContent.aux)
@@ -590,13 +590,13 @@ Package natbib Warning: There were undefined citations.
 (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.aux)
 (C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux)) ) 
 Here is how much of TeX's memory you used:
- 2847 strings out of 493921
- 39720 string characters out of 3144858
- 96751 words of memory out of 3000000
+ 2846 strings out of 493921
+ 39719 string characters out of 3144858
+ 95751 words of memory out of 3000000
  6048 multiletter control sequences out of 15000+200000
- 16847 words of font info for 69 fonts, out of 3000000 for 9000
+ 16495 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,32p,1893b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,32p,4424b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/Mi
@@ -610,21 +610,19 @@ onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msbm7.pfb>
-Output written on klBook.pdf (65 pages, 663724 bytes).
+blic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msbm7.pfb>
+Output written on klBook.pdf (79 pages, 648442 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
+ 346 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
