@@ -404,8 +404,7 @@ processes $ X_{VG}=\gamma_p - \gamma_n$ to obtain a new pdf
 Entropy in the context of information theory is expressed in units of bits, the amount of uncertainty in a yes or no question. Formally, for a sequence $ \{X_i\} \ni p_i  $ is a priori/posteriori probability of observing $X_i$ we define $H=- \sum\limits_{i} p_i log_2( p_i) $.  We can define the entropy of a probability distribution by $H=\int\limits_{\-infty}^{\infty} p(x) log( p(x) ) dx $.  We see the uniform distribution maximizes the entropy; if $p_i=\alpha \fall i$ then $\frac{\partial H}{\partial } = log p +1/p=0 $
 
 \section{Gaussian Processes}
-$X_t$ is a Gaussian process (GP) if $\forall (t_1,...t_n)$ we have that $(X_{t_1}, ... ,X_{t_n}) \approx N(\mu, \Sigma)$. $\Sigma \sim K(x,x')$ the covariance functions.  Gaussian processes are defined by second order statistics (BBCREVISIT). $K(x,x')$ specifies a distribution on functions (in the distribution sense of functional analysis). Every covariance function is a scalar product of vectors.  Orenstein-Uhlenbeck (OU) and Brownian Motion (BM) are Gaussian processes. If a GP depends on $|x-x'|$ it is stationary.  The OU process is a stationary GP and BM is not. The covariance function of the OU process is not differentiable.
-
+$X_t$ is a Gaussian process (GP) if $\forall (t_1,...t_n)$ we have that $(X_{t_1}, ... ,X_{t_n}) \approx N(\mu, \Sigma)$. $\Sigma \sim K(x,x')$ the covariance functions.  Gaussian processes are defined by second order statistics (BBCREVISIT). $K(x,x')$ specifies a distribution on functions (in the distribution sense of functional analysis). Every covariance function is a scalar product of vectors.  Orenstein-Uhlenbeck (OU) and Brownian Motion (BM) are Gaussian processes. If a GP depends on $|x-x'|$ it is stationary.  The OU process is a stationary GP and BM is not. The covariance function of the OU process is not differentiable.  If a Gaussian process depends only on $|x-x'|$ it's called isotropic, these form an important class of 
 Here we list the common covariance functions (kernels) constant, linear, Gaussian noise, square exponential, and OU.
 \begin{center}\begin{eqnarray*}
 K_c(x,x')= const \\
@@ -414,4 +413,4 @@ K_{GN}(x,x') = \sigma^2 \delta_{x,x'} \\
 K_{SE}(x,x') = e^{ \frac{-|d|^2}{2 \script{l}} }\\
 K_{OU}(x,x') = e^{ \frac{-|d|}{\script{l}} }
 \end{eqnarray*}\end{center}
- 
+Here $\script{l}$ is the length scale and $d = |x-x'|$

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.30)  11 JUL 2015 20:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.30)  12 JUL 2015 15:43
 entering extended mode
 **klBook.tex
 (C:\KL\ProjectFiles\Handbook\klBook.tex
@@ -178,7 +178,8 @@ LaTeX Font Info:    Redeclaring math symbol \dbln on input line 63.
 (C:\KL\ProjectFiles\Handbook\Appendix_Numerical.aux)
 (C:\KL\ProjectFiles\Handbook\klSoftware.aux)
 (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.aux)
-(C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux))
+(C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux)
+(C:\KL\ProjectFiles\Handbook\UnstructuresNotes.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
@@ -566,7 +567,11 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [71] [72]) [73] (C:\KL\ProjectFiles\Handbook\klBook.bbl [74
+ [71] [72]) [73]
+No file UnstructuresNotes.tex.
+(C:\KL\ProjectFiles\Handbook\klBook.bbl [74
+
+
 
 
 ]
@@ -576,8 +581,7 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no “ in font cmti10!
- [75]
-[76])
+ [75] [76])
 
 Package natbib Warning: There were undefined citations.
 
@@ -588,39 +592,40 @@ Package natbib Warning: There were undefined citations.
 (C:\KL\ProjectFiles\Handbook\Appendix_Numerical.aux)
 (C:\KL\ProjectFiles\Handbook\klSoftware.aux)
 (C:\KL\ProjectFiles\Handbook\Appendix_Statistics.aux)
-(C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux)) ) 
+(C:\KL\ProjectFiles\Handbook\Appendix_Probability.aux)
+(C:\KL\ProjectFiles\Handbook\UnstructuresNotes.aux)) ) 
 Here is how much of TeX's memory you used:
- 2846 strings out of 493921
- 39719 string characters out of 3144858
- 95751 words of memory out of 3000000
- 6048 multiletter control sequences out of 15000+200000
+ 2852 strings out of 493921
+ 39952 string characters out of 3144858
+ 96067 words of memory out of 3000000
+ 6049 multiletter control sequences out of 15000+200000
  16495 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,12n,32p,4424b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-symbols/msbm7.pfb>
-Output written on klBook.pdf (79 pages, 648442 bytes).
+<C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msbm7.pfb>
+Output written on klBook.pdf (79 pages, 648915 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
