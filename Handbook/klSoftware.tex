@@ -1,9 +1,9 @@
 
-\chapter{Software}
+\chapter{Appendix Software}
 Computers are getting more powerful over time but size of the problems we're solving scales with the increased performance. Tools for acquiring and storing data are improving at an even faster pace than processors.  It turns out the communication is the real bottleneck to scaling many algorithms. The capacity of fast memory close to the computing resource (cache) grows very slowly in time.  Commodity hardware is now being used to deploy large distributed computing systems running Apache Hadoop and Spark. The possibility for computing on ever larger data sets is tantalizing for the machine learning community.
-These notes discuss the a number of numerical computing libraries the author has used in various machine learning and image processing projects.  There is a lot of effort underway to integrate and distribute some of the algorithms in these libraries to the Hadooop ecosystem. 
+These notes discuss the a number of numerical computing libraries the author has used in various machine learning and image processing projects.  There is a lot of effort underway to integrate and distribute some of the algorithms in these libraries to the Hadooop ecosystem.
 
-Many of the libraries discussed here are available in Matlab. Intel MLK \& IPP, Arpack, UMFPACK, and SDPA have been integrated in the autor's klMatrix library see the section on the KL Libraries below for specifics. 
+Many of the libraries discussed here are available in Matlab. Intel MLK \& IPP, Arpack, UMFPACK, and SDPA have been integrated in the autor's klMatrix library see the section on the KL Libraries below for specifics.
 
 \section{BLAS MLK \& Atlas}
 
@@ -61,7 +61,7 @@ UMFPACK is a set of routines for solving systems of linear equations, $Ax = b$, 
 
 \section{fftw}
 fftw is a highly optimized library for calculating the discrete Fourier transform. \cite{G_ieeetrans_FFTW}.  Generally fftw performs better than Intel IPP.  fftw can be sped up by compiling with the Intel Compiler.
- 
+
 \section{Simulation and modeling with the kl Software
 Framework}Class, interaction and collaboration diagrams are presented below for a modeling framework implemented by the author. The framework is implemented in C++.  The simulation of various univariate and multivariate random number generators along with the distribution tests from the CDHC library are included as well.
 Features of this framework include:
