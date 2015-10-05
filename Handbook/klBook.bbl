@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -125,6 +125,11 @@ J~FRIEDMAN.
 \newblock Computing betti numbers via combinatorial laplacians.
 \newblock In \emph{In Proc. 28th Ann. ACM Sympos. Theory Comput}, pages
   386--391, 1996.
+
+\bibitem[G()]{G_ieeetrans_FFTW}
+Steven G.
+\newblock Ieee trans. signal processing, in press (2006). 1 a modified
+  split-radix fft with.
 
 \bibitem[Gordon(1999)]{BDGordon99approximatesolutions}
 G~Gordon.
@@ -272,6 +277,10 @@ M~Talagrand.
   spaces.
 \newblock \emph{Publ. Math. IHES}, \penalty0 (81):\penalty0 73--205, 1995.
 
+\bibitem[Talwalkar and Rostamizadeh()]{Talwalkar_matrixcoherence}
+Ameet Talwalkar and Afshin Rostamizadeh.
+\newblock Matrix coherence and the nyström method.
+
 \bibitem[Tracy and Widom(1998)]{RMTTracy98correlationfunctions}
 C~A Tracy and H~Widom.
 \newblock Correlation functions, cluster functionsand spacing distribution for
@@ -296,5 +305,10 @@ J~Weston, S~Mukherjee, O~Chapelle, M~Pontil, T~Poggio, and V~Vapnik.
 \newblock Feature selection for svms.
 \newblock In \emph{Advances in Neural Information Processing Systems 13}, pages
   668--674. MIT Press, 2000.
+
+\bibitem[Zhang and Kwok(2009)]{Zhang09density-weightednystrom}
+Kai Zhang and James~T. Kwok.
+\newblock Density-weighted nyström method for computing large kernel
+  eigen-systems, 2009.
 
 \end{thebibliography}

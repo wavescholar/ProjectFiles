@@ -3,58 +3,43 @@ A level-1 auxiliary file: ABS.aux
 A level-1 auxiliary file: ACK.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: klBookContent.aux
-A level-1 auxiliary file: MiscFiguresImages.aux
-A level-1 auxiliary file: NaturalLanguageProcessing.aux
-A level-1 auxiliary file: ImageProcessing.aux
-A level-1 auxiliary file: Computer.aux
-A level-1 auxiliary file: GIS.aux
-A level-1 auxiliary file: FinancialEngineering.aux
-White space in argument---line 11 of file FinancialEngineering.aux
- : \citation{Heston
- :                  (1993)}
-I'm skipping whatever remains of this command
-White space in argument---line 12 of file FinancialEngineering.aux
- : \citation{Merton
- :                  (1976}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: CopyTextFromArticles.aux
 A level-1 auxiliary file: Appendix_Numerical.aux
 A level-1 auxiliary file: klSoftware.aux
 A level-1 auxiliary file: Appendix_Statistics.aux
-White space in argument---line 8 of file Appendix_Statistics.aux
+White space in argument---line 11 of file Appendix_Statistics.aux
  : \citation{Scholkopf
  :                     B. (2002)}
 I'm skipping whatever remains of this command
-White space in argument---line 10 of file Appendix_Statistics.aux
+White space in argument---line 13 of file Appendix_Statistics.aux
  : \citation{Liang,K-Y
  :                     and Zeger,S. L.(1986)}
 I'm skipping whatever remains of this command
-White space in argument---line 11 of file Appendix_Statistics.aux
+White space in argument---line 14 of file Appendix_Statistics.aux
  : \citation{Prentice
  :                    and Gloeckler (1978)}
 I'm skipping whatever remains of this command
-White space in argument---line 12 of file Appendix_Statistics.aux
+White space in argument---line 15 of file Appendix_Statistics.aux
  : \citation{Meyer,B.D.
  :                      (1990)}
 I'm skipping whatever remains of this command
-White space in argument---line 15 of file Appendix_Statistics.aux
+White space in argument---line 16 of file Appendix_Statistics.aux
  : \citation{Holmen,M
  :                    (2005)}
 I'm skipping whatever remains of this command
-White space in argument---line 16 of file Appendix_Statistics.aux
+White space in argument---line 17 of file Appendix_Statistics.aux
  : \citation{Prentice,R.
  :                       and L. Gloeckler (1978)}
 I'm skipping whatever remains of this command
-White space in argument---line 17 of file Appendix_Statistics.aux
+White space in argument---line 19 of file Appendix_Statistics.aux
  : \citation{Lindley,D.
  :                      V. (1950)}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Appendix_Probability.aux
-White space in argument---line 14 of file Appendix_Probability.aux
+White space in argument---line 13 of file Appendix_Probability.aux
  : \citation{Fisher
  :                  Tippet (1928)}
 I'm skipping whatever remains of this command
-White space in argument---line 15 of file Appendix_Probability.aux
+White space in argument---line 14 of file Appendix_Probability.aux
  : \citation{Gnedenko
  :                    (1943)}
 I'm skipping whatever remains of this command
@@ -64,11 +49,64 @@ You're missing a field name---line 373 of file thebibliography.bib
  : @techreport{EFWainwright03graphicalmodels,
  :                                           ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 823 of file thebibliography.bib
+ : 
+ : % author = {C M Reidys and P F Stadler},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 832 of file thebibliography.bib
+ : 
+ : % author = {P F Stadler and C R Stephens},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 841 of file thebibliography.bib
+ : 
+ : % author = {C M Reidys and P F Stadler},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 850 of file thebibliography.bib
+ : 
+ : % author = {E B Davies and G M L Gladwell and J Leydold and P F Stadler},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 859 of file thebibliography.bib
+ : 
+ : % author = {D Rockmore and P Kostelec and W Hordijk and P F Stadler},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 869 of file thebibliography.bib
+ : 
+ : % author = {T Joachims},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 877 of file thebibliography.bib
+ : 
+ : % author = {O Chapelle and A Zien},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 885 of file thebibliography.bib
+ : 
+ : % author = {J Lafferty and X Zhu and Y Liu},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 892 of file thebibliography.bib
+ : 
+ : % author = {M Belkin and P Niyogi and V Sindwani},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 899 of file thebibliography.bib
+ : 
+ : % author = {M Belkin and P Niyogi},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 907 of file thebibliography.bib
+ : 
+ : % author = {R I Kondor and J Lafferty},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "ds"
 Warning--I didn't find a database entry for "d"
-Warning--I didn't find a database entry for "WORDNET"
-Warning--I didn't find a database entry for "PENNTREEBANK"
 Warning--I didn't find a database entry for "Liang"
 Warning--I didn't find a database entry for "Meyer"
 Warning--I didn't find a database entry for "Holmen"
@@ -84,6 +122,7 @@ Warning--there's a number but no volume in KLBurges98atutorial
 Warning--empty year in DMCarnegieinformationdiffusion
 Warning--empty year in DMCoifmandiffusionmaps
 Warning--there's a number but no volume in RMTCooper00onthe
+Warning--empty year in G_ieeetrans_FFTW
 Warning--empty institution in BDGordon99approximatesolutions
 Warning--there's a number but no volume in GLPGuatterygraphembeddings
 Warning--empty year in GLPGuatterygraphembeddings
@@ -99,7 +138,8 @@ Warning--there's a number but no volume in KLScholkopf00newsupport
 Warning--there's a number but no volume in MCSinclair92improvedbounds
 Warning--there's a number but no volume in RMTSoshnikov02anote
 Warning--there's a number but no volume in MCTalagrand95concentrationof
+Warning--empty year in Talwalkar_matrixcoherence
 Warning--there's a number but no volume in RMTTracy98correlationfunctions
 Warning--empty year in SDPVandenberghe_generalizedchebyshev
 Warning--empty year in SDPVandenberghe_generalizedchebyshev
-(There were 12 error messages)
+(There were 21 error messages)

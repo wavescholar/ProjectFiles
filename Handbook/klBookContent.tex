@@ -60,33 +60,28 @@ p(x;\theta)= E[p(x;\theta)-p(x)]^2 =  E[ p(x;\theta)-p(x)]^2 =
 
 There are two key ingredients to forming the affinity matrix; a distance function, and a convention for which pairs to consider.  If all or too many pairs are compared, sparse methods will not be possible.  We can include $n$ nearest points, all points within $\epsilon$ of $x$, or some other criteria. For instance when working with spatial data, the diffusion can be done on a graph formed by a tessellation of the locations.  This is exactly how numerical solutions of heat diffusions are done.
 
-BBCREVISIT - Gram Matrix \& Mercers Theorem - Make sure we connect to SVM section.
-
 If the feature vector is a histogram, the $L^2$ distance is not meaningful, in this case use the $\chi^2$
 
 \section{The Graph Cut}
 Spectral clustering is a relaxation to an NP-hard problem of finding an optimal way to cut a graph. Here we describe some various cut criteria.  Let
 \begin{eqnarray*}
 X_1, \hdots , X_n \; \in \dblr^n  \\
-W_ij = s(X_i,X_j)
-d_i = \underset{\sum}{j} W_{i j}
-|A| = card (A)
-vol(A) = \underset{\sum}{i \in A} d_i
+W_{ij} = s(X_i,X_j) \\
+d_i = \sum_{j} W_{i j}\\
+|A| = card (A) \\
+vol(A) = \sum_{i \in A} d_i
 \end{eqnarray*}
 
-BBCREISIT - Find ref, fill in defs, and possibly demo on small graphs.
 \begin{defn}[Min Cut]
-\begin{equation*} min cut(A,B) =\underset{\sum}{i \in A \; j \in B}  W_ij \end{equation*}
+\begin{equation*} min cut(A,B) =\sum_{i \in A \; j \in B}  W_ij \end{equation*}
 \end{defn}
 
 \begin{defn}[Balanced Cut / Ratio Cut ]
 \begin{equation*} min cut (A,B) \frac{1}{|A|} \frac{1}{|B|} \end{equation*}
 \end{defn}
-
 \begin{defn}[n Cut ]
 \begin{equation*} min cut (A,B) \frac{1}{vol(A)} \frac{1}{vol(B)} \end{equation*}
 \end{defn}
-
 
 
 \section{Graph Spectra}
@@ -784,4 +779,50 @@ The Nystrom method can be evaluated by comparing the approximation to a low rank
 Choosing the columns based on the underlying probability density $p(y)$ has the potential to improve the quality of the approximation \cite{Zhang09density-weightednystrom}.
 
 \section{Statistical Leverage}
-Michael Mahoney - videolectures.net Statistical Leverage Given an m x n matrix A and a rank parameter k, define the leverage of the i-th row of A to be the i-th diagonal element of the projection matrix onto the span of the top k left singular vectors of A. In this case, "high leverage" rows have a disproportionately large amount of the "mass" in the top singular vectors. Historically, this statistical concept (and generalizations of it) has found extensive applications in diagnostic regression analysis. Recently, this concept has also been central in the development of improved randomized algorithms for several fundamental matrix problems that have broad applications in machine learning and data analysis. Two examples of the use of statistical leverage for improved worst-case analysis of matrix algorithms will be described. The first problem is the least squares approximation problem, in which there are n constraints and d variables. Classical algorithms, dating back to Gauss and Legendre, use O(nd2) time. We describe a randomized algorithm that uses only O(n d log d) time to compute a relative-error, i.e., 1+/-epsilon, approximation. The second problem is the problem of selecting a "good" set of exactly k columns from an m x n matrix, and the algorithm of Gu and Eisenstat provides the best previously existing result. We describe a two-stage algorithm that improves on their result. Recent applications of statistical leverage ideas in modern large-scale machine learning and data analysis will also be briefly described. This concept has proven to be particularly fruitful in large data applications where modeling decisions regarding what computations to perform are made for computational reasons, as opposed to having any realistic hope that the statistical assumptions implicit in those computations are satisfied by the data. 
+Michael Mahoney - videolectures.net Statistical Leverage Given an m x n matrix A and a rank parameter k, define the leverage of the i-th row of A to be the i-th diagonal element of the projection matrix onto the span of the top k left singular vectors of A. In this case, "high leverage" rows have a disproportionately large amount of the "mass" in the top singular vectors. Historically, this statistical concept (and generalizations of it) has found extensive applications in diagnostic regression analysis. Recently, this concept has also been central in the development of improved randomized algorithms for several fundamental matrix problems that have broad applications in machine learning and data analysis. Two examples of the use of statistical leverage for improved worst-case analysis of matrix algorithms will be described. The first problem is the least squares approximation problem, in which there are n constraints and d variables. Classical algorithms, dating back to Gauss and Legendre, use O(nd2) time. We describe a randomized algorithm that uses only O(n d log d) time to compute a relative-error, i.e., 1+/-epsilon, approximation. The second problem is the problem of selecting a "good" set of exactly k columns from an m x n matrix, and the algorithm of Gu and Eisenstat provides the best previously existing result. We describe a two-stage algorithm that improves on their result. Recent applications of statistical leverage ideas in modern large-scale machine learning and data analysis will also be briefly described. This concept has proven to be particularly fruitful in large data applications where modeling decisions regarding what computations to perform are made for computational reasons, as opposed to having any realistic hope that the statistical assumptions implicit in those computations are satisfied by the data.
+
+\section{How are differential operators related to semi group}
+Sobolev inequalities relate norms of Sobolev spaces and can be used to prove embedding of $W^{k,p}(\Real^n) \in W^{l,q}(\Real^n)$ Logarithmic Sobolev inequalities.  The Rellich–Kondrachov theorem makes this precise for the $L^p$ spaces.
+$A$ is an operator on a $L^p$ Banach space. We define this in an operator sense as the sum given by the Taylor expansion of $e^x = \sum \frac{x^n}{n!}$
+\begin{equation*}
+  e^{-t A} : L^p \rightarrow L^q
+\end{equation*} is contractive if this holds for $p=2$ and $q=4$.
+$e^{-t A}$ is a positive preserving contractive semi-group if
+\begin{eqnarray*}
+  e^{-t A} f &\geq& 0 \\
+  \parallel e^{-t A} f \parallel_p &\leq& \parallel f \parallel_p
+\end{eqnarray*}
+When $e^{-t A}$ maps $L^2$ to $L^\infty$ we call the semi group untracontractive.
+
+Covering number
+
+Union bound
+
+Kashin representation
+
+Candes and Tao extend Uncertainty Principle to discrete domain
+For $x \in \Complex^n$
+\begin{equation*}
+  |supp(x)| |supp(\hat{x}) \geq N
+\end{equation*}
+Uniform uncertainty principle is related to the restricted isometry property.
+
+The $\Lambda$ problem of Talingrad relates Fourier matrix to HUP question.  Consider matrices which are euclidian projection of cube $Q^N = {x : \parallel x \parallel_\infty  \leq 1}$, a problem form geometric functional analysis.  Let $B^n = {x : \parallel x \parallel_2  \leq 1}$
+
+Kashin; $\exists$ orthogonal projection $P$
+\begin{equation*}
+  P : Q^N \rightarrow U \in \Complex^N \st U \approx B^n
+\end{equation*}
+This implies
+\begin{equation*}
+  \exists A \in M^{n,N} \st B^n \in \frac{K}{\sqrt{N}} A Q^N \in K B^n where K = K(\lambda) \lambda=\frac{N}{n}
+\end{equation*}
+$\lambda$ is the redundancy.  This statement is essentially telling us that we can project the cube into the ball when N and n allow for it.
+
+\section{Learning with integral operators}
+Machine learning methods such as Principal Components Analysis (PCA), Laplacian-based spectral clustering, and manifold methods rely on estimating eigenvalues and eigenvectors of the underlying data-dependent matrices.  These matrices can be interpreted as empirical versions of underlying integral operators or closely related objects, such as continuous Laplacian operators.  Establishing a connection between the finite dimensional empirical operator represented by the data matrix and the continuous counterpart can yield insight, help with convergence theorems, and even provide the basis for new machine learning methods.  
+
+Theoretical analysis of many problems, such as low-rank matrix recovery, covariance estimation and approximate matrix multiplication, is built upon exponential bounds for $P(\| \Sum X_i \| > t)$ where ${X_i}$ is a finite sequence of self-adjoint random matrices and k · k is the operator norm. Moment-generating function techniques can be used to produce generalizations of Chernoff, Bernstein and Friedman inequalities
+to the non-commutative case.
+
+Concentration inequalities extend classical exponential inequalities for sums of independent random variables to functions of independent random variables.  In machine learning theory we are interested in functions such as the sumpremum of the deviations between the true risk and the empirical risk, the empirical VC-dimension, the empirical VC entropy, and the eigenvalues of the Gram matrix.  

@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {0.1}Learning Theory and Functional Analysis}{6}
+\contentsline {section}{\numberline {0.1}Analytic Learning Theory}{6}
 \contentsline {section}{\numberline {0.2}Learning With Kernels}{7}
 \contentsline {section}{\numberline {0.3}Kernel Density Estimation}{8}
 \contentsline {section}{\numberline {0.4}Distance Functions \& The Affinity Matrix}{9}
@@ -28,72 +28,71 @@
 \contentsline {section}{\numberline {0.28}The Tracy Widom Law}{32}
 \contentsline {section}{\numberline {0.29}Nystr\"{o}m Method}{33}
 \contentsline {section}{\numberline {0.30}Statistical Leverage}{34}
-\contentsline {chapter}{\numberline {1}Appendix Numerical Linear Algebra}{35}
-\contentsline {section}{\numberline {1.1}The min max characterization of eigenvalues}{35}
-\contentsline {section}{\numberline {1.2}The Discrete Fourier Transform on $\ell ^2(\dblz _{N_1})$}{36}
-\contentsline {section}{\numberline {1.3}Multiresolution analysis}{37}
-\contentsline {section}{\numberline {1.4}Voroni Tesselations}{38}
-\contentsline {section}{\numberline {1.5}The Matrix Exponential}{38}
-\contentsline {chapter}{\numberline {2}Appendix Software}{40}
-\contentsline {section}{\numberline {2.1}BLAS MLK \& Atlas}{41}
-\contentsline {section}{\numberline {2.2}Graphviz - Graph Visualization Software}{41}
-\contentsline {section}{\numberline {2.3}ARPACK}{41}
-\contentsline {section}{\numberline {2.4}ATLAS}{41}
-\contentsline {section}{\numberline {2.5}METIS}{42}
-\contentsline {section}{\numberline {2.6}SDPA}{42}
-\contentsline {section}{\numberline {2.7}SPOOLS}{42}
-\contentsline {section}{\numberline {2.8}SuperLU}{42}
-\contentsline {section}{\numberline {2.9}SuiteSparse}{43}
-\contentsline {section}{\numberline {2.10}SuiteSparse AMD}{43}
-\contentsline {section}{\numberline {2.11}SuiteSparse UMFPACK}{44}
-\contentsline {section}{\numberline {2.12}fftw}{45}
-\contentsline {section}{\numberline {2.13}Simulation and modeling with the kl Software Framework}{45}
-\contentsline {chapter}{\numberline {3}Appendix Statistics}{46}
-\contentsline {section}{\numberline {3.1}Concepts from Mathematical Statistics}{46}
-\contentsline {section}{\numberline {3.2}L-Estimators \& M-Estimators}{47}
-\contentsline {section}{\numberline {3.3}Testing for normality and other distributions }{47}
-\contentsline {section}{\numberline {3.4}Regression Methods}{48}
-\contentsline {section}{\numberline {3.5}Generalized Linear Models}{49}
-\contentsline {section}{\numberline {3.6}Fitting the GLM}{52}
-\contentsline {section}{\numberline {3.7}Feature Subset Selection (FSS)}{54}
-\contentsline {section}{\numberline {3.8}Longitudinal Data Analysis}{55}
-\contentsline {section}{\numberline {3.9}Discretization \& Sheppard's Correction}{56}
-\contentsline {section}{\numberline {3.10}Multidimensional Scaling}{57}
-\contentsline {section}{\numberline {3.11}Principal Components}{58}
-\contentsline {section}{\numberline {3.12}Evaluating classifier performance}{58}
-\contentsline {section}{\numberline {3.13}Covariance Matrix Estimation }{59}
-\contentsline {section}{\numberline {3.14}Testing For Normality}{59}
-\contentsline {chapter}{\numberline {4}Appendix Probability}{61}
-\contentsline {section}{\numberline {4.1}Probability Basics}{61}
-\contentsline {section}{\numberline {4.2}Univariate Probability Distributions}{63}
-\contentsline {subsection}{\numberline {4.2.1}Uniform, $U(\alpha ,\beta )$}{63}
-\contentsline {subsection}{\numberline {4.2.2}Exponential Class of Distributions}{63}
-\contentsline {subsubsection}{Normal/Gaussian, $N(\mu ,\sigma )$}{64}
-\contentsline {subsubsection}{Binomial}{64}
-\contentsline {subsubsection}{Negative Binomial}{64}
-\contentsline {subsubsection}{Poisson}{64}
-\contentsline {subsubsection}{Pareto}{65}
-\contentsline {subsubsection}{Gamma}{65}
-\contentsline {subsubsection}{Weibull}{65}
-\contentsline {subsubsection}{Inverse Gaussian/ Wald Distribution}{65}
-\contentsline {subsection}{\numberline {4.2.3}Generalized Extreme Value Distribution $GEV(\theta ,\phi ,\xi )$}{65}
-\contentsline {subsection}{\numberline {4.2.4}Multinomial}{65}
-\contentsline {subsection}{\numberline {4.2.5}$\chi ^2(n)$}{66}
-\contentsline {subsection}{\numberline {4.2.6}Student-t $t(\nu )$}{66}
-\contentsline {subsection}{\numberline {4.2.7}Generalized Inverse Gaussian $GIG(\lambda ,\alpha ,\beta )$}{67}
-\contentsline {subsection}{\numberline {4.2.8} Normalized Inverse Gaussian $NIG(\mu ,\alpha ,\beta ,\delta )$}{67}
-\contentsline {subsection}{\numberline {4.2.9}Generalized Hyperbolic $GH(\lambda ,\alpha ,\beta ,\delta ,\mu )$}{67}
-\contentsline {section}{\numberline {4.3}Limit Theorems}{68}
-\contentsline {section}{\numberline {4.4}Multivariate Probability Distributions}{68}
-\contentsline {subsection}{\numberline {4.4.1}Multivariate Normal $N(\mathbf {\mu },\mathbf {\Sigma })$ }{69}
-\contentsline {subsection}{\numberline {4.4.2}Wishart Distribution}{69}
-\contentsline {subsection}{\numberline {4.4.3}Elliptic $E(\mathbf {\mu },\mathbf {\Sigma })$}{69}
-\contentsline {section}{\numberline {4.5}Statistical Dependence}{70}
-\contentsline {section}{\numberline {4.6}Distance measures for probability distribution functions.}{70}
-\contentsline {section}{\numberline {4.7}$S_\alpha (\sigma ,\beta ,\mu )$ Stable Random Variates}{71}
-\contentsline {subsection}{\numberline {4.7.1}4 definitions of stable}{72}
-\contentsline {subsection}{\numberline {4.7.2}Variance Gamma Process}{72}
-\contentsline {section}{\numberline {4.8}Maximum Entropy}{73}
-\contentsline {section}{\numberline {4.9}Gaussian Processes}{73}
-\contentsline {chapter}{\numberline {5}Unstructured Notes}{74}
-\contentsline {section}{\numberline {5.1}How are differential operators related to semi group}{74}
+\contentsline {section}{\numberline {0.31}How are differential operators related to semi group}{34}
+\contentsline {chapter}{\numberline {1}Appendix Numerical Linear Algebra}{36}
+\contentsline {section}{\numberline {1.1}The min max characterization of eigenvalues}{36}
+\contentsline {section}{\numberline {1.2}The Discrete Fourier Transform on $\ell ^2(\dblz _{N_1})$}{37}
+\contentsline {section}{\numberline {1.3}Multiresolution analysis}{38}
+\contentsline {section}{\numberline {1.4}Voroni Tesselations}{39}
+\contentsline {section}{\numberline {1.5}The Matrix Exponential}{39}
+\contentsline {chapter}{\numberline {2}Appendix Software}{41}
+\contentsline {section}{\numberline {2.1}BLAS MLK \& Atlas}{42}
+\contentsline {section}{\numberline {2.2}Graphviz - Graph Visualization Software}{42}
+\contentsline {section}{\numberline {2.3}ARPACK}{42}
+\contentsline {section}{\numberline {2.4}ATLAS}{42}
+\contentsline {section}{\numberline {2.5}METIS}{43}
+\contentsline {section}{\numberline {2.6}SDPA}{43}
+\contentsline {section}{\numberline {2.7}SPOOLS}{43}
+\contentsline {section}{\numberline {2.8}SuperLU}{43}
+\contentsline {section}{\numberline {2.9}SuiteSparse}{44}
+\contentsline {section}{\numberline {2.10}SuiteSparse AMD}{44}
+\contentsline {section}{\numberline {2.11}SuiteSparse UMFPACK}{45}
+\contentsline {section}{\numberline {2.12}fftw}{46}
+\contentsline {section}{\numberline {2.13}Simulation and modeling with the kl Software Framework}{46}
+\contentsline {chapter}{\numberline {3}Appendix Statistics}{47}
+\contentsline {section}{\numberline {3.1}Concepts from Mathematical Statistics}{47}
+\contentsline {section}{\numberline {3.2}L-Estimators \& M-Estimators}{48}
+\contentsline {section}{\numberline {3.3}Testing for normality and other distributions }{48}
+\contentsline {section}{\numberline {3.4}Regression Methods}{49}
+\contentsline {section}{\numberline {3.5}Generalized Linear Models}{50}
+\contentsline {section}{\numberline {3.6}Fitting the GLM}{53}
+\contentsline {section}{\numberline {3.7}Feature Subset Selection (FSS)}{55}
+\contentsline {section}{\numberline {3.8}Longitudinal Data Analysis}{56}
+\contentsline {section}{\numberline {3.9}Discretization \& Sheppard's Correction}{57}
+\contentsline {section}{\numberline {3.10}Multidimensional Scaling}{58}
+\contentsline {section}{\numberline {3.11}Principal Components}{59}
+\contentsline {section}{\numberline {3.12}Evaluating classifier performance}{59}
+\contentsline {section}{\numberline {3.13}Covariance Matrix Estimation }{60}
+\contentsline {section}{\numberline {3.14}Testing For Normality}{60}
+\contentsline {chapter}{\numberline {4}Appendix Probability}{62}
+\contentsline {section}{\numberline {4.1}Probability Basics}{62}
+\contentsline {section}{\numberline {4.2}Univariate Probability Distributions}{64}
+\contentsline {subsection}{\numberline {4.2.1}Uniform, $U(\alpha ,\beta )$}{64}
+\contentsline {subsection}{\numberline {4.2.2}Exponential Class of Distributions}{64}
+\contentsline {subsubsection}{Normal/Gaussian, $N(\mu ,\sigma )$}{65}
+\contentsline {subsubsection}{Binomial}{65}
+\contentsline {subsubsection}{Negative Binomial}{65}
+\contentsline {subsubsection}{Poisson}{65}
+\contentsline {subsubsection}{Pareto}{66}
+\contentsline {subsubsection}{Gamma}{66}
+\contentsline {subsubsection}{Weibull}{66}
+\contentsline {subsubsection}{Inverse Gaussian/ Wald Distribution}{66}
+\contentsline {subsection}{\numberline {4.2.3}Generalized Extreme Value Distribution $GEV(\theta ,\phi ,\xi )$}{66}
+\contentsline {subsection}{\numberline {4.2.4}Multinomial}{66}
+\contentsline {subsection}{\numberline {4.2.5}$\chi ^2(n)$}{67}
+\contentsline {subsection}{\numberline {4.2.6}Student-t $t(\nu )$}{67}
+\contentsline {subsection}{\numberline {4.2.7}Generalized Inverse Gaussian $GIG(\lambda ,\alpha ,\beta )$}{68}
+\contentsline {subsection}{\numberline {4.2.8} Normalized Inverse Gaussian $NIG(\mu ,\alpha ,\beta ,\delta )$}{68}
+\contentsline {subsection}{\numberline {4.2.9}Generalized Hyperbolic $GH(\lambda ,\alpha ,\beta ,\delta ,\mu )$}{68}
+\contentsline {section}{\numberline {4.3}Limit Theorems}{69}
+\contentsline {section}{\numberline {4.4}Multivariate Probability Distributions}{69}
+\contentsline {subsection}{\numberline {4.4.1}Multivariate Normal $N(\mathbf {\mu },\mathbf {\Sigma })$ }{70}
+\contentsline {subsection}{\numberline {4.4.2}Wishart Distribution}{70}
+\contentsline {subsection}{\numberline {4.4.3}Elliptic $E(\mathbf {\mu },\mathbf {\Sigma })$}{70}
+\contentsline {section}{\numberline {4.5}Statistical Dependence}{71}
+\contentsline {section}{\numberline {4.6}Distance measures for probability distribution functions.}{71}
+\contentsline {section}{\numberline {4.7}$S_\alpha (\sigma ,\beta ,\mu )$ Stable Random Variates}{72}
+\contentsline {subsection}{\numberline {4.7.1}4 definitions of stable}{73}
+\contentsline {subsection}{\numberline {4.7.2}Variance Gamma Process}{73}
+\contentsline {section}{\numberline {4.8}Maximum Entropy}{74}
+\contentsline {section}{\numberline {4.9}Gaussian Processes}{74}

@@ -98,9 +98,9 @@ Worked on Aloidia website.  Reset the AWS Route 53 DNS settings. alodia.com was 
 ----061314----
 Wrote a batch script to check-in multiple Github repositories.  This was a problem to get working until I changed the default git shell to powershell. 
  
-
-
-
+----100515----
+Completely abandoned all work to pursue Hadoop Spark.  Now doing data analysis at scale.
+Returning to GB domain to clean things up and finish handbook. 
   
 
 
